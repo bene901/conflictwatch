@@ -22,3 +22,9 @@ Konsequenzen im Adapter:
 - `status: deleted` wird als ausdrücklicher Rückzug (`withdrawn`) behandelt. Ob der Summary-Feed gelöschte Beben überhaupt liefert, ist nicht belegt.
 
 Noch offen (nur im Livebetrieb klärbar): genaue Auswahlregel des Signifikanz-Feeds, Verhalten bei `alert: null` in echten Antworten, Aktualisierungsfrequenz des Feeds.
+
+## Feed-Abdeckung seit 20.09.2026
+
+Der ursprüngliche Prototyp verwendete `significant_week.geojson` und zeigte daher nur die von USGS als signifikant eingeordneten Beben. Das ist **nicht** der vollständige USGS-Kartenbestand. Die produktive interne Quelle nutzt jetzt `all_day.geojson` (sämtliche im USGS-Echtzeit-Feed gelisteten Ereignisse der letzten 24 Stunden). Der Adapter übernimmt daraus nur Features mit `properties.type = earthquake`, nicht etwa Sprengungen. Die Integritätsprüfung `metadata.count == len(features)` zählt weiter alle gelieferten Features vor der Typauswahl. Echtzeit-Feed bedeutet nicht weltweit lückenlose Erfassung kleiner Beben; Erfassungsgrad und Aktualisierung können regional variieren.
+
+Vorhandene ältere Events bleiben im internen Bestand (30-Tage-Retention für nicht erneut im Feed erscheinende Events) und stehen außerhalb des 24-Stunden-Hauptlistenfensters unter historischen Meldungen; diese Aufbewahrung belegt **keine** fortdauernde Aktualität. Bis zum Abschluss des gesonderten Quellentors bleibt `public:false`; die neue Feed-Abdeckung ist in der ausdrücklich gekennzeichneten USGS/NOAA-Testansicht sichtbar. Die historische, unverändert echte Signifikanz-Fixture vom 19.09.2026 bleibt als Parser-Regression erhalten. Der erweiterte aktuelle Feed wird zusätzlich in der Live-Pipeline geprüft.
