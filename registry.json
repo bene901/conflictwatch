@@ -20,7 +20,7 @@
    ],
    "public": false,
    "endpoints": [
-    "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson"
+    "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson"
    ],
    "terms_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
    "attribution": "Daten: U.S. Geological Survey",
@@ -49,13 +49,13 @@
    ],
    "highlight": {
     "min_levels": {},
-    "window_h": 72,
+    "window_h": 24,
     "include_ongoing": false,
     "recency_basis": "display_time"
    },
    "id_rule": "usgs:<feature.id>; bei ID-Wechsel der Quelle bleibt die zuerst gesehene ID (Abgleich über properties.ids)",
    "completeness_rule": "metadata.count muss der Anzahl gelieferter Features entsprechen; sonst sanity-Fehler (Feed ist nicht paginiert). An echter Antwort vom 19.09.2026 belegt.",
-   "coverage_note": "Nur Beben, die USGS selbst als signifikant führt, letzte 7 Tage. Keine GDACS-Erdbeben.",
+   "coverage_note": "Alle von USGS in seinem Echtzeit-Feed all_day gelisteten Ereignisse der letzten 24 Stunden (nicht nur signifikante Beben); geografische Abdeckung und Erfassung kleiner Beben variieren regional. Ältere bereits gespeicherte Einträge können separat als historische Meldungen erscheinen. Keine GDACS-Erdbeben.",
    "unseen_expiry_days": null
   },
   {
