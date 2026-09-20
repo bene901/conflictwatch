@@ -210,10 +210,13 @@ class RecencyRule(unittest.TestCase):
     def test_usgs_keeps_point_in_time_logic_and_ignores_the_sighting(self):
         reg = full_registry()
         entry = next(s for s in reg["sources"] if s["id"] == "usgs")
-        result = usgs_adapter.parse(raw(real_doc()), NOW, entry)
-        # Der USGS-all_day-Feed hat ein 24-h-Anzeigefenster. Die echte historische
-        # Fixture liegt am 19.09. um 12 UTC innerhalb dieses Fensters.
-        fresh_run = "2026-09-19T12:00:00Z"
+        # Die Original-Fixture hat ein Beben vom 17.09.; für die 24-h-Regel
+        # die unveränderte reale Erdbebenstruktur ausdrücklich zeitlich ableiten.
+        recent = real_doc()
+        recent["features"][0]["properties"]["time"] = int((NOW - dt.timedelta(hours=1)).timestamp() * 1000)
+        recent["features"][0]["properties"]["updated"] = int((NOW - dt.timedelta(minutes=5)).timestamp() * 1000)
+        result = usgs_adapter.parse(raw(recent), NOW, entry)
+        fresh_run = "2026-09-20T12:00:00Z"
         items = merge_items({}, "usgs", entry, result, fresh_run)
         st = succeed_source_state(blank_source_state("usgs", "1.0.0"), entry, result, items,
                                   fresh_run, "1.0.0")
