@@ -13,4 +13,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      # tests/test_recency_basis.py fuehrt site/app.js in node aus. Fehlt node, wuerden
+      # sich diese Tests still ueberspringen - der Lauf bliebe gruen, ohne die
+      # Aktualitaetsregel geprueft zu haben. Deshalb hier laut scheitern.
+      - run: node --version
       - run: python -m unittest discover -s tests -t . -v
