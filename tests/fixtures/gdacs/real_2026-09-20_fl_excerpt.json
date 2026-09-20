@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        33.5927,
+        34.9496,
+        33.5927,
+        34.9496
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5927,
+          34.9496
+        ]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104175,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Cyprus",
+        "description": "Flood in Cyprus",
+        "htmldescription": "Green Flood in Cyprus from: 18 Sep 2026 01 to: 20 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104175&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104175&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104175"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "true",
+        "country": "Cyprus",
+        "fromdate": "2026-09-18T01:00:00",
+        "todate": "2026-09-20T01:00:00",
+        "datemodified": "2026-09-20T07:18:06",
+        "iso3": "CYP",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "CY",
+            "iso3": "CYP",
+            "countryname": "Cyprus"
+          }
+        ],
+        "severitydata": {
+          "severity": 0.0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    }
+  ]
+}
