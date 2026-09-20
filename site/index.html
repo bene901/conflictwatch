@@ -3,35 +3,82 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#09131f">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
+<meta name="description" content="ConflictWatch zeigt amtliche Gefahrenmeldungen mit Originalquellen und transparentem Datenstatus.">
 <title>ConflictWatch – amtliche Gefahrenmeldungen</title>
 <link rel="stylesheet" href="style.css">
 <script src="app.js" defer></script>
 </head>
 <body>
-<header class="top">
-  <h1>ConflictWatch</h1>
-  <p class="sub">Amtliche Gefahrenmeldungen, ohne eigene Bewertung</p>
-  <p id="stand" class="stand">Daten werden geladen …</p>
-</header>
-<div id="banner" class="banner" role="status" hidden></div>
-<main>
-  <section id="status" class="status" aria-label="Aktueller Zustand" hidden></section>
-  <h2 class="section-title">Aktuell</h2>
-  <ol id="list" class="list"></ol>
-  <p id="empty" class="empty" hidden></p>
-  <details id="more" class="more" hidden>
-    <summary id="more-summary"></summary>
-    <ol id="more-list" class="list"></ol>
-  </details>
-</main>
-<footer class="foot">
-  <h2 class="section-title">Quellen</h2>
-  <ul id="sources" class="sources"></ul>
-  <p class="method">Titel erscheinen in der Originalsprache der Quelle. Warnstufen stammen von der jeweiligen Behörde und werden nicht untereinander verglichen. Fehlt eine Warnstufe, ist das keine Entwarnung.</p>
-</footer>
-<noscript><p class="empty">Diese Seite benötigt JavaScript, um die Meldungen zu laden.</p></noscript>
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+<div class="shell">
+  <aside class="sidebar" aria-label="Seitenleiste">
+    <a class="brand" href="#start" aria-label="ConflictWatch – Startseite"><span class="brand-mark" aria-hidden="true">✳</span><span>CONFLICT<span class="accent">WATCH</span><small>PUBLIC DATA MONITOR</small></span></a>
+    <p class="side-label">NAVIGATION</p>
+    <nav aria-label="Bereiche">
+      <a class="nav-link active" href="#start">Übersicht</a>
+      <a class="nav-link" href="#themen">Naturereignisse</a>
+      <a class="nav-link" href="#karte">Weltkarte</a>
+      <a class="nav-link" href="#meldungen">Meldungen</a>
+      <a class="nav-link" href="#quellen">Quellen &amp; Methode</a>
+    </nav>
+    <p class="sidebar-note">Amtliche Quellen · Originalmeldungen · keine eigene Gefahrenbewertung</p>
+  </aside>
+  <div class="workspace">
+    <header class="topbar" id="start"><span>MONITOR <span class="accent">/</span> GLOBAL OVERVIEW</span><span class="topbar-right">ÖFFENTLICHE ANSICHT</span></header>
+    <main id="inhalt" class="content">
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow"><span class="signal" aria-hidden="true"></span> ÖFFENTLICHES LAGEBILD / NATUREREIGNISSE</p>
+        <h1 id="hero-title">Globale Entwicklungen.<br><span>Verifizierbare Quellen.</span></h1>
+        <p class="hero-copy">Gefahrenmeldungen aus Originalquellen, mit Herkunft und Datenstand. Jede Quelle wird vor der öffentlichen Anzeige geprüft.</p>
+        <div class="hero-meta"><span>Keine eigene Risikostufe</span><span>Originalquellen verlinkt</span><span>Alle Zeiten mit UTC-Angabe</span></div>
+      </section>
+      <div id="banner" class="banner" role="status" hidden></div>
+      <section class="overview" aria-label="Datenlage">
+        <div class="metric"><span class="metric-label">ÖFFENTLICHE QUELLEN</span><strong id="source-count">–</strong><span class="metric-note">Freigegebene Datenanbieter</span></div>
+        <div class="metric"><span class="metric-label">MELDUNGEN IM SNAPSHOT</span><strong id="entry-count">–</strong><span class="metric-note">Keine erfundenen Ereignisse</span></div>
+        <div class="metric"><span class="metric-label">DATENSTAND</span><strong id="data-state">Lädt</strong><span id="stand" class="metric-note">Daten werden geladen …</span></div>
+      </section>
+      <section id="themen" class="section" aria-labelledby="topics-title">
+        <p class="section-kicker">THEMENRADAR / NATURAL HAZARDS</p>
+        <h2 id="topics-title">Naturereignisse im Blick.</h2>
+        <p class="section-intro">Diese Themen sind vorgesehen. Eine Karte ist erst dann live, wenn ihre Quelle im öffentlichen Datenstand erscheint.</p>
+        <div class="topic-grid">
+          <article class="topic" data-source="usgs"><span class="topic-symbol" aria-hidden="true">◇</span><h3>Erdbeben</h3><p>Signifikante Beben laut USGS.</p><span class="topic-state">Noch nicht freigegeben</span></article>
+          <article class="topic" data-source="gdacs"><span class="topic-symbol" aria-hidden="true">◎</span><h3>Zyklone &amp; Fluten</h3><p>Internationale Ereignisse über GDACS.</p><span class="topic-state">Noch nicht freigegeben</span></article>
+          <article class="topic" data-source="gdacs"><span class="topic-symbol" aria-hidden="true">△</span><h3>Vulkane</h3><p>Ausbrüche und Meldungen über GDACS.</p><span class="topic-state">Noch nicht freigegeben</span></article>
+          <article class="topic" data-source="gdacs"><span class="topic-symbol" aria-hidden="true">✳</span><h3>Waldbrände &amp; Dürre</h3><p>Ereignisse über GDACS.</p><span class="topic-state">Noch nicht freigegeben</span></article>
+          <article class="topic" data-source="noaa"><span class="topic-symbol" aria-hidden="true">☼</span><h3>Weltraumwetter</h3><p>Geomagnetische, Strahlungs- und Radiostörungen laut NOAA.</p><span class="topic-state">Noch nicht freigegeben</span></article>
+        </div>
+      </section>
+      <section id="karte" class="section map-section" aria-labelledby="map-title">
+        <div class="panel-heading"><div><p class="section-kicker">GEO OVERVIEW</p><h2 id="map-title">Weltkarte</h2></div><span class="panel-tag">OHNE EREIGNISMARKIERUNGEN</span></div>
+        <div class="map-art" role="img" aria-label="Stilisierte Weltkarte ohne Ereignismarkierungen"><img src="world.svg" alt="" width="900" height="410"></div>
+        <p class="map-caption">Die Karte dient der geografischen Orientierung und zeigt keine Ereignismarkierungen. Aktuelle Meldungen stehen als Liste darunter. Eine leere Karte ist keine Entwarnung.</p>
+      </section>
+      <section id="meldungen" class="section events-section" aria-labelledby="events-title">
+        <p class="section-kicker">DOKUMENTIERTE MELDUNGEN / ORIGINALQUELLEN</p>
+        <h2 id="events-title">Aktuelle Meldungen</h2>
+        <p class="section-intro">Einträge werden mit Zeitpunkt, Quellenstatus und Link zur Originalmeldung angezeigt.</p>
+        <section id="status" class="status" aria-label="Aktueller Zustand" hidden></section>
+        <ol id="list" class="list"></ol>
+        <p id="empty" class="empty" hidden></p>
+        <details id="more" class="more" hidden><summary id="more-summary"></summary><ol id="more-list" class="list"></ol></details>
+      </section>
+      <section id="quellen" class="section sources-section" aria-labelledby="sources-title">
+        <p class="section-kicker">TRANSPARENZ / DATENHERKUNFT</p>
+        <h2 id="sources-title">Quellen &amp; Methode</h2>
+        <p class="section-intro">Hier stehen Datenstand, Abrufzustand und Abdeckung jeder freigegebenen Quelle.</p>
+        <ul id="sources" class="sources"></ul>
+        <p id="sources-empty" class="sources-empty">Derzeit ist keine Datenquelle zur öffentlichen Anzeige freigegeben.</p>
+        <p class="method">Titel erscheinen in der Originalsprache der Quelle. Warnstufen stammen von der jeweiligen Behörde und werden nicht untereinander verglichen. Fehlt eine Warnstufe, ist das keine Entwarnung.</p>
+      </section>
+    </main>
+    <footer class="foot"><span>CONFLICTWATCH · ÖFFENTLICHE DATEN</span><a href="https://github.com/bene901/conflictwatch" rel="noopener noreferrer">Projekt auf GitHub ↗</a></footer>
+  </div>
+</div>
+<noscript><p class="noscript">Diese Seite benötigt JavaScript, um den Datenstand und die Meldungen zu laden.</p></noscript>
 </body>
 </html>

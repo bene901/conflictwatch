@@ -158,6 +158,7 @@
       }
     } catch (err) {
       $("stand").textContent = "Daten konnten nicht geladen werden.";
+      $("data-state").textContent = "Nicht verfügbar";
       banner([`Die Datei mit den Meldungen ist nicht erreichbar (${err.message}). Bitte die Seite später neu laden.`]);
       return;
     }
@@ -165,6 +166,17 @@
     const now = Number.isFinite(serverDate) ? serverDate : Date.now();
     const generated = Date.parse(snap.generated_at);
     $("stand").textContent = `Zuletzt aktualisiert ${relative(generated, now)}, ${absFmt.format(new Date(generated))}`;
+    $("source-count").textContent = String(snap.sources.length);
+    $("entry-count").textContent = String(snap.items.filter((it) => it.kind !== "status").length);
+    $("sources-empty").hidden = snap.sources.length > 0;
+    $("data-state").textContent = snap.sources.length === 0 ? "Im Aufbau" : now - generated > STALE_MS ? "Veraltet" : snap.sources.some((s) => s.fetch_health !== "ok" || s.data_state === "old") ? "Eingeschränkt" : "Aktuell";
+    const releasedIds = new Set(snap.sources.map((s) => s.id));
+    for (const card of document.querySelectorAll(".topic[data-source]")) {
+      if (!releasedIds.has(card.dataset.source)) continue;
+      const label = card.querySelector(".topic-state");
+      label.textContent = "Öffentliche Quelle";
+      label.classList.add("live");
+    }
 
     const warnings = [];
     if (now - generated > STALE_MS) {
