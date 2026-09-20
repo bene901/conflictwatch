@@ -73,3 +73,11 @@ python -m cw snapshot --state /tmp/st --revision 0000000 --out site/data/snapsho
 python -m http.server -d site 8000
 ```
 `site/data/` steht in `.gitignore` und wird nie committet.
+
+## Öffentliche, streng getrennte Testvorschau (keine Quellenfreigabe)
+
+- Die reguläre Adresse `/` erhält **ausschließlich** `_site/data/snapshot.json`, erzeugt ohne `--include-unreleased`. `registry.json` bleibt für USGS und NOAA `public:false` bis zum dokumentierten sieben-Tage-Tor.
+- Der deutlich gekennzeichnete Testpfad `/test/` erhält einen **separaten** `_site/test/data/snapshot.json`; dessen Generator `python -m cw.test_preview` erlaubt ausdrücklich **nur** `usgs` und `noaa-swpc`. Er kopiert nicht das uneingeschränkte interne Artefakt `preview/snapshot.json` auf die Website. Neue private Anbieter werden nicht automatisch öffentlich.
+- Die Testseite bezeichnet die Werte durchgehend als nicht freigegeben, nennt Zeitstempel, zeigt behördliche Original-Links und erklärt, dass fehlende Meldungen keine Entwarnung sind. Testvorschau ist **öffentlich zugänglich, nicht vertraulich**: nur Quellen-/Ereignisdaten veröffentlichen, deren Nutzungsbedingungen das erlauben. Keine internen Rohantworten, `ingest`-Daten oder Zugangstokens ausgeben.
+- Wenn eine Testquelle regulär freigegeben wird, schlägt der bisherige Test-Generator absichtlich fehl: Vor dem nächsten Deploy die doppelte Testansicht separat deaktivieren oder nach erneuter Prüfung ihre Freigabe-Logik anpassen.
+- Abnahme: GitHub Actions vollständig grün; Haupt-Snapshot hat bis zur Freigabe 0 Quellen/Einträge, Test-Snapshot enthält nur USGS/NOAA und die echten bekannten Ereignisse/Statuswerte, Testseite hat deutlich sichtbaren Warnhinweis; mobilen Browser und eine fehlerhafte/veraltete Datenantwort gesondert prüfen.

@@ -2,6 +2,8 @@
 // ConflictWatch V6 – lädt genau eine Datei (data/snapshot.json). DOM nur über textContent.
 (function () {
   const STALE_MS = 3 * 3600 * 1000;
+  const TEST_MODE = document.body.dataset.mode === "test";
+  const TEST_IDS = new Set(["usgs", "noaa-swpc"]);
   const OFFICIAL_COLORS = new Set(["green", "yellow", "orange", "red"]);
   const STATUS_TEXT = {
     preliminary: "vorläufig (automatisch erstellt)",
@@ -156,6 +158,12 @@
       if (snap.schema_version !== "6.0" || !Array.isArray(snap.items) || !Array.isArray(snap.sources)) {
         throw new Error("unbekanntes Datenformat");
       }
+      // Public test mode fails closed if its separately built snapshot has an unexpected source.
+      if (TEST_MODE && (snap.sources.length !== 2 ||
+          snap.sources.some((source) => !TEST_IDS.has(source.id)) ||
+          snap.items.some((item) => !TEST_IDS.has(item.source)))) {
+        throw new Error("ungültiger Test-Datensatz oder unbekannte Quelle");
+      }
     } catch (err) {
       $("stand").textContent = "Daten konnten nicht geladen werden.";
       $("data-state").textContent = "Nicht verfügbar";
@@ -174,7 +182,7 @@
     for (const card of document.querySelectorAll(".topic[data-source]")) {
       if (!releasedIds.has(card.dataset.source)) continue;
       const label = card.querySelector(".topic-state");
-      label.textContent = "Öffentliche Quelle";
+      label.textContent = TEST_MODE ? "Quelle im Testbetrieb" : "Öffentliche Quelle";
       label.classList.add("live");
     }
 
@@ -183,6 +191,9 @@
       warnings.push(`Die Seite wurde seit mehr als drei Stunden nicht aktualisiert. Letzter Stand: ${absFmt.format(new Date(generated))}. Aktuelle Meldungen können fehlen.`);
     }
     const srcById = Object.fromEntries(snap.sources.map((s) => [s.id, s]));
+    if (TEST_MODE) {
+      warnings.push("Öffentlicher TESTBETRIEB: USGS und NOAA sind noch nicht für den regulären ConflictWatch-Feed freigegeben. Diese Vorschau ist keine behördliche Warnplattform.");
+    }
     for (const s of snap.sources) {
       if (s.fetch_health === "down") {
         warnings.push(`Abruf von ${s.name} ausgefallen${s.last_success_at ? " seit " + absFmt.format(new Date(s.last_success_at)) : ""}. Angezeigte Einträge dieser Quelle können veraltet sein.`);
@@ -203,10 +214,10 @@
 
     const empty = $("empty");
     if (snap.sources.length === 0) {
-      empty.textContent = "Noch keine Quelle freigegeben. Jede Quelle läuft zuerst sieben Tage im Testbetrieb, bevor ihre Meldungen hier erscheinen.";
+      empty.textContent = TEST_MODE ? "Test-Datensatz nicht verfügbar. Es wird keine Entwarnung gegeben." : "Noch keine Quelle freigegeben. Jede Quelle läuft zuerst sieben Tage im Testbetrieb, bevor ihre Meldungen hier erscheinen.";
       empty.hidden = false;
     } else if (start.length === 0) {
-      empty.textContent = "Im Anzeigezeitraum gibt es keine Meldungen, die die Kriterien der Quellen erfüllen.";
+      empty.textContent = TEST_MODE ? "Keine Ereignisse im aktuellen Anzeigezeitraum der Testquellen. Das ist keine Entwarnung und keine Aussage zu nicht abgedeckten Gefahren." : "Im Anzeigezeitraum gibt es keine Meldungen, die die Kriterien der Quellen erfüllen.";
       empty.hidden = false;
     }
     if (rest.length) {
