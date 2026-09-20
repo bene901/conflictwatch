@@ -32,3 +32,4 @@ In der Oberfläche stehen beide Zeitpunkte getrennt: „Beginn laut Quelle" und 
 Der öffentliche Snapshot führt dafür **ein einziges abgeleitetes Feld** `last_seen_at`; das interne `ingest`-Objekt wird nicht veröffentlicht. Das Schema erzwingt die Trennung: `Item` verlangt `ingest` und verbietet `last_seen_at`, `PublicItem` verlangt `last_seen_at` und verbietet `ingest`. Der Validator lehnt zusätzlich eine Sichtung ab, die jünger ist als der letzte Abruferfolg der Quelle.
 
 Die Regel selbst wird nicht per Textvergleich geprüft: `tests/test_recency_basis.py` lädt `site/app.js` in node und ruft `onStart` mit echten Snapshot-Daten auf.
+
