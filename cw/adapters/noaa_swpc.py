@@ -1,7 +1,7 @@
 """NOAA/SWPC scales adapter: latest observed block ``0`` only.
 
-Not registered for the public pipeline until an authentic NOAA response and
-GitHub Actions fetch have been verified. Historical samples are not live data.
+This adapter parses only observed (not predicted) scales. Historical test
+samples are never published as live data. Registry publication is separately gated.
 """
 from __future__ import annotations
 
@@ -18,7 +18,7 @@ SCALES = {"G": "noaa-g", "S": "noaa-s", "R": "noaa-r"}
 TITLES = {"G": "Geomagnetische Stürme (NOAA)",
           "S": "Solare Strahlungsstürme (NOAA)",
           "R": "Radiostörungen (NOAA)"}
-SOURCE_URL = "https://www.swpc.noaa.gov/noaa-scales-explanation"
+SOURCE_URL = "https://www.swpc.noaa.gov/node/1085"
 
 
 def _observation_time(block: dict, now: dt.datetime) -> str:
