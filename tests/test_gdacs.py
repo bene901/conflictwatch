@@ -37,6 +37,19 @@ def parse(d):
 
 
 class GdacsAdapter(unittest.TestCase):
+    def test_three_unmodified_live_hazard_features(self):
+        expected = {"tc": ("gdacs:TC:1001324", "tropical_cyclone"),
+                    "fl": ("gdacs:FL:1104175", "flood"),
+                    "wf": ("gdacs:WF:1032256", "wildfire")}
+        for code, (ident, hazard) in expected.items():
+            with self.subTest(code=code):
+                fixture = ROOT / f"tests/fixtures/gdacs/real_2026-09-20_{code}_excerpt.json"
+                result = parse(json.loads(fixture.read_text()))
+                self.assertEqual(result.items[0]["id"], ident)
+                self.assertEqual(result.items[0]["metrics"]["hazard_type"], hazard)
+                self.assertEqual(result.items[0]["level"]["value"], "Green")
+                self.assertFalse(result.complete)
+
     def test_real_feature_retains_gdacs_fields_and_validates(self):
         result = parse(doc())
         self.assertFalse(result.complete)  # a curated excerpt is not a complete feed

@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        -50.0447,
+        -12.5067,
+        -50.0447,
+        -12.5067
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.0447,
+          -12.5067
+        ]
+      },
+      "properties": {
+        "eventtype": "WF",
+        "eventid": 1032256,
+        "episodeid": 2,
+        "eventname": "",
+        "glide": "",
+        "name": "Forest fires in Brazil",
+        "description": "Forest fires in Brazil",
+        "htmldescription": "Green Forest fires in Brazil from: 18 Sep 2026 to: 20 Sep 2026.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/WF.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/WF.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=WF&eventid=1032256&episodeid=2",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1032256&episodeid=2&eventtype=WF",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=WF&eventid=1032256"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "true",
+        "country": "Brazil",
+        "fromdate": "2026-09-18T00:00:00",
+        "todate": "2026-09-20T00:00:00",
+        "datemodified": "2026-09-20T11:04:13",
+        "iso3": "BRA",
+        "source": "GWIS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "BR",
+            "iso3": "BRA",
+            "countryname": "Brazil"
+          }
+        ],
+        "severitydata": {
+          "severity": 5516.0,
+          "severitytext": "Green impact for forestfire in 5516 ha",
+          "severityunit": "ha"
+        }
+      }
+    }
+  ]
+}
