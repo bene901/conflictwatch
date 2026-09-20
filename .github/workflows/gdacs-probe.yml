@@ -25,6 +25,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: gdacs-live-${{ github.run_id }}
-          path: raw/gdacs_live.json
+          path: raw/gdacs*
           retention-days: 7
           if-no-files-found: ignore

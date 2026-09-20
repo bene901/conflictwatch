@@ -24,6 +24,17 @@ def main():
     result = gdacs.parse(raw, datetime.now(timezone.utc), ENTRY)
     print(f"Parsed: {len(result.items)} relevant events; complete={result.complete}")
     print("Sample IDs:", [item["id"] for item in result.items[:10]])
+    archive_url = "https://www.gdacs.org/contentdata/xml/gdacs_archive.geojson"
+    try:
+        archived = fetch(archive_url)
+        archive_doc = json.loads(archived)
+        archive_kinds = Counter(f.get("properties", {}).get("eventtype", "missing")
+                                for f in archive_doc.get("features", []) if isinstance(f, dict))
+        Path("raw/gdacs_archive.geojson").write_bytes(archived)
+        print(f"GDACS archive: {len(archived)} bytes, SHA256 {sha256(archived).hexdigest()}")
+        print(f"Archived feature types: {dict(sorted(archive_kinds.items()))}")
+    except Exception as exc:
+        print(f"Optional archive unavailable: {type(exc).__name__}: {exc}")
 
 
 if __name__ == "__main__":
