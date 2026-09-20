@@ -1,0 +1,97 @@
+// Fuehrt site/map.js in node aus und liest die tatsaechlich erzeugte SVG-Struktur aus.
+// Das DOM wird nur so weit nachgebildet, wie map.js es benutzt - keine Bibliothek.
+"use strict";
+const fs = require("fs");
+const path = require("path");
+const vm = require("vm");
+
+function makeEl(tag, ns) {
+  return {
+    tagName: tag, ns: ns || null, attrs: {}, children: [], listeners: {},
+    textContent: "", className: "", hidden: false, id: "", type: "", checked: false,
+    setAttribute(k, v) { this.attrs[k] = String(v); },
+    getAttribute(k) { return Object.prototype.hasOwnProperty.call(this.attrs, k) ? this.attrs[k] : null; },
+    append(...kids) { for (const k of kids) this.children.push(k); return this; },
+    appendChild(k) { this.children.push(k); return k; },
+    replaceChildren(...kids) { this.children = kids.slice(); },
+    addEventListener(type, fn) { this.listeners[type] = fn; },
+  };
+}
+
+const registry = {};
+for (const id of ["map-view", "map-points", "map-events-note", "map-filters", "map-legend"]) {
+  registry[id] = makeEl("div");
+  registry[id].id = id;
+}
+
+const sandbox = {
+  console, Math, Number, String, Boolean, Array, Set, Map, JSON, RegExp, Object,
+  document: {
+    createElementNS: (ns, name) => makeEl(name, ns),
+    createElement: (name) => makeEl(name),
+    getElementById: (id) => registry[id] || null,
+  },
+};
+sandbox.window = sandbox;
+sandbox.globalThis = sandbox;
+
+vm.createContext(sandbox);
+vm.runInContext(fs.readFileSync(path.join(__dirname, "..", "..", "site", "map.js"), "utf8"),
+                sandbox, {filename: "map.js"});
+
+function inputs() {
+  const found = [];
+  const walk = (node) => {
+    if (node.tagName === "input") found.push(node);
+    for (const kid of node.children) walk(kid);
+  };
+  walk(registry["map-filters"]);
+  return found;
+}
+
+function dump() {
+  const markers = registry["map-points"].children.map((a) => ({
+    ariaLabel: a.getAttribute("aria-label"),
+    href: a.getAttribute("href"),
+    shapes: a.children.map((s) => ({
+      tag: s.tagName,
+      cls: s.getAttribute("class"),
+      level: s.getAttribute("data-level"),
+      r: s.getAttribute("r"),
+      cx: s.getAttribute("cx"),
+      cy: s.getAttribute("cy"),
+      text: s.textContent,
+    })),
+  }));
+  return {
+    markers: markers,
+    note: registry["map-events-note"].textContent,
+    legend: {hidden: registry["map-legend"].hidden, text: registry["map-legend"].textContent},
+    filters: {
+      hidden: registry["map-filters"].hidden,
+      boxes: inputs().map((i) => ({
+        id: i.id,
+        checked: i.checked,
+        // Das <span> neben der Checkbox traegt den sichtbaren Text.
+        label: (registry["map-filters"].children
+          .find((w) => w.children.includes(i)) || {children: []})
+          .children.map((c) => c.textContent).join(""),
+      })),
+    },
+  };
+}
+
+const payload = JSON.parse(fs.readFileSync(process.argv[2], "utf8"));
+sandbox.window.ConflictWatchMap.render(payload.items, payload.sources);
+const steps = [{step: "initial", result: dump()}];
+for (const toggle of payload.toggles || []) {
+  const input = inputs().find((i) => i.id === toggle.id);
+  if (!input) {
+    steps.push({step: toggle.id, missing: true, result: dump()});
+    continue;
+  }
+  input.checked = toggle.checked;
+  input.listeners.change({target: input});
+  steps.push({step: toggle.id, result: dump()});
+}
+process.stdout.write(JSON.stringify(steps));
