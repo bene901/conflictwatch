@@ -1,7 +1,3918 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-09-20T14:41:31Z",
+ "generated_at": "2026-09-20T15:01:58Z",
  "items": [
+  {
+   "id": "gdacs:FL:1103888",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Flood in United States",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=91&eventtype=FL",
+   "occurred_at": "2026-05-19T01:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T13:07:33Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Flood in United States",
+    "countries": [
+     "US"
+    ],
+    "lat": 41.119,
+    "lon": -73.3711
+   },
+   "metrics": {
+    "hazard_type": "flood",
+    "episode_id": 91,
+    "severity": 0.0,
+    "severity_unit": "",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:FL:1104053",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Flood in Italy",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1104053&episodeid=31&eventtype=FL",
+   "occurred_at": "2026-07-26T01:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T07:40:08Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Flood in Italy",
+    "countries": [
+     "IT"
+    ],
+    "lat": 41.8933,
+    "lon": 12.4829
+   },
+   "metrics": {
+    "hazard_type": "flood",
+    "episode_id": 31,
+    "severity": 0.0,
+    "severity_unit": "",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:FL:1104175",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Flood in Cyprus",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1104175&episodeid=1&eventtype=FL",
+   "occurred_at": "2026-09-18T01:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T07:18:06Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Flood in Cyprus",
+    "countries": [
+     "CY"
+    ],
+    "lat": 34.9496,
+    "lon": 33.5927
+   },
+   "metrics": {
+    "hazard_type": "flood",
+    "episode_id": 1,
+    "severity": 0.0,
+    "severity_unit": "",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:FL:1104178",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Flood in Guinea",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1104178&episodeid=1&eventtype=FL",
+   "occurred_at": "2026-09-18T01:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:22:17Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Flood in Guinea",
+    "countries": [
+     "GN"
+    ],
+    "lat": 9.709,
+    "lon": -13.389
+   },
+   "metrics": {
+    "hazard_type": "flood",
+    "episode_id": 1,
+    "severity": 0.0,
+    "severity_unit": "",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:TC:1001322",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Tropical Cyclone DUJUAN-26",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1001322&episodeid=21&eventtype=TC",
+   "occurred_at": "2026-09-15T12:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T14:24:12Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Tropical Cyclone DUJUAN-26",
+    "countries": [
+     "JP"
+    ],
+    "lat": 30.4,
+    "lon": 137.6
+   },
+   "metrics": {
+    "hazard_type": "tropical_cyclone",
+    "episode_id": 21,
+    "severity": 129.6288,
+    "severity_unit": "km/h",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:TC:1001323",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Tropical Cyclone FAY-26",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=4&eventtype=TC",
+   "occurred_at": "2026-09-19T15:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T14:05:04Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Tropical Cyclone FAY-26",
+    "countries": [],
+    "lat": 33.7,
+    "lon": -33.1
+   },
+   "metrics": {
+    "hazard_type": "tropical_cyclone",
+    "episode_id": 4,
+    "severity": 92.592,
+    "severity_unit": "km/h",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:TC:1001324",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Tropical Cyclone ODALYS-26",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=1&eventtype=TC",
+   "occurred_at": "2026-09-20T09:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T14:35:08Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Tropical Cyclone ODALYS-26",
+    "countries": [],
+    "lat": 11.4,
+    "lon": -124.5
+   },
+   "metrics": {
+    "hazard_type": "tropical_cyclone",
+    "episode_id": 1,
+    "severity": 129.6288,
+    "severity_unit": "km/h",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1031853",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1031853&episodeid=24&eventtype=WF",
+   "occurred_at": "2026-09-06T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:55:52Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -17.403,
+    "lon": 130.6843
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 24,
+    "severity": 16175.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1031862",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1031862&episodeid=32&eventtype=WF",
+   "occurred_at": "2026-09-07T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:51:27Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -15.3857,
+    "lon": 134.474
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 32,
+    "severity": 71663.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1031889",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1031889&episodeid=29&eventtype=WF",
+   "occurred_at": "2026-09-07T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:53:55Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -10.2705,
+    "lon": -45.2736
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 29,
+    "severity": 17822.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1031912",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1031912&episodeid=15&eventtype=WF",
+   "occurred_at": "2026-09-07T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:51:47Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -6.7262,
+    "lon": -45.4724
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 15,
+    "severity": 7056.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1031927",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Namibia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1031927&episodeid=16&eventtype=WF",
+   "occurred_at": "2026-09-08T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:46:50Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Namibia",
+    "countries": [
+     "NA"
+    ],
+    "lat": -18.0497,
+    "lon": 23.5136
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 16,
+    "severity": 16979.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1031937",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1031937&episodeid=14&eventtype=WF",
+   "occurred_at": "2026-09-07T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:49:04Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -12.7455,
+    "lon": 131.9937
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 14,
+    "severity": 11336.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1031952",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1031952&episodeid=16&eventtype=WF",
+   "occurred_at": "2026-09-11T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:25:06Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -13.3165,
+    "lon": -51.6882
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 16,
+    "severity": 8712.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1031953",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1031953&episodeid=16&eventtype=WF",
+   "occurred_at": "2026-09-09T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:44:08Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -15.0441,
+    "lon": -48.5241
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 16,
+    "severity": 9751.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1031959",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1031959&episodeid=17&eventtype=WF",
+   "occurred_at": "2026-09-11T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:29:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -9.3865,
+    "lon": -50.1408
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 17,
+    "severity": 12424.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1031961",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Papua New Guinea",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1031961&episodeid=12&eventtype=WF",
+   "occurred_at": "2026-09-08T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:47:50Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Papua New Guinea",
+    "countries": [
+     "PG"
+    ],
+    "lat": -5.6233,
+    "lon": 149.5414
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 12,
+    "severity": 11917.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1031981",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Indonesia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1031981&episodeid=19&eventtype=WF",
+   "occurred_at": "2026-09-08T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:44:52Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Indonesia",
+    "countries": [
+     "ID"
+    ],
+    "lat": -3.3755,
+    "lon": 126.7995
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 19,
+    "severity": 11525.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1031988",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1031988&episodeid=11&eventtype=WF",
+   "occurred_at": "2026-09-14T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:13:26Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -21.3997,
+    "lon": 132.6743
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 11,
+    "severity": 7042.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1031990",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1031990&episodeid=16&eventtype=WF",
+   "occurred_at": "2026-09-13T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:17:18Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -12.8471,
+    "lon": 132.1598
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 16,
+    "severity": 31860.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1031994",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1031994&episodeid=13&eventtype=WF",
+   "occurred_at": "2026-09-08T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:47:38Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -7.122,
+    "lon": -42.1246
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 13,
+    "severity": 10252.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1031995",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Indonesia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1031995&episodeid=21&eventtype=WF",
+   "occurred_at": "2026-09-07T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:49:53Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Indonesia",
+    "countries": [
+     "ID"
+    ],
+    "lat": -2.8631,
+    "lon": 105.1679
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 21,
+    "severity": 18486.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1031996",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Indonesia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1031996&episodeid=15&eventtype=WF",
+   "occurred_at": "2026-09-06T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:55:35Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Indonesia",
+    "countries": [
+     "ID"
+    ],
+    "lat": -2.8614,
+    "lon": 111.5005
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 15,
+    "severity": 6118.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032001",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032001&episodeid=16&eventtype=WF",
+   "occurred_at": "2026-09-15T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:11:40Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -14.6744,
+    "lon": 132.2551
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 16,
+    "severity": 57978.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032022",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032022&episodeid=11&eventtype=WF",
+   "occurred_at": "2026-09-09T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:39:49Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -9.7437,
+    "lon": -47.1123
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 11,
+    "severity": 10546.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032032",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032032&episodeid=9&eventtype=WF",
+   "occurred_at": "2026-09-16T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:07:09Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -18.6693,
+    "lon": 145.7501
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 9,
+    "severity": 11953.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032035",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032035&episodeid=14&eventtype=WF",
+   "occurred_at": "2026-09-12T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:22:30Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -10.7955,
+    "lon": -46.1971
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 14,
+    "severity": 10531.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032038",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032038&episodeid=13&eventtype=WF",
+   "occurred_at": "2026-09-12T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:18:51Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -12.5347,
+    "lon": -47.1266
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 13,
+    "severity": 7226.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032098",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032098&episodeid=7&eventtype=WF",
+   "occurred_at": "2026-09-09T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:39:30Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -2.696,
+    "lon": -57.5758
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 7,
+    "severity": 11178.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032100",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032100&episodeid=11&eventtype=WF",
+   "occurred_at": "2026-09-09T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:41:33Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -10.9612,
+    "lon": -48.3426
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 11,
+    "severity": 8615.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032103",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032103&episodeid=8&eventtype=WF",
+   "occurred_at": "2026-09-08T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:46:55Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -7.9767,
+    "lon": -44.0051
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 8,
+    "severity": 6487.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032104",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032104&episodeid=11&eventtype=WF",
+   "occurred_at": "2026-09-08T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:46:26Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -9.5191,
+    "lon": -45.4541
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 11,
+    "severity": 9358.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032105",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Indonesia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032105&episodeid=7&eventtype=WF",
+   "occurred_at": "2026-09-08T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:46:20Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Indonesia",
+    "countries": [
+     "ID"
+    ],
+    "lat": -2.9054,
+    "lon": 133.9435
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 7,
+    "severity": 7161.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032109",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032109&episodeid=7&eventtype=WF",
+   "occurred_at": "2026-09-15T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:09:32Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -19.5732,
+    "lon": 127.574
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 7,
+    "severity": 5700.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032110",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Indonesia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032110&episodeid=9&eventtype=WF",
+   "occurred_at": "2026-09-09T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:41:12Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Indonesia",
+    "countries": [
+     "ID"
+    ],
+    "lat": 0.8039,
+    "lon": 123.5827
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 9,
+    "severity": 7729.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032112",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032112&episodeid=9&eventtype=WF",
+   "occurred_at": "2026-09-16T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:07:56Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -16.8345,
+    "lon": 135.8986
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 9,
+    "severity": 52895.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032113",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032113&episodeid=12&eventtype=WF",
+   "occurred_at": "2026-09-15T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:11:28Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -15.6247,
+    "lon": 133.8393
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 12,
+    "severity": 63242.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032114",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032114&episodeid=8&eventtype=WF",
+   "occurred_at": "2026-09-15T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:09:22Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -16.2591,
+    "lon": 130.8678
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 8,
+    "severity": 12904.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032119",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032119&episodeid=5&eventtype=WF",
+   "occurred_at": "2026-09-09T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:41:27Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -12.1403,
+    "lon": 134.332
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 5,
+    "severity": 8052.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032120",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032120&episodeid=7&eventtype=WF",
+   "occurred_at": "2026-09-09T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:43:50Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -12.4806,
+    "lon": 130.6676
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 7,
+    "severity": 6797.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032140",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032140&episodeid=10&eventtype=WF",
+   "occurred_at": "2026-09-16T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:06:52Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -7.82,
+    "lon": -44.865
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 10,
+    "severity": 13602.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032141",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Indonesia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032141&episodeid=8&eventtype=WF",
+   "occurred_at": "2026-09-15T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:09:38Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Indonesia",
+    "countries": [
+     "ID"
+    ],
+    "lat": -1.8328,
+    "lon": 103.9484
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 8,
+    "severity": 5673.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032142",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032142&episodeid=9&eventtype=WF",
+   "occurred_at": "2026-09-15T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:09:51Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -13.5157,
+    "lon": 143.0434
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 9,
+    "severity": 20534.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032143",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032143&episodeid=7&eventtype=WF",
+   "occurred_at": "2026-09-15T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:09:58Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -16.0171,
+    "lon": 144.2015
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 7,
+    "severity": 9619.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032169",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Indonesia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032169&episodeid=6&eventtype=WF",
+   "occurred_at": "2026-09-06T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:54:07Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Indonesia",
+    "countries": [
+     "ID"
+    ],
+    "lat": 0.7905,
+    "lon": 123.9095
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 6,
+    "severity": 5546.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032171",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Dominican Republic",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032171&episodeid=10&eventtype=WF",
+   "occurred_at": "2026-09-15T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:09:03Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Dominican Republic",
+    "countries": [
+     "DO"
+    ],
+    "lat": 18.1031,
+    "lon": -71.5462
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 10,
+    "severity": 6092.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032172",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Zambia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032172&episodeid=5&eventtype=WF",
+   "occurred_at": "2026-09-15T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:08:50Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Zambia",
+    "countries": [
+     "ZM"
+    ],
+    "lat": -17.3332,
+    "lon": 25.0648
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 5,
+    "severity": 6726.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032173",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032173&episodeid=9&eventtype=WF",
+   "occurred_at": "2026-09-16T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:08:16Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -9.9253,
+    "lon": -46.5599
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 9,
+    "severity": 11226.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032175",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032175&episodeid=6&eventtype=WF",
+   "occurred_at": "2026-09-12T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:21:45Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -12.3523,
+    "lon": 136.6327
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 6,
+    "severity": 9340.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032178",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Indonesia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032178&episodeid=4&eventtype=WF",
+   "occurred_at": "2026-09-07T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:52:11Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Indonesia",
+    "countries": [
+     "ID"
+    ],
+    "lat": -2.8949,
+    "lon": 111.0853
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 4,
+    "severity": 6460.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032181",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Zambia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032181&episodeid=5&eventtype=WF",
+   "occurred_at": "2026-09-15T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:08:56Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Zambia",
+    "countries": [
+     "ZM"
+    ],
+    "lat": -13.7693,
+    "lon": 25.2124
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 5,
+    "severity": 9006.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032215",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032215&episodeid=6&eventtype=WF",
+   "occurred_at": "2026-09-13T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:16:01Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -9.865,
+    "lon": -48.3719
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 6,
+    "severity": 5455.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032216",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032216&episodeid=6&eventtype=WF",
+   "occurred_at": "2026-09-11T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:22:56Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -12.0261,
+    "lon": -49.9853
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 6,
+    "severity": 8976.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032217",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032217&episodeid=5&eventtype=WF",
+   "occurred_at": "2026-09-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:06:24Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -11.3035,
+    "lon": -43.3861
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 5,
+    "severity": 6904.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032218",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032218&episodeid=6&eventtype=WF",
+   "occurred_at": "2026-09-13T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:17:29Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -10.8598,
+    "lon": -50.863
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 6,
+    "severity": 9145.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032219",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032219&episodeid=4&eventtype=WF",
+   "occurred_at": "2026-09-10T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:29:55Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -11.1835,
+    "lon": -42.8233
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 4,
+    "severity": 5937.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032223",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032223&episodeid=3&eventtype=WF",
+   "occurred_at": "2026-09-13T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:15:37Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -13.1055,
+    "lon": 141.8149
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 3,
+    "severity": 6343.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032224",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032224&episodeid=3&eventtype=WF",
+   "occurred_at": "2026-09-12T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:18:32Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -12.1076,
+    "lon": 136.2892
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 3,
+    "severity": 6394.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032225",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Papua New Guinea",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032225&episodeid=4&eventtype=WF",
+   "occurred_at": "2026-09-10T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:38:55Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Papua New Guinea",
+    "countries": [
+     "PG"
+    ],
+    "lat": -5.0593,
+    "lon": 150.071
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 4,
+    "severity": 5517.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032227",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Indonesia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032227&episodeid=6&eventtype=WF",
+   "occurred_at": "2026-09-07T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:52:22Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Indonesia",
+    "countries": [
+     "ID"
+    ],
+    "lat": -1.1806,
+    "lon": 121.668
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 6,
+    "severity": 5549.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032228",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032228&episodeid=3&eventtype=WF",
+   "occurred_at": "2026-09-16T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:08:10Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -13.6887,
+    "lon": 135.2426
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 3,
+    "severity": 6152.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032229",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Vanuatu",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032229&episodeid=3&eventtype=WF",
+   "occurred_at": "2026-09-19T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:01:19Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Vanuatu",
+    "countries": [
+     "VU"
+    ],
+    "lat": -16.2529,
+    "lon": 168.1455
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 3,
+    "severity": 5699.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032230",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Zambia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032230&episodeid=2&eventtype=WF",
+   "occurred_at": "2026-09-18T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:02:25Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Zambia",
+    "countries": [
+     "ZM"
+    ],
+    "lat": -15.68,
+    "lon": 25.7293
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 2,
+    "severity": 5364.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032231",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Namibia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032231&episodeid=3&eventtype=WF",
+   "occurred_at": "2026-09-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:04:39Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Namibia",
+    "countries": [
+     "NA"
+    ],
+    "lat": -20.2189,
+    "lon": 15.1826
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 3,
+    "severity": 7068.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032244",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032244&episodeid=3&eventtype=WF",
+   "occurred_at": "2026-09-18T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:03:54Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -12.1479,
+    "lon": -46.9972
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 3,
+    "severity": 6328.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032245",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032245&episodeid=3&eventtype=WF",
+   "occurred_at": "2026-09-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:04:53Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -10.6651,
+    "lon": -50.2536
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 3,
+    "severity": 6068.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032246",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032246&episodeid=3&eventtype=WF",
+   "occurred_at": "2026-09-15T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:09:43Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -9.7638,
+    "lon": -46.1017
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 3,
+    "severity": 5632.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032247",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032247&episodeid=3&eventtype=WF",
+   "occurred_at": "2026-09-12T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:21:26Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -11.8874,
+    "lon": -50.0583
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 3,
+    "severity": 10143.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032248",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Indonesia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032248&episodeid=2&eventtype=WF",
+   "occurred_at": "2026-09-11T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:24:09Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Indonesia",
+    "countries": [
+     "ID"
+    ],
+    "lat": -3.1026,
+    "lon": 112.5489
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 2,
+    "severity": 5343.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032249",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032249&episodeid=3&eventtype=WF",
+   "occurred_at": "2026-09-11T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:23:54Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -6.3113,
+    "lon": -59.9647
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 3,
+    "severity": 5484.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032250",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032250&episodeid=3&eventtype=WF",
+   "occurred_at": "2026-09-11T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:25:19Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -7.6503,
+    "lon": -46.1252
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 3,
+    "severity": 8422.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032251",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Indonesia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032251&episodeid=3&eventtype=WF",
+   "occurred_at": "2026-09-10T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:32:56Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Indonesia",
+    "countries": [
+     "ID"
+    ],
+    "lat": -2.5025,
+    "lon": 110.485
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 3,
+    "severity": 6888.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032254",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Indonesia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032254&episodeid=2&eventtype=WF",
+   "occurred_at": "2026-09-07T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:51:05Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Indonesia",
+    "countries": [
+     "ID"
+    ],
+    "lat": -2.9528,
+    "lon": 128.1571
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 2,
+    "severity": 5127.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032255",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032255&episodeid=2&eventtype=WF",
+   "occurred_at": "2026-09-06T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:54:14Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -11.9951,
+    "lon": 142.5735
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 2,
+    "severity": 5357.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032256",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032256&episodeid=2&eventtype=WF",
+   "occurred_at": "2026-09-18T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:04:13Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -12.5067,
+    "lon": -50.0447
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 2,
+    "severity": 5516.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032257",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032257&episodeid=2&eventtype=WF",
+   "occurred_at": "2026-09-18T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:02:02Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -12.7129,
+    "lon": -46.0028
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 2,
+    "severity": 5070.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032258",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Indonesia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032258&episodeid=2&eventtype=WF",
+   "occurred_at": "2026-09-09T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:39:21Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Indonesia",
+    "countries": [
+     "ID"
+    ],
+    "lat": -3.7921,
+    "lon": 105.5515
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 2,
+    "severity": 5447.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032259",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Namibia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032259&episodeid=2&eventtype=WF",
+   "occurred_at": "2026-09-18T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:03:14Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Namibia",
+    "countries": [
+     "NA"
+    ],
+    "lat": -19.525,
+    "lon": 16.3761
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 2,
+    "severity": 6912.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032260",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032260&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-09-19T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:01:55Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -17.5247,
+    "lon": 124.5518
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5489.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032261",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032261&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-09-18T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:02:40Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -13.9784,
+    "lon": 130.2274
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5996.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032262",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032262&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-09-18T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:03:40Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -13.9164,
+    "lon": 131.7806
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5079.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032263",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032263&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-09-16T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:07:29Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -11.8781,
+    "lon": -47.6235
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 6159.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032264",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Indonesia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032264&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-09-16T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:08:03Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Indonesia",
+    "countries": [
+     "ID"
+    ],
+    "lat": -3.105,
+    "lon": 112.6599
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5045.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032265",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032265&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-09-16T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:08:40Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -11.0574,
+    "lon": -48.2908
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5477.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032266",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032266&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-09-15T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:11:11Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -13.0056,
+    "lon": -46.9476
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5421.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032267",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Indonesia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032267&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-09-10T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:34:09Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Indonesia",
+    "countries": [
+     "ID"
+    ],
+    "lat": -2.8671,
+    "lon": 114.297
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5026.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032268",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Indonesia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032268&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-09-09T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T11:42:58Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Indonesia",
+    "countries": [
+     "ID"
+    ],
+    "lat": -2.2018,
+    "lon": 110.151
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5194.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
   {
    "id": "noaa-swpc:scale:G",
    "kind": "status",
@@ -126,7 +4037,7 @@
    "occurred_at": "2026-09-17T14:19:52Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-19T14:29:56Z",
+   "source_updated_at": "2026-09-20T14:30:05Z",
    "ongoing": null,
    "data_status": "reviewed",
    "source_status_raw": "reviewed",
@@ -150,7 +4061,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T12:59:19Z",
-    "last_seen_at": "2026-09-20T14:03:16Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
     "last_changed_at": "2026-09-20T12:59:19Z"
    }
   },
@@ -167,7 +4078,7 @@
    "occurred_at": "2026-09-20T09:17:35Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T12:59:22Z",
+   "source_updated_at": "2026-09-20T14:25:12Z",
    "ongoing": null,
    "data_status": "reviewed",
    "source_status_raw": "reviewed",
@@ -191,7 +4102,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T12:59:19Z",
-    "last_seen_at": "2026-09-20T14:03:16Z",
+    "last_seen_at": "2026-09-20T15:01:58Z",
     "last_changed_at": "2026-09-20T12:59:19Z"
    }
   }
