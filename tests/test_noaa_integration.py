@@ -20,7 +20,7 @@ GDACS_RAW = (ROOT / "tests" / "fixtures" / "gdacs" / "real_2026-09-20_tc_excerpt
 def fixture_fetcher(url: str) -> bytes:
     if url.endswith("noaa-scales.json"):
         return NOAA_RAW
-    if url.endswith("significant_week.geojson"):
+    if url.endswith("all_day.geojson"):
         return USGS_RAW
     if url.endswith("gdacs_app_feed.json"):
         return GDACS_RAW
