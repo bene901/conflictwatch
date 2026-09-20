@@ -1,0 +1,25 @@
+/* Explicitly labelled, restrained editorial test view. No sci-fi dashboard motifs. */
+body[data-mode="test"]{background:#f4f5f3;color:#1d292c}
+body[data-mode="test"] .test-shell{min-height:100vh}
+body[data-mode="test"] .test-header{padding:15px clamp(16px,4vw,54px);display:flex;align-items:center;justify-content:space-between;gap:16px;border-bottom:1px solid #d6ddda;background:#fff}
+body[data-mode="test"] .test-brand{font-weight:800;font-size:19px;text-decoration:none;letter-spacing:-.03em}
+body[data-mode="test"] .test-pill{color:#684712;background:#f8edcf;border:1px solid #d9ba73;border-radius:4px;padding:6px 9px;font-size:10px;letter-spacing:.08em;font-weight:800}
+body[data-mode="test"] .test-main{max-width:1060px;margin:auto;padding:clamp(18px,3vw,38px)}
+body[data-mode="test"] .test-disclosure{background:#fff;border:2px solid #b7883d;border-left-width:7px;border-radius:6px;padding:clamp(18px,3vw,32px)}
+body[data-mode="test"] .test-overline{color:#805b23;font-size:11px;font-weight:800;letter-spacing:.07em}
+body[data-mode="test"] h1{font-size:clamp(25px,4vw,39px);line-height:1.16;letter-spacing:-.035em;margin:10px 0 17px}
+body[data-mode="test"] .test-disclosure p:not(.test-overline){max-width:80ch;margin-top:10px;font-size:15px;line-height:1.6}
+body[data-mode="test"] .test-back{display:inline-block;margin-top:16px;color:#17526a;text-underline-offset:3px;font-weight:700}
+body[data-mode="test"] .overview{margin-top:17px}
+body[data-mode="test"] .metric,body[data-mode="test"] .events-section,body[data-mode="test"] .sources-section{background:#fff;color:#1d292c;border:1px solid #d4dbd9;box-shadow:none}
+body[data-mode="test"] .metric-label,body[data-mode="test"] .section-kicker{color:#53666b}
+body[data-mode="test"] .metric-note,body[data-mode="test"] .section-intro,body[data-mode="test"] .meta,body[data-mode="test"] .method,body[data-mode="test"] .sources .line{color:#4d6269}
+body[data-mode="test"] .item,body[data-mode="test"] .sources li{border-color:#d8dfdd}
+body[data-mode="test"] .source-link,body[data-mode="test"] .more>summary{color:#17526a}
+body[data-mode="test"] .status-row{border-color:#d4dbd9}
+body[data-mode="test"] .empty,body[data-mode="test"] .sources-empty{background:#f7f9f8;color:#25383d;border:1px dashed #8eaaa8}
+body[data-mode="test"] .banner{background:#fff0d8;color:#513b1a;border-color:#d8b777}
+body[data-mode="test"] .test-footer{padding:26px 0 9px;font-size:12px;color:#4d6269}
+body[data-mode="test"] .test-footer a{color:#17526a}
+body[data-mode="test"] .skip:focus{background:#fff;color:#1d292c}
+@media(max-width:600px){body[data-mode="test"] .test-header{padding:13px 14px}body[data-mode="test"] .test-pill{font-size:9px}body[data-mode="test"] .test-main{padding:14px}body[data-mode="test"] .overview{grid-template-columns:repeat(2,minmax(0,1fr))}body[data-mode="test"] .metric{padding:12px}}
