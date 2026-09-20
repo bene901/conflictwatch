@@ -469,7 +469,16 @@
           "$ref": "#/$defs/ItemBase"
         }
       ],
-      "unevaluatedProperties": false
+      "unevaluatedProperties": false,
+      "required": [
+        "last_seen_at"
+      ],
+      "properties": {
+        "last_seen_at": {
+          "$ref": "#/$defs/utc",
+          "description": "Abgeleitet aus ingest.last_seen_at: Zeitpunkt des juengsten erfolgreichen Abrufs, in dem die Quelle diesen Eintrag geliefert hat. Kein Beleg fuer Fortdauer."
+        }
+      }
     },
     "SourceStateCore": {
       "type": "object",
@@ -633,7 +642,8 @@
       "required": [
         "min_levels",
         "window_h",
-        "include_ongoing"
+        "include_ongoing",
+        "recency_basis"
       ],
       "properties": {
         "min_levels": {
@@ -650,6 +660,13 @@
         },
         "include_ongoing": {
           "type": "boolean"
+        },
+        "recency_basis": {
+          "enum": [
+            "display_time",
+            "last_seen"
+          ],
+          "description": "Womit die Hauptliste entscheidet, ob ein Eintrag aktuell ist. display_time: Anzeigezeit des Ereignisses innerhalb window_h (Zeitpunkt-Quellen wie USGS). last_seen: der Eintrag war im juengsten ERFOLGREICHEN Abruf enthalten (last_seen_at == last_success_at der Quelle); window_h wird dann nicht ausgewertet. Bedeutet ausschliesslich 'die Quelle meldet es weiterhin' - KEINE bestaetigte Fortdauer des Ereignisses und keine Entwarnung, wenn es fehlt."
         }
       }
     },
