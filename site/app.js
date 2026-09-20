@@ -35,6 +35,7 @@
   const when = (iso) => `${absFmt.format(new Date(iso))} (${utcFmt.format(new Date(iso))} UTC)`;
   const displayTime = (it) => Date.parse(it.kind === "event" ? it.occurred_at : it.kind === "report" ? it.published_at : it.observed_at);
   const schemeOf = (src, id) => src.level_schemes.find((s) => s.id === id);
+  const bySighting = (src) => src.highlight.recency_basis === "last_seen";
 
   function onStart(it, src, now) {
     if (it.data_status === "withdrawn") return false;
@@ -44,6 +45,14 @@
     if (lvl && floor !== undefined) {
       const ov = schemeOf(src, lvl.scheme).ordered_values;
       if (ov.indexOf(lvl.value) < ov.indexOf(floor)) return false;
+    }
+    // Dauer-Quellen (recency_basis "last_seen"): der BEGINN eines Waldbrands sagt nichts
+    // darueber, ob die Quelle ihn weiterhin meldet. Massgeblich ist, ob der juengste
+    // ERFOLGREICHE Abruf ihn geliefert hat. Das heisst ausschliesslich "die Quelle meldet
+    // es weiterhin" - es ist KEIN Beleg, dass das Ereignis andauert. Fehlt er, ist das
+    // ebenso wenig eine Entwarnung; window_h wird hier bewusst nicht ausgewertet.
+    if (bySighting(src)) {
+      return Boolean(src.last_success_at) && it.last_seen_at === src.last_success_at;
     }
     const within = now - displayTime(it) <= src.highlight.window_h * 3600 * 1000;
     const ongoing = src.highlight.include_ongoing && it.ongoing === true && src.fetch_health !== "down";
@@ -82,6 +91,10 @@
     const t = el("time", null, relative(displayTime(it), now));
     t.dateTime = new Date(displayTime(it)).toISOString();
     meta.append(t);
+    if (bySighting(src) && it.last_seen_at) {
+      // Verhindert, dass ein vier Monate alter Beginn neben der Hauptliste als veraltet gelesen wird.
+      meta.append(el("span", null, `zuletzt gemeldet ${relative(Date.parse(it.last_seen_at), now)}`));
+    }
     meta.append(el("span", null, it.level ? it.level.label : "ohne Warnstufe"));
     if (it.data_status === "withdrawn") meta.append(el("span", null, "zurückgezogen"));
     head.append(title, meta);
@@ -89,7 +102,12 @@
     det.append(sum);
 
     const dl = el("dl", "facts");
-    fact(dl, "Zeitpunkt", when(new Date(displayTime(it)).toISOString()));
+    fact(dl, bySighting(src) ? "Beginn laut Quelle" : "Zeitpunkt",
+         when(new Date(displayTime(it)).toISOString()));
+    if (bySighting(src) && it.last_seen_at) {
+      fact(dl, `Zuletzt im ${src.name}-Feed gesehen`,
+           `${when(it.last_seen_at)}. Das belegt, dass ${src.name} die Meldung weiterhin führt – nicht, dass das Ereignis andauert.`);
+    }
     fact(dl, "Ort", it.location.precision === "unknown" ? "nicht angegeben" : it.location.name);
     fact(dl, "Warnstufe", it.level ? it.level.label : "von der Quelle nicht angegeben – keine Entwarnung");
     if (it.level_change) {
@@ -227,6 +245,10 @@
     }
     renderSources(snap.sources, now);
   }
+
+  // Wie window.ConflictWatchMap in map.js: nur zum Pruefen der Aktualitaetsregel
+  // freigelegt. Aendert das Laufzeitverhalten der Seite nicht.
+  globalThis.ConflictWatchRecency = { onStart };
 
   main();
 })();
