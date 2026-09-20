@@ -32,6 +32,7 @@ def main(argv=None) -> int:
     r.add_argument("--registry", default="registry.json")
     r.add_argument("--state", required=True)
     r.add_argument("--no-fetch", action="store_true", help="nur Alterung prüfen (Push-Lauf)")
+    r.add_argument("--force-fetch", action="store_true", help="nur bei ausdrücklich angefordertem Veröffentlichungs-Abruf: Intervall einmal übergehen")
     r.add_argument("--raw-dir", help="Rohantworten hier ablegen (für Fixtures)")
     r.add_argument("--alarm-file", help="wird bei Alarm geschrieben")
     r.add_argument("--fixture", action="append", default=[], help="offline: quelle=pfad statt HTTP")
@@ -55,7 +56,10 @@ def main(argv=None) -> int:
         kwargs = {}
         if a.fixture:
             kwargs["fetcher"] = _fixture_fetcher(a.fixture, registry)
+        if a.no_fetch and a.force_fetch:
+            ap.error("--no-fetch und --force-fetch schließen sich aus")
         return pipeline.run(registry, state_dir, fetch=not a.no_fetch,
+                            force_fetch=a.force_fetch,
                             now=parse_utc(a.now) if a.now else None,
                             raw_dir=Path(a.raw_dir) if a.raw_dir else None,
                             alarm_path=Path(a.alarm_file) if a.alarm_file else None, **kwargs)
