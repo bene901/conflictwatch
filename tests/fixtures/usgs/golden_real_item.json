@@ -1,0 +1,35 @@
+{
+ "id": "usgs:us7000ti1p",
+ "kind": "event",
+ "domain": "disaster",
+ "source": "usgs",
+ "provenance": "original",
+ "original_publisher": null,
+ "title": "M 6.5 - 169 km W of Nikolski, Alaska",
+ "lang": "en",
+ "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti1p",
+ "occurred_at": "2026-09-17T14:19:52Z",
+ "published_at": null,
+ "observed_at": null,
+ "source_updated_at": "2026-09-18T14:29:54Z",
+ "ongoing": null,
+ "data_status": "reviewed",
+ "source_status_raw": "reviewed",
+ "level": {
+  "scheme": "usgs-pager",
+  "value": "green",
+  "label": "PAGER Grün"
+ },
+ "location": {
+  "precision": "point",
+  "name": "169 km W of Nikolski, Alaska",
+  "countries": [],
+  "lat": 52.8594,
+  "lon": -171.3756
+ },
+ "metrics": {
+  "magnitude": 6.5,
+  "magnitude_type": "mww",
+  "depth_km": 98
+ }
+}

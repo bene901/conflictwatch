@@ -1,0 +1,96 @@
+name: Pipeline
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # stündlich; GitHub kann verzögern oder Läufe auslassen (Spezifikation B5)
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write   # nur für den Push auf data-state
+  pages: write
+  id-token: write
+
+concurrency:
+  group: conflictwatch-pipeline
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash      # erzwingt -eo pipefail; ohne diese Zeile würden Fehler in Pipes verschluckt
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    env:
+      FETCH: ${{ github.event_name != 'push' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Abhängigkeiten
+        run: pip install -r requirements.txt
+
+      - name: Tests (ein roter Test verhindert jede Datenänderung)
+        run: python -m unittest discover -s tests -t . -v
+
+      - name: data-state holen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash scripts/state_checkout.sh "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" state-repo
+
+      - name: Pipeline-Lauf (Abruf, Zusammenführung, Validierung)
+        run: |
+          ARGS=(--state state-repo/state --raw-dir raw --alarm-file alarm.json)
+          if [ "$FETCH" != "true" ]; then ARGS+=(--no-fetch); fi
+          python -m cw run "${ARGS[@]}"
+
+      - name: Bestand sichern (Commit, Push ohne force)
+        id: commit
+        run: |
+          SHA=$(bash scripts/state_commit.sh state-repo "state: run ${GITHUB_RUN_ID} (${GITHUB_EVENT_NAME})" | tail -1)
+          echo "sha=$SHA" >> "$GITHUB_OUTPUT"
+          echo "State-Revision: $SHA"
+
+      - name: Snapshot und Website bauen
+        run: |
+          mkdir -p _site preview
+          cp site/* _site/
+          python -m cw snapshot --state state-repo/state --revision "${{ steps.commit.outputs.sha }}" --out _site/data/snapshot.json
+          python -m cw snapshot --state state-repo/state --revision "${{ steps.commit.outputs.sha }}" --out preview/snapshot.json --include-unreleased
+
+      - name: Nachweise sichern (Vorschau-Snapshot, Rohantworten, Bestand)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nachweis-${{ github.run_id }}
+          path: |
+            preview/
+            raw/
+            state-repo/state/
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
+
+      - name: Alarm auswerten (erst nach Sicherung und Veröffentlichung)
+        run: |
+          if [ -f alarm.json ]; then
+            echo "::error::Alarm: $(cat alarm.json)"
+            exit 1
+          fi

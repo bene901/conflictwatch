@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>ConflictWatch – amtliche Gefahrenmeldungen</title>
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<header class="top">
+  <h1>ConflictWatch</h1>
+  <p class="sub">Amtliche Gefahrenmeldungen, ohne eigene Bewertung</p>
+  <p id="stand" class="stand">Daten werden geladen …</p>
+</header>
+<div id="banner" class="banner" role="status" hidden></div>
+<main>
+  <section id="status" class="status" aria-label="Aktueller Zustand" hidden></section>
+  <h2 class="section-title">Aktuell</h2>
+  <ol id="list" class="list"></ol>
+  <p id="empty" class="empty" hidden></p>
+  <details id="more" class="more" hidden>
+    <summary id="more-summary"></summary>
+    <ol id="more-list" class="list"></ol>
+  </details>
+</main>
+<footer class="foot">
+  <h2 class="section-title">Quellen</h2>
+  <ul id="sources" class="sources"></ul>
+  <p class="method">Titel erscheinen in der Originalsprache der Quelle. Warnstufen stammen von der jeweiligen Behörde und werden nicht untereinander verglichen. Fehlt eine Warnstufe, ist das keine Entwarnung.</p>
+</footer>
+<noscript><p class="empty">Diese Seite benötigt JavaScript, um die Meldungen zu laden.</p></noscript>
+</body>
+</html>

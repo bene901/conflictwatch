@@ -1,0 +1,56 @@
+{
+ "schema_version": "6.0",
+ "domains": [
+  {
+   "id": "disaster",
+   "label": "Naturereignisse"
+  }
+ ],
+ "sources": [
+  {
+   "id": "usgs",
+   "name": "USGS",
+   "domain": "disaster",
+   "kinds": [
+    "event"
+   ],
+   "public": false,
+   "endpoints": [
+    "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson"
+   ],
+   "terms_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+   "attribution": "Daten: U.S. Geological Survey",
+   "min_fetch_interval_h": 1,
+   "max_fetch_gap_h": 6,
+   "max_data_age_h": null,
+   "max_empty_h": null,
+   "retention_days": 30,
+   "level_schemes": [
+    {
+     "id": "usgs-pager",
+     "ordered_values": [
+      "green",
+      "yellow",
+      "orange",
+      "red"
+     ],
+     "labels": {
+      "green": "PAGER Grün",
+      "yellow": "PAGER Gelb",
+      "orange": "PAGER Orange",
+      "red": "PAGER Rot"
+     },
+     "reference_url": "https://earthquake.usgs.gov/data/pager/"
+    }
+   ],
+   "highlight": {
+    "min_levels": {},
+    "window_h": 72,
+    "include_ongoing": false
+   },
+   "id_rule": "usgs:<feature.id>; bei ID-Wechsel der Quelle bleibt die zuerst gesehene ID (Abgleich über properties.ids)",
+   "completeness_rule": "metadata.count muss der Anzahl gelieferter Features entsprechen; sonst sanity-Fehler (Feed ist nicht paginiert). An echter Antwort vom 19.09.2026 belegt.",
+   "coverage_note": "Nur Beben, die USGS selbst als signifikant führt, letzte 7 Tage. Keine GDACS-Erdbeben."
+  }
+ ]
+}

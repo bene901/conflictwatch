@@ -1,0 +1,943 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://conflictwatch.invalid/schema/v6.json",
+  "title": "ConflictWatch V6 – Datenschema (Rev. 2)",
+  "description": "Strukturregeln. Datumsgültigkeit und Querregeln prüft validate_state.py (Spezifikation A5).",
+  "$defs": {
+    "utc": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$",
+      "description": "UTC mit 'Z', Sekundengenauigkeit. Das Muster prüft nur die Schreibweise; das Kalenderdatum prüft validate_state.py mit einem echten Parser."
+    },
+    "utcOrNull": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/utc"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{1,31}$"
+    },
+    "Level": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "scheme",
+        "value",
+        "label"
+      ],
+      "properties": {
+        "scheme": {
+          "$ref": "#/$defs/slug"
+        },
+        "value": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 16
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 40
+        }
+      }
+    },
+    "LevelChange": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Nur wenn zwei tatsächlich beobachtete, unterschiedliche Stufen vorliegen. detected_between = [letzte Beobachtung alte Stufe, erste Beobachtung neue Stufe], beides unsere Abrufzeiten.",
+      "required": [
+        "from",
+        "detected_between",
+        "source_changed_at"
+      ],
+      "properties": {
+        "from": {
+          "$ref": "#/$defs/Level"
+        },
+        "detected_between": {
+          "type": "array",
+          "prefixItems": [
+            {
+              "$ref": "#/$defs/utc"
+            },
+            {
+              "$ref": "#/$defs/utc"
+            }
+          ],
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "source_changed_at": {
+          "$ref": "#/$defs/utcOrNull"
+        }
+      }
+    },
+    "Location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "precision",
+        "name",
+        "countries",
+        "lat",
+        "lon"
+      ],
+      "properties": {
+        "precision": {
+          "enum": [
+            "point",
+            "region",
+            "country",
+            "global",
+            "unknown"
+          ]
+        },
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 120
+        },
+        "countries": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z]{2}$"
+          },
+          "uniqueItems": true
+        },
+        "lat": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": -90,
+          "maximum": 90
+        },
+        "lon": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": -180,
+          "maximum": 180
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "precision": {
+                "const": "point"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "lat": {
+                "type": "number"
+              },
+              "lon": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "precision": {
+                "const": "unknown"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "name": {
+                "type": "null"
+              },
+              "countries": {
+                "maxItems": 0
+              },
+              "lat": {
+                "type": "null"
+              },
+              "lon": {
+                "type": "null"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "precision": {
+                "const": "global"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "countries": {
+                "maxItems": 0
+              },
+              "lat": {
+                "type": "null"
+              },
+              "lon": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "ItemBase": {
+      "type": "object",
+      "required": [
+        "id",
+        "kind",
+        "domain",
+        "source",
+        "provenance",
+        "original_publisher",
+        "title",
+        "lang",
+        "url",
+        "occurred_at",
+        "published_at",
+        "observed_at",
+        "source_updated_at",
+        "ongoing",
+        "data_status",
+        "source_status_raw",
+        "level",
+        "level_change",
+        "location",
+        "metrics"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+:[A-Za-z0-9._:-]{1,120}$"
+        },
+        "kind": {
+          "enum": [
+            "event",
+            "report",
+            "status"
+          ]
+        },
+        "domain": {
+          "$ref": "#/$defs/slug"
+        },
+        "source": {
+          "$ref": "#/$defs/slug"
+        },
+        "provenance": {
+          "enum": [
+            "original",
+            "relayed",
+            "claim"
+          ]
+        },
+        "original_publisher": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 120
+        },
+        "title": {
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 300
+        },
+        "lang": {
+          "type": "string",
+          "pattern": "^[a-z]{2}$"
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https://[^\\s@]+$",
+          "maxLength": 500
+        },
+        "occurred_at": {
+          "$ref": "#/$defs/utcOrNull"
+        },
+        "published_at": {
+          "$ref": "#/$defs/utcOrNull"
+        },
+        "observed_at": {
+          "$ref": "#/$defs/utcOrNull"
+        },
+        "source_updated_at": {
+          "$ref": "#/$defs/utcOrNull"
+        },
+        "ongoing": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "data_status": {
+          "enum": [
+            "preliminary",
+            "reviewed",
+            "withdrawn",
+            "unknown"
+          ]
+        },
+        "source_status_raw": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 40
+        },
+        "level": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/Level"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "level_change": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/LevelChange"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "location": {
+          "$ref": "#/$defs/Location"
+        },
+        "metrics": {
+          "type": "object",
+          "maxProperties": 8,
+          "propertyNames": {
+            "pattern": "^[a-z][a-z0-9_]{0,31}$"
+          },
+          "additionalProperties": {
+            "type": [
+              "number",
+              "string",
+              "boolean",
+              "null"
+            ]
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "event"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "occurred_at": {
+                "$ref": "#/$defs/utc"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "report"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "published_at": {
+                "$ref": "#/$defs/utc"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "status"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "observed_at": {
+                "$ref": "#/$defs/utc"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "provenance": {
+                "const": "relayed"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "original_publisher": {
+                "type": "string",
+                "minLength": 2
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "level": {
+                "type": "null"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "level_change": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "Ingest": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Interne Verarbeitungszeiten. Nicht Teil der öffentlichen Projektion.",
+      "required": [
+        "first_seen_at",
+        "last_seen_at",
+        "last_changed_at"
+      ],
+      "properties": {
+        "first_seen_at": {
+          "$ref": "#/$defs/utc"
+        },
+        "last_seen_at": {
+          "$ref": "#/$defs/utc"
+        },
+        "last_changed_at": {
+          "$ref": "#/$defs/utc"
+        }
+      }
+    },
+    "Item": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/ItemBase"
+        }
+      ],
+      "required": [
+        "ingest"
+      ],
+      "properties": {
+        "ingest": {
+          "$ref": "#/$defs/Ingest"
+        }
+      },
+      "unevaluatedProperties": false
+    },
+    "PublicItem": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/ItemBase"
+        }
+      ],
+      "unevaluatedProperties": false
+    },
+    "SourceStateCore": {
+      "type": "object",
+      "required": [
+        "fetch_health",
+        "data_state",
+        "last_attempt_at",
+        "last_success_at",
+        "last_fetch_complete",
+        "newest_source_time"
+      ],
+      "properties": {
+        "fetch_health": {
+          "enum": [
+            "ok",
+            "degraded",
+            "down"
+          ],
+          "description": "Technische Verfügbarkeit des Abrufs."
+        },
+        "data_state": {
+          "enum": [
+            "fresh",
+            "empty",
+            "old",
+            "unknown"
+          ],
+          "description": "Zustand der Daten, unabhängig vom Abruf."
+        },
+        "last_attempt_at": {
+          "$ref": "#/$defs/utcOrNull"
+        },
+        "last_success_at": {
+          "$ref": "#/$defs/utcOrNull"
+        },
+        "last_fetch_complete": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "newest_source_time": {
+          "$ref": "#/$defs/utcOrNull"
+        }
+      }
+    },
+    "SourceState": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/SourceStateCore"
+        }
+      ],
+      "required": [
+        "source",
+        "adapter_version",
+        "consecutive_failures",
+        "last_error",
+        "items_in_window",
+        "empty_since"
+      ],
+      "properties": {
+        "source": {
+          "$ref": "#/$defs/slug"
+        },
+        "adapter_version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$"
+        },
+        "consecutive_failures": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "last_error": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "at",
+                "kind",
+                "detail"
+              ],
+              "properties": {
+                "at": {
+                  "$ref": "#/$defs/utc"
+                },
+                "kind": {
+                  "enum": [
+                    "network",
+                    "timeout",
+                    "http",
+                    "size",
+                    "parse",
+                    "schema",
+                    "sanity"
+                  ]
+                },
+                "detail": {
+                  "type": "string",
+                  "maxLength": 300
+                }
+              }
+            }
+          ]
+        },
+        "items_in_window": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "empty_since": {
+          "$ref": "#/$defs/utcOrNull"
+        }
+      },
+      "unevaluatedProperties": false
+    },
+    "LevelScheme": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "ordered_values",
+        "labels",
+        "reference_url"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/slug"
+        },
+        "ordered_values": {
+          "type": "array",
+          "minItems": 2,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "maxLength": 16
+          },
+          "description": "Reihenfolge laut Quelle, niedrig → hoch."
+        },
+        "labels": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "maxLength": 40
+          }
+        },
+        "reference_url": {
+          "type": "string",
+          "pattern": "^https://"
+        }
+      }
+    },
+    "Highlight": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "min_levels",
+        "window_h",
+        "include_ongoing"
+      ],
+      "properties": {
+        "min_levels": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "Untergrenze je Skala; Skala nicht aufgeführt = kein Stufenfilter."
+        },
+        "window_h": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 720
+        },
+        "include_ongoing": {
+          "type": "boolean"
+        }
+      }
+    },
+    "RegistryEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "domain",
+        "kinds",
+        "public",
+        "endpoints",
+        "terms_url",
+        "attribution",
+        "min_fetch_interval_h",
+        "max_fetch_gap_h",
+        "max_data_age_h",
+        "max_empty_h",
+        "retention_days",
+        "level_schemes",
+        "highlight",
+        "id_rule",
+        "completeness_rule",
+        "coverage_note"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/slug"
+        },
+        "name": {
+          "type": "string",
+          "maxLength": 60
+        },
+        "domain": {
+          "$ref": "#/$defs/slug"
+        },
+        "kinds": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "event",
+              "report",
+              "status"
+            ]
+          }
+        },
+        "public": {
+          "type": "boolean"
+        },
+        "endpoints": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "pattern": "^https://"
+          }
+        },
+        "terms_url": {
+          "type": "string",
+          "pattern": "^https://"
+        },
+        "attribution": {
+          "type": "string",
+          "maxLength": 160
+        },
+        "min_fetch_interval_h": {
+          "type": "number",
+          "minimum": 1
+        },
+        "max_fetch_gap_h": {
+          "type": "number",
+          "minimum": 1
+        },
+        "max_data_age_h": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "max_empty_h": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "retention_days": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 180
+        },
+        "level_schemes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/LevelScheme"
+          },
+          "description": "0..n Skalen; NOAA hat drei (G, S, R)."
+        },
+        "highlight": {
+          "$ref": "#/$defs/Highlight"
+        },
+        "id_rule": {
+          "type": "string",
+          "minLength": 10
+        },
+        "completeness_rule": {
+          "type": "string",
+          "minLength": 10,
+          "description": "Wann ein Abruf als vollständig (complete=true) gilt."
+        },
+        "coverage_note": {
+          "type": "string",
+          "minLength": 10
+        }
+      }
+    },
+    "PublicSource": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/SourceStateCore"
+        }
+      ],
+      "required": [
+        "id",
+        "name",
+        "domain",
+        "attribution",
+        "level_schemes",
+        "highlight",
+        "coverage_note"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/slug"
+        },
+        "name": {
+          "type": "string",
+          "maxLength": 60
+        },
+        "domain": {
+          "$ref": "#/$defs/slug"
+        },
+        "attribution": {
+          "type": "string",
+          "maxLength": 160
+        },
+        "level_schemes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/LevelScheme"
+          }
+        },
+        "highlight": {
+          "$ref": "#/$defs/Highlight"
+        },
+        "coverage_note": {
+          "type": "string"
+        }
+      },
+      "unevaluatedProperties": false
+    }
+  },
+  "type": "object",
+  "oneOf": [
+    {
+      "title": "data/snapshot.json (öffentlich, einzige Datendatei)",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "state_revision",
+        "generated_at",
+        "sources",
+        "items"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "6.0"
+        },
+        "state_revision": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{7,40}$"
+        },
+        "generated_at": {
+          "$ref": "#/$defs/utc"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/PublicSource"
+          }
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/PublicItem"
+          }
+        }
+      }
+    },
+    {
+      "title": "state/items.json (data-state)",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "generated_at",
+        "items"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "6.0"
+        },
+        "generated_at": {
+          "$ref": "#/$defs/utc"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Item"
+          }
+        }
+      }
+    },
+    {
+      "title": "state/sources.json (data-state)",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "generated_at",
+        "sources"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "6.0"
+        },
+        "generated_at": {
+          "$ref": "#/$defs/utc"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/SourceState"
+          }
+        }
+      }
+    },
+    {
+      "title": "registry.json (main)",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "domains",
+        "sources"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "6.0"
+        },
+        "domains": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "label"
+            ],
+            "properties": {
+              "id": {
+                "$ref": "#/$defs/slug"
+              },
+              "label": {
+                "type": "string",
+                "maxLength": 30
+              }
+            }
+          }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/RegistryEntry"
+          }
+        }
+      }
+    }
+  ]
+}
