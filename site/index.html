@@ -3,13 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#09131f">
+<meta name="theme-color" content="#f7f9fb">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
 <meta name="description" content="ConflictWatch zeigt amtliche Gefahrenmeldungen mit Originalquellen und transparentem Datenstatus.">
 <title>ConflictWatch – amtliche Gefahrenmeldungen</title>
-<link rel="stylesheet" href="style.css?v=2">
-<script src="app.js?v=2" defer></script>
+<link rel="stylesheet" href="style.css?v=4">
+<script src="map.js?v=4" defer></script>
+<script src="app.js?v=4" defer></script>
 </head>
 <body>
 <a class="skip" href="#inhalt">Zum Inhalt springen</a>
@@ -27,13 +28,13 @@
     <p class="sidebar-note">Amtliche Quellen · Originalmeldungen · keine eigene Gefahrenbewertung</p>
   </aside>
   <div class="workspace">
-    <header class="topbar" id="start"><span>MONITOR <span class="accent">/</span> GLOBAL OVERVIEW</span><span class="topbar-right">ÖFFENTLICHE ANSICHT</span></header>
+    <header class="topbar" id="start"><span>ConflictWatch <span class="accent">/</span> Überblick</span><span class="topbar-right">ÖFFENTLICHE ANSICHT</span></header>
     <main id="inhalt" class="content">
       <aside class="test-cta" aria-label="Öffentliche Datenvorschau im Testbetrieb"><strong>Echte Daten bereits im Test:</strong> USGS-Erdbeben und NOAA-Weltraumwetter können in einer separat gekennzeichneten öffentlichen Vorschau angesehen werden. Diese Quellen sind im regulären Feed noch nicht freigegeben. <a href="test/">Testvorschau mit echten Quelldaten öffnen</a></aside>
       <section class="hero" aria-labelledby="hero-title">
-        <p class="eyebrow"><span class="signal" aria-hidden="true"></span> ÖFFENTLICHES LAGEBILD / NATUREREIGNISSE</p>
-        <h1 id="hero-title">Globale Entwicklungen.<br><span>Verifizierbare Quellen.</span></h1>
-        <p class="hero-copy">Gefahrenmeldungen aus Originalquellen, mit Herkunft und Datenstand. Jede Quelle wird vor der öffentlichen Anzeige geprüft.</p>
+        <p class="eyebrow">Quellenbasierte Informationen · Öffentliche Ansicht</p>
+        <h1 id="hero-title">Was weltweit passiert.<br><span>Mit überprüfbaren Quellen.</span></h1>
+        <p class="hero-copy">Meldungen und Beobachtungen öffentlicher Datenquellen. Nur geprüfte und freigegebene Quellen erscheinen hier; echte Daten aus dem laufenden Testbetrieb sind separat gekennzeichnet.</p>
         <div class="hero-meta"><span>Keine eigene Risikostufe</span><span>Originalquellen verlinkt</span><span>Alle Zeiten mit UTC-Angabe</span></div>
       </section>
       <div id="banner" class="banner" role="status" hidden></div>
@@ -41,6 +42,17 @@
         <div class="metric"><span class="metric-label">ÖFFENTLICHE QUELLEN</span><strong id="source-count">–</strong><span class="metric-note">Freigegebene Datenanbieter</span></div>
         <div class="metric"><span class="metric-label">MELDUNGEN IM SNAPSHOT</span><strong id="entry-count">–</strong><span class="metric-note">Keine erfundenen Ereignisse</span></div>
         <div class="metric"><span class="metric-label">DATENSTAND</span><strong id="data-state">Lädt</strong><span id="stand" class="metric-note">Daten werden geladen …</span></div>
+      </section>
+      <section id="karte" class="section map-section" aria-labelledby="map-title">
+        <div class="panel-heading"><div><p class="section-kicker">GEOGRAFISCHE ÜBERSICHT · EQUAL EARTH</p><h2 id="map-title">Weltkarte</h2></div><span class="panel-tag">FLÄCHENTREUE DARSTELLUNG</span></div>
+        <div class="map-art" role="group" aria-label="Equal-Earth-Weltkarte mit verorteten Quellereignissen">
+          <svg id="map-view" class="equal-earth-map" viewBox="0 0 1000 510" role="img" aria-label="Flächentreue Weltkarte mit Erdbebenpositionen laut USGS">
+            <image href="world-equal-earth.svg" x="0" y="0" width="1000" height="510"/>
+            <g id="map-points"></g>
+          </svg>
+        </div>
+        <p id="map-events-note" class="map-caption">Ereignispositionen werden geladen …</p>
+        <p class="map-caption">Kartenprojektion: Equal Earth (flächentreu). Basiskarte: Natural Earth 1:110m, Public Domain. Punkte zeigen ausschließlich von USGS gemeldete Koordinaten, nicht deinen Standort. Globale NOAA-Statuswerte haben keinen geografischen Einzelpunkt.</p>
       </section>
       <section id="themen" class="section" aria-labelledby="topics-title">
         <p class="section-kicker">THEMENRADAR / NATURAL HAZARDS</p>
@@ -54,11 +66,7 @@
           <article class="topic" data-source="noaa-swpc"><span class="topic-symbol" aria-hidden="true">☼</span><h3>Weltraumwetter</h3><p>Geomagnetische, Strahlungs- und Radiostörungen laut NOAA.</p><span class="topic-state">Noch nicht freigegeben</span></article>
         </div>
       </section>
-      <section id="karte" class="section map-section" aria-labelledby="map-title">
-        <div class="panel-heading"><div><p class="section-kicker">GEO OVERVIEW</p><h2 id="map-title">Weltkarte</h2></div><span class="panel-tag">OHNE EREIGNISMARKIERUNGEN</span></div>
-        <div class="map-art" role="img" aria-label="Stilisierte Weltkarte ohne Ereignismarkierungen"><img src="world.svg" alt="" width="900" height="410"></div>
-        <p class="map-caption">Die Karte dient der geografischen Orientierung und zeigt keine Ereignismarkierungen. Aktuelle Meldungen stehen als Liste darunter. Eine leere Karte ist keine Entwarnung.</p>
-      </section>
+
       <section id="meldungen" class="section events-section" aria-labelledby="events-title">
         <p class="section-kicker">DOKUMENTIERTE MELDUNGEN / ORIGINALQUELLEN</p>
         <h2 id="events-title">Aktuelle Meldungen</h2>
