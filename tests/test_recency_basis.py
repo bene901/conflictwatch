@@ -211,7 +211,9 @@ class RecencyRule(unittest.TestCase):
         reg = full_registry()
         entry = next(s for s in reg["sources"] if s["id"] == "usgs")
         result = usgs_adapter.parse(raw(real_doc()), NOW, entry)
-        fresh_run = "2026-09-20T12:00:00Z"
+        # Der USGS-all_day-Feed hat ein 24-h-Anzeigefenster. Die echte historische
+        # Fixture liegt am 19.09. um 12 UTC innerhalb dieses Fensters.
+        fresh_run = "2026-09-19T12:00:00Z"
         items = merge_items({}, "usgs", entry, result, fresh_run)
         st = succeed_source_state(blank_source_state("usgs", "1.0.0"), entry, result, items,
                                   fresh_run, "1.0.0")
