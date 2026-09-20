@@ -24,10 +24,13 @@ def build_test_snapshot(items_doc, sources_doc, registry, revision, now):
     # Dedicated preview is intentionally limited to still-unreleased entries.
     if any(entries[sid]["public"] is not False for sid in TEST_SOURCE_IDS):
         raise ValueError("Testansicht deaktivieren/anpassen, bevor eine Testquelle regulär freigegeben wird")
-    full = snapshot.build(items_doc, sources_doc, registry, revision, fmt(now),
+    # Build from a narrowed registry: future private providers cannot accidentally
+    # enter the public preview, even transiently, when they join the production registry.
+    scoped_registry = {**registry, "sources": [
+        entry for entry in registry["sources"] if entry["id"] in TEST_SOURCE_IDS
+    ]}
+    full = snapshot.build(items_doc, sources_doc, scoped_registry, revision, fmt(now),
                           include_unreleased=True)
-    full["sources"] = [s for s in full["sources"] if s["id"] in TEST_SOURCE_IDS]
-    full["items"] = [it for it in full["items"] if it["source"] in TEST_SOURCE_IDS]
     if {s["id"] for s in full["sources"]} != TEST_SOURCE_IDS:
         raise ValueError("Testansicht enthält nicht genau USGS und NOAA")
     errors = check_snapshot(full, registry, now, preview=True)
