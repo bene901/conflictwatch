@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-09-20T14:14:36Z",
+ "generated_at": "2026-09-20T14:41:31Z",
  "items": [
   {
    "id": "noaa-swpc:scale:G",
@@ -14,7 +14,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-09-20T13:35:00Z",
+   "observed_at": "2026-09-20T14:39:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -35,8 +35,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-09-20T13:37:53Z",
-    "last_changed_at": "2026-09-20T13:37:53Z"
+    "last_seen_at": "2026-09-20T14:41:31Z",
+    "last_changed_at": "2026-09-20T14:41:31Z"
    }
   },
   {
@@ -51,7 +51,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-09-20T13:35:00Z",
+   "observed_at": "2026-09-20T14:39:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -72,8 +72,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-09-20T13:37:53Z",
-    "last_changed_at": "2026-09-20T13:37:53Z"
+    "last_seen_at": "2026-09-20T14:41:31Z",
+    "last_changed_at": "2026-09-20T14:41:31Z"
    }
   },
   {
@@ -88,7 +88,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-09-20T13:35:00Z",
+   "observed_at": "2026-09-20T14:39:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -109,8 +109,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-09-20T13:37:53Z",
-    "last_changed_at": "2026-09-20T13:37:53Z"
+    "last_seen_at": "2026-09-20T14:41:31Z",
+    "last_changed_at": "2026-09-20T14:41:31Z"
    }
   },
   {
