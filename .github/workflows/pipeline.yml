@@ -27,10 +27,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
-    env:
-      # Ein Push startet ebenfalls einen echten Abruf, sofern das Quellenintervall fällig ist.
-      # Die Pipeline verhindert Doppelabrufe über min_fetch_interval_h.
-      FETCH: 'true'
+    # Push, schedule und manuelle Läufe holen nur dann Daten, wenn das Quellintervall fällig ist.
     steps:
       - uses: actions/checkout@v4
 
@@ -51,9 +48,7 @@ jobs:
 
       - name: Pipeline-Lauf (Abruf, Zusammenführung, Validierung)
         run: |
-          ARGS=(--state state-repo/state --raw-dir raw --alarm-file alarm.json)
-          if [ "$FETCH" != "true" ]; then ARGS+=(--no-fetch); fi
-          python -m cw run "${ARGS[@]}"
+          python -m cw run --state state-repo/state --raw-dir raw --alarm-file alarm.json
 
       - name: Bestand sichern (Commit, Push ohne force)
         id: commit
