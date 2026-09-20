@@ -4,6 +4,10 @@
   {
    "id": "disaster",
    "label": "Naturereignisse"
+  },
+  {
+   "id": "spaceweather",
+   "label": "Weltraumwetter"
   }
  ],
  "sources": [
@@ -51,6 +55,95 @@
    "id_rule": "usgs:<feature.id>; bei ID-Wechsel der Quelle bleibt die zuerst gesehene ID (Abgleich über properties.ids)",
    "completeness_rule": "metadata.count muss der Anzahl gelieferter Features entsprechen; sonst sanity-Fehler (Feed ist nicht paginiert). An echter Antwort vom 19.09.2026 belegt.",
    "coverage_note": "Nur Beben, die USGS selbst als signifikant führt, letzte 7 Tage. Keine GDACS-Erdbeben."
+  },
+  {
+   "id": "noaa-swpc",
+   "name": "NOAA SWPC",
+   "domain": "spaceweather",
+   "kinds": [
+    "status"
+   ],
+   "public": false,
+   "endpoints": [
+    "https://services.swpc.noaa.gov/products/noaa-scales.json"
+   ],
+   "terms_url": "https://www.noaa.gov/disclaimer",
+   "attribution": "Daten: NOAA / Space Weather Prediction Center",
+   "min_fetch_interval_h": 1,
+   "max_fetch_gap_h": 6,
+   "max_data_age_h": 2,
+   "max_empty_h": null,
+   "retention_days": 1,
+   "level_schemes": [
+    {
+     "id": "noaa-g",
+     "ordered_values": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "labels": {
+      "0": "G0",
+      "1": "G1",
+      "2": "G2",
+      "3": "G3",
+      "4": "G4",
+      "5": "G5"
+     },
+     "reference_url": "https://www.swpc.noaa.gov/node/1085"
+    },
+    {
+     "id": "noaa-s",
+     "ordered_values": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "labels": {
+      "0": "S0",
+      "1": "S1",
+      "2": "S2",
+      "3": "S3",
+      "4": "S4",
+      "5": "S5"
+     },
+     "reference_url": "https://www.swpc.noaa.gov/node/1085"
+    },
+    {
+     "id": "noaa-r",
+     "ordered_values": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "labels": {
+      "0": "R0",
+      "1": "R1",
+      "2": "R2",
+      "3": "R3",
+      "4": "R4",
+      "5": "R5"
+     },
+     "reference_url": "https://www.swpc.noaa.gov/node/1085"
+    }
+   ],
+   "highlight": {
+    "min_levels": {},
+    "window_h": 24,
+    "include_ongoing": false
+   },
+   "id_rule": "noaa-swpc:scale:G, :S, :R: genau drei stabile IDs für die zuletzt beobachteten globalen Skalenwerte.",
+   "completeness_rule": "Nur wenn Block '0' mit DateStamp, TimeStamp und allen drei beobachteten G/S/R-Skalenwerten vorhanden und gültig ist; Vorhersage und 24-h-Maximum zählen nicht.",
+   "coverage_note": "Globale zuletzt beobachtete NOAA-Skalen G/S/R, keine Vorhersage und keine lokale Gefahreneinschätzung. Wert 0 bedeutet keine Aktivität auf dieser NOAA-Skala; er ist keine generelle Entwarnung."
   }
  ]
 }
