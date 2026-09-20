@@ -14,7 +14,7 @@ class EqualEarthDisplay(unittest.TestCase):
                 self.assertIn('id="map-view"', page)
                 self.assertIn('id="map-points"', page)
                 self.assertIn('href="world-equal-earth.svg"', page)
-                self.assertIn('src="map.js?v=4"', page)
+                self.assertIn('src="map.js?v=5"', page)
                 self.assertNotIn('src="world.svg"', page)
                 self.assertEqual(page.count('id="map-view"'), 1)
         svg = (SITE / "world-equal-earth.svg").read_text(encoding="utf-8")
@@ -26,13 +26,19 @@ class EqualEarthDisplay(unittest.TestCase):
     def test_no_visitor_geolocation_or_personal_distance(self):
         js = (SITE / "map.js").read_text(encoding="utf-8")
         self.assertIn("location.precision === \"point\"", js)
+        # Regionale Zentroide bekommen eine eigene Abfrage und eine eigene Darstellung.
+        # Beide Genauigkeiten stehen ausdruecklich im Quelltext, damit hier pruefbar
+        # bleibt, dass eine ungefaehre Lage nie wie ein punktgenauer Ort gezeichnet wird.
+        self.assertIn("location.precision === \"region\"", js)
+        self.assertIn("map-event-region", js)
+        self.assertIn("ungefähre Lage laut GDACS – keine Schadensfläche", js)
         self.assertIn("it.location.lon, it.location.lat", js)
         self.assertIn("window.ConflictWatchMap", js)
         self.assertNotIn("navigator.geolocation.", js)
         self.assertNotIn("getCurrentPosition(", js)
         self.assertNotIn("watchPosition(", js)
         self.assertNotIn("navigator.permissions", js)
-        self.assertIn("if (window.ConflictWatchMap) window.ConflictWatchMap.render(items);",
+        self.assertIn("if (window.ConflictWatchMap) window.ConflictWatchMap.render(items, snap.sources);",
                       (SITE / "app.js").read_text(encoding="utf-8"))
 
     def test_both_page_builds_copy_mapping_assets(self):

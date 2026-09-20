@@ -8,9 +8,9 @@
 <meta name="referrer" content="no-referrer">
 <meta name="description" content="ConflictWatch zeigt amtliche Gefahrenmeldungen mit Originalquellen und transparentem Datenstatus.">
 <title>ConflictWatch – amtliche Gefahrenmeldungen</title>
-<link rel="stylesheet" href="style.css?v=4">
-<script src="map.js?v=4" defer></script>
-<script src="app.js?v=5" defer></script>
+<link rel="stylesheet" href="style.css?v=5">
+<script src="map.js?v=5" defer></script>
+<script src="app.js?v=6" defer></script>
 </head>
 <body>
 <a class="skip" href="#inhalt">Zum Inhalt springen</a>
@@ -46,13 +46,15 @@
       <section id="karte" class="section map-section" aria-labelledby="map-title">
         <div class="panel-heading"><div><p class="section-kicker">GEOGRAFISCHE ÜBERSICHT · EQUAL EARTH</p><h2 id="map-title">Weltkarte</h2></div><span class="panel-tag">FLÄCHENTREUE DARSTELLUNG</span></div>
         <div class="map-art" role="group" aria-label="Equal-Earth-Weltkarte mit verorteten Quellereignissen">
-          <svg id="map-view" class="equal-earth-map" viewBox="0 0 1000 510" role="img" aria-label="Flächentreue Weltkarte mit Erdbebenpositionen laut USGS">
+          <svg id="map-view" class="equal-earth-map" viewBox="0 0 1000 510" role="img" aria-label="Flächentreue Weltkarte mit Ereignisorten laut Quelle: punktgenaue Erdbebenpositionen von USGS, ungefähre Lagen von GDACS">
             <image href="world-equal-earth.svg" x="0" y="0" width="1000" height="510"/>
             <g id="map-points"></g>
           </svg>
         </div>
+        <div id="map-filters" class="map-filters" role="group" aria-label="Filter für die Kartendarstellung" hidden></div>
+        <p id="map-legend" class="map-caption" hidden></p>
         <p id="map-events-note" class="map-caption">Ereignispositionen werden geladen …</p>
-        <p class="map-caption">Kartenprojektion: Equal Earth (flächentreu). Basiskarte: Natural Earth 1:110m, Public Domain. Punkte zeigen ausschließlich von USGS gemeldete Koordinaten, nicht deinen Standort. Globale NOAA-Statuswerte haben keinen geografischen Einzelpunkt.</p>
+        <p class="map-caption">Kartenprojektion: Equal Earth (flächentreu). Basiskarte: Natural Earth 1:110m, Public Domain. Marker zeigen ausschließlich von den Quellen gemeldete Koordinaten, nicht deinen Standort. GDACS-Marker sind Zentroide einer Region und bezeichnen keine Schadensfläche. Globale NOAA-Statuswerte haben keinen geografischen Einzelpunkt.</p>
       </section>
       <section id="themen" class="section" aria-labelledby="topics-title">
         <p class="section-kicker">THEMENRADAR / NATURAL HAZARDS</p>
