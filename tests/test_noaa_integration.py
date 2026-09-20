@@ -52,12 +52,12 @@ class NOAAIntegration(unittest.TestCase):
             self.assertEqual([i["level"]["value"] for i in rows], ["0", "0", "0"])
             self.assertEqual({i["observed_at"] for i in rows}, {"2026-09-20T13:26:00Z"})
 
-            prod = snapshot.build(items, sources, reg, "testrev", "2026-09-20T13:30:00Z")
+            prod = snapshot.build(items, sources, reg, "abc1234", "2026-09-20T13:30:00Z")
             self.assertEqual(prod["sources"], [])
             self.assertEqual(prod["items"], [])
             self.assertEqual(check_snapshot(prod, reg, CAPTURED_AT), [])
 
-            preview = snapshot.build(items, sources, reg, "testrev", "2026-09-20T13:30:00Z",
+            preview = snapshot.build(items, sources, reg, "abc1234", "2026-09-20T13:30:00Z",
                                      include_unreleased=True)
             self.assertEqual(len(preview["sources"]), 2)
             self.assertEqual(len(preview["items"]), 4)
