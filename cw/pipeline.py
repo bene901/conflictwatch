@@ -28,7 +28,7 @@ def _due(state: dict, entry: dict, now: dt.datetime) -> bool:
 
 def run(registry: dict, state_dir: Path, fetch: bool = True, now: dt.datetime | None = None,
         fetcher=http.fetch, raw_dir: Path | None = None, alarm_path: Path | None = None,
-        log=print) -> int:
+        log=print, force_fetch: bool = False) -> int:
     now = now or now_utc()
     run_at = fmt(now)
     problems = check_registry(registry, ADAPTERS)
@@ -57,7 +57,7 @@ def run(registry: dict, state_dir: Path, fetch: bool = True, now: dt.datetime | 
     for entry in registry["sources"]:
         sid = entry["id"]
         prev = states.get(sid) or blank_source_state(sid, ADAPTER_VERSION)
-        if not fetch or not _due(prev, entry, now):
+        if not fetch or (not force_fetch and not _due(prev, entry, now)):
             states[sid] = age_source_state(prev, entry, items, run_at)
             log_entry["sources"][sid] = {"result": "skipped"}
         else:
