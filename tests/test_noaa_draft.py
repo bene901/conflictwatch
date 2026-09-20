@@ -53,7 +53,11 @@ class NoaaDraft(unittest.TestCase):
         r = parse(payload())
         reg = {"domains": [{"id": "spaceweather", "label": "Weltraumwetter"}],
                "sources": [entry()]}
-        self.assertEqual(check_items(r.items, reg, NOW), [])
+        # The adapter returns ItemDrafts; the shared validator checks merged Items.
+        from cw.merge import merge_items
+        from cw.timeutil import fmt
+        merged = merge_items({}, "noaa-swpc", entry(), r, fmt(NOW))
+        self.assertEqual(check_items(list(merged.values()), reg, NOW), [])
 
     def test_missing_current_block_is_not_success(self):
         d = payload()
