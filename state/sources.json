@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-09-20T15:01:58Z",
+ "generated_at": "2026-09-20T15:47:24Z",
  "sources": [
   {
    "source": "gdacs",
@@ -21,10 +21,10 @@
    "adapter_version": "1.0.0",
    "fetch_health": "ok",
    "data_state": "fresh",
-   "last_attempt_at": "2026-09-20T14:41:31Z",
-   "last_success_at": "2026-09-20T14:41:31Z",
+   "last_attempt_at": "2026-09-20T15:47:24Z",
+   "last_success_at": "2026-09-20T15:47:24Z",
    "last_fetch_complete": true,
-   "newest_source_time": "2026-09-20T14:39:00Z",
+   "newest_source_time": "2026-09-20T15:44:00Z",
    "consecutive_failures": 0,
    "last_error": null,
    "items_in_window": 3,
