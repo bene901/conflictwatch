@@ -4,9 +4,10 @@ from datetime import datetime, timezone
 from hashlib import sha256
 from pathlib import Path
 import json
+from urllib.request import Request, urlopen
 
 from cw.adapters import gdacs
-from cw.http import fetch
+from cw.http import MAX_BYTES, USER_AGENT, fetch
 from tests.test_gdacs import ENTRY
 
 
@@ -24,9 +25,14 @@ def main():
     result = gdacs.parse(raw, datetime.now(timezone.utc), ENTRY)
     print(f"Parsed: {len(result.items)} relevant events; complete={result.complete}")
     print("Sample IDs:", [item["id"] for item in result.items[:10]])
-    archive_url = "https://www.gdacs.org/contentdata/xml/gdacs_archive.geojson"
+    archive_url = "https://www.gdacs.org/contentdata/xml/archive.geojson"
     try:
-        archived = fetch(archive_url)
+        request = Request(archive_url, headers={"User-Agent": USER_AGENT,
+                                                "Accept": "application/geo+json,application/json"})
+        with urlopen(request, timeout=20) as response:
+            archived = response.read(MAX_BYTES + 1)
+        if len(archived) > MAX_BYTES:
+            raise ValueError("GDACS archive exceeds size cap")
         archive_doc = json.loads(archived)
         archive_kinds = Counter(f.get("properties", {}).get("eventtype", "missing")
                                 for f in archive_doc.get("features", []) if isinstance(f, dict))
