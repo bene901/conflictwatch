@@ -135,6 +135,13 @@ def parse(raw: bytes, now: dt.datetime, entry: dict) -> FetchResult:
 
     items, aliases, seen = [], {}, set()
     for f in features:
+        # Der USGS-all_day-Feed kann auch Sprengungen u. a. Ereignistypen enthalten.
+        # Nur als Erdbeben ausgewiesene Ereignisse auf der Erdbebenkarte anzeigen;
+        # metadata.count zählt weiterhin ALLE gelieferten Features (Integritätsprüfung).
+        if isinstance(f, dict) and isinstance(f.get("properties"), dict):
+            event_type = f["properties"].get("type")
+            if isinstance(event_type, str) and event_type != "earthquake":
+                continue
         item, al = _feature(f, entry, now)
         if item["id"] in seen:
             raise AdapterError("sanity", f"doppelte ID {item['id']}")
