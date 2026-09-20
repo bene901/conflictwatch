@@ -165,7 +165,7 @@
     const serverDate = Date.parse(res.headers.get("Date") || "");
     const now = Number.isFinite(serverDate) ? serverDate : Date.now();
     const generated = Date.parse(snap.generated_at);
-    $("stand").textContent = `Zuletzt aktualisiert ${relative(generated, now)}, ${absFmt.format(new Date(generated))}`;
+    $("stand").textContent = `Zuletzt aktualisiert ${relative(generated, now)}, ${when(snap.generated_at)}`;
     $("source-count").textContent = String(snap.sources.length);
     $("entry-count").textContent = String(snap.items.filter((it) => it.kind !== "status").length);
     $("sources-empty").hidden = snap.sources.length > 0;
