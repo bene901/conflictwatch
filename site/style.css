@@ -8,3 +8,9 @@
 @media(max-width:650px){.shell{display:block}.sidebar{position:static;width:auto;height:auto;min-width:0;padding:12px 18px;border-right:0;border-bottom:1px solid #203446}.brand{padding:0}.sidebar .side-label,.sidebar-note{display:none}.sidebar nav{display:flex;overflow-x:auto;gap:7px;margin-top:13px;scrollbar-width:thin}.nav-link{white-space:nowrap;padding:7px 10px;font-size:11px}.nav-link.active{border-left:0;border-bottom:2px solid var(--teal)}.topbar{height:47px;padding:0 18px}.topbar-right{font-size:9px}.content{padding:18px 14px 32px}.hero{min-height:255px;padding:23px}.hero:after{width:120px;right:-40px;top:28px}.hero h1{font-size:clamp(29px,7vw,42px)}.hero-copy{font-size:13px}.hero-meta{font-size:10px;margin-top:19px}.overview{grid-template-columns:repeat(2,minmax(0,1fr))}.metric{padding:14px;min-height:110px}.metric:last-child{grid-column:1/-1;min-height:93px}.metric strong{font-size:25px}.metric strong#data-state{font-size:19px}.metric-note{font-size:11px}.topic-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.topic{min-height:150px;padding:13px}.topic h3{font-size:13px}.topic p{font-size:11px}.topic-state{font-size:9px}.map-section,.events-section,.sources-section{padding:16px}.panel-tag{font-size:8px;white-space:normal;text-align:center}.foot{padding:0 14px 24px;flex-wrap:wrap}}
 @media(max-width:380px){.topic-grid{grid-template-columns:1fr}.topic{min-height:120px}.hero h1{font-size:28px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Link to the separate, explicitly labelled public test area. */
+.test-cta{background:#fff8e8;color:#282c2e;border:1px solid #d0ab62;border-left:5px solid #a47529;border-radius:5px;margin-bottom:18px;padding:15px 18px;font-size:14px;line-height:1.6}
+.test-cta strong{font-weight:750}
+.test-cta a{color:#225974;text-underline-offset:3px;font-weight:750;display:inline-block;margin-left:3px}
+.test-cta a:hover{color:#134056}
