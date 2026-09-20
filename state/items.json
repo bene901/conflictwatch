@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-09-20T15:47:24Z",
+ "generated_at": "2026-09-20T17:11:39Z",
  "items": [
   {
    "id": "gdacs:FL:1103888",
@@ -43,7 +43,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -88,7 +88,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -133,7 +133,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -178,7 +178,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -223,7 +223,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -236,11 +236,11 @@
    "original_publisher": null,
    "title": "Tropical Cyclone FAY-26",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=4&eventtype=TC",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=5&eventtype=TC",
    "occurred_at": "2026-09-19T15:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T14:05:04Z",
+   "source_updated_at": "2026-09-20T15:20:50Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -253,21 +253,21 @@
     "precision": "region",
     "name": "Tropical Cyclone FAY-26",
     "countries": [],
-    "lat": 33.7,
-    "lon": -33.1
+    "lat": 34.1,
+    "lon": -33.0
    },
    "metrics": {
     "hazard_type": "tropical_cyclone",
-    "episode_id": 4,
-    "severity": 92.592,
+    "episode_id": 5,
+    "severity": 111.1104,
     "severity_unit": "km/h",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
-    "last_changed_at": "2026-09-20T15:01:58Z"
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
    }
   },
   {
@@ -279,11 +279,11 @@
    "original_publisher": null,
    "title": "Tropical Cyclone ODALYS-26",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=1&eventtype=TC",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=2&eventtype=TC",
    "occurred_at": "2026-09-20T09:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T14:35:08Z",
+   "source_updated_at": "2026-09-20T15:22:22Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -296,21 +296,21 @@
     "precision": "region",
     "name": "Tropical Cyclone ODALYS-26",
     "countries": [],
-    "lat": 11.4,
-    "lon": -124.5
+    "lat": 11.1,
+    "lon": -125.5
    },
    "metrics": {
     "hazard_type": "tropical_cyclone",
-    "episode_id": 1,
-    "severity": 129.6288,
+    "episode_id": 2,
+    "severity": 138.888,
     "severity_unit": "km/h",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
-    "last_changed_at": "2026-09-20T15:01:58Z"
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
    }
   },
   {
@@ -326,7 +326,7 @@
    "occurred_at": "2026-09-06T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:55:52Z",
+   "source_updated_at": "2026-09-20T15:48:41Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -354,7 +354,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -371,7 +371,7 @@
    "occurred_at": "2026-09-07T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:51:27Z",
+   "source_updated_at": "2026-09-20T15:44:30Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -399,7 +399,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -416,7 +416,7 @@
    "occurred_at": "2026-09-07T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:53:55Z",
+   "source_updated_at": "2026-09-20T15:43:35Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -444,7 +444,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -461,7 +461,7 @@
    "occurred_at": "2026-09-07T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:51:47Z",
+   "source_updated_at": "2026-09-20T15:46:07Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -489,7 +489,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -506,7 +506,7 @@
    "occurred_at": "2026-09-08T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:46:50Z",
+   "source_updated_at": "2026-09-20T15:38:53Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -534,7 +534,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -551,7 +551,7 @@
    "occurred_at": "2026-09-07T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:49:04Z",
+   "source_updated_at": "2026-09-20T15:41:38Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -579,7 +579,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -596,7 +596,7 @@
    "occurred_at": "2026-09-11T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:25:06Z",
+   "source_updated_at": "2026-09-20T15:26:04Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -624,7 +624,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -641,7 +641,7 @@
    "occurred_at": "2026-09-09T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:44:08Z",
+   "source_updated_at": "2026-09-20T15:36:00Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -669,7 +669,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -686,7 +686,7 @@
    "occurred_at": "2026-09-11T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:29:00Z",
+   "source_updated_at": "2026-09-20T15:20:03Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -714,7 +714,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -731,7 +731,7 @@
    "occurred_at": "2026-09-08T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:47:50Z",
+   "source_updated_at": "2026-09-20T15:40:38Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -759,7 +759,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -776,7 +776,7 @@
    "occurred_at": "2026-09-08T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:44:52Z",
+   "source_updated_at": "2026-09-20T15:39:59Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -804,7 +804,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -821,7 +821,7 @@
    "occurred_at": "2026-09-14T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:13:26Z",
+   "source_updated_at": "2026-09-20T15:11:06Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -849,8 +849,53 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1031989",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1031989&episodeid=13&eventtype=WF",
+   "occurred_at": "2026-09-14T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T15:10:10Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -17.9248,
+    "lon": 130.7894
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 13,
+    "severity": 15698.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T17:11:39Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
    }
   },
   {
@@ -866,7 +911,7 @@
    "occurred_at": "2026-09-13T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:17:18Z",
+   "source_updated_at": "2026-09-20T15:11:26Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -894,7 +939,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -911,7 +956,7 @@
    "occurred_at": "2026-09-08T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:47:38Z",
+   "source_updated_at": "2026-09-20T15:40:22Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -939,7 +984,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -952,11 +997,11 @@
    "original_publisher": null,
    "title": "Forest fires in Indonesia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1031995&episodeid=21&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1031995&episodeid=22&eventtype=WF",
    "occurred_at": "2026-09-07T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:49:53Z",
+   "source_updated_at": "2026-09-20T15:43:46Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -971,21 +1016,21 @@
     "countries": [
      "ID"
     ],
-    "lat": -2.8631,
-    "lon": 105.1679
+    "lat": -2.8639,
+    "lon": 105.168
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 21,
-    "severity": 18486.0,
+    "episode_id": 22,
+    "severity": 19004.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
-    "last_changed_at": "2026-09-20T15:01:58Z"
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
    }
   },
   {
@@ -1001,7 +1046,7 @@
    "occurred_at": "2026-09-06T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:55:35Z",
+   "source_updated_at": "2026-09-20T15:48:50Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -1029,7 +1074,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -1046,7 +1091,7 @@
    "occurred_at": "2026-09-15T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:11:40Z",
+   "source_updated_at": "2026-09-20T15:06:36Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -1074,8 +1119,98 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032012",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Mozambique",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032012&episodeid=7&eventtype=WF",
+   "occurred_at": "2026-09-10T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T15:27:25Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Mozambique",
+    "countries": [
+     "MZ"
+    ],
+    "lat": -16.3254,
+    "lon": 37.2638
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 7,
+    "severity": 7138.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T17:11:39Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032013",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Mozambique",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032013&episodeid=7&eventtype=WF",
+   "occurred_at": "2026-09-10T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T15:26:40Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Mozambique",
+    "countries": [
+     "MZ"
+    ],
+    "lat": -15.4284,
+    "lon": 37.7659
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 7,
+    "severity": 8447.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T17:11:39Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
    }
   },
   {
@@ -1091,7 +1226,7 @@
    "occurred_at": "2026-09-09T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:39:49Z",
+   "source_updated_at": "2026-09-20T15:34:44Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -1119,8 +1254,53 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032024",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Mozambique",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032024&episodeid=10&eventtype=WF",
+   "occurred_at": "2026-09-08T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T15:37:39Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Mozambique",
+    "countries": [
+     "MZ"
+    ],
+    "lat": -15.6547,
+    "lon": 37.9056
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 10,
+    "severity": 18792.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T17:11:39Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
    }
   },
   {
@@ -1132,11 +1312,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032032&episodeid=9&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032032&episodeid=10&eventtype=WF",
    "occurred_at": "2026-09-16T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:07:09Z",
+   "source_updated_at": "2026-09-20T15:04:38Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -1151,21 +1331,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -18.6693,
-    "lon": 145.7501
+    "lat": -18.6698,
+    "lon": 145.7487
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 9,
-    "severity": 11953.0,
+    "episode_id": 10,
+    "severity": 12168.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
-    "last_changed_at": "2026-09-20T15:01:58Z"
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
    }
   },
   {
@@ -1991,7 +2171,7 @@
    "occurred_at": "2026-09-06T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:54:07Z",
+   "source_updated_at": "2026-09-20T15:49:08Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2019,7 +2199,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -2032,11 +2212,11 @@
    "original_publisher": null,
    "title": "Forest fires in Dominican Republic",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032171&episodeid=10&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032171&episodeid=11&eventtype=WF",
    "occurred_at": "2026-09-15T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:09:03Z",
+   "source_updated_at": "2026-09-20T15:07:14Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2056,16 +2236,16 @@
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 10,
-    "severity": 6092.0,
+    "episode_id": 11,
+    "severity": 6072.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
-    "last_changed_at": "2026-09-20T15:01:58Z"
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
    }
   },
   {
@@ -2081,7 +2261,7 @@
    "occurred_at": "2026-09-15T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:08:50Z",
+   "source_updated_at": "2026-09-20T15:07:38Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2109,7 +2289,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -2126,7 +2306,7 @@
    "occurred_at": "2026-09-16T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:08:16Z",
+   "source_updated_at": "2026-09-20T15:04:02Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2154,7 +2334,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -2171,7 +2351,7 @@
    "occurred_at": "2026-09-12T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:21:45Z",
+   "source_updated_at": "2026-09-20T15:16:19Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2199,7 +2379,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -2216,7 +2396,7 @@
    "occurred_at": "2026-09-07T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:52:11Z",
+   "source_updated_at": "2026-09-20T15:46:36Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2244,7 +2424,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -2261,7 +2441,7 @@
    "occurred_at": "2026-09-15T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:08:56Z",
+   "source_updated_at": "2026-09-20T15:06:43Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2289,8 +2469,368 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032184",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Mozambique",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032184&episodeid=3&eventtype=WF",
+   "occurred_at": "2026-09-14T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T15:08:22Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Mozambique",
+    "countries": [
+     "MZ"
+    ],
+    "lat": -16.7869,
+    "lon": 38.7646
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 3,
+    "severity": 6379.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T17:11:39Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032185",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Mozambique",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032185&episodeid=4&eventtype=WF",
+   "occurred_at": "2026-09-14T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T15:10:50Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Mozambique",
+    "countries": [
+     "MZ"
+    ],
+    "lat": -15.7614,
+    "lon": 38.8062
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 4,
+    "severity": 6778.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T17:11:39Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032190",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Mozambique",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032190&episodeid=3&eventtype=WF",
+   "occurred_at": "2026-09-13T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T15:11:59Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Mozambique",
+    "countries": [
+     "MZ"
+    ],
+    "lat": -17.5658,
+    "lon": 35.703
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 3,
+    "severity": 17133.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T17:11:39Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032198",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Mozambique",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032198&episodeid=3&eventtype=WF",
+   "occurred_at": "2026-09-12T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T15:17:50Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Mozambique",
+    "countries": [
+     "MZ"
+    ],
+    "lat": -16.9903,
+    "lon": 37.4715
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 3,
+    "severity": 6604.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T17:11:39Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032199",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Mozambique",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032199&episodeid=3&eventtype=WF",
+   "occurred_at": "2026-09-11T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T15:24:07Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Mozambique",
+    "countries": [
+     "MZ"
+    ],
+    "lat": -17.007,
+    "lon": 37.8285
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 3,
+    "severity": 14560.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T17:11:39Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032201",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Mozambique",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032201&episodeid=2&eventtype=WF",
+   "occurred_at": "2026-09-11T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T15:24:29Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Mozambique",
+    "countries": [
+     "MZ"
+    ],
+    "lat": -16.4951,
+    "lon": 37.0405
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 2,
+    "severity": 7402.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T17:11:39Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032202",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Mozambique",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032202&episodeid=2&eventtype=WF",
+   "occurred_at": "2026-09-11T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T15:23:59Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Mozambique",
+    "countries": [
+     "MZ"
+    ],
+    "lat": -15.9809,
+    "lon": 37.752
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 2,
+    "severity": 5701.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T17:11:39Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032209",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Mozambique",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032209&episodeid=4&eventtype=WF",
+   "occurred_at": "2026-09-10T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T15:29:58Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Mozambique",
+    "countries": [
+     "MZ"
+    ],
+    "lat": -15.8616,
+    "lon": 37.8938
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 4,
+    "severity": 5396.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T17:11:39Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
    }
   },
   {
@@ -2306,7 +2846,7 @@
    "occurred_at": "2026-09-13T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:16:01Z",
+   "source_updated_at": "2026-09-20T15:11:45Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2334,7 +2874,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -2351,7 +2891,7 @@
    "occurred_at": "2026-09-11T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:22:56Z",
+   "source_updated_at": "2026-09-20T15:21:06Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2379,7 +2919,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -2396,7 +2936,7 @@
    "occurred_at": "2026-09-17T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:06:24Z",
+   "source_updated_at": "2026-09-20T15:03:40Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2424,7 +2964,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -2441,7 +2981,7 @@
    "occurred_at": "2026-09-13T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:17:29Z",
+   "source_updated_at": "2026-09-20T15:11:30Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2469,7 +3009,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -2486,7 +3026,7 @@
    "occurred_at": "2026-09-10T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:29:55Z",
+   "source_updated_at": "2026-09-20T15:28:57Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2514,8 +3054,53 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032220",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032220&episodeid=5&eventtype=WF",
+   "occurred_at": "2026-09-14T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T15:10:33Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -8.8608,
+    "lon": -45.8988
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 5,
+    "severity": 6655.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T17:11:39Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
    }
   },
   {
@@ -2527,11 +3112,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032223&episodeid=3&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032223&episodeid=4&eventtype=WF",
    "occurred_at": "2026-09-13T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:15:37Z",
+   "source_updated_at": "2026-09-20T15:11:37Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2546,21 +3131,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -13.1055,
-    "lon": 141.8149
+    "lat": -13.1032,
+    "lon": 141.8144
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 3,
-    "severity": 6343.0,
+    "episode_id": 4,
+    "severity": 6658.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
-    "last_changed_at": "2026-09-20T15:01:58Z"
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
    }
   },
   {
@@ -2576,7 +3161,7 @@
    "occurred_at": "2026-09-12T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:18:32Z",
+   "source_updated_at": "2026-09-20T15:18:21Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2604,7 +3189,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -2621,7 +3206,7 @@
    "occurred_at": "2026-09-10T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:38:55Z",
+   "source_updated_at": "2026-09-20T15:29:32Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2649,7 +3234,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -2666,7 +3251,7 @@
    "occurred_at": "2026-09-07T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:52:22Z",
+   "source_updated_at": "2026-09-20T15:43:14Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2694,7 +3279,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -2711,7 +3296,7 @@
    "occurred_at": "2026-09-16T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:08:10Z",
+   "source_updated_at": "2026-09-20T15:05:48Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2739,7 +3324,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -2756,7 +3341,7 @@
    "occurred_at": "2026-09-19T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:01:19Z",
+   "source_updated_at": "2026-09-20T15:02:20Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2784,7 +3369,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -2801,7 +3386,7 @@
    "occurred_at": "2026-09-18T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:02:25Z",
+   "source_updated_at": "2026-09-20T15:03:07Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2829,7 +3414,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -2846,7 +3431,7 @@
    "occurred_at": "2026-09-17T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:04:39Z",
+   "source_updated_at": "2026-09-20T15:03:21Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2874,8 +3459,98 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032239",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Mozambique",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032239&episodeid=2&eventtype=WF",
+   "occurred_at": "2026-09-11T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T15:24:36Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Mozambique",
+    "countries": [
+     "MZ"
+    ],
+    "lat": -17.8323,
+    "lon": 36.5314
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 2,
+    "severity": 5798.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T17:11:39Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032242",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Mozambique",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032242&episodeid=2&eventtype=WF",
+   "occurred_at": "2026-09-09T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T15:32:31Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Mozambique",
+    "countries": [
+     "MZ"
+    ],
+    "lat": -15.8044,
+    "lon": 40.1033
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 2,
+    "severity": 5464.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T17:11:39Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
    }
   },
   {
@@ -2891,7 +3566,7 @@
    "occurred_at": "2026-09-18T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:03:54Z",
+   "source_updated_at": "2026-09-20T15:02:32Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2919,7 +3594,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -2936,7 +3611,7 @@
    "occurred_at": "2026-09-17T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:04:53Z",
+   "source_updated_at": "2026-09-20T15:03:35Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2964,7 +3639,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -2981,7 +3656,7 @@
    "occurred_at": "2026-09-15T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:09:43Z",
+   "source_updated_at": "2026-09-20T15:08:00Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3009,7 +3684,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -3026,7 +3701,7 @@
    "occurred_at": "2026-09-12T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:21:26Z",
+   "source_updated_at": "2026-09-20T15:16:07Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3054,7 +3729,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -3071,7 +3746,7 @@
    "occurred_at": "2026-09-11T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:24:09Z",
+   "source_updated_at": "2026-09-20T15:21:29Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3099,7 +3774,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -3116,7 +3791,7 @@
    "occurred_at": "2026-09-11T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:23:54Z",
+   "source_updated_at": "2026-09-20T15:22:17Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3144,7 +3819,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -3161,7 +3836,7 @@
    "occurred_at": "2026-09-11T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:25:19Z",
+   "source_updated_at": "2026-09-20T15:19:41Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3189,7 +3864,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -3202,11 +3877,11 @@
    "original_publisher": null,
    "title": "Forest fires in Indonesia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032251&episodeid=3&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032251&episodeid=4&eventtype=WF",
    "occurred_at": "2026-09-10T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:32:56Z",
+   "source_updated_at": "2026-09-20T15:27:49Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3222,20 +3897,20 @@
      "ID"
     ],
     "lat": -2.5025,
-    "lon": 110.485
+    "lon": 110.4851
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 3,
-    "severity": 6888.0,
+    "episode_id": 4,
+    "severity": 6904.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
-    "last_changed_at": "2026-09-20T15:01:58Z"
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
    }
   },
   {
@@ -3251,7 +3926,7 @@
    "occurred_at": "2026-09-07T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:51:05Z",
+   "source_updated_at": "2026-09-20T15:44:15Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3279,7 +3954,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -3292,11 +3967,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032255&episodeid=2&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032255&episodeid=3&eventtype=WF",
    "occurred_at": "2026-09-06T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:54:14Z",
+   "source_updated_at": "2026-09-20T15:48:57Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3312,20 +3987,20 @@
      "AU"
     ],
     "lat": -11.9951,
-    "lon": 142.5735
+    "lon": 142.5736
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 2,
-    "severity": 5357.0,
+    "episode_id": 3,
+    "severity": 5384.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
-    "last_changed_at": "2026-09-20T15:01:58Z"
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
    }
   },
   {
@@ -3341,7 +4016,7 @@
    "occurred_at": "2026-09-18T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:04:13Z",
+   "source_updated_at": "2026-09-20T15:02:39Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3369,7 +4044,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -3386,7 +4061,7 @@
    "occurred_at": "2026-09-18T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:02:02Z",
+   "source_updated_at": "2026-09-20T15:02:26Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3414,7 +4089,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -3431,7 +4106,7 @@
    "occurred_at": "2026-09-09T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:39:21Z",
+   "source_updated_at": "2026-09-20T15:32:48Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3459,7 +4134,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -3476,7 +4151,7 @@
    "occurred_at": "2026-09-18T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:03:14Z",
+   "source_updated_at": "2026-09-20T15:02:59Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3504,7 +4179,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -3549,7 +4224,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -3566,7 +4241,7 @@
    "occurred_at": "2026-09-18T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:02:40Z",
+   "source_updated_at": "2026-09-20T15:02:45Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3594,7 +4269,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -3611,7 +4286,7 @@
    "occurred_at": "2026-09-18T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:03:40Z",
+   "source_updated_at": "2026-09-20T15:02:52Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3639,7 +4314,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -3656,7 +4331,7 @@
    "occurred_at": "2026-09-16T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:07:29Z",
+   "source_updated_at": "2026-09-20T15:04:29Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3684,7 +4359,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -3701,7 +4376,7 @@
    "occurred_at": "2026-09-16T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:08:03Z",
+   "source_updated_at": "2026-09-20T15:04:10Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3729,7 +4404,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -3746,7 +4421,7 @@
    "occurred_at": "2026-09-16T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:08:40Z",
+   "source_updated_at": "2026-09-20T15:05:19Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3774,7 +4449,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -3791,7 +4466,7 @@
    "occurred_at": "2026-09-15T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:11:11Z",
+   "source_updated_at": "2026-09-20T15:06:48Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3819,7 +4494,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -3836,7 +4511,7 @@
    "occurred_at": "2026-09-10T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:34:09Z",
+   "source_updated_at": "2026-09-20T15:28:08Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3864,7 +4539,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -3881,7 +4556,7 @@
    "occurred_at": "2026-09-09T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T11:42:58Z",
+   "source_updated_at": "2026-09-20T15:35:13Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3909,8 +4584,98 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032269",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Mozambique",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032269&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-09-14T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T15:09:11Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Mozambique",
+    "countries": [
+     "MZ"
+    ],
+    "lat": -15.9292,
+    "lon": 38.5152
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5108.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T17:11:39Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032270",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032270&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-09-06T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T15:47:16Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -13.077,
+    "lon": 141.9229
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5013.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T17:11:39Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
    }
   },
   {
@@ -3925,7 +4690,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-09-20T15:44:00Z",
+   "observed_at": "2026-09-20T17:10:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -3946,8 +4711,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-09-20T15:47:24Z",
-    "last_changed_at": "2026-09-20T15:47:24Z"
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
    }
   },
   {
@@ -3962,7 +4727,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-09-20T15:44:00Z",
+   "observed_at": "2026-09-20T17:10:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -3983,8 +4748,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-09-20T15:47:24Z",
-    "last_changed_at": "2026-09-20T15:47:24Z"
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
    }
   },
   {
@@ -3999,7 +4764,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-09-20T15:44:00Z",
+   "observed_at": "2026-09-20T17:10:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -4020,8 +4785,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-09-20T15:47:24Z",
-    "last_changed_at": "2026-09-20T15:47:24Z"
+    "last_seen_at": "2026-09-20T17:11:39Z",
+    "last_changed_at": "2026-09-20T17:11:39Z"
    }
   },
   {
@@ -4061,7 +4826,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T12:59:19Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T12:59:19Z"
    }
   },
@@ -4102,7 +4867,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T12:59:19Z",
-    "last_seen_at": "2026-09-20T15:01:58Z",
+    "last_seen_at": "2026-09-20T17:11:39Z",
     "last_changed_at": "2026-09-20T12:59:19Z"
    }
   }
