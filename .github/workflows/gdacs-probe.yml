@@ -1,6 +1,9 @@
 name: GDACS live probe (internal validation)
 
 on:
+  # Isolated live verification before internal integration; no public publishing.
+  push:
+    branches: [integration/gdacs-3-hazards-expiry]
   workflow_dispatch:
 
 permissions:
