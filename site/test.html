@@ -9,9 +9,10 @@
 <meta name="referrer" content="no-referrer">
 <meta name="description" content="Öffentliche ConflictWatch-Testvorschau mit echten, noch nicht freigegebenen Quellendaten. Keine Warnplattform.">
 <title>ConflictWatch – Öffentlicher Testbetrieb (nicht freigegebene Quellen)</title>
-<link rel="stylesheet" href="style.css?v=3">
-<link rel="stylesheet" href="test.css?v=3">
-<script src="app.js?v=3" defer></script>
+<link rel="stylesheet" href="style.css?v=4">
+<link rel="stylesheet" href="test.css?v=4">
+<script src="map.js?v=4" defer></script>
+<script src="app.js?v=4" defer></script>
 </head>
 <body data-mode="test">
 <a class="skip" href="#inhalt">Zum Inhalt springen</a>
@@ -34,6 +35,17 @@
       <div class="metric"><span class="metric-label">EREIGNISSE IN DER TESTVORSCHAU</span><strong id="entry-count">–</strong><span class="metric-note">NOAA-Statuswerte separat unten</span></div>
       <div class="metric"><span class="metric-label">DATENSTAND</span><strong id="data-state">Lädt</strong><span id="stand" class="metric-note">Daten werden geladen …</span></div>
     </section>
+    <section id="karte" class="section map-section" aria-labelledby="map-title">
+        <div class="panel-heading"><div><p class="section-kicker">GEOGRAFISCHE ÜBERSICHT · EQUAL EARTH</p><h2 id="map-title">Weltkarte</h2></div><span class="panel-tag">FLÄCHENTREUE DARSTELLUNG</span></div>
+        <div class="map-art" role="group" aria-label="Equal-Earth-Weltkarte mit verorteten Quellereignissen">
+          <svg id="map-view" class="equal-earth-map" viewBox="0 0 1000 510" role="img" aria-label="Flächentreue Weltkarte mit Erdbebenpositionen laut USGS">
+            <image href="world-equal-earth.svg" x="0" y="0" width="1000" height="510"/>
+            <g id="map-points"></g>
+          </svg>
+        </div>
+        <p id="map-events-note" class="map-caption">Ereignispositionen werden geladen …</p>
+        <p class="map-caption">Kartenprojektion: Equal Earth (flächentreu). Basiskarte: Natural Earth 1:110m, Public Domain. Punkte zeigen ausschließlich von USGS gemeldete Koordinaten, nicht deinen Standort. Globale NOAA-Statuswerte haben keinen geografischen Einzelpunkt.</p>
+      </section>
     <section id="meldungen" class="section events-section" aria-labelledby="events-title">
       <p class="section-kicker">ECHTE USGS-EREIGNISSE · NOCH NICHT FREIGEGEBEN</p>
       <h2 id="events-title">Meldungen aus dem Testbetrieb</h2>
