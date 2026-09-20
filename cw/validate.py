@@ -123,6 +123,9 @@ def check_items(items: list, registry: dict, now: dt.datetime, public_only: bool
                 first, last = parse_utc(ing["first_seen_at"]), parse_utc(ing["last_seen_at"])
                 if not (first <= a and b <= last):
                     p.append(f"{i}: detected_between liegt außerhalb der gespeicherten Beobachtungen")
+        # Oeffentliche Projektion: abgeleitetes Sichtungsfeld statt des internen ingest-Objekts.
+        if it.get("last_seen_at") is not None:
+            _time(p, f"{i}.last_seen_at", it["last_seen_at"], now)
         if ing:
             f = _time(p, f"{i}.first_seen_at", ing["first_seen_at"], now)
             l = _time(p, f"{i}.last_seen_at", ing["last_seen_at"], now)
@@ -180,8 +183,22 @@ def check_snapshot(snap: dict, registry: dict, now: dt.datetime, preview: bool =
         elif not preview and not reg[s["id"]]["public"]:
             p.append(f"snapshot: Quelle {s['id']} nicht freigegeben")
     listed = {s["id"] for s in snap["sources"]}
+    by_id = {s["id"]: s for s in snap["sources"]}
     for it in snap["items"]:
         if it["source"] not in listed:
             p.append(f"snapshot: {it['id']} ohne zugehörige Quelle")
+            continue
+        src = by_id[it["source"]]
+        # Ein Eintrag kann nicht spaeter gesichtet worden sein, als die Quelle zuletzt
+        # erfolgreich abgerufen wurde. Sonst gaebe die Oberflaeche unter
+        # recency_basis=last_seen eine Aktualitaet aus, die es nie gab.
+        last_ok = src["last_success_at"]
+        if last_ok is None:
+            p.append(f"snapshot: {it['id']} hat eine Sichtung, aber die Quelle keinen Abruferfolg")
+        else:
+            seen = _time(p, f"snapshot.{it['id']}.last_seen_at", it["last_seen_at"])
+            ok = _time(p, f"snapshot.{it['source']}.last_success_at", last_ok)
+            if seen and ok and seen > ok:
+                p.append(f"snapshot: {it['id']} zuletzt gesehen nach dem letzten Abruferfolg der Quelle")
     _time(p, "snapshot.generated_at", snap["generated_at"], now)
     return p

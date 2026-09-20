@@ -19,7 +19,11 @@ def build(items_doc: dict, sources_doc: dict, registry: dict, revision: str, gen
         st = states[entry["id"]]
         sources.append({**{k: entry[k] for k in PUBLIC_REGISTRY_FIELDS},
                         **{k: st[k] for k in PUBLIC_STATE_FIELDS}})
-    items = [{k: v for k, v in it.items() if k != "ingest"}
+    # Das interne ingest-Objekt wird NICHT veroeffentlicht. Genau ein Feld daraus wird
+    # abgeleitet: wann die Quelle den Eintrag zuletzt geliefert hat. Das Schema erzwingt
+    # die Trennung (Item traegt ingest, PublicItem traegt last_seen_at - nie beides).
+    items = [{**{k: v for k, v in it.items() if k != "ingest"},
+              "last_seen_at": it["ingest"]["last_seen_at"]}
              for it in items_doc["items"] if it["source"] in released_ids]
     items.sort(key=lambda it: (display_time(it), it["id"]), reverse=True)
     return {"schema_version": SCHEMA_VERSION, "state_revision": revision,
