@@ -28,7 +28,9 @@ jobs:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     env:
-      FETCH: ${{ github.event_name != 'push' }}
+      # Ein Push startet ebenfalls einen echten Abruf, sofern das Quellenintervall fällig ist.
+      # Die Pipeline verhindert Doppelabrufe über min_fetch_interval_h.
+      FETCH: 'true'
     steps:
       - uses: actions/checkout@v4
 
