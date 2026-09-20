@@ -220,7 +220,7 @@
     banner(warnings);
 
     const items = snap.items.filter((it) => srcById[it.source]);
-    if (window.ConflictWatchMap) window.ConflictWatchMap.render(items);
+    if (window.ConflictWatchMap) window.ConflictWatchMap.render(items, snap.sources);
     renderStatus(items, srcById);
     const start = [], rest = [];
     for (const it of items) {
