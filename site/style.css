@@ -59,6 +59,17 @@ body:not([data-mode="test"]) .sidebar a:focus-visible{outline-color:#176c78}
 .map-art{margin-top:16px;overflow:hidden;border:1px solid #dce6e8;border-radius:12px;background:#f1f6f8;line-height:0}
 .equal-earth-map{display:block;width:100%;height:auto;aspect-ratio:1000/510;overflow:visible}
 .map-event-point{fill:#16788a;stroke:#fff;stroke-width:3;vector-effect:non-scaling-stroke}
+.map-event-region{fill:none;stroke:#7a5a1f;stroke-width:2.5;stroke-dasharray:5 4;vector-effect:non-scaling-stroke}
+.map-event-region[data-level="green"]{stroke:#2f6f4f}
+.map-event-region[data-level="orange"]{stroke:#9a5a12}
+.map-event-region[data-level="red"]{stroke:#9d2f2f}
+.map-event-region.is-cluster{stroke-width:3;stroke-dasharray:7 4}
+.map-event-region.is-older{opacity:.45}
+.map-cluster-count{font:700 11px system-ui,sans-serif;fill:#1d292c;paint-order:stroke;stroke:#fff;stroke-width:3px}
+#map-points a:focus-visible .map-event-region,#map-points a:hover .map-event-region{stroke-width:4}
+.map-filters{display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:12px}
+.map-filter{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:#33505a;cursor:pointer}
+body[data-mode="test"] .map-filter{color:#1d292c}
 #map-points a:focus-visible .map-event-point,#map-points a:hover .map-event-point{fill:#125164;stroke:#fff;stroke-width:5}
 #map-points a{cursor:pointer}
 .map-caption{color:#516b74;font-size:12px;line-height:1.55;margin-top:10px}
