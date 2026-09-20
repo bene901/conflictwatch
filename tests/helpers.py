@@ -11,8 +11,17 @@ REAL = ROOT / "tests" / "fixtures" / "usgs" / "real_2026-09-19_significant_week.
 NOW = dt.datetime(2026, 9, 19, 13, 17, 0, tzinfo=dt.timezone.utc)
 
 
-def registry():
+def full_registry():
+    """Production registry, including internal, non-public integrations."""
     return json.loads((ROOT / "registry.json").read_text(encoding="utf-8"))
+
+
+def registry():
+    """Isolated USGS fixture for the original USGS-only regression suite."""
+    r = full_registry()
+    r["sources"] = [source for source in r["sources"] if source["id"] == "usgs"]
+    r["domains"] = [domain for domain in r["domains"] if domain["id"] == "disaster"]
+    return r
 
 
 def usgs_entry():

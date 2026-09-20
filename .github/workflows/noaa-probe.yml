@@ -1,0 +1,34 @@
+name: NOAA authentic response probe
+
+on:
+  push:
+    branches: [work/noaa-observed-draft]
+    paths:
+      - ".github/workflows/noaa-probe.yml"
+      - "scripts/noaa_probe.py"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install required dependencies
+        run: pip install -r requirements.txt
+      - name: Probe live NOAA scales without publishing
+        run: python -m scripts.noaa_probe
+      - name: Save original response for review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: noaa-authentic-response-${{ github.run_id }}
+          path: raw-noaa/
+          retention-days: 7
+          if-no-files-found: warn
