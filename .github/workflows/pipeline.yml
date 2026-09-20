@@ -48,7 +48,12 @@ jobs:
 
       - name: Pipeline-Lauf (Abruf, Zusammenführung, Validierung)
         run: |
-          python -m cw run --state state-repo/state --raw-dir raw --alarm-file alarm.json
+          # Code-Veröffentlichungen laden bewusst sofort neu; reine Zeitplan-Läufe
+          # respektieren weiter das stündliche Intervall. So bleibt ein Wechsel des
+          # USGS-Endpunkts nicht bis zum nächsten regulären Quellabruf unsichtbar.
+          flags=()
+          if [ "$GITHUB_EVENT_NAME" = "push" ]; then flags+=(--force-fetch); fi
+          python -m cw run --state state-repo/state --raw-dir raw --alarm-file alarm.json "${flags[@]}"
 
       - name: Bestand sichern (Commit, Push ohne force)
         id: commit
