@@ -1,19 +1,19 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-09-20T12:19:45Z",
+ "generated_at": "2026-09-20T12:59:19Z",
  "sources": [
   {
    "source": "usgs",
    "adapter_version": "1.0.0",
-   "fetch_health": "down",
-   "data_state": "unknown",
-   "last_attempt_at": null,
-   "last_success_at": null,
-   "last_fetch_complete": null,
-   "newest_source_time": null,
+   "fetch_health": "ok",
+   "data_state": "fresh",
+   "last_attempt_at": "2026-09-20T12:59:19Z",
+   "last_success_at": "2026-09-20T12:59:19Z",
+   "last_fetch_complete": true,
+   "newest_source_time": "2026-09-20T12:54:02Z",
    "consecutive_failures": 0,
    "last_error": null,
-   "items_in_window": null,
+   "items_in_window": 2,
    "empty_since": null
   }
  ]

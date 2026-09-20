@@ -3,3 +3,4 @@
 {"fetch": false, "run_at": "2026-09-20T12:17:21Z", "sources": {"usgs": {"data_state": "unknown", "fetch_health": "down", "result": "skipped"}}}
 {"fetch": false, "run_at": "2026-09-20T12:18:55Z", "sources": {"usgs": {"data_state": "unknown", "fetch_health": "down", "result": "skipped"}}}
 {"fetch": false, "run_at": "2026-09-20T12:19:45Z", "sources": {"usgs": {"data_state": "unknown", "fetch_health": "down", "result": "skipped"}}}
+{"fetch": true, "run_at": "2026-09-20T12:59:19Z", "sources": {"usgs": {"complete": true, "data_state": "fresh", "fetch_health": "ok", "items": 2, "result": "ok"}}}
