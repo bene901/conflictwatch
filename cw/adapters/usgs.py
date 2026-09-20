@@ -1,4 +1,4 @@
-"""USGS-Adapter (Summary-GeoJSON, Feed der signifikanten Beben).
+"""USGS-Adapter (Summary-GeoJSON, USGS all_day: alle im Feed gelisteten Ereignisse der letzten 24 Stunden).
 
 Geprüft an einer echten Antwort vom 19.09.2026 (tests/fixtures/usgs/real_*.json).
 Feldbedeutungen laut ComCat-Dokumentation; siehe docs/USGS.md.
