@@ -1,7 +1,21 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-09-20T12:59:19Z",
+ "generated_at": "2026-09-20T13:37:53Z",
  "sources": [
+  {
+   "source": "noaa-swpc",
+   "adapter_version": "1.0.0",
+   "fetch_health": "ok",
+   "data_state": "fresh",
+   "last_attempt_at": "2026-09-20T13:37:53Z",
+   "last_success_at": "2026-09-20T13:37:53Z",
+   "last_fetch_complete": true,
+   "newest_source_time": "2026-09-20T13:35:00Z",
+   "consecutive_failures": 0,
+   "last_error": null,
+   "items_in_window": 3,
+   "empty_since": null
+  },
   {
    "source": "usgs",
    "adapter_version": "1.0.0",

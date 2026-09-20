@@ -1,7 +1,118 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-09-20T12:59:19Z",
+ "generated_at": "2026-09-20T13:37:53Z",
  "items": [
+  {
+   "id": "noaa-swpc:scale:G",
+   "kind": "status",
+   "domain": "spaceweather",
+   "source": "noaa-swpc",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Geomagnetische Stürme (NOAA)",
+   "lang": "de",
+   "url": "https://www.swpc.noaa.gov/node/1085",
+   "occurred_at": null,
+   "published_at": null,
+   "observed_at": "2026-09-20T13:35:00Z",
+   "source_updated_at": null,
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": null,
+   "level": {
+    "scheme": "noaa-g",
+    "value": "0",
+    "label": "G0"
+   },
+   "location": {
+    "precision": "global",
+    "name": "Global",
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {},
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T13:37:53Z",
+    "last_seen_at": "2026-09-20T13:37:53Z",
+    "last_changed_at": "2026-09-20T13:37:53Z"
+   }
+  },
+  {
+   "id": "noaa-swpc:scale:R",
+   "kind": "status",
+   "domain": "spaceweather",
+   "source": "noaa-swpc",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Radiostörungen (NOAA)",
+   "lang": "de",
+   "url": "https://www.swpc.noaa.gov/node/1085",
+   "occurred_at": null,
+   "published_at": null,
+   "observed_at": "2026-09-20T13:35:00Z",
+   "source_updated_at": null,
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": null,
+   "level": {
+    "scheme": "noaa-r",
+    "value": "0",
+    "label": "R0"
+   },
+   "location": {
+    "precision": "global",
+    "name": "Global",
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {},
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T13:37:53Z",
+    "last_seen_at": "2026-09-20T13:37:53Z",
+    "last_changed_at": "2026-09-20T13:37:53Z"
+   }
+  },
+  {
+   "id": "noaa-swpc:scale:S",
+   "kind": "status",
+   "domain": "spaceweather",
+   "source": "noaa-swpc",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Solare Strahlungsstürme (NOAA)",
+   "lang": "de",
+   "url": "https://www.swpc.noaa.gov/node/1085",
+   "occurred_at": null,
+   "published_at": null,
+   "observed_at": "2026-09-20T13:35:00Z",
+   "source_updated_at": null,
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": null,
+   "level": {
+    "scheme": "noaa-s",
+    "value": "0",
+    "label": "S0"
+   },
+   "location": {
+    "precision": "global",
+    "name": "Global",
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {},
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-20T13:37:53Z",
+    "last_seen_at": "2026-09-20T13:37:53Z",
+    "last_changed_at": "2026-09-20T13:37:53Z"
+   }
+  },
   {
    "id": "usgs:us7000ti1p",
    "kind": "event",

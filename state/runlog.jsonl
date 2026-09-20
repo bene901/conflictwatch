@@ -4,3 +4,4 @@
 {"fetch": false, "run_at": "2026-09-20T12:18:55Z", "sources": {"usgs": {"data_state": "unknown", "fetch_health": "down", "result": "skipped"}}}
 {"fetch": false, "run_at": "2026-09-20T12:19:45Z", "sources": {"usgs": {"data_state": "unknown", "fetch_health": "down", "result": "skipped"}}}
 {"fetch": true, "run_at": "2026-09-20T12:59:19Z", "sources": {"usgs": {"complete": true, "data_state": "fresh", "fetch_health": "ok", "items": 2, "result": "ok"}}}
+{"fetch": true, "run_at": "2026-09-20T13:37:53Z", "sources": {"noaa-swpc": {"complete": true, "data_state": "fresh", "fetch_health": "ok", "items": 3, "result": "ok"}, "usgs": {"data_state": "fresh", "fetch_health": "ok", "result": "skipped"}}}
