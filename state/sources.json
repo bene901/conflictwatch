@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-09-20T13:37:53Z",
+ "generated_at": "2026-09-20T14:03:16Z",
  "sources": [
   {
    "source": "noaa-swpc",
@@ -21,10 +21,10 @@
    "adapter_version": "1.0.0",
    "fetch_health": "ok",
    "data_state": "fresh",
-   "last_attempt_at": "2026-09-20T12:59:19Z",
-   "last_success_at": "2026-09-20T12:59:19Z",
+   "last_attempt_at": "2026-09-20T14:03:16Z",
+   "last_success_at": "2026-09-20T14:03:16Z",
    "last_fetch_complete": true,
-   "newest_source_time": "2026-09-20T12:54:02Z",
+   "newest_source_time": "2026-09-20T12:59:22Z",
    "consecutive_failures": 0,
    "last_error": null,
    "items_in_window": 2,

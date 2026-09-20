@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-09-20T13:37:53Z",
+ "generated_at": "2026-09-20T14:03:16Z",
  "items": [
   {
    "id": "noaa-swpc:scale:G",
@@ -150,7 +150,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T12:59:19Z",
-    "last_seen_at": "2026-09-20T12:59:19Z",
+    "last_seen_at": "2026-09-20T14:03:16Z",
     "last_changed_at": "2026-09-20T12:59:19Z"
    }
   },
@@ -167,7 +167,7 @@
    "occurred_at": "2026-09-20T09:17:35Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T12:54:02Z",
+   "source_updated_at": "2026-09-20T12:59:22Z",
    "ongoing": null,
    "data_status": "reviewed",
    "source_status_raw": "reviewed",
@@ -191,7 +191,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T12:59:19Z",
-    "last_seen_at": "2026-09-20T12:59:19Z",
+    "last_seen_at": "2026-09-20T14:03:16Z",
     "last_changed_at": "2026-09-20T12:59:19Z"
    }
   }
