@@ -6,6 +6,7 @@
 2. Settings → Pages → Build and deployment → Source: **GitHub Actions**.
 3. Settings → Actions → General: Actions erlauben. Workflow-Rechte müssen `contents: write` zulassen (steht im Workflow; eine Organisationsrichtlinie kann das sperren).
 4. Den Branch `data-state` NICHT von Hand anlegen. Der erste Lauf erzeugt ihn.
+   Der erste Push nach Installation (und spätere Pushs) versucht jetzt einen **echten Quellenabruf**, sofern `min_fetch_interval_h` fällig ist. `schedule` und `workflow_dispatch` nutzen dieselbe Intervallprüfung. Ein grüner Push-Lauf mit `"result":"skipped"` nach einem kurz zuvor erfolgten Abruf ist kein neuer Live-Nachweis.
 5. Versionen der verwendeten Actions (`checkout@v4`, `setup-python@v5`, `upload-artifact@v4`, `configure-pages@v5`, `upload-pages-artifact@v3`, `deploy-pages@v4`) beim Anlegen gegen die aktuellen Hauptversionen prüfen.
 
 ## 2. Erster GitHub-Lauf: Abnahme in zwei Teilen
