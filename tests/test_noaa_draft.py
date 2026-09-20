@@ -18,7 +18,7 @@ NOW = dt.datetime(2026, 9, 20, 12, 0, tzinfo=UTC)
 
 def entry():
     return {
-        "id": "noaa-swpc", "domain": "spaceweather", "kinds": ["status"],
+        "id": "noaa-swpc", "domain": "spaceweather", "kinds": ["status"], "retention_days": 1,
         "level_schemes": [
             {"id": "noaa-" + code.lower(), "ordered_values": [str(i) for i in range(6)],
              "labels": {str(i): code + str(i) for i in range(6)},
