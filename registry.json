@@ -49,7 +49,7 @@
    ],
    "highlight": {
     "min_levels": {},
-    "window_h": 72,
+    "window_h": 24,
     "include_ongoing": false,
     "recency_basis": "display_time"
    },
