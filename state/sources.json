@@ -1,0 +1,20 @@
+{
+ "schema_version": "6.0",
+ "generated_at": "2026-09-20T11:00:19Z",
+ "sources": [
+  {
+   "source": "usgs",
+   "adapter_version": "1.0.0",
+   "fetch_health": "down",
+   "data_state": "unknown",
+   "last_attempt_at": null,
+   "last_success_at": null,
+   "last_fetch_complete": null,
+   "newest_source_time": null,
+   "consecutive_failures": 0,
+   "last_error": null,
+   "items_in_window": null,
+   "empty_since": null
+  }
+ ]
+}
