@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        -124.5,
+        11.4,
+        -124.5,
+        11.4
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.5,
+          11.4
+        ]
+      },
+      "properties": {
+        "eventtype": "TC",
+        "eventid": 1001324,
+        "episodeid": 1,
+        "eventname": "ODALYS-26",
+        "glide": "",
+        "name": "Tropical Cyclone ODALYS-26",
+        "description": "Tropical Cyclone ODALYS-26",
+        "htmldescription": "Green Tropical Cyclone ODALYS-26 off-shore from: 20 Sep 2026  to: 20 Sep 2026 .",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001324&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=1&eventtype=TC",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=TC&eventid=1001324"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 1,
+        "istemporary": "false",
+        "iscurrent": "true",
+        "country": "",
+        "fromdate": "2026-09-20T09:00:00",
+        "todate": "2026-09-20T09:00:00",
+        "datemodified": "2026-09-20T10:50:05",
+        "iso3": "",
+        "source": "NOAA",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "countryonland": "",
+        "affectedcountries": [],
+        "severitydata": {
+          "severity": 129.6288,
+          "severitytext": "Tropical Storm (maximum wind speed of 130 km/h)",
+          "severityunit": "km/h"
+        }
+      }
+    }
+  ]
+}

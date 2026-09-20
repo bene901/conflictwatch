@@ -66,6 +66,18 @@ def merge_items(items: dict, source_id: str, entry: dict, result, run_at: str) -
             it = out[iid]
             if it["kind"] != "status" and iid not in returned and display_time(it) < cutoff:
                 del out[iid]
+    else:
+        # A missing item in an incomplete feed is NOT evidence of withdrawal.
+        # Expiry is a technical bound on active storage, measured since last
+        # successful sighting, never from event time or failed/skipped fetches.
+        expiry = entry.get("unseen_expiry_days")
+        if expiry is not None:
+            cutoff = parse_utc(run_at) - dt.timedelta(days=expiry)
+            for iid in [i for i, it in out.items() if it["source"] == source_id]:
+                it = out[iid]
+                if (it["kind"] != "status" and iid not in returned
+                        and parse_utc(it["ingest"]["last_seen_at"]) < cutoff):
+                    del out[iid]
     return out
 
 

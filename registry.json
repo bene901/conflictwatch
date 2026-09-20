@@ -54,7 +54,8 @@
    },
    "id_rule": "usgs:<feature.id>; bei ID-Wechsel der Quelle bleibt die zuerst gesehene ID (Abgleich über properties.ids)",
    "completeness_rule": "metadata.count muss der Anzahl gelieferter Features entsprechen; sonst sanity-Fehler (Feed ist nicht paginiert). An echter Antwort vom 19.09.2026 belegt.",
-   "coverage_note": "Nur Beben, die USGS selbst als signifikant führt, letzte 7 Tage. Keine GDACS-Erdbeben."
+   "coverage_note": "Nur Beben, die USGS selbst als signifikant führt, letzte 7 Tage. Keine GDACS-Erdbeben.",
+   "unseen_expiry_days": null
   },
   {
    "id": "noaa-swpc",
@@ -143,7 +144,52 @@
    },
    "id_rule": "noaa-swpc:scale:G, :S, :R: genau drei stabile IDs für die zuletzt beobachteten globalen Skalenwerte.",
    "completeness_rule": "Nur wenn Block '0' mit DateStamp, TimeStamp und allen drei beobachteten G/S/R-Skalenwerten vorhanden und gültig ist; Vorhersage und 24-h-Maximum zählen nicht.",
-   "coverage_note": "Globale zuletzt beobachtete NOAA-Skalen G/S/R, keine Vorhersage und keine lokale Gefahreneinschätzung. Wert 0 bedeutet keine Aktivität auf dieser NOAA-Skala; er ist keine generelle Entwarnung."
+   "coverage_note": "Globale zuletzt beobachtete NOAA-Skalen G/S/R, keine Vorhersage und keine lokale Gefahreneinschätzung. Wert 0 bedeutet keine Aktivität auf dieser NOAA-Skala; er ist keine generelle Entwarnung.",
+   "unseen_expiry_days": null
+  },
+  {
+   "id": "gdacs",
+   "name": "GDACS",
+   "domain": "disaster",
+   "kinds": [
+    "event"
+   ],
+   "public": false,
+   "endpoints": [
+    "https://www.gdacs.org/contentdata/xml/gdacs_app_feed.json"
+   ],
+   "terms_url": "https://www.gdacs.org/About/termofuse.aspx",
+   "attribution": "Daten: Global Disaster Alert and Coordination System (GDACS)",
+   "min_fetch_interval_h": 1,
+   "max_fetch_gap_h": 6,
+   "max_data_age_h": null,
+   "max_empty_h": null,
+   "retention_days": 30,
+   "unseen_expiry_days": 30,
+   "level_schemes": [
+    {
+     "id": "gdacs-alert",
+     "ordered_values": [
+      "Green",
+      "Orange",
+      "Red"
+     ],
+     "labels": {
+      "Green": "GDACS Grün",
+      "Orange": "GDACS Orange",
+      "Red": "GDACS Rot"
+     },
+     "reference_url": "https://www.gdacs.org/"
+    }
+   ],
+   "highlight": {
+    "min_levels": {},
+    "window_h": 168,
+    "include_ongoing": false
+   },
+   "id_rule": "gdacs:<eventtype>:<eventid>; episodeid aktualisiert dasselbe Ereignis ohne doppelte ID.",
+   "completeness_rule": "GDACS-App-Feed garantiert keine Vollständigkeit: complete=false; fehlende Einträge sind weder beendet noch zurückgezogen. Nur nach erfolgreich verarbeitetem Abruf und 30 Tagen ohne erneute Sichtung technische Entfernung aus aktivem Bestand. retention_days bleibt Schema-Pflicht, wirkt bei complete=false nicht.",
+   "coverage_note": "Testbetrieb, nicht freigegeben: nur GDACS-Zyklone (TC), Fluten (FL), Waldbrand-Ereignisse (WF). Vulkane (VO) und Dürren (DR) sind mangels authentischem App-Feed-Format NICHT ABGEDECKT; keine Entwarnung. Koordinaten sind Zentroid einer Region, keine Schadensfläche. GDACS liefert keine Vollständigkeitsgarantie."
   }
  ]
 }
