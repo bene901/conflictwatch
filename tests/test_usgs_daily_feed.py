@@ -63,6 +63,31 @@ class WiderUSGSDailyFeed(unittest.TestCase):
         with self.assertRaises(AdapterError):
             usgs.parse(json.dumps(doc).encode(), NOW, self.entry)
 
+    def test_explicit_publish_refresh_fetches_even_if_interval_not_due(self):
+        from pathlib import Path
+        import tempfile
+        from cw import pipeline
+        from tests.helpers import registry as isolated_registry, raw
+
+        requests = []
+        def fake_fetch(url):
+            requests.append(url)
+            return raw(real_doc())
+
+        with tempfile.TemporaryDirectory() as tmp:
+            folder = Path(tmp)
+            reg = isolated_registry()
+            self.assertEqual(pipeline.run(reg, folder, now=NOW,
+                                          fetcher=fake_fetch, log=lambda *_: None), 0)
+            self.assertEqual(pipeline.run(reg, folder, now=NOW + dt.timedelta(minutes=5),
+                                          fetcher=fake_fetch, log=lambda *_: None), 0)
+            self.assertEqual(len(requests), 1)  # Stündlicher Normallauf bleibt gedrosselt.
+            self.assertEqual(pipeline.run(reg, folder, now=NOW + dt.timedelta(minutes=10),
+                                          force_fetch=True, fetcher=fake_fetch,
+                                          log=lambda *_: None), 0)
+            self.assertEqual(len(requests), 2)
+            self.assertTrue(all(url.endswith("/all_day.geojson") for url in requests))
+
 
 if __name__ == "__main__":
     unittest.main()
