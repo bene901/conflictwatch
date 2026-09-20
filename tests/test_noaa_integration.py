@@ -14,6 +14,7 @@ UTC = dt.timezone.utc
 CAPTURED_AT = dt.datetime(2026, 9, 20, 13, 30, tzinfo=UTC)
 NOAA_RAW = (ROOT / "tests" / "fixtures" / "noaa" / "real_2026-09-20_noaa_scales.json").read_bytes()
 USGS_RAW = raw(real_doc())
+GDACS_RAW = (ROOT / "tests" / "fixtures" / "gdacs" / "real_2026-09-20_tc_excerpt.json").read_bytes()
 
 
 def fixture_fetcher(url: str) -> bytes:
@@ -21,14 +22,16 @@ def fixture_fetcher(url: str) -> bytes:
         return NOAA_RAW
     if url.endswith("significant_week.geojson"):
         return USGS_RAW
+    if url.endswith("gdacs_app_feed.json"):
+        return GDACS_RAW
     raise AssertionError(f"Unexpected source URL: {url}")
 
 
 class NOAAIntegration(unittest.TestCase):
-    def test_registry_has_two_private_sources_and_real_endpoints(self):
+    def test_registry_has_three_private_sources_and_real_endpoints(self):
         reg = full_registry()
         self.assertEqual(check_registry(reg, ADAPTERS), [])
-        self.assertEqual({s["id"] for s in reg["sources"]}, {"usgs", "noaa-swpc"})
+        self.assertEqual({s["id"] for s in reg["sources"]}, {"usgs", "noaa-swpc", "gdacs"})
         self.assertTrue(all(s["public"] is False for s in reg["sources"]))
 
     def test_authentic_noaa_statuses_ingested_but_not_published(self):
@@ -59,8 +62,8 @@ class NOAAIntegration(unittest.TestCase):
 
             preview = snapshot.build(items, sources, reg, "abc1234", "2026-09-20T13:30:00Z",
                                      include_unreleased=True)
-            self.assertEqual(len(preview["sources"]), 2)
-            self.assertEqual(len(preview["items"]), 4)
+            self.assertEqual(len(preview["sources"]), 3)
+            self.assertEqual(len(preview["items"]), 5)
             self.assertEqual(check_snapshot(preview, reg, CAPTURED_AT, preview=True), [])
 
     def test_old_noaa_observation_is_not_marked_fresh_after_repeated_fetch(self):

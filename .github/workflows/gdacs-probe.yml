@@ -1,0 +1,31 @@
+name: GDACS live probe (internal validation)
+
+on:
+  # Isolated live verification before internal integration; no public publishing.
+  push:
+    branches: [integration/gdacs-3-hazards-expiry]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Fetch, save and parse full public GDACS response
+        run: python -m scripts.gdacs_probe
+      - name: Keep raw evidence even if parsing fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gdacs-live-${{ github.run_id }}
+          path: raw/gdacs*
+          retention-days: 7
+          if-no-files-found: ignore

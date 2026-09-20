@@ -670,6 +670,7 @@
         "max_data_age_h",
         "max_empty_h",
         "retention_days",
+        "unseen_expiry_days",
         "level_schemes",
         "highlight",
         "id_rule",
@@ -767,6 +768,15 @@
         "coverage_note": {
           "type": "string",
           "minLength": 10
+        },
+        "unseen_expiry_days": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 180,
+          "description": "Bei unvollständigem, erfolgreich verarbeitetem Quellenabruf: nicht erneut gesehene Nicht-Status-Ereignisse nach dieser Zahl von Tagen seit ingest.last_seen_at aus dem aktiven Bestand entfernen; null deaktiviert diese Regel. Kein Rückzug/Entwarnung."
         }
       }
     },
