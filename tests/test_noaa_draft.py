@@ -1,12 +1,13 @@
-"""Offline tests for the isolated NOAA draft adapter.
+"""Offline tests with synthetic edge cases and an independently captured authentic NOAA response.
 
-Fixtures below are intentionally SYNTHETIC examples based on publicly described
-noaa-scales.json structure. They do not substitute for a live NOAA response.
+The authentic fixture is historical (2026-09-20T13:26Z), never presented as live data.
 """
 import copy
+import hashlib
 import datetime as dt
 import json
 import unittest
+from pathlib import Path
 
 from cw.adapters import noaa_swpc
 from cw.errors import AdapterError
@@ -102,6 +103,27 @@ class NoaaDraft(unittest.TestCase):
         with self.assertRaises(AdapterError) as err:
             noaa_swpc.parse(json.dumps(payload()).encode(), NOW, e)
         self.assertEqual(err.exception.kind, "schema")
+
+
+class AuthenticNoaaEvidence(unittest.TestCase):
+    """Original NOAA-SWPC scales response captured by GitHub Actions on 2026-09-20."""
+
+    def test_raw_response_checksum_and_observed_fields(self):
+        fixture = Path(__file__).parent / "fixtures" / "noaa" / "real_2026-09-20_noaa_scales.json"
+        raw = fixture.read_bytes()
+        self.assertEqual(len(raw), 1096)
+        self.assertEqual(hashlib.sha256(raw).hexdigest(),
+                         "c1b285ce66b628a6bd18bbdadfc22e3d46c7205a91a533e66b5f2cf992394165")
+        observed_now = dt.datetime(2026, 9, 20, 13, 30, tzinfo=UTC)
+        result = noaa_swpc.parse(raw, observed_now, entry())
+        self.assertTrue(result.complete)
+        self.assertEqual([it["id"] for it in result.items],
+                         ["noaa-swpc:scale:G", "noaa-swpc:scale:S", "noaa-swpc:scale:R"])
+        self.assertEqual([it["level"]["value"] for it in result.items], ["0", "0", "0"])
+        self.assertEqual({it["observed_at"] for it in result.items},
+                         {"2026-09-20T13:26:00Z"})
+        # A forecast-block null must not cause the latest observations to be treated as missing.
+        self.assertIsNone(json.loads(raw)["1"]["R"]["Scale"])
 
 
 if __name__ == "__main__":
