@@ -33,3 +33,15 @@ Der öffentliche Snapshot führt dafür **ein einziges abgeleitetes Feld** `last
 
 Die Regel selbst wird nicht per Textvergleich geprüft: `tests/test_recency_basis.py` lädt `site/app.js` in node und ruft `onStart` mit echten Snapshot-Daten auf.
 
+## Kartendarstellung
+
+USGS-Erdbeben behalten ihren gefüllten Punktmarker; ihre Koordinate ist punktgenau. GDACS-Ereignisse bekommen einen **gestrichelten, ungefüllten Ring** und in jeder Beschriftung den Satz „ungefähre Lage laut GDACS – keine Schadensfläche". Ein Zentroid wird nie wie ein punktgenauer Gefahrenort gezeichnet. Beide Genauigkeiten stehen als eigene Abfrage im Quelltext (`precision === "point"` bzw. `"region"`), damit in `tests/test_equal_earth_map.py` prüfbar bleibt, dass die Trennung besteht.
+
+Marker desselben Gefahrentyps, die einander auf der Karte überdecken (16 px), werden zu einem Marker mit Anzahl zusammengefasst. **Verschiedene Gefahrenarten werden nie verschmolzen** — sonst entstünde ein Marker, der nichts Bestimmtes mehr aussagt. Am echten Datenstand vom 20.09.2026 werden aus 87 GDACS-Ereignissen 25 Marker, davon 14 Zusammenfassungen.
+
+Die Karte hat getrennte Filter für Waldbrände, Überschwemmungen und Wirbelstürme; angeboten wird nur, was im Datenstand vorkommt. Standardmäßig zeigt sie ausschließlich Ereignisse aus dem **jüngsten erfolgreichen Abruf** (dieselbe Regel wie die Liste, siehe oben). Ältere, noch gespeicherte Meldungen sind über einen eigenen Filter einblendbar, werden dann abgeschwächt dargestellt und tragen den Hinweis, dass sie nicht aus dem jüngsten Abruf stammen — ausdrücklich keine Entwarnung.
+
+Die Markerfarben geben die Warnstufe **der Quelle** wieder (GDACS: Green, Orange, Red). Bei einer Zusammenfassung wird die höchste von GDACS vergebene Stufe der Gruppe verwendet und die Verteilung in der Beschriftung genannt. ConflictWatch leitet daraus keine eigene Gefahrenbewertung ab; die Legende sagt das ausdrücklich.
+
+Geprüft wird nicht per Textvergleich: `tests/js/map_probe.js` führt `site/map.js` in node aus und liest die tatsächlich erzeugte SVG-Struktur aus; `tests/test_gdacs_map_layer.py` prüft daran Marker, Zusammenfassung, Filter und Sichtung.
+
