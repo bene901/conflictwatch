@@ -38,8 +38,9 @@ class EqualEarthDisplay(unittest.TestCase):
         self.assertNotIn("getCurrentPosition(", js)
         self.assertNotIn("watchPosition(", js)
         self.assertNotIn("navigator.permissions", js)
-        self.assertIn("if (window.ConflictWatchMap) window.ConflictWatchMap.render(items, snap.sources);",
-                      (SITE / "app.js").read_text(encoding="utf-8"))
+        app = (SITE / "app.js").read_text(encoding="utf-8")
+        self.assertIn("window.ConflictWatchMap.render(items, snap.sources,", app)
+        self.assertIn("(it) => showMapDetail(it, srcById[it.source], now)", app)
 
     def test_both_page_builds_copy_mapping_assets(self):
         yml = (ROOT / ".github" / "workflows" / "pipeline.yml").read_text(encoding="utf-8")

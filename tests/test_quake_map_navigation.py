@@ -161,6 +161,33 @@ class Navigation(unittest.TestCase):
         self.assertIn("hineinzoomen", label)
 
 
+    def test_single_marker_stays_on_conflictwatch_and_selects_event(self):
+        toggles = [FULL, ALL_MAGS] + [{"id": "map-zoom-in"}] * 5
+        before = run(scenario(with_gdacs=False), toggles)[-1]
+        marker = next(m for m in before["result"]["markers"]
+                      if "tq1003" in (m["ariaLabel"] or ""))
+        self.assertIsNone(marker["href"])
+        self.assertEqual(marker["role"], "button")
+        self.assertEqual(marker["tabIndex"], "0")
+        self.assertIn("Details auf ConflictWatch anzeigen", marker["ariaLabel"])
+
+        clicked = run(scenario(with_gdacs=False),
+                      toggles + [{"markerLabelIncludes": "tq1003"}])[-1]
+        self.assertFalse(clicked.get("missing", False))
+        self.assertTrue(clicked["result"]["selections"])
+        self.assertTrue(clicked["result"]["selections"][-1].endswith("tq1003"))
+        self.assertTrue(any(m["pressed"] == "true" for m in clicked["result"]["markers"]
+                            if "tq1003" in (m["ariaLabel"] or "")))
+
+    def test_cluster_click_zooms_in_instead_of_selecting_or_leaving_site(self):
+        steps = run(scenario(with_gdacs=False),
+                    [FULL, ALL_MAGS, {"markerLabelIncludes": "hier zusammengefasst"}])
+        self.assertFalse(steps[-1].get("missing", False))
+        self.assertLess(box(steps[-1])[2], box(steps[-2])[2])
+        self.assertEqual(steps[-1]["result"]["selections"], [])
+        self.assertTrue(all(m["href"] is None for m in steps[-1]["result"]["markers"]))
+
+
 class MagnitudeFilter(unittest.TestCase):
     def test_default_hides_nothing_but_names_the_limit_of_the_source(self):
         """Der Bestand ist bereits die Auswahl des USGS-Feeds (ab M4.5). Die Karte

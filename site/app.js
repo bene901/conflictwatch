@@ -170,6 +170,98 @@
     return li;
   }
 
+  function closeMapDetail() {
+    const box = $("map-detail");
+    if (!box) return;
+    box.hidden = true;
+    box.removeAttribute("data-source");
+  }
+
+  function showMapDetail(it, src, now) {
+    const box = $("map-detail");
+    if (!box || !it || !src) return;
+
+    $("map-detail-source").textContent = src.name;
+    const title = $("map-detail-title");
+    title.textContent = it.title;
+    title.lang = it.lang || "";
+
+    const meta = [];
+    const t = displayTime(it);
+    if (Number.isFinite(t)) meta.push(relative(t, now));
+    meta.push(it.level ? it.level.label : "ohne Warnstufe");
+    if (it.data_status === "withdrawn") meta.push("zurückgezogen");
+    if (bySighting(src) && it.last_seen_at) {
+      meta.push("zuletzt gemeldet " + relative(Date.parse(it.last_seen_at), now));
+    }
+    $("map-detail-meta").textContent = meta.join(" · ");
+
+    const dl = $("map-detail-facts");
+    dl.replaceChildren();
+    fact(dl, bySighting(src) ? "Beginn laut Quelle" : "Zeitpunkt",
+         Number.isFinite(t) ? when(new Date(t).toISOString()) : "nicht angegeben");
+    if (bySighting(src) && it.last_seen_at) {
+      fact(dl, "Zuletzt im " + src.name + "-Feed gesehen",
+           when(it.last_seen_at) + ". Das belegt, dass " + src.name +
+           " die Meldung weiterhin führt – nicht, dass das Ereignis andauert.");
+    }
+    fact(dl, "Ort", !it.location || it.location.precision === "unknown"
+      ? "nicht angegeben" : it.location.name);
+    if (it.location && it.location.precision === "region") {
+      fact(dl, "Ortsgenauigkeit",
+           "Ungefähre Lage laut Quelle (Zentroid einer Region), keine Schadensfläche.");
+    }
+    fact(dl, "Warnstufe",
+         it.level ? it.level.label : "von der Quelle nicht angegeben – keine Entwarnung");
+    if (it.level_change) {
+      const lc = it.level_change;
+      const note = lc.source_changed_at ? "laut Quelle am " + when(lc.source_changed_at)
+        : "Zeitpunkt laut Quelle nicht angegeben";
+      fact(dl, "Stufenwechsel",
+           "Von " + lc.from.label + " auf " + it.level.label + ", erkannt zwischen " +
+           when(lc.detected_between[0]) + " und " + when(lc.detected_between[1]) + ". " + note + ".");
+    }
+    fact(dl, "Prüfstatus", STATUS_TEXT[it.data_status]);
+    fact(dl, "Messwerte", metricsText(it.metrics || {}));
+    if (it.metrics && it.metrics.magnitude !== undefined && it.metrics.magnitude !== null &&
+        it.metrics.shaking_mmi === null && it.metrics.reported_cdi === null) {
+      fact(dl, "Wirkung vor Ort",
+           "Von der Quelle nicht angegeben. Das heißt nicht, dass das Beben nicht gespürt wurde.");
+    }
+    if (it.source_updated_at) {
+      fact(dl, "Zuletzt geändert laut Quelle", when(it.source_updated_at));
+    }
+    if (it.provenance === "relayed" && it.original_publisher) {
+      fact(dl, "Ursprünglich veröffentlicht von", it.original_publisher);
+    }
+
+    const a = $("map-detail-source-link");
+    if (typeof it.url === "string" && /^https:\/\//.test(it.url)) {
+      a.href = it.url;
+      a.textContent = "Originalmeldung bei " + src.name + " öffnen ↗";
+      a.hidden = false;
+    } else {
+      a.removeAttribute("href");
+      a.hidden = true;
+    }
+    box.dataset.source = it.source;
+    box.hidden = false;
+  }
+
+  function wireMapDetail() {
+    const close = $("map-detail-close");
+    if (close && close.dataset.ready !== "1") {
+      close.dataset.ready = "1";
+      close.addEventListener("click", closeMapDetail);
+    }
+    if (document.body && document.body.dataset.mapDetailReady !== "1") {
+      document.body.dataset.mapDetailReady = "1";
+      document.addEventListener("keydown", function (ev) {
+        if (ev.key === "Escape") closeMapDetail();
+      });
+    }
+  }
+
   function renderStatus(items, srcById) {
     const box = $("status");
     const rows = items.filter((it) => it.kind === "status");
@@ -261,7 +353,11 @@
     banner(warnings);
 
     const items = snap.items.filter((it) => srcById[it.source]);
-    if (window.ConflictWatchMap) window.ConflictWatchMap.render(items, snap.sources);
+    wireMapDetail();
+    if (window.ConflictWatchMap) {
+      window.ConflictWatchMap.render(items, snap.sources,
+        (it) => showMapDetail(it, srcById[it.source], now));
+    }
     renderStatus(items, srcById);
     const start = [], rest = [];
     for (const it of items) {
@@ -289,7 +385,7 @@
 
   // Wie window.ConflictWatchMap in map.js: nur zum Pruefen freigelegt, aendert das
   // Laufzeitverhalten der Seite nicht.
-  globalThis.ConflictWatchApp = { onStart, metricsText };
+  globalThis.ConflictWatchApp = { onStart, metricsText, showMapDetail, closeMapDetail };
 
   main();
 })();

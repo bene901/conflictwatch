@@ -162,10 +162,11 @@ class RegionPresentation(unittest.TestCase):
         self.assertFalse(legend["hidden"])
         self.assertIn("keine eigene Gefahrenbewertung", legend["text"])
 
-    def test_single_region_marker_links_to_the_original_report(self):
+    def test_single_region_marker_opens_conflictwatch_detail_before_original_report(self):
         step = run_map(scenario())[0]
         cyclone = next(r for r in shapes(step, "map-event-region") if "Orange" in r["ariaLabel"])
-        self.assertTrue(cyclone["href"].startswith("https://www.gdacs.org/report.aspx"))
+        self.assertIsNone(cyclone["href"])
+        self.assertIn("Details auf ConflictWatch anzeigen", cyclone["ariaLabel"])
 
 
 class Clustering(unittest.TestCase):

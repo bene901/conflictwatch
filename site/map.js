@@ -57,6 +57,7 @@
   const state = {
     hidden: new Set(), showOlder: false, minMag: 0, windowH: 24,
     items: [], sources: [], view: Object.assign({}, BASE),
+    selectedId: null, onSelect: null,
   };
 
   const zoom = () => BASE.w / state.view.w;
@@ -145,15 +146,29 @@
     return !Number.isFinite(t) || (ref - t) <= state.windowH * 3600 * 1000;
   }
 
-  function link(label, url) {
+  function markerAction(label, onActivate, selected) {
     const a = svg("a");
-    if (typeof url === "string" && /^https:\/\//.test(url)) {
-      a.setAttribute("href", url);
-      a.setAttribute("target", "_blank");
-      a.setAttribute("rel", "noopener noreferrer");
-    }
+    a.setAttribute("role", "button");
+    a.setAttribute("tabindex", "0");
     a.setAttribute("aria-label", label);
+    if (selected) a.setAttribute("aria-pressed", "true");
+    function activate(ev) {
+      if (ev && ev.preventDefault) ev.preventDefault();
+      if (ev && ev.stopPropagation) ev.stopPropagation();
+      onActivate();
+    }
+    a.addEventListener("click", activate);
+    a.addEventListener("keydown", function (ev) {
+      if (!ev || (ev.key !== "Enter" && ev.key !== " ")) return;
+      activate(ev);
+    });
     return a;
+  }
+
+  function selectItem(it) {
+    state.selectedId = it.id || null;
+    draw();
+    if (state.onSelect) state.onSelect(it);
   }
 
   function circle(pos, r, cls) {
@@ -214,10 +229,15 @@
       }
     }
     const label = parts.join(". ") + ".";
-    const a = link(label + (many ? "" : " Originalmeldung öffnen"),
-                   many ? null : group.items[0].url);
+    const selected = !many && group.items[0].id === state.selectedId;
+    const a = markerAction(
+      label + (many ? " Auswählen, um hineinzuzoomen." : " Details auf ConflictWatch anzeigen."),
+      many ? () => zoomBy(1.8, pos[0], pos[1]) : () => selectItem(group.items[0]),
+      selected
+    );
     a.append(circle(pos, px(19), null),
-             circle(pos, px(many ? 11 : 8), "map-event-point" + (many ? " is-cluster" : "")));
+             circle(pos, px(many ? 11 : 8),
+                    "map-event-point" + (many ? " is-cluster" : "") + (selected ? " is-selected" : "")));
     if (many) countLabel(a, pos, group.items.length);
     const title = svg("title");
     title.textContent = label;
@@ -259,11 +279,16 @@
         " nicht aus dem jüngsten Abruf; das ist keine Entwarnung.");
     }
     const label = parts.join(". ") + ".";
-    const a = link(label + (many ? "" : " Originalmeldung öffnen"),
-                   many ? null : group.items[0].url);
+    const selected = !many && group.items[0].id === state.selectedId;
+    const a = markerAction(
+      label + (many ? " Auswählen, um hineinzuzoomen." : " Details auf ConflictWatch anzeigen."),
+      many ? () => zoomBy(1.8, pos[0], pos[1]) : () => selectItem(group.items[0]),
+      selected
+    );
     const marker = circle(pos, px(many ? 13 : 10),
       "map-event-region" + (many ? " is-cluster" : "") +
-      (group.items.every((it) => !it.latest) ? " is-older" : ""));
+      (group.items.every((it) => !it.latest) ? " is-older" : "") +
+      (selected ? " is-selected" : ""));
     if (level.top) marker.setAttribute("data-level", level.top.toLowerCase());
     a.append(circle(pos, px(19), null), marker);
     if (many) countLabel(a, pos, group.items.length);
@@ -490,9 +515,11 @@
     });
   }
 
-  function render(items, sources) {
+  function render(items, sources, onSelect) {
     state.items = Array.isArray(items) ? items : [];
     state.sources = Array.isArray(sources) ? sources : [];
+    state.onSelect = typeof onSelect === "function" ? onSelect : null;
+    state.selectedId = null;
     state.view = Object.assign({}, BASE);
     wireNavigation(document.getElementById("map-view"));
     draw();
