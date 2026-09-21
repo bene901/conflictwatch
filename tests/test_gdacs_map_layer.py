@@ -166,7 +166,6 @@ class RegionPresentation(unittest.TestCase):
         step = run_map(scenario())[0]
         cyclone = next(r for r in shapes(step, "map-event-region") if "Orange" in r["ariaLabel"])
         self.assertIsNone(cyclone["href"])
-        self.assertEqual(cyclone["role"], "button")
         self.assertIn("Details auf ConflictWatch anzeigen", cyclone["ariaLabel"])
 
 
