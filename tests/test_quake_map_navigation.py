@@ -246,7 +246,6 @@ class MagnitudeFilter(unittest.TestCase):
         step = run(scenario(with_gdacs=False), [FULL, STRONG])[2]
         note = step["result"]["note"]
         self.assertIn("1/4 Erdbeben (USGS)", note)
-        self.assertEqual(4 - 1, 3)  # 1 angezeigt, 3 weiterhin gespeichert
         self.assertIn("1/4", note)
 
     def test_magnitude_filter_never_touches_sources_without_magnitudes(self):
