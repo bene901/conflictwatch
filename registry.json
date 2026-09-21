@@ -192,7 +192,97 @@
    },
    "id_rule": "gdacs:<eventtype>:<eventid>; episodeid aktualisiert dasselbe Ereignis ohne doppelte ID.",
    "completeness_rule": "GDACS-App-Feed garantiert keine Vollständigkeit: complete=false; fehlende Einträge sind weder beendet noch zurückgezogen. Nur nach erfolgreich verarbeitetem Abruf und 30 Tagen ohne erneute Sichtung technische Entfernung aus aktivem Bestand. retention_days bleibt Schema-Pflicht, wirkt bei complete=false nicht.",
-   "coverage_note": "Abgedeckt sind GDACS-Zyklone (TC), Fluten (FL) und Waldbrand-Ereignisse (WF). Vulkane (VO) und Dürren (DR) sind mangels authentischem App-Feed-Format NICHT ABGEDECKT; das ist keine Entwarnung. Koordinaten sind Zentroid einer Region, keine Schadensfläche. GDACS liefert keine Vollständigkeitsgarantie. Ein Eintrag gilt als aktuell, wenn ihn der jüngste erfolgreiche Abruf geliefert hat; das heißt NUR, dass GDACS ihn weiterhin meldet, nicht dass das Ereignis nachweislich andauert."
+   "coverage_note": "Abgedeckt sind GDACS-Zyklone (TC), Fluten (FL) und Waldbrand-Ereignisse (WF) aus dem App-Feed. Vulkane und Dürren laufen als getrennte GDACS-Quellen mit eigenen Format- und Zustandsregeln. Koordinaten sind Zentroide einer Region, keine Schadensfläche. GDACS liefert keine Vollständigkeitsgarantie. Ein Eintrag gilt als aktuell, wenn ihn der jüngste erfolgreiche Abruf geliefert hat; das heißt NUR, dass GDACS ihn weiterhin meldet, nicht dass das Ereignis nachweislich andauert."
+  },
+  {
+   "id": "gdacs-volcano",
+   "name": "GDACS – Vulkane",
+   "domain": "disaster",
+   "kinds": [
+    "event"
+   ],
+   "public": true,
+   "endpoints": [
+    "https://www.gdacs.org/contentdata/xml/gdacsVO.geojson"
+   ],
+   "terms_url": "https://www.gdacs.org/About/termofuse.aspx",
+   "attribution": "Daten: Global Disaster Alert and Coordination System (GDACS)",
+   "min_fetch_interval_h": 1,
+   "max_fetch_gap_h": 6,
+   "max_data_age_h": null,
+   "max_empty_h": null,
+   "retention_days": 30,
+   "unseen_expiry_days": 30,
+   "level_schemes": [
+    {
+     "id": "gdacs-alert",
+     "ordered_values": [
+      "Green",
+      "Orange",
+      "Red"
+     ],
+     "labels": {
+      "Green": "GDACS Grün",
+      "Orange": "GDACS Orange",
+      "Red": "GDACS Rot"
+     },
+     "reference_url": "https://www.gdacs.org/"
+    }
+   ],
+   "highlight": {
+    "min_levels": {},
+    "window_h": 72,
+    "include_ongoing": false,
+    "recency_basis": "last_seen"
+   },
+   "id_rule": "gdacs-volcano:<eventid>; episodeid aktualisiert dasselbe Vulkanereignis ohne doppelte ID.",
+   "completeness_rule": "Typ-spezifischer GDACS-VO-GeoJSON-Feed ohne Vollständigkeitsgarantie: complete=false; fehlende Einträge sind weder beendet noch zurückgezogen. Nur bestätigte Zentroid-Punkte werden als Ereignis veröffentlicht.",
+   "coverage_note": "Abgedeckt sind GDACS-Vulkanmeldungen (VO) aus dem offiziellen typ-spezifischen GeoJSON-Feed. Der Feed kann legitimerweise leer sein; das ist keine Entwarnung. Veröffentlicht werden nur von GDACS gelieferte Zentroid-Punkte, keine abgeleiteten Schadensflächen. Ein Eintrag gilt als aktuell, wenn ihn der jüngste erfolgreiche Abruf liefert."
+  },
+  {
+   "id": "gdacs-drought",
+   "name": "GDACS – Dürren",
+   "domain": "disaster",
+   "kinds": [
+    "event"
+   ],
+   "public": true,
+   "endpoints": [
+    "https://www.gdacs.org/contentdata/xml/gdacsDR.geojson"
+   ],
+   "terms_url": "https://www.gdacs.org/About/termofuse.aspx",
+   "attribution": "Daten: Global Disaster Alert and Coordination System (GDACS)",
+   "min_fetch_interval_h": 1,
+   "max_fetch_gap_h": 6,
+   "max_data_age_h": null,
+   "max_empty_h": 72,
+   "retention_days": 30,
+   "unseen_expiry_days": 30,
+   "level_schemes": [
+    {
+     "id": "gdacs-alert",
+     "ordered_values": [
+      "Green",
+      "Orange",
+      "Red"
+     ],
+     "labels": {
+      "Green": "GDACS Grün",
+      "Orange": "GDACS Orange",
+      "Red": "GDACS Rot"
+     },
+     "reference_url": "https://www.gdacs.org/"
+    }
+   ],
+   "highlight": {
+    "min_levels": {},
+    "window_h": 72,
+    "include_ongoing": false,
+    "recency_basis": "last_seen"
+   },
+   "id_rule": "gdacs-drought:<eventid>; episodeid aktualisiert dasselbe Dürreereignis ohne doppelte ID.",
+   "completeness_rule": "Typ-spezifischer GDACS-DR-GeoJSON-Feed ohne Vollständigkeitsgarantie: complete=false; fehlende Einträge sind weder beendet noch zurückgezogen. Polygon-Features werden nicht als zusätzliche Ereignisse veröffentlicht; nur der Quell-Zentroid wird übernommen.",
+   "coverage_note": "Abgedeckt sind GDACS-Dürremeldungen (DR) aus dem offiziellen typ-spezifischen GeoJSON-Feed. Pro Ereignis wird nur der von GDACS gelieferte Zentroid veröffentlicht; zugehörige MultiPolygon-Flächen werden nicht als zweite Meldung oder punktgenauer Schadensort interpretiert. Ein Eintrag gilt als aktuell, wenn ihn der jüngste erfolgreiche Abruf liefert."
   }
  ]
 }
