@@ -76,16 +76,19 @@ jobs:
           path: /tmp/conflictwatch-verified.tar.gz
           retention-days: 1
 
-      - name: Remove temporary patch staging files
+      - name: Squash verified code changes except protected workflow
         if: steps.gate.outputs.apply == 'true'
         shell: bash
         run: |
           set -euo pipefail
+          cp .github/workflows/pipeline.yml /tmp/verified-pipeline.yml
+          git reset --soft origin/${{ github.head_ref }}
+          git restore --source=origin/${{ github.head_ref }} --staged --worktree .github/workflows/pipeline.yml
           rm -rf .patches
           git add -A
-          git commit -m "Remove temporary patch staging files" || true
+          git commit -m "Apply verified quake impact and public release series"
 
-      - name: Push applied series
+      - name: Push verified non-workflow changes
         if: steps.gate.outputs.apply == 'true'
         shell: bash
         run: |
