@@ -7,6 +7,7 @@ import unittest
 from cw.adapters import gdacs_vo_dr
 from cw.adapters import ADAPTERS
 from cw.errors import AdapterError
+from cw.merge import merge_items
 from cw.registry import load
 from cw.validate import check_items, check_registry
 from tests.helpers import ROOT
@@ -40,7 +41,9 @@ class VolcanoFeed(unittest.TestCase):
         self.assertEqual(item["metrics"]["hazard_type"], "volcano")
         self.assertEqual(item["metrics"]["event_name"], "Fuego")
         self.assertEqual(item["source_status_raw"], "false")
-        self.assertEqual(check_items([item], REG, NOW), [])
+        merged = merge_items({}, "gdacs-volcano", VO_ENTRY, result,
+                             "2026-09-21T10:45:00Z")
+        self.assertEqual(check_items(list(merged.values()), REG, NOW), [])
 
     def test_empty_current_volcano_feed_is_valid_not_an_all_clear(self):
         result = gdacs_vo_dr.parse_volcano(collection(), NOW, VO_ENTRY)
@@ -65,7 +68,9 @@ class DroughtFeed(unittest.TestCase):
         self.assertEqual(item["metrics"]["hazard_type"], "drought")
         self.assertEqual(item["location"]["countries"], [])
         self.assertEqual((item["location"]["lat"], item["location"]["lon"]), (9.924, 15.933))
-        self.assertEqual(check_items([item], REG, NOW), [])
+        merged = merge_items({}, "gdacs-drought", DR_ENTRY, result,
+                             "2026-09-21T10:45:00Z")
+        self.assertEqual(check_items(list(merged.values()), REG, NOW), [])
 
     def test_polygon_copy_is_ignored_not_published_as_second_event(self):
         polygon = copy.deepcopy(DR_FEATURE)
