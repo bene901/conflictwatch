@@ -24,6 +24,10 @@ Konsequenzen im Adapter:
 
 Noch offen (nur im Livebetrieb klärbar): Verhalten bei `alert: null` in echten Antworten und die tatsächliche Aktualisierungsfrequenz des Feeds.
 
+## State-Migration am 21.09.2026
+
+Beim Wechsel vom breiten `all_day`-Feed auf `4.5_day` blieben zunächst ältere, bereits gespeicherte USGS-Ereignisse unter Magnitude 4,5 durch die reguläre Retention im Bestand. Diese Altlasten wurden einmalig aus `data-state` entfernt, damit der veröffentlichte Bestand sofort der dokumentierten M4,5+-Abdeckung entspricht. Entfernt wurden ausschließlich USGS-Einträge mit numerischer Magnitude < 4,5; M4,5+-Historie sowie NOAA- und GDACS-Daten blieben unverändert.
+
 ## Feed-Entwicklung seit 20.09.2026
 
 Der ursprüngliche Prototyp verwendete `significant_week.geojson` und zeigte daher nur die von USGS als signifikant eingeordneten Beben. Danach wurde `all_day.geojson` live verifiziert, um die vollständige technische Verarbeitung des USGS-Tagesfeeds zu prüfen. Diese breite Auswahl wurde anschließend bewusst **nicht** als dauerhafte Weltkartenbasis übernommen, weil kleine Beben regional stark ungleich erfasst werden.
