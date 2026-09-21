@@ -141,6 +141,8 @@ def _item(feature: dict, entry: dict, now: dt.datetime, expected_type: str, haza
         raise AdapterError("schema", f"{event}: unbekannte GDACS-Stufe {alert!r}") from None
 
     occurred = _time(p.get("fromdate"), "fromdate", event, now)
+    if occurred is None:
+        raise AdapterError("schema", f"{event}: fromdate fehlt")
     ended = _time(p.get("todate"), "todate", event, now, allow_future=True)
     updated = _time(p.get("datemodified"), "datemodified", event, now) if p.get("datemodified") is not None else None
     if occurred and ended and occurred > ended:
