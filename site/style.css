@@ -69,7 +69,8 @@ body:not([data-mode="test"]) .sidebar a:focus-visible{outline-color:#176c78}
 .map-select{font:inherit;font-size:12px;padding:3px 6px;border:1px solid #b7c8ce;border-radius:5px;background:#fff;color:#1d292c}
 .map-btn{font:inherit;font-size:12px;padding:4px 10px;border:1px solid #b7c8ce;border-radius:5px;background:#fff;color:#1d292c;cursor:pointer}
 .map-btn:hover,.map-btn:focus-visible{border-color:#16788a}
-.equal-earth-map{touch-action:none;cursor:grab}
+.equal-earth-map{touch-action:none;cursor:grab;user-select:none;-webkit-user-select:none}
+.equal-earth-map:active{cursor:grabbing}
 .equal-earth-map:focus-visible{outline:2px solid #16788a;outline-offset:2px}
 .map-cluster-count{font:700 11px system-ui,sans-serif;fill:#1d292c;paint-order:stroke;stroke:#fff;stroke-width:3px}
 #map-points a:focus-visible .map-event-region,#map-points a:hover .map-event-region{stroke-width:4}

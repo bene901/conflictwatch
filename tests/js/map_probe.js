@@ -15,6 +15,9 @@ function makeEl(tag, ns) {
     appendChild(k) { this.children.push(k); return k; },
     replaceChildren(...kids) { this.children = kids.slice(); },
     addEventListener(type, fn) { this.listeners[type] = fn; },
+    getBoundingClientRect() { return {left: 0, top: 0, width: 1000, height: 510}; },
+    setPointerCapture() {},
+    releasePointerCapture() {},
   };
 }
 
@@ -100,6 +103,22 @@ sandbox.window.ConflictWatchMap.render(payload.items, payload.sources,
   (it) => selections.push(it.id));
 const steps = [{step: "initial", result: dump()}];
 for (const toggle of payload.toggles || []) {
+  if (toggle.event) {
+    const fn = registry["map-view"].listeners[toggle.event];
+    if (!fn) {
+      steps.push({step: "event:" + toggle.event, missing: true, result: dump()});
+      continue;
+    }
+    const ev = Object.assign({
+      pointerId: 1, pointerType: "mouse", button: 0,
+      clientX: 500, clientY: 255, deltaY: 0, timeStamp: 0,
+      preventDefault() {}, stopPropagation() {},
+      target: null,
+    }, toggle.payload || {});
+    fn(ev);
+    steps.push({step: "event:" + toggle.event, result: dump()});
+    continue;
+  }
   if (toggle.markerLabelIncludes) {
     const marker = registry["map-points"].children.find((m) =>
       String(m.getAttribute("aria-label") || "").includes(toggle.markerLabelIncludes));
