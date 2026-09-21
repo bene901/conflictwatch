@@ -9,7 +9,7 @@ from unittest import mock
 from cw import pipeline, snapshot, state
 from cw.errors import AdapterError
 from cw.validate import check_items, check_snapshot, check_state
-from tests.helpers import ROOT, at, raw, real_doc, registry
+from tests.helpers import ROOT, at, raw, real_doc, registry, full_registry
 
 
 def run_once(state_dir, fetcher, when, alarm=None, reg=None):
@@ -93,6 +93,28 @@ class Pipeline(unittest.TestCase):
         self.assertEqual(before["items"], after["items"])
         self.assertEqual(sources["sources"][0]["fetch_health"], "degraded")
         self.assertTrue(alarm.exists())
+
+    def test_first_failure_of_new_public_source_raises_alarm(self):
+        d = Path(tempfile.mkdtemp())
+        run_once(d, ok_fetcher(), at())
+
+        reg = full_registry()
+        reg["sources"] = [s for s in reg["sources"]
+                          if s["id"] in {"usgs", "gdacs-volcano"}]
+        reg["domains"] = [x for x in reg["domains"] if x["id"] == "disaster"]
+
+        def mixed_fetch(url):
+            if url.endswith("4.5_day.geojson"):
+                return raw(real_doc())
+            raise AdapterError("network", "simulierter Erstausfall neuer Quelle")
+
+        alarm = d.parent / (d.name + ".new-source.alarm")
+        code, _ = run_once(d, mixed_fetch, at(hours=1), alarm=alarm, reg=reg)
+        self.assertEqual(code, 0)
+        self.assertTrue(alarm.exists())
+        payload = json.loads(alarm.read_text())
+        self.assertIn("gdacs-volcano", payload["newly_down"])
+        self.assertFalse(payload["all_failed"])
 
     def test_p2_validation_failure_writes_nothing(self):
         d = Path(tempfile.mkdtemp())
