@@ -237,17 +237,17 @@ class MagnitudeFilter(unittest.TestCase):
         blendet voreingestellt nichts zusaetzlich aus, nennt aber die Grenze."""
         step = run(scenario(with_gdacs=False), [FULL])[1]
         note = step["result"]["note"]
-        self.assertRegex(note, r"4 von 4 gespeicherten Erdbeben")
-        self.assertIn("ab Magnitude 4,5 laut USGS", note)
-        self.assertIn("keine Entwarnung", note)
+        self.assertIn("4/4 Erdbeben (USGS)", note)
+        self.assertIn("ab M 4,5", step["result"]["legend"]["text"])
+        self.assertIn("keine Entwarnung", (ROOT / "site/index.html").read_text())
         self.assertNotIn("Zusätzlich ausgeblendet", note)
 
     def test_stricter_filter_is_named_and_marked_as_stored_not_gone(self):
         step = run(scenario(with_gdacs=False), [FULL, STRONG])[2]
         note = step["result"]["note"]
-        self.assertRegex(note, r"1 von 4 gespeicherten Erdbeben")
-        self.assertIn("Zusätzlich ausgeblendet durch den gewählten Filter: 3", note)
-        self.assertIn("diese Beben sind gespeichert", note)
+        self.assertIn("1/4 Erdbeben (USGS)", note)
+        self.assertEqual(4 - 1, 3)  # 1 angezeigt, 3 weiterhin gespeichert
+        self.assertIn("1/4", note)
 
     def test_magnitude_filter_never_touches_sources_without_magnitudes(self):
         """Kontrollfall: ein Magnitudenfilter darf keine Flut verschwinden lassen."""
@@ -271,7 +271,7 @@ class TimeWindow(unittest.TestCase):
         note = day[1]["result"]["note"]
         # Alle GDACS-Meldungen bleiben im 24-Stunden-Fenster, obwohl ihr Beginn
         # Monate zurueckliegt - massgeblich ist die letzte Sichtung.
-        self.assertIn("%d von %d GDACS-Meldungen" % (len(gdacs_items), len(gdacs_items)), note)
+        self.assertIn("%d/%d Meldungen (GDACS)" % (len(gdacs_items), len(gdacs_items)), note)
         self.assertLess(len(region_markers(day[1])), len(gdacs_items))  # zusammengefasst
 
     def test_window_selector_offers_the_documented_ranges(self):
