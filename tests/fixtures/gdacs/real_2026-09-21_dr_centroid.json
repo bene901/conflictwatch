@@ -1,0 +1,39 @@
+{
+  "type": "Feature",
+  "id": "DR10275671Centroid",
+  "properties": {
+    "htmldescription": "Green Drought in Central African Republic, Cameroon, Niger, Nigeria, Chad from: 21 Jun 2026 00:00:00 to:18 Sep 2026 00:00:00.",
+    "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/DR.png",
+    "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/DR.png",
+    "Class": "Point_Centroid",
+    "alertlevel": "Green",
+    "alertscore": "0.25",
+    "polygonlabel": "Centroid",
+    "polygontype": null,
+    "link": "https://www.gdacs.org/report.aspx?eventtype=DR&eventid=1027567&episodeid=1",
+    "description": "Drought in Central African Republic, Cameroon, Niger, Nigeria, Chad",
+    "name": "Drought in Central African Republic, Cameroon, Niger, Nigeria, Chad",
+    "temporary": "false",
+    "featrueIndex": 0,
+    "eventtype": "DR",
+    "eventid": "1027567",
+    "episodeid": "1",
+    "eventname": "Central Sahel-2026",
+    "fromdate": "21 Jun 2026 00:00:00",
+    "todate": "18 Sep 2026 00:00:00",
+    "country": "Central African Republic, Cameroon, Niger, Nigeria, Chad",
+    "countrylist": "",
+    "iso3": "CAF",
+    "severity": "168576",
+    "latitude": "9.924",
+    "longitude": "15.933",
+    "imageoverview": ""
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      15.933,
+      9.924
+    ]
+  }
+}
