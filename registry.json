@@ -192,7 +192,7 @@
    },
    "id_rule": "gdacs:<eventtype>:<eventid>; episodeid aktualisiert dasselbe Ereignis ohne doppelte ID.",
    "completeness_rule": "GDACS-App-Feed garantiert keine Vollständigkeit: complete=false; fehlende Einträge sind weder beendet noch zurückgezogen. Nur nach erfolgreich verarbeitetem Abruf und 30 Tagen ohne erneute Sichtung technische Entfernung aus aktivem Bestand. retention_days bleibt Schema-Pflicht, wirkt bei complete=false nicht.",
-   "coverage_note": "Testbetrieb, nicht freigegeben: nur GDACS-Zyklone (TC), Fluten (FL), Waldbrand-Ereignisse (WF). Vulkane (VO) und Dürren (DR) sind mangels authentischem App-Feed-Format NICHT ABGEDECKT; keine Entwarnung. Koordinaten sind Zentroid einer Region, keine Schadensfläche. GDACS liefert keine Vollständigkeitsgarantie. Ein Eintrag gilt als aktuell, wenn ihn der jüngste erfolgreiche Abruf geliefert hat; das heißt NUR, dass GDACS ihn weiterhin meldet, nicht dass das Ereignis nachweislich andauert."
+   "coverage_note": "Abgedeckt sind GDACS-Zyklone (TC), Fluten (FL) und Waldbrand-Ereignisse (WF). Vulkane (VO) und Dürren (DR) sind mangels authentischem App-Feed-Format NICHT ABGEDECKT; das ist keine Entwarnung. Koordinaten sind Zentroid einer Region, keine Schadensfläche. GDACS liefert keine Vollständigkeitsgarantie. Ein Eintrag gilt als aktuell, wenn ihn der jüngste erfolgreiche Abruf geliefert hat; das heißt NUR, dass GDACS ihn weiterhin meldet, nicht dass das Ereignis nachweislich andauert."
   }
  ]
 }
