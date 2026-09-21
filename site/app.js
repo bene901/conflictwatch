@@ -59,14 +59,50 @@
     return within || ongoing;
   }
 
+  // Mercalli-Intensitaet: misst die WIRKUNG vor Ort, nicht die freigesetzte Energie.
+  // Die Stufenbeschreibungen sind die der Skala, keine Bewertung von ConflictWatch.
+  const MERCALLI = [
+    [1.5, "I", "nicht gespürt"],
+    [2.5, "II", "kaum gespürt"],
+    [3.5, "III", "schwach gespürt"],
+    [4.5, "IV", "von vielen gespürt"],
+    [5.5, "V", "von fast allen gespürt"],
+    [6.5, "VI", "leichte Schäden möglich"],
+    [7.5, "VII", "mäßige Schäden möglich"],
+    [8.5, "VIII", "schwere Schäden möglich"],
+    [9.5, "IX", "sehr schwere Schäden möglich"],
+    [10.5, "X", "verbreitete Zerstörung"],
+    [11.5, "XI", "nahezu vollständige Zerstörung"],
+    [Infinity, "XII", "vollständige Zerstörung"],
+  ];
+  const IMPACT_KEYS = ["shaking_mmi", "reported_cdi", "felt_reports"];
+
+  // Die Stufe ist gerundet, der Messwert nicht: beides getrennt ausweisen, damit aus
+  // 4,983 nicht der Eindruck eines glatten Messwerts 5 wird.
+  const exact = new Intl.NumberFormat("de-DE", {maximumFractionDigits: 2});
+
+  function mercalli(value) {
+    const step = MERCALLI.find((s) => value < s[0]) || MERCALLI[MERCALLI.length - 1];
+    return `${step[1]} – ${step[2]} (Messwert ${exact.format(value)})`;
+  }
+
   function metricsText(m) {
     const parts = [];
     if (m.magnitude !== undefined && m.magnitude !== null) {
       parts.push(`Magnitude ${num.format(m.magnitude)}${m.magnitude_type ? " (" + m.magnitude_type + ")" : ""}`);
     }
     if (m.depth_km !== undefined && m.depth_km !== null) parts.push(`Tiefe ${num.format(m.depth_km)} km`);
+    if (m.shaking_mmi !== undefined && m.shaking_mmi !== null) {
+      parts.push(`Erschütterung laut Messnetz: Mercalli ${mercalli(m.shaking_mmi)}`);
+    }
+    if (m.reported_cdi !== undefined && m.reported_cdi !== null) {
+      parts.push(`Von Menschen gemeldet: Mercalli ${mercalli(m.reported_cdi)}`);
+    }
+    if (m.felt_reports !== undefined && m.felt_reports !== null) {
+      parts.push(`${num.format(m.felt_reports)} Rückmeldung${m.felt_reports === 1 ? "" : "en"} von Menschen`);
+    }
     for (const [k, v] of Object.entries(m)) {
-      if (!["magnitude", "magnitude_type", "depth_km"].includes(k) && v !== null) parts.push(`${k}: ${v}`);
+      if (!["magnitude", "magnitude_type", "depth_km"].concat(IMPACT_KEYS).includes(k) && v !== null) parts.push(`${k}: ${v}`);
     }
     return parts.join(", ");
   }
@@ -117,6 +153,11 @@
     }
     fact(dl, "Prüfstatus", STATUS_TEXT[it.data_status]);
     fact(dl, "Messwerte", metricsText(it.metrics));
+    if (it.metrics && it.metrics.magnitude !== undefined && it.metrics.magnitude !== null &&
+        it.metrics.shaking_mmi === null && it.metrics.reported_cdi === null) {
+      fact(dl, "Wirkung vor Ort",
+           "Von der Quelle nicht angegeben. Das heißt nicht, dass das Beben nicht gespürt wurde.");
+    }
     if (it.source_updated_at) fact(dl, "Zuletzt geändert laut Quelle", when(it.source_updated_at));
     if (it.provenance === "relayed" && it.original_publisher) fact(dl, "Ursprünglich veröffentlicht von", it.original_publisher);
     det.append(dl);
@@ -233,7 +274,7 @@
 
     const empty = $("empty");
     if (snap.sources.length === 0) {
-      empty.textContent = TEST_MODE ? "Test-Datensatz nicht verfügbar. Es wird keine Entwarnung gegeben." : "Noch keine Quelle freigegeben. Jede Quelle läuft zuerst sieben Tage im Testbetrieb, bevor ihre Meldungen hier erscheinen.";
+      empty.textContent = TEST_MODE ? "Test-Datensatz nicht verfügbar. Es wird keine Entwarnung gegeben." : "Derzeit ist kein Datenstand abrufbar. Das ist keine Entwarnung.";
       empty.hidden = false;
     } else if (start.length === 0) {
       empty.textContent = TEST_MODE ? "Keine Ereignisse im aktuellen Anzeigezeitraum der Testquellen. Das ist keine Entwarnung und keine Aussage zu nicht abgedeckten Gefahren." : "Im Anzeigezeitraum gibt es keine Meldungen, die die Kriterien der Quellen erfüllen.";
@@ -246,9 +287,9 @@
     renderSources(snap.sources, now);
   }
 
-  // Wie window.ConflictWatchMap in map.js: nur zum Pruefen der Aktualitaetsregel
-  // freigelegt. Aendert das Laufzeitverhalten der Seite nicht.
-  globalThis.ConflictWatchRecency = { onStart };
+  // Wie window.ConflictWatchMap in map.js: nur zum Pruefen freigelegt, aendert das
+  // Laufzeitverhalten der Seite nicht.
+  globalThis.ConflictWatchApp = { onStart, metricsText };
 
   main();
 })();

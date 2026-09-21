@@ -30,6 +30,9 @@
  "metrics": {
   "magnitude": 6.5,
   "magnitude_type": "mww",
-  "depth_km": 98
+  "depth_km": 98,
+  "shaking_mmi": 4.983,
+  "reported_cdi": 3.4,
+  "felt_reports": 8
  }
 }

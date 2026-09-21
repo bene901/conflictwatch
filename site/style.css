@@ -65,6 +65,12 @@ body:not([data-mode="test"]) .sidebar a:focus-visible{outline-color:#176c78}
 .map-event-region[data-level="red"]{stroke:#9d2f2f}
 .map-event-region.is-cluster{stroke-width:3;stroke-dasharray:7 4}
 .map-event-region.is-older{opacity:.45}
+.map-event-point.is-cluster{fill:#0f5f6e;stroke:#fff;stroke-width:3}
+.map-select{font:inherit;font-size:12px;padding:3px 6px;border:1px solid #b7c8ce;border-radius:5px;background:#fff;color:#1d292c}
+.map-btn{font:inherit;font-size:12px;padding:4px 10px;border:1px solid #b7c8ce;border-radius:5px;background:#fff;color:#1d292c;cursor:pointer}
+.map-btn:hover,.map-btn:focus-visible{border-color:#16788a}
+.equal-earth-map{touch-action:none;cursor:grab}
+.equal-earth-map:focus-visible{outline:2px solid #16788a;outline-offset:2px}
 .map-cluster-count{font:700 11px system-ui,sans-serif;fill:#1d292c;paint-order:stroke;stroke:#fff;stroke-width:3px}
 #map-points a:focus-visible .map-event-region,#map-points a:hover .map-event-region{stroke-width:4}
 .map-filters{display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:12px}

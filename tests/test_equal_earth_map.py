@@ -14,7 +14,7 @@ class EqualEarthDisplay(unittest.TestCase):
                 self.assertIn('id="map-view"', page)
                 self.assertIn('id="map-points"', page)
                 self.assertIn('href="world-equal-earth.svg"', page)
-                self.assertIn('src="map.js?v=5"', page)
+                self.assertIn('src="map.js?v=7"', page)
                 self.assertNotIn('src="world.svg"', page)
                 self.assertEqual(page.count('id="map-view"'), 1)
         svg = (SITE / "world-equal-earth.svg").read_text(encoding="utf-8")
@@ -43,11 +43,13 @@ class EqualEarthDisplay(unittest.TestCase):
 
     def test_both_page_builds_copy_mapping_assets(self):
         yml = (ROOT / ".github" / "workflows" / "pipeline.yml").read_text(encoding="utf-8")
-        self.assertEqual(yml.count("site/world-equal-earth.svg"), 2)
-        self.assertEqual(yml.count("site/map.js"), 2)
-        self.assertIn("_site/test/", yml)
+        # Seit der Freigabe aller Quellen gibt es nur noch die regulaere Seite.
+        self.assertEqual(yml.count("site/world-equal-earth.svg"), 1)
+        self.assertEqual(yml.count("site/map.js"), 1)
+        self.assertNotIn("_site/test/", yml)
         reg = (ROOT / "registry.json").read_text(encoding="utf-8")
-        self.assertIn('"public": false', reg)
+        self.assertIn('"public": true', reg)
+        self.assertNotIn('"public": false', reg)
 
 if __name__ == "__main__":
     unittest.main()

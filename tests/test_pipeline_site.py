@@ -222,10 +222,19 @@ class P4Snapshot(unittest.TestCase):
         run_once(self.d, ok_fetcher(), at())
         self.items, self.sources = state.load(self.d)
 
+    @staticmethod
+    def blocked_registry():
+        """Ausdruecklich gesperrte Quelle. Diese Zusicherung darf nicht davon abhaengen,
+        was in registry.json gerade freigegeben ist."""
+        reg = registry()
+        reg["sources"][0]["public"] = False
+        return reg
+
     def test_unreleased_source_not_published(self):
-        snap = snapshot.build(self.items, self.sources, registry(), "abc1234", "2026-09-19T13:18:00Z")
+        reg = self.blocked_registry()
+        snap = snapshot.build(self.items, self.sources, reg, "abc1234", "2026-09-19T13:18:00Z")
         self.assertEqual((snap["sources"], snap["items"]), ([], []))
-        self.assertEqual(check_snapshot(snap, registry(), at()), [])
+        self.assertEqual(check_snapshot(snap, reg, at()), [])
 
     def test_released_source_published_without_ingest(self):
         reg = registry()
@@ -237,10 +246,11 @@ class P4Snapshot(unittest.TestCase):
         self.assertEqual(check_snapshot(snap, reg, at()), [])
 
     def test_preview_must_not_pass_as_production(self):
-        snap = snapshot.build(self.items, self.sources, registry(), "abc1234", "2026-09-19T13:18:00Z",
+        reg = self.blocked_registry()
+        snap = snapshot.build(self.items, self.sources, reg, "abc1234", "2026-09-19T13:18:00Z",
                               include_unreleased=True)
-        self.assertEqual(check_snapshot(snap, registry(), at(), preview=True), [])
-        self.assertTrue(check_snapshot(snap, registry(), at(), preview=False))
+        self.assertEqual(check_snapshot(snap, reg, at(), preview=True), [])
+        self.assertTrue(check_snapshot(snap, reg, at(), preview=False))
 
 
 class SiteStatic(unittest.TestCase):

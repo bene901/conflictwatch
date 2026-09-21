@@ -39,8 +39,12 @@ vm.createContext(sandbox);
 vm.runInContext(fs.readFileSync(appPath, "utf8"), sandbox, { filename: "app.js" });
 
 const payload = JSON.parse(fs.readFileSync(process.argv[2], "utf8"));
+if (payload.metrics) {
+  process.stdout.write(JSON.stringify(payload.metrics.map((m) => sandbox.ConflictWatchApp.metricsText(m))));
+  return;
+}
 const out = payload.cases.map((c) => ({
   name: c.name,
-  onStart: sandbox.ConflictWatchRecency.onStart(c.item, c.source, Date.parse(c.now)),
+  onStart: sandbox.ConflictWatchApp.onStart(c.item, c.source, Date.parse(c.now)),
 }));
 process.stdout.write(JSON.stringify(out));

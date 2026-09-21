@@ -5,7 +5,7 @@ Amtliche Gefahrenmeldungen als kompakte, mobile Liste. Spezifikation: Rev. 2 (ei
 **Stand dieses Pakets:** nur USGS (Erdbeben). Weitere Quellen erst, wenn der USGS-Datenfluss im echten Repository nachweislich funktioniert.
 
 ```
-registry.json            Quellen, Skalen, Regeln (nur USGS, public: false)
+registry.json            Quellen, Skalen, Regeln (USGS, NOAA SWPC, GDACS - alle public: true)
 schema/                  JSON-Schema Rev. 2 (unverändert)
 cw/                      Pipeline: Adapter, Zusammenführung, Validierung, Snapshot, CLI
 site/                    Website (eine HTML-, eine CSS-, eine JS-Datei; lädt nur data/snapshot.json)

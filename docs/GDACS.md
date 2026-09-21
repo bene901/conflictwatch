@@ -1,4 +1,4 @@
-# GDACS-Adapter – interne Integration, öffentlich noch nicht freigegeben
+# GDACS-Adapter – freigegeben (`public:true`)
 
 ## Quelle und Abdeckung
 
@@ -17,7 +17,9 @@ Die drei Fixtures `real_2026-09-20_{tc,fl,wf}_excerpt.json` enthalten je **ein u
 
 Der [zweite Probe-Lauf](https://github.com/bene901/conflictwatch/actions/runs/35508975001) las zusätzlich `archive.geojson` (94421 Bytes, SHA-256 `aefeae87bf6d4168f3ae013a7953705fb4c602b5bb72a99252da4942f9221476`): EQ 26, FL 24, TC 18, VO 6, WF 15, DR 0. **Das Archiv hat ein anderes Schema.** Beim historischen VO-Feature sind z. B. `eventid`/`episodeid` Zeichenketten, `fromdate` ist `04 Sep 2026 21:00:00`, und `url.report` sowie `datemodified` fehlen. Diese VO-Einträge sind daher kein Live-Beweis, dass der App-Feed für VO dieselben Felder wie TC/FL/WF verwendet. Ein Archiv-Adapter wäre ein eigenständiger Arbeitsauftrag mit eigener Zeit- und Vollständigkeitssemantik.
 
-Vor öffentlicher Freigabe: wiederholte zeitlich getrennte Rohantworten und reale Episodenänderungen auswerten, aktuelle Ereignisse gegen die GDACS-Originalseite prüfen und die 7-Tage-Beobachtung je Quelle abschließen. VO/DR sind NICHT unterstützt, bis echte App-Feed-Antworten gesondert validiert sind. `registry.json public:false` bis zum Live-Tor beibehalten; der öffentlich zugängliche USGS/NOAA-Testmodus ist ausdrücklich weiterhin eine 2-Quellen-Allowlist und zeigt GDACS nicht automatisch.
+GDACS ist seit dem 20.09.2026 **regulär freigegeben** (`public:true`), zusammen mit USGS und NOAA. Das sieben-Tage-Tor wurde dabei bewusst übersprungen: Es gibt genau einen Nutzer und keine echten Kunden, das Risiko einer verfrühten Freigabe ist damit eine Fehlanzeige auf der eigenen Seite, keine Falschinformation an Dritte. Die frühere separate Testansicht entfällt dadurch.
+
+Weiterhin offen und **nicht** durch die Freigabe erledigt: VO (Vulkan) und DR (Dürre) sind nicht abgedeckt, solange ihr App-Feed-Format unbelegt ist — auf der Seite steht das ausdrücklich, weil eine fehlende Vulkanmeldung sonst als Entwarnung gelesen wird. Ebenso offen: wiederholte zeitlich getrennte Rohantworten und ein realer Episodenwechsel.
 
 ## Aktualität: gesehen ist nicht andauernd
 

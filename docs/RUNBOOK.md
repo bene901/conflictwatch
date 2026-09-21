@@ -22,7 +22,7 @@
    - `deploy`: URL der Seite.
 3. Artefakt `nachweis-<run-id>` herunterladen: `raw/usgs_*.json` (echte Rohantwort), `preview/snapshot.json`, `state-repo/state/`.
 4. Branch `data-state`: Commit „state: run …“ mit `state/items.json`, `state/sources.json`, `state/runlog.jsonl`.
-5. Seite auf dem Handy: „Noch keine Quelle freigegeben …“ (korrekt, solange `public: false`).
+5. Seite auf dem Handy: Meldungen aller drei Quellen sichtbar (alle `public: true`).
 
 **Bestanden, wenn:** Lauf grün; Rohantwort gespeichert; Bestand und beide Snapshots validiert; Seite veröffentlicht. Die Anzahl der Beben spielt keine Rolle.
 
@@ -76,8 +76,8 @@ python -m http.server -d site 8000
 
 ## Öffentliche, streng getrennte Testvorschau (keine Quellenfreigabe)
 
-- Die reguläre Adresse `/` erhält **ausschließlich** `_site/data/snapshot.json`, erzeugt ohne `--include-unreleased`. `registry.json` bleibt für USGS und NOAA `public:false` bis zum dokumentierten sieben-Tage-Tor.
+- Die reguläre Adresse `/` erhält **ausschließlich** `_site/data/snapshot.json`, erzeugt ohne `--include-unreleased`. Seit dem 20.09.2026 stehen alle Quellen auf `public:true`; das sieben-Tage-Tor wurde bewusst übersprungen (ein Nutzer, keine echten Kunden).
 - Der deutlich gekennzeichnete Testpfad `/test/` erhält einen **separaten** `_site/test/data/snapshot.json`; dessen Generator `python -m cw.test_preview` erlaubt ausdrücklich **nur** `usgs` und `noaa-swpc`. Er kopiert nicht das uneingeschränkte interne Artefakt `preview/snapshot.json` auf die Website. Neue private Anbieter werden nicht automatisch öffentlich.
-- Die Testseite bezeichnet die Werte durchgehend als nicht freigegeben, nennt Zeitstempel, zeigt behördliche Original-Links und erklärt, dass fehlende Meldungen keine Entwarnung sind. Testvorschau ist **öffentlich zugänglich, nicht vertraulich**: nur Quellen-/Ereignisdaten veröffentlichen, deren Nutzungsbedingungen das erlauben. Keine internen Rohantworten, `ingest`-Daten oder Zugangstokens ausgeben.
+- Die separate Testseite wird **nicht mehr gebaut** (`site/test.html` liegt noch im Repo, ist aber aus der Pipeline entfernt). Sie kommt nur zurück, wenn eine künftige Quelle wieder gesperrt startet; `cw/test_preview.py` und seine Zusicherungen bleiben dafür erhalten. Für die reguläre Seite gilt unverändert: nur Quellen-/Ereignisdaten veröffentlichen, deren Nutzungsbedingungen das erlauben, keine internen Rohantworten, keine `ingest`-Daten, keine Zugangstokens.
 - Wenn eine Testquelle regulär freigegeben wird, schlägt der bisherige Test-Generator absichtlich fehl: Vor dem nächsten Deploy die doppelte Testansicht separat deaktivieren oder nach erneuter Prüfung ihre Freigabe-Logik anpassen.
 - Abnahme: GitHub Actions vollständig grün; Haupt-Snapshot hat bis zur Freigabe 0 Quellen/Einträge, Test-Snapshot enthält nur USGS/NOAA und die echten bekannten Ereignisse/Statuswerte, Testseite hat deutlich sichtbaren Warnhinweis; mobilen Browser und eine fehlerhafte/veraltete Datenantwort gesondert prüfen.

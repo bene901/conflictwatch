@@ -1,4 +1,4 @@
-"""USGS-Adapter (Summary-GeoJSON, USGS all_day: alle im Feed gelisteten Ereignisse der letzten 24 Stunden).
+"""USGS-Adapter (Summary-GeoJSON, USGS 4.5_day: Beben ab Magnitude 4,5 der letzten 24 Stunden).
 
 Geprüft an einer echten Antwort vom 19.09.2026 (tests/fixtures/usgs/real_*.json).
 Feldbedeutungen laut ComCat-Dokumentation; siehe docs/USGS.md.
@@ -79,6 +79,17 @@ def _feature(f: dict, entry: dict, now: dt.datetime) -> tuple[dict, list[str]]:
     place = p.get("place")
     mag = _num(p.get("mag"), "mag", fid, allow_null=True)
     mag_type = p.get("magType") if isinstance(p.get("magType"), str) else None
+    # Wirkungsfelder: sie beantworten, was die Magnitude nicht beantwortet - ob und wie
+    # stark das Beben bei Menschen angekommen ist. mmi ist die instrumentell geschaetzte,
+    # cdi die von Menschen gemeldete Intensitaet, beide auf der Mercalli-Skala (I-XII).
+    shaking = _num(p.get("mmi"), "mmi", fid, allow_null=True)
+    reported = _num(p.get("cdi"), "cdi", fid, allow_null=True)
+    for name, value in (("mmi", shaking), ("cdi", reported)):
+        if value is not None and not 0 <= value <= 12:
+            raise AdapterError("sanity", f"{fid}: {name}={value} ausserhalb der Mercalli-Skala")
+    felt = p.get("felt")
+    if felt is not None and (isinstance(felt, bool) or not isinstance(felt, int) or felt < 0):
+        raise AdapterError("schema", f"{fid}: felt ist keine Anzahl")
 
     item = {
         "id": f"{SOURCE}:{fid}",
@@ -105,11 +116,17 @@ def _feature(f: dict, entry: dict, now: dt.datetime) -> tuple[dict, list[str]]:
             "lat": round(float(lat), 4),
             "lon": round(float(lon), 4),
         },
-        # Bewusst NICHT übernommen: tsunami (Regions-Flag, keine Warnung), sig, mmi, cdi, felt.
+        # Bewusst NICHT übernommen: tsunami und sig. `tsunami: 1` heißt laut USGS nur
+        # "großes Beben in ozeanischer Region"; ob ein Tsunami existiert, sagt das Feld
+        # ausdrücklich nicht. Als Gefahrenangabe wäre es falsch. `sig` ist eine interne
+        # USGS-Rangzahl ohne Bedeutung für Leser.
         "metrics": {
             "magnitude": mag,
             "magnitude_type": mag_type,
             "depth_km": depth,
+            "shaking_mmi": shaking,
+            "reported_cdi": reported,
+            "felt_reports": felt,
         },
     }
     aliases = []
