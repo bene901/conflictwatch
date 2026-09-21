@@ -165,7 +165,7 @@
    "min_fetch_interval_h": 1,
    "max_fetch_gap_h": 6,
    "max_data_age_h": null,
-   "max_empty_h": null,
+   "max_empty_h": 72,
    "retention_days": 30,
    "unseen_expiry_days": 30,
    "level_schemes": [

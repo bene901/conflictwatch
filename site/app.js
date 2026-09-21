@@ -112,6 +112,21 @@
     dl.append(el("dt", null, label), el("dd", null, value));
   }
 
+  function setHttpsSourceLink(a, url, label) {
+    if (typeof url === "string" && /^https:\/\//.test(url)) {
+      a.href = url;
+      a.textContent = label;
+      a.rel = "noopener noreferrer";
+      a.target = "_blank";
+      a.hidden = false;
+      return true;
+    }
+    if (a.removeAttribute) a.removeAttribute("href");
+    else a.href = "";
+    a.hidden = true;
+    return false;
+  }
+
   function renderItem(it, src, now) {
     const li = el("li", "item");
     if (it.level && OFFICIAL_COLORS.has(String(it.level.value).toLowerCase())) {
@@ -161,10 +176,8 @@
     if (it.source_updated_at) fact(dl, "Zuletzt geändert laut Quelle", when(it.source_updated_at));
     if (it.provenance === "relayed" && it.original_publisher) fact(dl, "Ursprünglich veröffentlicht von", it.original_publisher);
     det.append(dl);
-    const a = el("a", "source-link", `Originalmeldung bei ${src.name} öffnen`);
-    a.href = it.url;
-    a.rel = "noopener noreferrer";
-    a.target = "_blank";
+    const a = el("a", "source-link");
+    setHttpsSourceLink(a, it.url, `Originalmeldung bei ${src.name} öffnen`);
     det.append(a);
     li.append(det);
     return li;
@@ -236,14 +249,7 @@
     }
 
     const a = $("map-detail-source-link");
-    if (typeof it.url === "string" && /^https:\/\//.test(it.url)) {
-      a.href = it.url;
-      a.textContent = "Originalmeldung bei " + src.name + " öffnen ↗";
-      a.hidden = false;
-    } else {
-      a.removeAttribute("href");
-      a.hidden = true;
-    }
+    setHttpsSourceLink(a, it.url, "Originalmeldung bei " + src.name + " öffnen ↗");
     box.dataset.source = it.source;
     box.hidden = false;
   }

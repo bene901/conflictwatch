@@ -118,15 +118,20 @@ def succeed_source_state(prev: dict, entry: dict, result, items: dict, run_at: s
               items_in_window=result.items_in_window, fetch_health="ok")
     if result.items_in_window > 0:
         st["data_state"], st["empty_since"] = "fresh", None
-    elif result.complete:
-        st["data_state"] = "empty"
+    else:
+        # Auch bei unvollständigen Quellen ist eine lange Folge erfolgreicher, aber
+        # leerer Abrufe ein technisches Anomaliesignal. Sie beweist NICHT, dass der
+        # Quellenbestand leer ist: data_state wechselt deshalb nur bei complete=true
+        # auf "empty". empty_since dient unabhängig davon als Beobachtungsuhr.
         st["empty_since"] = prev["empty_since"] or run_at
+        if result.complete:
+            st["data_state"] = "empty"
         if entry["max_empty_h"] is not None and \
                 parse_utc(run_at) - parse_utc(st["empty_since"]) > dt.timedelta(hours=entry["max_empty_h"]):
             st["fetch_health"] = "degraded"
             st["last_error"] = {"at": run_at, "kind": "sanity",
                                 "detail": f"seit {st['empty_since']} keine Einträge (verdächtig)"}
-    # unvollständig und leer: data_state bleibt, wie er war
+    # unvollständig und leer: data_state bleibt wie zuvor; nur die Leerdauer wird verfolgt.
     st["data_state"] = _status_age_state(items, entry["id"], entry, run_at, st["data_state"])
     st["newest_source_time"] = newest_source_time(items, entry["id"])
     return st

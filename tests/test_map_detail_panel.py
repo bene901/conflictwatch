@@ -25,10 +25,11 @@ class MapDetailPanel(unittest.TestCase):
         self.assertIn("state.onSelect(it)", self.map)
         self.assertNotIn('a.setAttribute("href", url)', self.map)
 
-    def test_app_populates_detail_and_only_then_exposes_original_url(self):
-        self.assertIn("function showMapDetail(it, src, now)", self.app)
-        self.assertIn('a.href = it.url;', self.app)
-        self.assertIn('Originalmeldung bei " + src.name + " öffnen', self.app)
+    def test_app_uses_one_https_guard_for_list_and_map_source_links(self):
+        self.assertIn("function setHttpsSourceLink(a, url, label)", self.app)
+        self.assertEqual(self.app.count("setHttpsSourceLink(a, it.url"), 2)
+        self.assertIn('typeof url === "string" && /^https:\\/\\//.test(url)', self.app)
+        self.assertNotIn("a.href = it.url;", self.app)
         self.assertIn("(it) => showMapDetail(it, srcById[it.source], now)", self.app)
 
     def test_mobile_panel_reflows_below_map_instead_of_covering_it(self):
