@@ -132,7 +132,7 @@ class PointPrecisionUnchanged(unittest.TestCase):
             self.assertAlmostEqual(float(p["r"]), 8)
             self.assertIsNone(p["level"])  # USGS bekommt keine GDACS-Stufenfarbe
             self.assertNotIn("ungefähre Lage", p["ariaLabel"])
-        self.assertIn("laut USGS", step["result"]["note"])
+        self.assertIn("Erdbeben (USGS)", step["result"]["note"])
 
     def test_region_events_never_render_as_point_markers(self):
         """Kontrollfall: ohne die Trennung waeren 87 Zentroide punktgenaue Gefahrenorte."""
@@ -201,7 +201,7 @@ class RecencyAndFilters(unittest.TestCase):
         step = run_map(scenario(), full_window=False)[0]
         labels = " ".join(r["ariaLabel"] for r in shapes(step, "map-event-region"))
         self.assertNotIn("9003", labels)
-        self.assertIn("1 ältere gespeicherte Meldung ist ausgeblendet", step["result"]["note"])
+        self.assertIn("1 ältere Meldung ausgeblendet", step["result"]["note"])
         self.assertIn("keine Entwarnung", step["result"]["note"])
 
     def test_older_events_appear_only_through_their_own_filter_and_stay_marked(self):
