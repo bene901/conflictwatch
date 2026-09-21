@@ -33,7 +33,7 @@
       <section class="hero" aria-labelledby="hero-title">
         <p class="eyebrow">Quellenbasierte Informationen · Öffentliche Ansicht</p>
         <h1 id="hero-title">Was weltweit passiert.<br><span>Mit überprüfbaren Quellen.</span></h1>
-        <p class="hero-copy">Meldungen und Beobachtungen öffentlicher Datenquellen, unverändert von der jeweiligen Behörde übernommen. Abgedeckt sind Erdbeben (USGS), Zyklone, Fluten und Waldbrände (GDACS) sowie Weltraumwetter (NOAA). Vulkane und Dürren sind nicht abgedeckt – das ist keine Entwarnung.</p>
+        <p class="hero-copy">Meldungen und Beobachtungen öffentlicher Datenquellen, unverändert von der jeweiligen Behörde übernommen. Abgedeckt sind Erdbeben (USGS), Zyklone, Fluten, Waldbrände, Vulkane und Dürren (GDACS) sowie Weltraumwetter (NOAA).</p>
         <div class="hero-meta"><span>Keine eigene Risikostufe</span><span>Originalquellen verlinkt</span><span>Alle Zeiten mit UTC-Angabe</span></div>
       </section>
       <div id="banner" class="banner" role="status" hidden></div>
@@ -74,8 +74,9 @@
         <div class="topic-grid">
           <article class="topic" data-source="usgs"><span class="topic-symbol" aria-hidden="true">◇</span><h3>Erdbeben</h3><p>Alle im USGS-24-Stunden-Feed gelisteten Erdbeben. Kleinere Beben sind regional unterschiedlich gut erfasst.</p><span class="topic-state">Wird geladen …</span></article>
           <article class="topic" data-source="gdacs"><span class="topic-symbol" aria-hidden="true">◎</span><h3>Zyklone &amp; Fluten</h3><p>Internationale Ereignisse über GDACS.</p><span class="topic-state">Wird geladen …</span></article>
-          <article class="topic" data-source="gdacs"><span class="topic-symbol" aria-hidden="true">△</span><h3>Vulkane</h3><p>Nicht abgedeckt: das Feldformat des GDACS-Feeds ist für Vulkane unbelegt.</p><span class="topic-state">Wird geladen …</span></article>
-          <article class="topic" data-source="gdacs"><span class="topic-symbol" aria-hidden="true">✳</span><h3>Waldbrände</h3><p>Ereignisse über GDACS. Dürren sind nicht abgedeckt.</p><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="gdacs-volcano"><span class="topic-symbol" aria-hidden="true">△</span><h3>Vulkane</h3><p>Vulkanmeldungen aus dem offiziellen GDACS-VO-GeoJSON-Feed. Ein leerer Feed ist keine Entwarnung.</p><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="gdacs"><span class="topic-symbol" aria-hidden="true">✳</span><h3>Waldbrände</h3><p>Waldbrand-Ereignisse über GDACS.</p><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="gdacs-drought"><span class="topic-symbol" aria-hidden="true">◌</span><h3>Dürren</h3><p>Aktuelle GDACS-Dürremeldungen. Angezeigt wird der Quell-Zentroid; Flächen werden nicht als punktgenaue Schadensorte dargestellt.</p><span class="topic-state">Wird geladen …</span></article>
           <article class="topic" data-source="noaa-swpc"><span class="topic-symbol" aria-hidden="true">☼</span><h3>Weltraumwetter</h3><p>Geomagnetische, Strahlungs- und Radiostörungen laut NOAA.</p><span class="topic-state">Wird geladen …</span></article>
         </div>
       </section>
