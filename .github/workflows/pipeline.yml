@@ -64,14 +64,11 @@ jobs:
 
       - name: Snapshot und Website bauen
         run: |
-          mkdir -p _site/data _site/test/data preview
-          # Regular public feed remains explicitly release-gated (public:false).
+          mkdir -p _site/data preview
+          # Alle Quellen sind freigegeben (registry.json public:true). Der regulaere Feed
+          # zeigt sie; die fruehere separate Testansicht entfaellt deshalb.
           cp site/index.html site/style.css site/app.js site/map.js site/world-equal-earth.svg _site/
           python -m cw snapshot --state state-repo/state --revision "${{ steps.commit.outputs.sha }}" --out _site/data/snapshot.json
-          # Public TEST view is separate and restricted to the explicit USGS/NOAA allowlist.
-          cp site/test.html _site/test/index.html
-          cp site/style.css site/test.css site/app.js site/map.js site/world-equal-earth.svg _site/test/
-          python -m cw.test_preview --state state-repo/state --revision "${{ steps.commit.outputs.sha }}" --out _site/test/data/snapshot.json
           # Internal artifact: may contain other unreleased sources; never publish this file.
           python -m cw snapshot --state state-repo/state --revision "${{ steps.commit.outputs.sha }}" --out preview/snapshot.json --include-unreleased
 
