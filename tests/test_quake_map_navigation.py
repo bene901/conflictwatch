@@ -139,6 +139,49 @@ class Navigation(unittest.TestCase):
             self.assertLessEqual(x + w, 1000.01)
             self.assertLessEqual(y + h, 510.01)
 
+    def test_wheel_zoom_uses_pointer_as_focus_not_map_center(self):
+        steps = run(scenario(with_gdacs=False), [
+            {"event": "wheel", "payload": {"clientX": 800, "clientY": 255, "deltaY": -200}}
+        ])
+        x, y, w, h = box(steps[-1])
+        self.assertLess(w, 1000)
+        # Bei Mittelpunkt-Zoom waere x deutlich kleiner; der Punkt unter x=800
+        # bleibt hier als Fokus erhalten.
+        self.assertGreater(x, 180)
+
+    def test_two_finger_pinch_actually_zooms_the_map(self):
+        steps = run(scenario(with_gdacs=False), [
+            {"event": "pointerdown", "payload": {
+                "pointerId": 1, "pointerType": "touch", "clientX": 400, "clientY": 255,
+                "timeStamp": 100}},
+            {"event": "pointerdown", "payload": {
+                "pointerId": 2, "pointerType": "touch", "clientX": 600, "clientY": 255,
+                "timeStamp": 110}},
+            {"event": "pointermove", "payload": {
+                "pointerId": 2, "pointerType": "touch", "clientX": 750, "clientY": 255,
+                "timeStamp": 140}},
+        ])
+        self.assertLess(box(steps[-1])[2], 700)
+        self.assertGreater(box(steps[-1])[0], 0)
+
+    def test_one_finger_drag_pans_after_zooming(self):
+        steps = run(scenario(with_gdacs=False), [
+            {"id": "map-zoom-in"},
+            {"event": "pointerdown", "payload": {
+                "pointerId": 7, "pointerType": "touch", "clientX": 500, "clientY": 255,
+                "timeStamp": 100}},
+            {"event": "pointermove", "payload": {
+                "pointerId": 7, "pointerType": "touch", "clientX": 620, "clientY": 255,
+                "timeStamp": 160}},
+        ])
+        self.assertLess(box(steps[-1])[0], box(steps[1])[0])
+
+    def test_zoom_limit_allows_deep_inspection_but_stays_bounded(self):
+        steps = run(scenario(with_gdacs=False), [{"id": "map-zoom-in"}] * 14)
+        w = box(steps[-1])[2]
+        self.assertLessEqual(w, 16)
+        self.assertGreaterEqual(w, 1000 / 64 - 0.02)
+
     def test_zooming_in_pulls_overlapping_quakes_apart(self):
         """Der eigentliche Zweck: drei Beben an fast derselben Stelle sind in der
         Weltansicht ein Marker und werden beim Hineinzoomen einzeln sichtbar."""
