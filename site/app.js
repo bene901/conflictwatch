@@ -289,12 +289,20 @@
     const ul = $("sources");
     for (const s of sources) {
       const li = el("li");
-      li.append(el("div", "name", s.name));
-      li.append(el("div", "line", `Datenstand: ${s.newest_source_time ? when(s.newest_source_time) : "keine Angabe"}`));
-      li.append(el("div", "line", `Letzter erfolgreicher Abruf: ${s.last_success_at ? relative(Date.parse(s.last_success_at), now) : "noch keiner"}`));
-      li.append(el("div", "line", `Zustand: ${FETCH_TEXT[s.fetch_health]}, ${DATA_TEXT[s.data_state]}`));
-      li.append(el("div", "line", s.coverage_note));
-      li.append(el("div", "line", s.attribution));
+      const head = el("div", "source-row");
+      head.append(el("span", "name", s.name));
+      head.append(el("span", "source-health",
+        s.fetch_health === "ok" ? "Abruf OK" : FETCH_TEXT[s.fetch_health]));
+      li.append(head);
+      li.append(el("div", "line", s.last_success_at
+        ? `Letzter Abruf ${relative(Date.parse(s.last_success_at), now)}`
+        : "Noch kein erfolgreicher Abruf"));
+      const extra = el("details", "source-extra");
+      extra.append(el("summary", null, "Abdeckung & Herkunft"));
+      extra.append(el("p", null, `Datenstatus: ${DATA_TEXT[s.data_state]}`));
+      extra.append(el("p", null, s.coverage_note));
+      extra.append(el("p", null, s.attribution));
+      li.append(extra);
       ul.append(li);
     }
   }
@@ -330,7 +338,7 @@
     const serverDate = Date.parse(res.headers.get("Date") || "");
     const now = Number.isFinite(serverDate) ? serverDate : Date.now();
     const generated = Date.parse(snap.generated_at);
-    $("stand").textContent = `Zuletzt aktualisiert ${relative(generated, now)}, ${when(snap.generated_at)}`;
+    $("stand").textContent = when(snap.generated_at);
     $("source-count").textContent = String(snap.sources.length);
     $("entry-count").textContent = String(snap.items.filter((it) => it.kind !== "status").length);
     $("sources-empty").hidden = snap.sources.length > 0;
@@ -339,13 +347,13 @@
     for (const card of document.querySelectorAll(".topic[data-source]")) {
       if (!releasedIds.has(card.dataset.source)) continue;
       const label = card.querySelector(".topic-state");
-      label.textContent = TEST_MODE ? "Quelle im Testbetrieb" : "Öffentliche Quelle";
+      label.textContent = TEST_MODE ? "Test" : "Aktiv";
       label.classList.add("live");
     }
 
     const warnings = [];
     if (now - generated > STALE_MS) {
-      warnings.push(`Die Seite wurde seit mehr als drei Stunden nicht aktualisiert. Letzter Stand: ${absFmt.format(new Date(generated))}. Aktuelle Meldungen können fehlen.`);
+      warnings.push(`Datenstand älter als 3 Stunden (${absFmt.format(new Date(generated))}). Neuere Meldungen können fehlen.`);
     }
     const srcById = Object.fromEntries(snap.sources.map((s) => [s.id, s]));
     if (TEST_MODE) {
@@ -353,7 +361,7 @@
     }
     for (const s of snap.sources) {
       if (s.fetch_health === "down") {
-        warnings.push(`Abruf von ${s.name} ausgefallen${s.last_success_at ? " seit " + absFmt.format(new Date(s.last_success_at)) : ""}. Angezeigte Einträge dieser Quelle können veraltet sein.`);
+        warnings.push(`${s.name}: Abruf ausgefallen. Meldungen können veraltet sein.`);
       }
     }
     banner(warnings);
