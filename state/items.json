@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-09-21T01:06:08Z",
+ "generated_at": "2026-09-21T06:19:05Z",
  "items": [
   {
    "id": "gdacs:FL:1103888",
@@ -43,7 +43,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -88,7 +88,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -133,7 +133,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -178,7 +178,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -223,7 +223,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -266,7 +266,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T17:11:39Z"
    }
   },
@@ -309,7 +309,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T17:11:39Z"
    }
   },
@@ -354,7 +354,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T18:12:25Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -371,7 +371,7 @@
    "occurred_at": "2026-09-07T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T15:44:30Z",
+   "source_updated_at": "2026-09-20T19:43:57Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -399,7 +399,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T18:12:25Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -416,7 +416,7 @@
    "occurred_at": "2026-09-07T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T15:43:35Z",
+   "source_updated_at": "2026-09-20T19:43:14Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -444,7 +444,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T18:12:25Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -461,7 +461,7 @@
    "occurred_at": "2026-09-07T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T15:46:07Z",
+   "source_updated_at": "2026-09-20T19:42:40Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -489,7 +489,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T18:12:25Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -506,7 +506,7 @@
    "occurred_at": "2026-09-08T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T15:38:53Z",
+   "source_updated_at": "2026-09-20T19:41:48Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -534,7 +534,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T18:12:25Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -551,7 +551,7 @@
    "occurred_at": "2026-09-07T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T15:41:38Z",
+   "source_updated_at": "2026-09-20T19:43:36Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -579,7 +579,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-20T18:12:25Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -2919,7 +2919,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T20:47:03Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -2964,7 +2964,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T20:47:03Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -3009,7 +3009,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T20:47:03Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -3054,7 +3054,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T17:11:39Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -3099,7 +3099,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T17:11:39Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -3144,7 +3144,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T17:11:39Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -3189,7 +3189,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T17:11:39Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -3234,7 +3234,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T20:47:03Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -3279,7 +3279,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T20:47:03Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -3324,7 +3324,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T20:47:03Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -3369,7 +3369,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T20:47:03Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -3414,7 +3414,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T17:11:39Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -3459,7 +3459,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T20:47:03Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -3504,7 +3504,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -3549,7 +3549,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -3594,7 +3594,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -3639,7 +3639,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -3684,7 +3684,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -3729,7 +3729,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T17:11:39Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -3774,7 +3774,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T17:11:39Z"
    }
   },
@@ -3819,7 +3819,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -3864,7 +3864,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -3909,7 +3909,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -3954,7 +3954,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -3999,7 +3999,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -4044,7 +4044,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -4089,7 +4089,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -4134,7 +4134,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T20:47:03Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -4179,7 +4179,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T20:47:03Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -4224,7 +4224,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T20:47:03Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -4269,7 +4269,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T20:47:03Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -4314,7 +4314,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T20:47:03Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -4359,7 +4359,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T17:11:39Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -4404,7 +4404,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T20:47:03Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -4449,7 +4449,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T20:47:03Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -4466,7 +4466,7 @@
    "occurred_at": "2026-09-09T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T19:37:09Z",
+   "source_updated_at": "2026-09-20T20:22:58Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -4494,7 +4494,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T17:11:39Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T17:11:39Z"
    }
   },
@@ -4539,7 +4539,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T20:47:03Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -4584,7 +4584,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -4629,7 +4629,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -4674,7 +4674,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -4719,7 +4719,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -4764,7 +4764,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -4809,7 +4809,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -4854,7 +4854,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -4899,7 +4899,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -4944,7 +4944,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T20:47:03Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -4989,7 +4989,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -5034,7 +5034,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T17:11:39Z"
    }
   },
@@ -5079,7 +5079,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -5124,7 +5124,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -5169,7 +5169,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -5214,7 +5214,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -5259,7 +5259,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -5304,7 +5304,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -5349,7 +5349,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -5394,7 +5394,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -5439,7 +5439,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -5484,7 +5484,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -5529,7 +5529,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -5574,7 +5574,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -5619,7 +5619,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -5664,7 +5664,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T17:11:39Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -5709,8 +5709,458 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T17:11:39Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T17:11:39Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032271",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Zimbabwe",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032271&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-09-19T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T19:47:48Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Zimbabwe",
+    "countries": [
+     "ZW"
+    ],
+    "lat": -16.1466,
+    "lon": 29.8057
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 6358.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032272",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Tanzania",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032272&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-09-15T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T19:50:58Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Tanzania",
+    "countries": [
+     "TZ"
+    ],
+    "lat": -7.0695,
+    "lon": 34.0953
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 6404.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032273",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Zambia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032273&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-09-14T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T19:54:41Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Zambia",
+    "countries": [
+     "ZM"
+    ],
+    "lat": -10.6924,
+    "lon": 31.8598
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5021.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032274",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Mozambique",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032274&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-09-12T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T20:02:31Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Mozambique",
+    "countries": [
+     "MZ"
+    ],
+    "lat": -16.9908,
+    "lon": 37.998
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 8351.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032275",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Mozambique",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032275&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-09-12T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T20:05:04Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Mozambique",
+    "countries": [
+     "MZ"
+    ],
+    "lat": -17.6273,
+    "lon": 33.3128
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5645.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032276",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Mozambique",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032276&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-09-12T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T20:05:22Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Mozambique",
+    "countries": [
+     "MZ"
+    ],
+    "lat": -17.6804,
+    "lon": 33.4317
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5497.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032277",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Angola",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032277&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-09-12T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T20:05:48Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Angola",
+    "countries": [
+     "AO"
+    ],
+    "lat": -13.8534,
+    "lon": 17.3967
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5014.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032278",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Mozambique",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032278&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-09-11T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T20:05:59Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Mozambique",
+    "countries": [
+     "MZ"
+    ],
+    "lat": -17.1284,
+    "lon": 37.3435
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5456.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032279",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Mozambique",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032279&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-09-10T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T20:19:40Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Mozambique",
+    "countries": [
+     "MZ"
+    ],
+    "lat": -18.7359,
+    "lon": 34.9872
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 6513.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1032280",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Indonesia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032280&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-09-08T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-20T19:39:15Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Indonesia",
+    "countries": [
+     "ID"
+    ],
+    "lat": -2.0106,
+    "lon": 111.1139
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 6090.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
    }
   },
   {
@@ -5725,7 +6175,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-09-21T01:04:00Z",
+   "observed_at": "2026-09-21T06:17:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -5746,8 +6196,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
-    "last_changed_at": "2026-09-21T01:06:08Z"
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
    }
   },
   {
@@ -5762,7 +6212,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-09-21T01:04:00Z",
+   "observed_at": "2026-09-21T06:17:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -5783,8 +6233,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
-    "last_changed_at": "2026-09-21T01:06:08Z"
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
    }
   },
   {
@@ -5799,7 +6249,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-09-21T01:04:00Z",
+   "observed_at": "2026-09-21T06:17:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -5820,8 +6270,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
-    "last_changed_at": "2026-09-21T01:06:08Z"
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
    }
   },
   {
@@ -6782,7 +7232,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -6819,7 +7269,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -6856,7 +7306,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -6893,7 +7343,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -6930,7 +7380,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -6967,7 +7417,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -7004,7 +7454,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -7041,7 +7491,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -7078,7 +7528,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -7115,7 +7565,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -7152,7 +7602,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -7189,7 +7639,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -7226,7 +7676,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -7263,7 +7713,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -7300,7 +7750,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -7337,7 +7787,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -7374,7 +7824,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -7411,7 +7861,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -7448,7 +7898,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -7485,7 +7935,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -7522,7 +7972,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -7559,7 +8009,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -7596,7 +8046,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -7633,8 +8083,45 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
+   }
+  },
+  {
+   "id": "usgs:aka2026srpjla",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 3.2 - 169 km WSW of Nikolski, Alaska",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026srpjla",
+   "occurred_at": "2026-09-20T21:48:08Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T04:15:06Z",
+   "ongoing": null,
+   "data_status": "reviewed",
+   "source_status_raw": "reviewed",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "169 km WSW of Nikolski, Alaska",
+    "countries": [],
+    "lat": 52.246,
+    "lon": -171.088
+   },
+   "metrics": {
+    "magnitude": 3.2,
+    "magnitude_type": "ml",
+    "depth_km": 101.4
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
    }
   },
   {
@@ -7670,7 +8157,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -7707,7 +8194,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T01:06:08Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-21T01:06:08Z"
    }
   },
@@ -7744,7 +8231,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T01:06:08Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-21T01:06:08Z"
    }
   },
@@ -7781,7 +8268,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T01:06:08Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-21T01:06:08Z"
    }
   },
@@ -7818,8 +8305,526 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T01:06:08Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-21T01:06:08Z"
+   }
+  },
+  {
+   "id": "usgs:aka2026srwhug",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 1.6 - 5 km NW of Happy Valley, Alaska",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026srwhug",
+   "occurred_at": "2026-09-21T01:16:29Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T01:17:32Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "5 km NW of Happy Valley, Alaska",
+    "countries": [],
+    "lat": 59.982,
+    "lon": -151.799
+   },
+   "metrics": {
+    "magnitude": 1.6,
+    "magnitude_type": "ml",
+    "depth_km": 73.9
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:aka2026srwsol",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 1.8 - 75 km E of Lime Village, Alaska",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026srwsol",
+   "occurred_at": "2026-09-21T01:28:55Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T01:29:58Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "75 km E of Lime Village, Alaska",
+    "countries": [],
+    "lat": 61.235,
+    "lon": -154.044
+   },
+   "metrics": {
+    "magnitude": 1.8,
+    "magnitude_type": "ml",
+    "depth_km": 4.5
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:aka2026srymeg",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 2.2 - 72 km NNW of Aleneva, Alaska",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026srymeg",
+   "occurred_at": "2026-09-21T02:21:32Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T02:23:59Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "72 km NNW of Aleneva, Alaska",
+    "countries": [],
+    "lat": 58.639,
+    "lon": -153.484
+   },
+   "metrics": {
+    "magnitude": 2.2,
+    "magnitude_type": "ml",
+    "depth_km": 80
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:aka2026srytln",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 2.7 - 36 km NW of Ninilchik, Alaska",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026srytln",
+   "occurred_at": "2026-09-21T02:29:56Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T02:50:27Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "36 km NW of Ninilchik, Alaska",
+    "countries": [],
+    "lat": 60.311,
+    "lon": -152.056
+   },
+   "metrics": {
+    "magnitude": 2.7,
+    "magnitude_type": "ml",
+    "depth_km": 78.8
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:aka2026srzaxg",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 3.6 - 142 km SW of Nikolski, Alaska",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026srzaxg",
+   "occurred_at": "2026-09-21T02:38:33Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T04:24:27Z",
+   "ongoing": null,
+   "data_status": "reviewed",
+   "source_status_raw": "reviewed",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "142 km SW of Nikolski, Alaska",
+    "countries": [],
+    "lat": 52.171,
+    "lon": -170.539
+   },
+   "metrics": {
+    "magnitude": 3.6,
+    "magnitude_type": "ml",
+    "depth_km": 26.6
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:aka2026srzpsk",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 1.3 - 77 km WNW of Karluk, Alaska",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026srzpsk",
+   "occurred_at": "2026-09-21T02:55:35Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T02:56:25Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "77 km WNW of Karluk, Alaska",
+    "countries": [],
+    "lat": 57.822,
+    "lon": -155.663
+   },
+   "metrics": {
+    "magnitude": 1.3,
+    "magnitude_type": "ml",
+    "depth_km": 15.2
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:aka2026srzvla",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 2.8 - 64 km ESE of Pedro Bay, Alaska",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026srzvla",
+   "occurred_at": "2026-09-21T03:02:22Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T03:07:20Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "64 km ESE of Pedro Bay, Alaska",
+    "countries": [],
+    "lat": 59.506,
+    "lon": -153.097
+   },
+   "metrics": {
+    "magnitude": 2.8,
+    "magnitude_type": "ml",
+    "depth_km": 102.1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:aka2026ssarak",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 1.4 - 59 km NNW of Karluk, Alaska",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ssarak",
+   "occurred_at": "2026-09-21T03:27:15Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T03:28:28Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "59 km NNW of Karluk, Alaska",
+    "countries": [],
+    "lat": 58.02,
+    "lon": -154.988
+   },
+   "metrics": {
+    "magnitude": 1.4,
+    "magnitude_type": "ml",
+    "depth_km": 87.6
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:aka2026ssbyhh",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 2.1 - 55 km NNW of Petersville, Alaska",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ssbyhh",
+   "occurred_at": "2026-09-21T04:05:26Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T04:08:39Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "55 km NNW of Petersville, Alaska",
+    "countries": [],
+    "lat": 62.933,
+    "lon": -151.3
+   },
+   "metrics": {
+    "magnitude": 2.1,
+    "magnitude_type": "ml",
+    "depth_km": 116.6
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:aka2026ssdlxp",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 0.6 - 64 km W of Tyonek, Alaska",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ssdlxp",
+   "occurred_at": "2026-09-21T04:51:08Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T04:51:44Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "64 km W of Tyonek, Alaska",
+    "countries": [],
+    "lat": 61.131,
+    "lon": -152.329
+   },
+   "metrics": {
+    "magnitude": 0.6,
+    "magnitude_type": "ml",
+    "depth_km": 8.6
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:aka2026sseasm",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 2.6 - 50 km WNW of Nanwalek, Alaska",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sseasm",
+   "occurred_at": "2026-09-21T05:08:12Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T05:12:00Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "50 km WNW of Nanwalek, Alaska",
+    "countries": [],
+    "lat": 59.56,
+    "lon": -152.725
+   },
+   "metrics": {
+    "magnitude": 2.6,
+    "magnitude_type": "ml",
+    "depth_km": 90.6
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:aka2026ssende",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 2.4 - 77 km WSW of Karluk, Alaska",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ssende",
+   "occurred_at": "2026-09-21T05:22:32Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T05:24:08Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "77 km WSW of Karluk, Alaska",
+    "countries": [],
+    "lat": 57.303,
+    "lon": -155.655
+   },
+   "metrics": {
+    "magnitude": 2.4,
+    "magnitude_type": "ml",
+    "depth_km": 72.9
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:aka2026ssezpi",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 2.2 - 16 km N of Ivanof Bay, Alaska",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ssezpi",
+   "occurred_at": "2026-09-21T05:36:53Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T05:38:32Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "16 km N of Ivanof Bay, Alaska",
+    "countries": [],
+    "lat": 56.051,
+    "lon": -159.522
+   },
+   "metrics": {
+    "magnitude": 2.2,
+    "magnitude_type": "ml",
+    "depth_km": 113.1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:aka2026ssfahp",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 2.3 - 63 km N of Petersville, Alaska",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ssfahp",
+   "occurred_at": "2026-09-21T05:37:41Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T05:41:28Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "63 km N of Petersville, Alaska",
+    "countries": [],
+    "lat": 63.061,
+    "lon": -150.554
+   },
+   "metrics": {
+    "magnitude": 2.3,
+    "magnitude_type": "ml",
+    "depth_km": 100.3
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
    }
   },
   {
@@ -8521,7 +9526,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -8558,7 +9563,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -8595,7 +9600,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -8632,7 +9637,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -8669,7 +9674,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -8706,7 +9711,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -8743,7 +9748,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -8780,7 +9785,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -8817,7 +9822,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -8854,7 +9859,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -8891,7 +9896,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -8928,7 +9933,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -8965,7 +9970,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -9002,7 +10007,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -9039,7 +10044,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -9076,7 +10081,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -9113,7 +10118,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -9150,7 +10155,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -9187,7 +10192,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -9224,7 +10229,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -9261,7 +10266,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -9298,7 +10303,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -9335,7 +10340,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -9372,7 +10377,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -9409,7 +10414,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -9446,7 +10451,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -9483,7 +10488,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -9520,7 +10525,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -9557,7 +10562,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -9594,7 +10599,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -9631,7 +10636,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -9668,7 +10673,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -9705,7 +10710,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -9742,7 +10747,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -9779,7 +10784,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T01:06:08Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-21T01:06:08Z"
    }
   },
@@ -9816,7 +10821,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T01:06:08Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-21T01:06:08Z"
    }
   },
@@ -9853,7 +10858,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T01:06:08Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-21T01:06:08Z"
    }
   },
@@ -9890,8 +10895,415 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T01:06:08Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-21T01:06:08Z"
+   }
+  },
+  {
+   "id": "usgs:ci41335783",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 1.5 - 17 km WNW of Tehachapi, CA",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41335783",
+   "occurred_at": "2026-09-21T01:26:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T01:29:29Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "17 km WNW of Tehachapi, CA",
+    "countries": [],
+    "lat": 35.1995,
+    "lon": -118.6227
+   },
+   "metrics": {
+    "magnitude": 1.51,
+    "magnitude_type": "ml",
+    "depth_km": 7.73
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:ci41335791",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 0.7 - 1 km W of Lake Henshaw, CA",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41335791",
+   "occurred_at": "2026-09-21T01:31:07Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T01:34:31Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "1 km W of Lake Henshaw, CA",
+    "countries": [],
+    "lat": 33.2413,
+    "lon": -116.7785
+   },
+   "metrics": {
+    "magnitude": 0.65,
+    "magnitude_type": "ml",
+    "depth_km": 15.93
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:ci41335799",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 0.7 - 9 km NE of Borrego Springs, CA",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41335799",
+   "occurred_at": "2026-09-21T01:50:25Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T01:53:53Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "9 km NE of Borrego Springs, CA",
+    "countries": [],
+    "lat": 33.3098,
+    "lon": -116.3055
+   },
+   "metrics": {
+    "magnitude": 0.69,
+    "magnitude_type": "ml",
+    "depth_km": 29.07
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:ci41335807",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 1.2 - 6 km NNE of Beaumont, CA",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41335807",
+   "occurred_at": "2026-09-21T02:14:25Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T02:25:02Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "6 km NNE of Beaumont, CA",
+    "countries": [],
+    "lat": 33.9808,
+    "lon": -116.959
+   },
+   "metrics": {
+    "magnitude": 1.2,
+    "magnitude_type": "ml",
+    "depth_km": 14.79
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:ci41335815",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 0.8 - 3 km ESE of Cabazon, CA",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41335815",
+   "occurred_at": "2026-09-21T02:15:13Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T02:18:33Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "3 km ESE of Cabazon, CA",
+    "countries": [],
+    "lat": 33.9077,
+    "lon": -116.7592
+   },
+   "metrics": {
+    "magnitude": 0.76,
+    "magnitude_type": "ml",
+    "depth_km": 16.63
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:ci41335823",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 0.9 - 19 km WSW of Johannesburg, CA",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41335823",
+   "occurred_at": "2026-09-21T02:33:55Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T02:37:24Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "19 km WSW of Johannesburg, CA",
+    "countries": [],
+    "lat": 35.3038,
+    "lon": -117.8253
+   },
+   "metrics": {
+    "magnitude": 0.9,
+    "magnitude_type": "ml",
+    "depth_km": 8.91
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:ci41335839",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 0.9 - 18 km WSW of Johannesburg, CA",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41335839",
+   "occurred_at": "2026-09-21T04:18:49Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T04:22:15Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "18 km WSW of Johannesburg, CA",
+    "countries": [],
+    "lat": 35.3248,
+    "lon": -117.8205
+   },
+   "metrics": {
+    "magnitude": 0.94,
+    "magnitude_type": "ml",
+    "depth_km": 8.38
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:ci41335847",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 0.6 - 5 km S of Cabazon, CA",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41335847",
+   "occurred_at": "2026-09-21T04:40:52Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T04:44:23Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "5 km S of Cabazon, CA",
+    "countries": [],
+    "lat": 33.8682,
+    "lon": -116.7832
+   },
+   "metrics": {
+    "magnitude": 0.6,
+    "magnitude_type": "ml",
+    "depth_km": 17.33
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:ci41335855",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 1.0 - 8 km SW of Anza, CA",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41335855",
+   "occurred_at": "2026-09-21T05:02:29Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T05:06:02Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "8 km SW of Anza, CA",
+    "countries": [],
+    "lat": 33.5102,
+    "lon": -116.7432
+   },
+   "metrics": {
+    "magnitude": 1.03,
+    "magnitude_type": "ml",
+    "depth_km": 3.28
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:ci41335863",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 0.9 - 4 km SSW of Banning, CA",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41335863",
+   "occurred_at": "2026-09-21T05:23:59Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T05:27:23Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "4 km SSW of Banning, CA",
+    "countries": [],
+    "lat": 33.8878,
+    "lon": -116.8917
+   },
+   "metrics": {
+    "magnitude": 0.89,
+    "magnitude_type": "ml",
+    "depth_km": 15.18
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:ci41335871",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 0.4 - 17 km ESE of Anza, CA",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41335871",
+   "occurred_at": "2026-09-21T05:34:47Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T05:38:12Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "17 km ESE of Anza, CA",
+    "countries": [],
+    "lat": 33.4972,
+    "lon": -116.5065
+   },
+   "metrics": {
+    "magnitude": 0.4,
+    "magnitude_type": "ml",
+    "depth_km": 13.84
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
    }
   },
   {
@@ -10038,7 +11450,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -10075,7 +11487,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -10112,7 +11524,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -10149,7 +11561,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -10186,7 +11598,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -10223,7 +11635,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -10260,7 +11672,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -10297,7 +11709,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -10314,7 +11726,7 @@
    "occurred_at": "2026-09-20T22:13:43Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T22:17:06Z",
+   "source_updated_at": "2026-09-21T01:46:59Z",
    "ongoing": null,
    "data_status": "preliminary",
    "source_status_raw": "automatic",
@@ -10334,7 +11746,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -10371,7 +11783,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -10408,7 +11820,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T01:06:08Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-21T01:06:08Z"
    }
   },
@@ -10425,7 +11837,7 @@
    "occurred_at": "2026-09-21T00:56:33Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-21T01:00:09Z",
+   "source_updated_at": "2026-09-21T03:22:11Z",
    "ongoing": null,
    "data_status": "preliminary",
    "source_status_raw": "automatic",
@@ -10445,8 +11857,119 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T01:06:08Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-21T01:06:08Z"
+   }
+  },
+  {
+   "id": "usgs:hv75041007",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 2.0 - 0 km NNW of Eden Roc, Hawaii",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75041007",
+   "occurred_at": "2026-09-21T01:41:38Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T01:45:13Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "0 km NNW of Eden Roc, Hawaii",
+    "countries": [],
+    "lat": 19.4948,
+    "lon": -155.1058
+   },
+   "metrics": {
+    "magnitude": 1.97,
+    "magnitude_type": "ml",
+    "depth_km": 8.67000007629395
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:hv75041052",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 2.4 - 26 km W of Volcano, Hawaii",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75041052",
+   "occurred_at": "2026-09-21T04:04:55Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T04:08:26Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "26 km W of Volcano, Hawaii",
+    "countries": [],
+    "lat": 19.472,
+    "lon": -155.4883
+   },
+   "metrics": {
+    "magnitude": 2.41,
+    "magnitude_type": "ml",
+    "depth_km": 0.519999980926514
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:hv75041092",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 1.9 - 9 km N of Waimea, Hawaii",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75041092",
+   "occurred_at": "2026-09-21T06:00:58Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T06:04:24Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "9 km N of Waimea, Hawaii",
+    "countries": [],
+    "lat": 20.1117,
+    "lon": -155.6853
+   },
+   "metrics": {
+    "magnitude": 1.86,
+    "magnitude_type": "md",
+    "depth_km": 24.4699993133545
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
    }
   },
   {
@@ -11148,7 +12671,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -11185,7 +12708,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -11222,7 +12745,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -11259,7 +12782,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -11296,7 +12819,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -11333,7 +12856,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -11370,7 +12893,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -11407,7 +12930,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -11444,7 +12967,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -11481,7 +13004,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -11518,7 +13041,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -11555,7 +13078,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -11592,7 +13115,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -11629,7 +13152,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -11666,7 +13189,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -11703,7 +13226,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -11740,7 +13263,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -11777,7 +13300,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -11814,7 +13337,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -11851,7 +13374,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -11888,7 +13411,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -11925,7 +13448,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -11962,7 +13485,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -11999,7 +13522,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -12036,7 +13559,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -12073,7 +13596,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -12110,7 +13633,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -12147,7 +13670,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -12184,7 +13707,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T01:06:08Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-21T01:06:08Z"
    }
   },
@@ -12201,7 +13724,7 @@
    "occurred_at": "2026-09-21T00:44:24Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-21T00:46:03Z",
+   "source_updated_at": "2026-09-21T01:17:23Z",
    "ongoing": null,
    "data_status": "preliminary",
    "source_status_raw": "automatic",
@@ -12221,7 +13744,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T01:06:08Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-21T01:06:08Z"
    }
   },
@@ -12238,7 +13761,7 @@
    "occurred_at": "2026-09-21T00:58:16Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-21T00:59:53Z",
+   "source_updated_at": "2026-09-21T01:47:25Z",
    "ongoing": null,
    "data_status": "preliminary",
    "source_status_raw": "automatic",
@@ -12258,8 +13781,415 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T01:06:08Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-21T01:06:08Z"
+   }
+  },
+  {
+   "id": "usgs:nc75439232",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 0.5 - 5 km WNW of Cobb, CA",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75439232",
+   "occurred_at": "2026-09-21T01:40:10Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T02:12:19Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "5 km WNW of Cobb, CA",
+    "countries": [],
+    "lat": 38.832,
+    "lon": -122.7848
+   },
+   "metrics": {
+    "magnitude": 0.54,
+    "magnitude_type": "md",
+    "depth_km": 1.21000003814697
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:nc75439242",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 0.6 - 10 km NW of The Geysers, CA",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75439242",
+   "occurred_at": "2026-09-21T03:02:39Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T03:32:25Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "10 km NW of The Geysers, CA",
+    "countries": [],
+    "lat": 38.8287,
+    "lon": -122.8527
+   },
+   "metrics": {
+    "magnitude": 0.64,
+    "magnitude_type": "md",
+    "depth_km": 1.60000002384186
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:nc75439247",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 0.8 - 1 km NW of The Geysers, CA",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75439247",
+   "occurred_at": "2026-09-21T03:09:17Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T03:10:54Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "1 km NW of The Geysers, CA",
+    "countries": [],
+    "lat": 38.785,
+    "lon": -122.7688
+   },
+   "metrics": {
+    "magnitude": 0.76,
+    "magnitude_type": "md",
+    "depth_km": 3.46000003814697
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:nc75439252",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 1.5 - 8 km NNW of Pinnacles, CA",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75439252",
+   "occurred_at": "2026-09-21T03:28:19Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T04:42:23Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "8 km NNW of Pinnacles, CA",
+    "countries": [],
+    "lat": 36.5922,
+    "lon": -121.1823
+   },
+   "metrics": {
+    "magnitude": 1.48,
+    "magnitude_type": "md",
+    "depth_km": 4.11999988555908
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:nc75439257",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 0.3 - 6 km WNW of Cobb, CA",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75439257",
+   "occurred_at": "2026-09-21T03:47:37Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T03:49:15Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "6 km WNW of Cobb, CA",
+    "countries": [],
+    "lat": 38.836,
+    "lon": -122.7872
+   },
+   "metrics": {
+    "magnitude": 0.28,
+    "magnitude_type": "md",
+    "depth_km": 1.70000004768372
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:nc75439267",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 0.9 - 10 km WNW of The Geysers, CA",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75439267",
+   "occurred_at": "2026-09-21T04:16:52Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T04:18:29Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "10 km WNW of The Geysers, CA",
+    "countries": [],
+    "lat": 38.8215,
+    "lon": -122.8535
+   },
+   "metrics": {
+    "magnitude": 0.94,
+    "magnitude_type": "md",
+    "depth_km": 2.63000011444092
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:nc75439272",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 0.8 - 5 km WNW of The Geysers, CA",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75439272",
+   "occurred_at": "2026-09-21T04:18:39Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T04:20:14Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "5 km WNW of The Geysers, CA",
+    "countries": [],
+    "lat": 38.7967,
+    "lon": -122.808
+   },
+   "metrics": {
+    "magnitude": 0.77,
+    "magnitude_type": "md",
+    "depth_km": 3.50999999046326
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:nc75439292",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 1.0 - 3 km NNW of The Geysers, CA",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75439292",
+   "occurred_at": "2026-09-21T04:57:17Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T04:58:55Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "3 km NNW of The Geysers, CA",
+    "countries": [],
+    "lat": 38.804,
+    "lon": -122.7745
+   },
+   "metrics": {
+    "magnitude": 1.02,
+    "magnitude_type": "md",
+    "depth_km": 1.47000002861023
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:nc75439297",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 0.7 - 13 km ENE of Cloverdale, CA",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75439297",
+   "occurred_at": "2026-09-21T05:13:28Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T05:15:04Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "13 km ENE of Cloverdale, CA",
+    "countries": [],
+    "lat": 38.8417,
+    "lon": -122.88
+   },
+   "metrics": {
+    "magnitude": 0.68,
+    "magnitude_type": "md",
+    "depth_km": 2.36999988555908
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:nc75439302",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 2.0 - 9 km ESE of Livermore, CA",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75439302",
+   "occurred_at": "2026-09-21T05:18:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T05:42:23Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "9 km ESE of Livermore, CA",
+    "countries": [],
+    "lat": 37.6402,
+    "lon": -121.6813
+   },
+   "metrics": {
+    "magnitude": 1.96,
+    "magnitude_type": "md",
+    "depth_km": 10.1999998092651
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:nc75439312",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 1.7 - 3 km ENE of San Rafael, CA",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75439312",
+   "occurred_at": "2026-09-21T05:41:59Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T06:12:21Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "3 km ENE of San Rafael, CA",
+    "countries": [],
+    "lat": 37.9805,
+    "lon": -122.5005
+   },
+   "metrics": {
+    "magnitude": 1.69,
+    "magnitude_type": "md",
+    "depth_km": 10.5299997329712
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
    }
   },
   {
@@ -12295,7 +14225,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -12332,7 +14262,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -12369,7 +14299,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -12406,7 +14336,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T01:06:08Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-21T01:06:08Z"
    }
   },
@@ -12443,8 +14373,45 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
+   }
+  },
+  {
+   "id": "usgs:pr2026264000",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 3.6 - 95 km S of Boca de Yuma, Dominican Republic",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026264000",
+   "occurred_at": "2026-09-21T02:48:12Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T04:57:22Z",
+   "ongoing": null,
+   "data_status": "reviewed",
+   "source_status_raw": "reviewed",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "95 km S of Boca de Yuma, Dominican Republic",
+    "countries": [],
+    "lat": 17.5233,
+    "lon": -68.7415
+   },
+   "metrics": {
+    "magnitude": 3.61,
+    "magnitude_type": "md",
+    "depth_km": 13
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
    }
   },
   {
@@ -12776,7 +14743,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -12813,7 +14780,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -12850,7 +14817,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -12887,7 +14854,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -12924,7 +14891,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -12961,7 +14928,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -12998,7 +14965,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -13035,7 +15002,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T01:06:08Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-21T01:06:08Z"
    }
   },
@@ -13072,7 +15039,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T01:06:08Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-21T01:06:08Z"
    }
   },
@@ -13109,8 +15076,156 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T01:06:08Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-21T01:06:08Z"
+   }
+  },
+  {
+   "id": "usgs:pr71533708",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 3.4 - 87 km NE of Punta Cana, Dominican Republic",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71533708",
+   "occurred_at": "2026-09-21T01:33:51Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T01:52:04Z",
+   "ongoing": null,
+   "data_status": "reviewed",
+   "source_status_raw": "reviewed",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "87 km NE of Punta Cana, Dominican Republic",
+    "countries": [],
+    "lat": 19.2145,
+    "lon": -67.9083
+   },
+   "metrics": {
+    "magnitude": 3.43,
+    "magnitude_type": "md",
+    "depth_km": 24.71
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:pr71533753",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 2.9 - 73 km N of Culebra, Puerto Rico",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71533753",
+   "occurred_at": "2026-09-21T03:11:26Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T04:20:10Z",
+   "ongoing": null,
+   "data_status": "reviewed",
+   "source_status_raw": "reviewed",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "73 km N of Culebra, Puerto Rico",
+    "countries": [],
+    "lat": 18.9643,
+    "lon": -65.2393
+   },
+   "metrics": {
+    "magnitude": 2.9,
+    "magnitude_type": "md",
+    "depth_km": 13.48
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:pr71533758",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 2.4 - 6 km ESE of La Parguera, Puerto Rico",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71533758",
+   "occurred_at": "2026-09-21T03:17:36Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T04:58:18Z",
+   "ongoing": null,
+   "data_status": "reviewed",
+   "source_status_raw": "reviewed",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "6 km ESE of La Parguera, Puerto Rico",
+    "countries": [],
+    "lat": 17.9588,
+    "lon": -66.9862
+   },
+   "metrics": {
+    "magnitude": 2.39,
+    "magnitude_type": "md",
+    "depth_km": 5.2
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:pr71533788",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 1.6 - 2 km SSE of Yauco, Puerto Rico",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71533788",
+   "occurred_at": "2026-09-21T06:00:48Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T06:17:54Z",
+   "ongoing": null,
+   "data_status": "reviewed",
+   "source_status_raw": "reviewed",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "2 km SSE of Yauco, Puerto Rico",
+    "countries": [],
+    "lat": 18.0177,
+    "lon": -66.8388
+   },
+   "metrics": {
+    "magnitude": 1.55,
+    "magnitude_type": "md",
+    "depth_km": 16.38
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
    }
   },
   {
@@ -13516,7 +15631,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -13553,7 +15668,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -13590,7 +15705,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -13627,7 +15742,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -13664,7 +15779,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -13701,7 +15816,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -13738,7 +15853,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -13775,7 +15890,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -13812,7 +15927,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -13849,7 +15964,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -13886,7 +16001,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -13923,7 +16038,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -13960,7 +16075,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -13997,7 +16112,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T01:06:08Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-21T01:06:08Z"
    }
   },
@@ -14034,7 +16149,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -14071,8 +16186,193 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T01:06:08Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-21T01:06:08Z"
+   }
+  },
+  {
+   "id": "usgs:tx2026sowawz",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 1.6 - 15 km SSW of Smiley, Texas",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026sowawz",
+   "occurred_at": "2026-09-21T01:01:58Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T02:00:09Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "15 km SSW of Smiley, Texas",
+    "countries": [],
+    "lat": 29.131,
+    "lon": -97.669
+   },
+   "metrics": {
+    "magnitude": 1.6,
+    "magnitude_type": "ml",
+    "depth_km": 11.4964
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:tx2026soxgyn",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 1.6 - 40 km NW of Toyah, Texas",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026soxgyn",
+   "occurred_at": "2026-09-21T01:39:14Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T02:24:18Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "40 km NW of Toyah, Texas",
+    "countries": [],
+    "lat": 31.547,
+    "lon": -104.12
+   },
+   "metrics": {
+    "magnitude": 1.6,
+    "magnitude_type": "ml",
+    "depth_km": 4.9252
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:tx2026soxvxe",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 1.6 - 40 km NW of Toyah, Texas",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026soxvxe",
+   "occurred_at": "2026-09-21T01:56:33Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T02:41:37Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "40 km NW of Toyah, Texas",
+    "countries": [],
+    "lat": 31.542,
+    "lon": -104.122
+   },
+   "metrics": {
+    "magnitude": 1.6,
+    "magnitude_type": "ml",
+    "depth_km": 4.3639
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:tx2026spfbfj",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 1.7 - 61 km S of Whites City, New Mexico",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026spfbfj",
+   "occurred_at": "2026-09-21T05:34:19Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T05:39:24Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "61 km S of Whites City, New Mexico",
+    "countries": [],
+    "lat": 31.632,
+    "lon": -104.486
+   },
+   "metrics": {
+    "magnitude": 1.7,
+    "magnitude_type": "ml",
+    "depth_km": 3.5009
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:tx2026spfctc",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 1.6 - 47 km NW of Toyah, Texas",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026spfctc",
+   "occurred_at": "2026-09-21T05:36:01Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T05:41:05Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "47 km NW of Toyah, Texas",
+    "countries": [],
+    "lat": 31.644,
+    "lon": -104.119
+   },
+   "metrics": {
+    "magnitude": 1.6,
+    "magnitude_type": "ml",
+    "depth_km": 3.684
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
    }
   },
   {
@@ -14482,7 +16782,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -14519,7 +16819,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -14556,7 +16856,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -14593,7 +16893,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -14630,7 +16930,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -14647,7 +16947,7 @@
    "occurred_at": "2026-09-20T09:17:35Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T22:27:47Z",
+   "source_updated_at": "2026-09-21T05:12:06Z",
    "ongoing": null,
    "data_status": "reviewed",
    "source_status_raw": "reviewed",
@@ -14671,7 +16971,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T12:59:19Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T12:59:19Z"
    }
   },
@@ -14708,7 +17008,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -14745,7 +17045,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -14786,7 +17086,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -14823,7 +17123,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -14860,7 +17160,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -14897,7 +17197,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -14934,7 +17234,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -14971,7 +17271,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -15008,7 +17308,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -15045,7 +17345,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -15082,7 +17382,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -15119,7 +17419,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -15160,7 +17460,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -15177,7 +17477,7 @@
    "occurred_at": "2026-09-20T21:06:19Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T23:16:23Z",
+   "source_updated_at": "2026-09-21T03:16:25Z",
    "ongoing": null,
    "data_status": "reviewed",
    "source_status_raw": "reviewed",
@@ -15197,7 +17497,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -15208,13 +17508,13 @@
    "source": "usgs",
    "provenance": "original",
    "original_publisher": null,
-   "title": "M 4.7 - southeast of the Loyalty Islands",
+   "title": "M 4.9 - southeast of the Loyalty Islands",
    "lang": "en",
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000titt",
-   "occurred_at": "2026-09-20T22:09:58Z",
+   "occurred_at": "2026-09-20T22:09:59Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T22:28:57Z",
+   "source_updated_at": "2026-09-21T01:26:45Z",
    "ongoing": null,
    "data_status": "reviewed",
    "source_status_raw": "reviewed",
@@ -15223,19 +17523,56 @@
     "precision": "point",
     "name": "southeast of the Loyalty Islands",
     "countries": [],
-    "lat": -22.967,
-    "lon": 171.8514
+    "lat": -23.0403,
+    "lon": 171.7471
    },
    "metrics": {
-    "magnitude": 4.7,
+    "magnitude": 4.9,
     "magnitude_type": "mb",
     "depth_km": 10
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
-    "last_changed_at": "2026-09-20T23:14:30Z"
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:us7000titz",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 4.9 - 172 km SSE of Lata, Solomon Islands",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000titz",
+   "occurred_at": "2026-09-20T22:51:21Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T02:48:38Z",
+   "ongoing": null,
+   "data_status": "reviewed",
+   "source_status_raw": "reviewed",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "172 km SSE of Lata, Solomon Islands",
+    "countries": [],
+    "lat": -12.24,
+    "lon": 166.1528
+   },
+   "metrics": {
+    "magnitude": 4.9,
+    "magnitude_type": "mb",
+    "depth_km": 10
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
    }
   },
   {
@@ -15245,34 +17582,223 @@
    "source": "usgs",
    "provenance": "original",
    "original_publisher": null,
-   "title": "M 5.0 - 16 km WSW of Shikotan, Russia",
+   "title": "M 4.6 - 25 km SSW of Shikotan, Russia",
    "lang": "en",
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiu3",
-   "occurred_at": "2026-09-20T23:25:38Z",
+   "occurred_at": "2026-09-20T23:25:37Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-20T23:41:59Z",
+   "source_updated_at": "2026-09-21T03:06:30Z",
    "ongoing": null,
    "data_status": "reviewed",
    "source_status_raw": "reviewed",
    "level": null,
    "location": {
     "precision": "point",
-    "name": "16 km WSW of Shikotan, Russia",
+    "name": "25 km SSW of Shikotan, Russia",
     "countries": [],
-    "lat": 43.7443,
-    "lon": 146.5339
+    "lat": 43.6006,
+    "lon": 146.5756
    },
    "metrics": {
-    "magnitude": 5,
-    "magnitude_type": "mb",
-    "depth_km": 64.936
+    "magnitude": 4.6,
+    "magnitude_type": "mww",
+    "depth_km": 57.379
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T01:06:08Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
-    "last_changed_at": "2026-09-21T01:06:08Z"
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:us7000tiui",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 4.9 - 26 km SE of Saimbeyli, Turkey",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiui",
+   "occurred_at": "2026-09-21T01:02:04Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T01:25:41Z",
+   "ongoing": null,
+   "data_status": "reviewed",
+   "source_status_raw": "reviewed",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "26 km SE of Saimbeyli, Turkey",
+    "countries": [],
+    "lat": 37.8136,
+    "lon": 36.2994
+   },
+   "metrics": {
+    "magnitude": 4.9,
+    "magnitude_type": "mww",
+    "depth_km": 10
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:us7000tiur",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 5.5 - 35 km NNE of Ruteng, Indonesia",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiur",
+   "occurred_at": "2026-09-21T01:41:36Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T03:49:10Z",
+   "ongoing": null,
+   "data_status": "reviewed",
+   "source_status_raw": "reviewed",
+   "level": {
+    "scheme": "usgs-pager",
+    "value": "green",
+    "label": "PAGER Grün"
+   },
+   "location": {
+    "precision": "point",
+    "name": "35 km NNE of Ruteng, Indonesia",
+    "countries": [],
+    "lat": -8.307,
+    "lon": 120.5793
+   },
+   "metrics": {
+    "magnitude": 5.5,
+    "magnitude_type": "mb",
+    "depth_km": 10
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:us7000tiuu",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 4.1 - 238 km ESE of Makarov, Russia",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiuu",
+   "occurred_at": "2026-09-21T01:57:56Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T02:17:01Z",
+   "ongoing": null,
+   "data_status": "reviewed",
+   "source_status_raw": "reviewed",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "238 km ESE of Makarov, Russia",
+    "countries": [],
+    "lat": 48.086,
+    "lon": 145.89
+   },
+   "metrics": {
+    "magnitude": 4.1,
+    "magnitude_type": "mb",
+    "depth_km": 494.972
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:us7000tivb",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 4.5 - 4 km W of Victor Raul, Peru",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tivb",
+   "occurred_at": "2026-09-21T03:58:24Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T04:09:41Z",
+   "ongoing": null,
+   "data_status": "reviewed",
+   "source_status_raw": "reviewed",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "4 km W of Victor Raul, Peru",
+    "countries": [],
+    "lat": -8.397,
+    "lon": -78.8646
+   },
+   "metrics": {
+    "magnitude": 4.5,
+    "magnitude_type": "mb",
+    "depth_km": 73.088
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
+   }
+  },
+  {
+   "id": "usgs:us7000tivi",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 4.7 - 156 km NNW of Hicks Bay, New Zealand",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tivi",
+   "occurred_at": "2026-09-21T04:28:40Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T04:44:02Z",
+   "ongoing": null,
+   "data_status": "reviewed",
+   "source_status_raw": "reviewed",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "156 km NNW of Hicks Bay, New Zealand",
+    "countries": [],
+    "lat": -36.2456,
+    "lon": 177.7978
+   },
+   "metrics": {
+    "magnitude": 4.7,
+    "magnitude_type": "mb",
+    "depth_km": 213.01
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
    }
   },
   {
@@ -15308,7 +17834,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -15345,7 +17871,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T21:19:33Z"
    }
   },
@@ -15382,7 +17908,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
    }
   },
@@ -15419,8 +17945,45 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T01:06:08Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
     "last_changed_at": "2026-09-20T23:14:30Z"
+   }
+  },
+  {
+   "id": "usgs:uw714106591",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 0.4 - 26 km NNE of Packwood, Washington",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714106591",
+   "occurred_at": "2026-09-21T04:30:06Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-21T04:31:48Z",
+   "ongoing": null,
+   "data_status": "preliminary",
+   "source_status_raw": "automatic",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "26 km NNE of Packwood, Washington",
+    "countries": [],
+    "lat": 46.8352,
+    "lon": -121.5617
+   },
+   "metrics": {
+    "magnitude": 0.360000014,
+    "magnitude_type": "md",
+    "depth_km": 2.70000004768372
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T06:19:05Z",
+    "last_seen_at": "2026-09-21T06:19:05Z",
+    "last_changed_at": "2026-09-21T06:19:05Z"
    }
   }
  ]
