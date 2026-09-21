@@ -93,6 +93,17 @@ class Contract(unittest.TestCase):
         self.assertTrue(VO_ENTRY["endpoints"][0].endswith("gdacsVO.geojson"))
         self.assertTrue(DR_ENTRY["endpoints"][0].endswith("gdacsDR.geojson"))
 
+    def test_missing_start_time_fails_inside_source_adapter(self):
+        for parser, entry, feature in (
+                (gdacs_vo_dr.parse_volcano, VO_ENTRY, VO_FEATURE),
+                (gdacs_vo_dr.parse_drought, DR_ENTRY, DR_FEATURE)):
+            bad = copy.deepcopy(feature)
+            bad["properties"].pop("fromdate", None)
+            with self.subTest(source=entry["id"]), self.assertRaises(AdapterError) as cm:
+                parser(collection(bad), NOW, entry)
+            self.assertEqual(cm.exception.kind, "schema")
+            self.assertIn("fromdate", cm.exception.detail)
+
     def test_wrong_type_and_wrong_report_target_fail_closed(self):
         wrong = copy.deepcopy(VO_FEATURE)
         wrong["properties"]["eventtype"] = "DR"
