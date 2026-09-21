@@ -309,6 +309,8 @@ class WorkflowLiveFetch(unittest.TestCase):
     def test_pipeline_workflow_uses_due_based_fetch_for_every_trigger(self):
         workflow = (ROOT / ".github" / "workflows" / "pipeline.yml").read_text()
         self.assertIn("schedule:", workflow)
+        self.assertIn('cron: "17 * * * *"', workflow)
+        self.assertIn('cron: "47 * * * *"', workflow)
         self.assertIn("workflow_dispatch:", workflow)
         self.assertIn("branches: [main]", workflow)
         self.assertIn("python -m cw run --state state-repo/state --raw-dir raw --alarm-file alarm.json", workflow)
