@@ -127,3 +127,46 @@ body[data-mode="test"] .panel-tag{color:#46616c;border-color:#d4dbd9}
   .map-detail-facts dd{margin-bottom:7px}
   .map-detail-link{display:flex;justify-content:center;min-height:44px}
 }
+
+
+/* Minimal public layout. Detail and methodology stay available on demand. */
+body:not([data-mode="test"]) .hero{min-height:0;padding:clamp(22px,3vw,34px)}
+body:not([data-mode="test"]) .hero h1{margin:0 0 7px;font-size:clamp(29px,3.2vw,44px)}
+body:not([data-mode="test"]) .hero-copy{font-size:14px}
+body:not([data-mode="test"]) .metric{min-height:96px;padding:16px 18px}
+body:not([data-mode="test"]) .metric strong{margin-top:8px}
+body:not([data-mode="test"]) .section{margin-top:22px}
+body:not([data-mode="test"]) .topic{min-height:113px;padding:15px}
+body:not([data-mode="test"]) .topic h3{margin-top:8px}
+body:not([data-mode="test"]) .topic p{margin:3px 0 9px}
+body:not([data-mode="test"]) .topic-state{font-weight:600}
+body:not([data-mode="test"]) .sources-section{padding:0 20px}
+body:not([data-mode="test"]) .sources-disclosure>summary{
+  cursor:pointer;list-style:none;padding:16px 0;color:#304e58;font-weight:700;
+  display:flex;justify-content:space-between;align-items:center
+}
+body:not([data-mode="test"]) .sources-disclosure>summary::-webkit-details-marker{display:none}
+body:not([data-mode="test"]) .sources-disclosure>summary::after{content:"+";color:#5d7881;font-size:19px;font-weight:400}
+body:not([data-mode="test"]) .sources-disclosure[open]>summary::after{content:"−"}
+body:not([data-mode="test"]) .sources{padding-bottom:8px}
+body:not([data-mode="test"]) .sources li{padding:12px 0}
+body:not([data-mode="test"]) .source-row{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;justify-content:space-between}
+body:not([data-mode="test"]) .source-health{color:#536c76;font-size:12px}
+body:not([data-mode="test"]) .source-extra{margin-top:7px;color:#536c76;font-size:12px}
+body:not([data-mode="test"]) .source-extra summary{cursor:pointer;color:#176c78;font-size:12px}
+body:not([data-mode="test"]) .source-extra p{margin:7px 0;line-height:1.55}
+body:not([data-mode="test"]) .method{margin:7px 0 16px;padding-top:12px;line-height:1.5}
+body:not([data-mode="test"]) .map-help{margin-top:6px;font-size:12px;color:#536c76}
+body:not([data-mode="test"]) .map-help summary{cursor:pointer;color:#466570}
+body:not([data-mode="test"]) .map-help .map-caption{margin:6px 0 0}
+body:not([data-mode="test"]) .foot{padding-top:18px}
+@media(max-width:650px){
+  body:not([data-mode="test"]) .hero{padding:23px;min-height:0}
+  body:not([data-mode="test"]) .hero h1{font-size:clamp(28px,7vw,39px)}
+  body:not([data-mode="test"]) .overview{gap:8px}
+  body:not([data-mode="test"]) .metric{min-height:92px;padding:14px}
+  body:not([data-mode="test"]) .metric:last-child{min-height:85px}
+  body:not([data-mode="test"]) .topic{min-height:102px;padding:12px}
+  body:not([data-mode="test"]) .topic h3{font-size:13px}
+  body:not([data-mode="test"]) .sources-section{padding:0 14px}
+}

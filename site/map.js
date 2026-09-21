@@ -393,28 +393,16 @@
 
   function noteText(shownQuakes, allQuakes, quakeGroups, shownRegions, allRegions,
                     regionGroups, olderCount) {
-    const lines = [];
-    const window = (WINDOWS.find((w) => w[0] === state.windowH) || [0, ""])[1];
-    if (allQuakes) {
-      const mag = (MAGNITUDES.find((m) => m[0] === state.minMag) || [0, ""])[1];
-      lines.push(shownQuakes + " von " + allQuakes + " gespeicherten Erdbeben laut USGS, " +
-        "zusammengefasst zu " + quakeGroups + (quakeGroups === 1 ? " Marker" : " Markern") +
-        ". Angezeigt: " + mag + ", " + window + ". " + SOURCE_FLOOR +
-        (shownQuakes < allQuakes ?
-          " Zusätzlich ausgeblendet durch den gewählten Filter: " +
-          (allQuakes - shownQuakes) + "; diese Beben sind gespeichert." : ""));
-    } else {
-      lines.push("Keine punktgenau verorteten Ereignisse in diesem Datenstand. Die leere Karte ist keine Entwarnung.");
+    const parts = [];
+    if (allQuakes) parts.push(shownQuakes + "/" + allQuakes + " Erdbeben (USGS)");
+    if (allRegions) parts.push(shownRegions + "/" + allRegions + " Meldungen (GDACS)");
+    if (!parts.length) parts.push("Keine verorteten Meldungen – keine Entwarnung");
+    if (olderCount && !state.showOlder) {
+      parts.push(olderCount + (olderCount === 1
+        ? " ältere Meldung ausgeblendet – keine Entwarnung"
+        : " ältere Meldungen ausgeblendet – keine Entwarnung"));
     }
-    if (allRegions) {
-      lines.push(shownRegions + " von " + allRegions + " GDACS-Meldungen als ungefähre Lage, " +
-        "zusammengefasst zu " + regionGroups + (regionGroups === 1 ? " Marker." : " Markern.") +
-        (olderCount && !state.showOlder ?
-          " " + olderCount + " ältere gespeicherte " +
-          (olderCount === 1 ? "Meldung ist" : "Meldungen sind") +
-          " ausgeblendet; das ist keine Entwarnung." : ""));
-    }
-    return lines.join(" ");
+    return parts.join(" · ");
   }
 
   function draw() {
@@ -462,24 +450,12 @@
                                 olderCount);
 
     if (legend) {
-      // Die Legende erklaert nur, was auch zu sehen ist.
       const parts = [];
-      if (quakes.length) {
-        parts.push("Gefüllter Punkt: punktgenaue Koordinate laut USGS. Magnituden stammen " +
-                   "unverändert von USGS. " + SOURCE_FLOOR);
-      }
-      if (regions.length) {
-        parts.push("Gestrichelter Ring: ungefähre Lage laut GDACS (Zentroid einer Region), " +
-                   "keine Schadensfläche. Farben geben die Warnstufe der Quelle wieder " +
-                   "(GDACS: Green, Orange, Red).");
-      }
-      if (parts.length) {
-        parts.push("Zahl im Marker: mehrere Meldungen, die sich überdecken – Hineinzoomen " +
-                   "zieht sie auseinander. ConflictWatch leitet aus den Angaben der Quellen " +
-                   "keine eigene Gefahrenbewertung ab.");
-      }
+      if (quakes.length) parts.push("● Erdbeben laut USGS (ab M 4,5)");
+      if (regions.length) parts.push("◌ GDACS: ungefähre Lage, keine Schadensfläche");
+      if (parts.length) parts.push("Zahl = Gruppe · Warnstufen laut Quelle, keine eigene Gefahrenbewertung");
       legend.hidden = !parts.length;
-      legend.textContent = parts.join(" ");
+      legend.textContent = parts.join(" · ");
     }
   }
 

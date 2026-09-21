@@ -6,11 +6,11 @@
 <meta name="theme-color" content="#f7f9fb">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
-<meta name="description" content="ConflictWatch zeigt amtliche Gefahrenmeldungen mit Originalquellen und transparentem Datenstatus.">
-<title>ConflictWatch – amtliche Gefahrenmeldungen</title>
-<link rel="stylesheet" href="style.css?v=6">
-<script src="map.js?v=7" defer></script>
-<script src="app.js?v=7" defer></script>
+<meta name="description" content="ConflictWatch: Weltweite Naturereignisse auf einer Karte. Meldungen aus USGS, GDACS und NOAA.">
+<title>ConflictWatch – Naturereignisse weltweit</title>
+<link rel="stylesheet" href="style.css?v=7">
+<script src="map.js?v=8" defer></script>
+<script src="app.js?v=8" defer></script>
 </head>
 <body>
 <a class="skip" href="#inhalt">Zum Inhalt springen</a>
@@ -23,29 +23,26 @@
       <a class="nav-link" href="#themen">Naturereignisse</a>
       <a class="nav-link" href="#karte">Weltkarte</a>
       <a class="nav-link" href="#meldungen">Meldungen</a>
-      <a class="nav-link" href="#quellen">Quellen &amp; Methode</a>
+      <a class="nav-link" href="#quellen">Quellen</a>
     </nav>
-    <p class="sidebar-note">Amtliche Quellen · Originalmeldungen · keine eigene Gefahrenbewertung</p>
   </aside>
   <div class="workspace">
-    <header class="topbar" id="start"><span>ConflictWatch <span class="accent">/</span> Überblick</span><span class="topbar-right">ÖFFENTLICHE ANSICHT</span></header>
+    <header class="topbar" id="start"><span>Übersicht</span></header>
     <main id="inhalt" class="content">
       <section class="hero" aria-labelledby="hero-title">
-        <p class="eyebrow">Quellenbasierte Informationen · Öffentliche Ansicht</p>
-        <h1 id="hero-title">Was weltweit passiert.<br><span>Mit überprüfbaren Quellen.</span></h1>
-        <p class="hero-copy">Meldungen und Beobachtungen öffentlicher Datenquellen, unverändert von der jeweiligen Behörde übernommen. Abgedeckt sind Erdbeben (USGS), Zyklone, Fluten, Waldbrände, Vulkane und Dürren (GDACS) sowie Weltraumwetter (NOAA).</p>
-        <div class="hero-meta"><span>Keine eigene Risikostufe</span><span>Originalquellen verlinkt</span><span>Alle Zeiten mit UTC-Angabe</span></div>
+        <h1 id="hero-title">Naturereignisse. <span>Weltweit.</span></h1>
+        <p class="hero-copy">Aktuelle Meldungen aus USGS, GDACS und NOAA.</p>
       </section>
       <div id="banner" class="banner" role="status" hidden></div>
       <section class="overview" aria-label="Datenlage">
-        <div class="metric"><span class="metric-label">ÖFFENTLICHE QUELLEN</span><strong id="source-count">–</strong><span class="metric-note">Freigegebene Datenfeeds</span></div>
-        <div class="metric"><span class="metric-label">MELDUNGEN IM SNAPSHOT</span><strong id="entry-count">–</strong><span class="metric-note">Keine erfundenen Ereignisse</span></div>
-        <div class="metric"><span class="metric-label">DATENSTAND</span><strong id="data-state">Lädt</strong><span id="stand" class="metric-note">Daten werden geladen …</span></div>
+        <div class="metric"><span class="metric-label">QUELLEN</span><strong id="source-count">–</strong></div>
+        <div class="metric"><span class="metric-label">MELDUNGEN</span><strong id="entry-count">–</strong></div>
+        <div class="metric"><span class="metric-label">DATENSTAND</span><strong id="data-state">Lädt</strong><span id="stand" class="metric-note">Wird geladen …</span></div>
       </section>
       <section id="karte" class="section map-section" aria-labelledby="map-title">
-        <div class="panel-heading"><div><p class="section-kicker">GEOGRAFISCHE ÜBERSICHT · EQUAL EARTH</p><h2 id="map-title">Weltkarte</h2></div><span class="panel-tag">FLÄCHENTREUE DARSTELLUNG</span></div>
-        <div class="map-art" role="group" aria-label="Equal-Earth-Weltkarte mit verorteten Quellereignissen">
-          <svg id="map-view" class="equal-earth-map" viewBox="0 0 1000 510" role="img" aria-label="Flächentreue Weltkarte mit Ereignisorten laut Quelle: punktgenaue Erdbebenpositionen von USGS, ungefähre Lagen von GDACS">
+        <div class="panel-heading"><h2 id="map-title">Weltkarte</h2></div>
+        <div class="map-art" role="group" aria-label="Weltkarte mit Ereignissen">
+          <svg id="map-view" class="equal-earth-map" viewBox="0 0 1000 510" role="img" aria-label="Weltkarte mit Erdbebenpositionen und ungefähren Lagen weiterer Naturereignisse">
             <image href="world-equal-earth.svg" x="0" y="0" width="1000" height="510"/>
             <g id="map-points"></g>
           </svg>
@@ -63,43 +60,38 @@
           </aside>
         </div>
         <div id="map-filters" class="map-filters" role="group" aria-label="Filter für die Kartendarstellung" hidden></div>
-        <p id="map-legend" class="map-caption" hidden></p>
-        <p id="map-events-note" class="map-caption">Ereignispositionen werden geladen …</p>
-        <p class="map-caption">Marker auswählen, um die Meldung zuerst direkt auf ConflictWatch zu prüfen; die Originalquelle öffnet sich erst über den Link im Detailfenster. Cluster mit einer Zahl zoomen beim Auswählen hinein. Auf dem Handy: mit zwei Fingern stufenlos zoomen, mit einem Finger verschieben, doppeltippen zum Reinzoomen. Am Rechner: Mausrad/Trackpad zoomt an der Zeigerposition, Ziehen verschiebt; zusätzlich stehen die Schaltflächen sowie Pfeiltasten, Plus, Minus und Null zur Verfügung. Kartenprojektion: Equal Earth (flächentreu). Basiskarte: Natural Earth 1:110m, Public Domain. Marker zeigen ausschließlich von den Quellen gemeldete Koordinaten, nicht deinen Standort. GDACS-Marker sind Zentroide einer Region und bezeichnen keine Schadensfläche. Globale NOAA-Statuswerte haben keinen geografischen Einzelpunkt.</p>
+        <p id="map-events-note" class="map-caption">Karte wird geladen …</p>
+        <details class="map-help"><summary>Legende</summary><p id="map-legend" class="map-caption" hidden></p></details>
       </section>
       <section id="themen" class="section" aria-labelledby="topics-title">
-        <p class="section-kicker">THEMENRADAR / NATURAL HAZARDS</p>
-        <h2 id="topics-title">Naturereignisse im Blick.</h2>
-        <p class="section-intro">Diese Themen sind vorgesehen. Ein Themenfeld gilt erst dann als live, wenn seine Quelle im öffentlichen Datenstand erscheint.</p>
+        <h2 id="topics-title">Naturereignisse</h2>
         <div class="topic-grid">
-          <article class="topic" data-source="usgs"><span class="topic-symbol" aria-hidden="true">◇</span><h3>Erdbeben</h3><p>Alle im USGS-24-Stunden-Feed gelisteten Erdbeben. Kleinere Beben sind regional unterschiedlich gut erfasst.</p><span class="topic-state">Wird geladen …</span></article>
-          <article class="topic" data-source="gdacs"><span class="topic-symbol" aria-hidden="true">◎</span><h3>Zyklone &amp; Fluten</h3><p>Internationale Ereignisse über GDACS.</p><span class="topic-state">Wird geladen …</span></article>
-          <article class="topic" data-source="gdacs-volcano"><span class="topic-symbol" aria-hidden="true">△</span><h3>Vulkane</h3><p>Vulkanmeldungen aus dem offiziellen GDACS-VO-GeoJSON-Feed. Ein leerer Feed ist keine Entwarnung.</p><span class="topic-state">Wird geladen …</span></article>
-          <article class="topic" data-source="gdacs"><span class="topic-symbol" aria-hidden="true">✳</span><h3>Waldbrände</h3><p>Waldbrand-Ereignisse über GDACS.</p><span class="topic-state">Wird geladen …</span></article>
-          <article class="topic" data-source="gdacs-drought"><span class="topic-symbol" aria-hidden="true">◌</span><h3>Dürren</h3><p>Aktuelle GDACS-Dürremeldungen. Angezeigt wird der Quell-Zentroid; Flächen werden nicht als punktgenaue Schadensorte dargestellt.</p><span class="topic-state">Wird geladen …</span></article>
-          <article class="topic" data-source="noaa-swpc"><span class="topic-symbol" aria-hidden="true">☼</span><h3>Weltraumwetter</h3><p>Geomagnetische, Strahlungs- und Radiostörungen laut NOAA.</p><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="usgs"><span class="topic-symbol" aria-hidden="true">◇</span><h3>Erdbeben</h3><p>USGS</p><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="gdacs"><span class="topic-symbol" aria-hidden="true">◎</span><h3>Zyklone &amp; Fluten</h3><p>GDACS</p><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="gdacs-volcano"><span class="topic-symbol" aria-hidden="true">△</span><h3>Vulkane</h3><p>GDACS</p><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="gdacs"><span class="topic-symbol" aria-hidden="true">✳</span><h3>Waldbrände</h3><p>GDACS</p><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="gdacs-drought"><span class="topic-symbol" aria-hidden="true">◌</span><h3>Dürren</h3><p>GDACS</p><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="noaa-swpc"><span class="topic-symbol" aria-hidden="true">☼</span><h3>Weltraumwetter</h3><p>NOAA</p><span class="topic-state">Wird geladen …</span></article>
         </div>
       </section>
 
       <section id="meldungen" class="section events-section" aria-labelledby="events-title">
-        <p class="section-kicker">DOKUMENTIERTE MELDUNGEN / ORIGINALQUELLEN</p>
-        <h2 id="events-title">Aktuelle Meldungen</h2>
-        <p class="section-intro">Einträge werden mit Zeitpunkt, Quellenstatus und Link zur Originalmeldung angezeigt.</p>
+        <h2 id="events-title">Meldungen</h2>
         <section id="status" class="status" aria-label="Aktueller Zustand" hidden></section>
         <ol id="list" class="list"></ol>
         <p id="empty" class="empty" hidden></p>
         <details id="more" class="more" hidden><summary id="more-summary"></summary><ol id="more-list" class="list"></ol></details>
       </section>
-      <section id="quellen" class="section sources-section" aria-labelledby="sources-title">
-        <p class="section-kicker">TRANSPARENZ / DATENHERKUNFT</p>
-        <h2 id="sources-title">Quellen &amp; Methode</h2>
-        <p class="section-intro">Hier stehen Datenstand, Abrufzustand und Abdeckung jeder freigegebenen Quelle.</p>
-        <ul id="sources" class="sources"></ul>
-        <p id="sources-empty" class="sources-empty">Derzeit ist keine Datenquelle zur öffentlichen Anzeige freigegeben.</p>
-        <p class="method">Titel erscheinen in der Originalsprache der Quelle. Warnstufen stammen von der jeweiligen Behörde und werden nicht untereinander verglichen. Fehlt eine Warnstufe, ist das keine Entwarnung.</p>
+      <section id="quellen" class="section sources-section" aria-label="Quellen und Datenstatus">
+        <details class="sources-disclosure">
+          <summary>Quellen &amp; Datenstatus</summary>
+          <ul id="sources" class="sources"></ul>
+          <p id="sources-empty" class="sources-empty" hidden>Keine Datenquelle verfügbar.</p>
+          <p class="method">USGS: Erdbeben ab Magnitude 4,5. GDACS: regionale Meldungen, keine flächendeckende Erfassung. Leere Feeds sind keine Entwarnung. Warnstufen stammen von der jeweiligen Quelle.</p>
+        </details>
       </section>
     </main>
-    <footer class="foot"><span>CONFLICTWATCH · ÖFFENTLICHE DATEN</span><span>Originalquellen bei den Meldungen</span></footer>
+    <footer class="foot"><span>© ConflictWatch</span><span>Daten: USGS · GDACS · NOAA</span></footer>
   </div>
 </div>
 <noscript><p class="noscript">Diese Seite benötigt JavaScript, um den Datenstand und die Meldungen zu laden.</p></noscript>
