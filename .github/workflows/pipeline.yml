@@ -2,7 +2,8 @@ name: Pipeline
 
 on:
   schedule:
-    - cron: "17 * * * *"   # stündlich; GitHub kann verzögern oder Läufe auslassen (Spezifikation B5)
+    - cron: "17 * * * *"   # regulärer Stundenlauf
+    - cron: "47 * * * *"   # Failsafe: fängt ausgelassene/verzögerte GitHub-Schedules ab
   workflow_dispatch:
   push:
     branches: [main]
