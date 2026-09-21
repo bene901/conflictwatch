@@ -35,8 +35,12 @@ class T1RealResponse(unittest.TestCase):
         self.assertEqual(it["level"], {"scheme": "usgs-pager", "value": "green", "label": "PAGER Grün"})
         self.assertEqual(it["data_status"], "reviewed")
         self.assertEqual((it["location"]["lat"], it["location"]["lon"]), (52.8594, -171.3756))
-        self.assertEqual(it["metrics"], {"magnitude": 6.5, "magnitude_type": "mww", "depth_km": 98})
+        # Wirkungsfelder unveraendert aus der echten Antwort: mmi 4.983, cdi 3.4, felt 8.
+        self.assertEqual(it["metrics"], {"magnitude": 6.5, "magnitude_type": "mww", "depth_km": 98,
+                                         "shaking_mmi": 4.983, "reported_cdi": 3.4,
+                                         "felt_reports": 8})
         self.assertNotIn("tsunami", json.dumps(it))  # Regions-Flag, keine Warnung
+        self.assertNotIn("sig", it["metrics"])       # interne USGS-Rangzahl
         self.assertEqual(it["location"]["countries"], [])  # kein geratener Ländercode
 
     def test_golden(self):

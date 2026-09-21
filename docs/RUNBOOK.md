@@ -15,14 +15,14 @@
 
 1. Actions → Pipeline → **Run workflow**.
 2. Im Log festhalten:
-   - „Tests“: alle grün (54 Tests).
-   - „Pipeline-Lauf“: `"usgs": {"result": "ok", "items": N, "complete": true}`. **N = 0 ist bestanden**, wenn USGS in dieser Woche kein signifikantes Beben führt.
+   - „Tests“: vollständige Testsuite grün (aktuell 131 Tests).
+   - „Pipeline-Lauf“: `"usgs": {"result": "ok", "items": N, "complete": true}`. **N = 0 ist technisch zulässig**, wenn der USGS-Feed in den letzten 24 Stunden kein Beben ab M4,5 liefert.
    - „Bestand sichern“: `State-Revision: <sha>`.
    - „Snapshot und Website bauen“: zwei Zeilen „Snapshot: …“.
    - `deploy`: URL der Seite.
 3. Artefakt `nachweis-<run-id>` herunterladen: `raw/usgs_*.json` (echte Rohantwort), `preview/snapshot.json`, `state-repo/state/`.
 4. Branch `data-state`: Commit „state: run …“ mit `state/items.json`, `state/sources.json`, `state/runlog.jsonl`.
-5. Seite auf dem Handy: „Noch keine Quelle freigegeben …“ (korrekt, solange `public: false`).
+5. Seite auf dem Handy: Meldungen aller drei Quellen sichtbar (alle `public: true`).
 
 **Bestanden, wenn:** Lauf grün; Rohantwort gespeichert; Bestand und beide Snapshots validiert; Seite veröffentlicht. Die Anzahl der Beben spielt keine Rolle.
 
@@ -46,12 +46,15 @@ Die Seite zeigt den echten Eintrag und zugleich den Hinweis „seit mehr als dre
 
 Die Aktualität wird beim **Öffnen oder Neuladen** der Seite geprüft. Eine geöffnete Seite aktualisiert weder Daten noch Hinweise; sie ist kein kontinuierlich aktualisiertes Live-Dashboard.
 
-## 3. Live-Tor (7 Tage, Spezifikation C3)
+## 3. Betriebsbeobachtung nach Freigabe
 
-- Stündliche Läufe laufen lassen. `state/runlog.jsonl` auf `data-state` enthält jeden Lauf (14 Tage).
-- Mindestens drei Rohantworten verschiedener Tage aus den Artefakten nach `tests/fixtures/usgs/real_<datum>_significant_week.json` übernehmen.
-- Stichprobe: bis zu 10 Einträge mit der USGS-Webseite vergleichen (Titel, Zeit, Stufe, Ort).
-- Freigabe per Pull Request: `"public": true` in `registry.json`, Protokoll verlinken.
+Die frühere 7-Tage-Vorabbedingung ist für diesen Release aufgehoben. Die Beobachtung bleibt trotzdem Teil des Betriebs und ist **kein Freigabeschalter** mehr.
+
+- Stündliche Läufe weiterlaufen lassen. `state/runlog.jsonl` auf `data-state` enthält jeden Lauf (14 Tage).
+- Rohantworten verschiedener Tage als Evidenz sichern; neue dauerhafte Fixtures nur anlegen, wenn sie einen zusätzlichen Parser-/Regressionsfall belegen.
+- Stichprobenartig USGS-Einträge mit der Originalquelle vergleichen (Zeit, Magnitude, Ort, PAGER sowie vorhandene MMI/CDI/Felt-Werte).
+- GDACS auf Episodenwechsel, 30-Tage-Expiry und die weiterhin fehlende VO/DR-Abdeckung beobachten; NOAA auf Aktualität der beobachteten G/S/R-Werte.
+- Bei fachlicher oder technischer Regression Quelle nicht stillschweigend als korrekt darstellen: Fehlerstatus sichtbar halten und Ursache im Issue/PR dokumentieren.
 
 ## 4. Betrieb
 
@@ -74,10 +77,10 @@ python -m http.server -d site 8000
 ```
 `site/data/` steht in `.gitignore` und wird nie committet.
 
-## Öffentliche, streng getrennte Testvorschau (keine Quellenfreigabe)
+## Legacy-Testvorschau für künftige private Quellen
 
-- Die reguläre Adresse `/` erhält **ausschließlich** `_site/data/snapshot.json`, erzeugt ohne `--include-unreleased`. `registry.json` bleibt für USGS und NOAA `public:false` bis zum dokumentierten sieben-Tage-Tor.
-- Der deutlich gekennzeichnete Testpfad `/test/` erhält einen **separaten** `_site/test/data/snapshot.json`; dessen Generator `python -m cw.test_preview` erlaubt ausdrücklich **nur** `usgs` und `noaa-swpc`. Er kopiert nicht das uneingeschränkte interne Artefakt `preview/snapshot.json` auf die Website. Neue private Anbieter werden nicht automatisch öffentlich.
-- Die Testseite bezeichnet die Werte durchgehend als nicht freigegeben, nennt Zeitstempel, zeigt behördliche Original-Links und erklärt, dass fehlende Meldungen keine Entwarnung sind. Testvorschau ist **öffentlich zugänglich, nicht vertraulich**: nur Quellen-/Ereignisdaten veröffentlichen, deren Nutzungsbedingungen das erlauben. Keine internen Rohantworten, `ingest`-Daten oder Zugangstokens ausgeben.
-- Wenn eine Testquelle regulär freigegeben wird, schlägt der bisherige Test-Generator absichtlich fehl: Vor dem nächsten Deploy die doppelte Testansicht separat deaktivieren oder nach erneuter Prüfung ihre Freigabe-Logik anpassen.
-- Abnahme: GitHub Actions vollständig grün; Haupt-Snapshot hat bis zur Freigabe 0 Quellen/Einträge, Test-Snapshot enthält nur USGS/NOAA und die echten bekannten Ereignisse/Statuswerte, Testseite hat deutlich sichtbaren Warnhinweis; mobilen Browser und eine fehlerhafte/veraltete Datenantwort gesondert prüfen.
+- Die reguläre Adresse `/` erhält `_site/data/snapshot.json` und veröffentlicht nur Quellen mit `public:true`. Aktuell sind USGS, NOAA SWPC und die verifizierte GDACS-Abdeckung freigegeben.
+- Die frühere separate Seite `/test/` wird **nicht mehr gebaut oder deployt**. `site/test.html` und `cw/test_preview.py` bleiben nur als bewusst streng begrenzte Vorlage erhalten, falls später wieder eine private Quelle getestet werden muss.
+- `cw.test_preview` ist absichtlich auf USGS und NOAA beschränkt und verweigert bereits regulär freigegebene Testquellen. Vor einer erneuten Nutzung muss die Allowlist deshalb ausdrücklich an den dann privaten Testfall angepasst und erneut geprüft werden.
+- Das interne Artefakt `preview/snapshot.json` darf nie als öffentliche Seite veröffentlicht werden: Es kann nicht freigegebene Quellen enthalten. Interne `ingest`-Daten, Rohantworten und Zugangsdaten bleiben ebenfalls unveröffentlicht.
+- Release-Abnahme: vollständige Testsuite grün, regulärer Snapshot enthält nur freigegebene Quellen, Quellenhinweise stimmen mit der tatsächlichen Registry überein, und die mobile Darstellung wird separat visuell geprüft.

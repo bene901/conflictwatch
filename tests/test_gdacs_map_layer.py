@@ -86,10 +86,22 @@ def scenario(second=SECOND_FETCH, with_usgs=True):
     return snapshot.build(items_doc, sources_doc, reg, "abc1234", T1, include_unreleased=True)
 
 
-def run_map(snap, toggles=None):
+FULL_WINDOW = {"id": "map-filter-window", "value": 0}
+
+
+def run_map(snap, toggles=None, full_window=True):
+    """full_window=True stellt den Zeitfilter auf den gesamten Datenstand.
+
+    Diese Tests pruefen Marker, Zusammenfassung und Gefahrenfilter, nicht den
+    Zeitfilter; der hat eigene Tests. Ohne diese Vorgabe haengt das Ergebnis am
+    Abstand zwischen Fixture-Zeitpunkt und Abrufzeit.
+    """
     if shutil.which("node") is None:
         raise unittest.SkipTest("node nicht verfuegbar - Kartenlayer nicht ausgefuehrt")
-    payload = {"items": snap["items"], "sources": snap["sources"], "toggles": toggles or []}
+    steps = list(toggles or [])
+    if full_window:
+        steps.insert(0, FULL_WINDOW)
+    payload = {"items": snap["items"], "sources": snap["sources"], "toggles": steps}
     with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False) as fh:
         json.dump(payload, fh)
         name = fh.name
@@ -98,7 +110,8 @@ def run_map(snap, toggles=None):
                              timeout=60, check=True)
     finally:
         Path(name).unlink(missing_ok=True)
-    return json.loads(out.stdout)
+    result = json.loads(out.stdout)
+    return result[1:] if full_window else result
 
 
 def shapes(step, cls):
@@ -116,7 +129,7 @@ class PointPrecisionUnchanged(unittest.TestCase):
         points = shapes(step, "map-event-point")
         self.assertTrue(points)
         for p in points:
-            self.assertEqual(p["r"], "8")
+            self.assertAlmostEqual(float(p["r"]), 8)
             self.assertIsNone(p["level"])  # USGS bekommt keine GDACS-Stufenfarbe
             self.assertNotIn("ungefähre Lage", p["ariaLabel"])
         self.assertIn("laut USGS", step["result"]["note"])
@@ -184,7 +197,7 @@ class Clustering(unittest.TestCase):
 
 class RecencyAndFilters(unittest.TestCase):
     def test_default_shows_only_events_from_the_latest_successful_fetch(self):
-        step = run_map(scenario())[0]
+        step = run_map(scenario(), full_window=False)[0]
         labels = " ".join(r["ariaLabel"] for r in shapes(step, "map-event-region"))
         self.assertNotIn("9003", labels)
         self.assertIn("1 ältere gespeicherte Meldung ist ausgeblendet", step["result"]["note"])
@@ -213,7 +226,7 @@ class RecencyAndFilters(unittest.TestCase):
         self.assertTrue([l for l in labels if "Überschwemmung" in l or "FL" in l])
         self.assertTrue(shapes(after, "map-event-point"))  # USGS bleibt unberuehrt
 
-    def test_without_region_events_no_filters_and_no_legend_appear(self):
+    def test_without_region_events_no_hazard_filters_and_no_gdacs_legend(self):
         entry = next(s for s in full_registry()["sources"] if s["id"] == "usgs")
         result = usgs_adapter.parse(raw(real_doc()), NOW, entry)
         items = merge_items({}, "usgs", entry, result, T1)
@@ -222,8 +235,10 @@ class RecencyAndFilters(unittest.TestCase):
         reg, items_doc, sources_doc = build(items, [st], T1)
         snap = snapshot.build(items_doc, sources_doc, reg, "abc1234", T1, include_unreleased=True)
         step = run_map(snap)[0]
-        self.assertTrue(step["result"]["filters"]["hidden"])
-        self.assertTrue(step["result"]["legend"]["hidden"])
+        boxes = {b["id"] for b in step["result"]["filters"]["boxes"]}
+        self.assertEqual(boxes, set())  # keine Gefahrenart-Filter ohne GDACS-Daten
+        self.assertNotIn("GDACS", step["result"]["legend"]["text"])
+        self.assertIn("laut USGS", step["result"]["legend"]["text"])
         self.assertTrue(shapes(step, "map-event-point"))
 
 

@@ -1,4 +1,4 @@
-# GDACS-Adapter – interne Integration, öffentlich noch nicht freigegeben
+# GDACS-Adapter – freigegeben (`public:true`)
 
 ## Quelle und Abdeckung
 
@@ -9,15 +9,17 @@
 - `iscurrent` wird nur als roher Quellenwert gespeichert: Es ist keine gesicherte Aussage über `ongoing` oder den Review-Status. `ongoing=null` und `data_status=unknown` vermeiden diese Fehldeutung.
 - Der Punkt im App-Feed ist ein **Zentroid**, nicht die Fläche des Schadens. Deshalb `location.precision=region`. Ländernamen werden nicht in ISO-2 geraten; nur `affectedcountries[].iso2` wird übernommen.
 
-## Vollständigkeit und Live-Tor
+## Vollständigkeit und Live-Nachweise
 
 Die Quelle veröffentlicht keine `metadata.count` wie USGS. Zudem schließt GDACS selbst Vollständigkeitsgarantien aus. Der Adapter liefert deshalb **immer `complete=false`**: Ein fehlendes Ereignis bedeutet weder zurückgezogen noch veraltet, und eine Antwort mit `features:[]` beweist keinen leeren GDACS-Bestand. Dieses Verhalten verhindert Löschungen durch einen gekürzten Feed, führt aber ohne gesonderte Aufbewahrungsregel langfristig zu anwachsenden Altbeständen. Nach jedem **erfolgreich geparsten** GDACS-Abruf läuft ein nicht erneut gesichtetes Ereignis nach mehr als 30 Tagen seit `ingest.last_seen_at` technisch aus dem aktiven Bestand aus (`unseen_expiry_days:30`); es wird NICHT als beendet oder zurückgezogen gemeldet. Fehlerhafte oder übersprungene Abrufe löschen nichts. `retention_days:30` ist weiterhin Schema-Pflicht und wirkt bei `complete=false` nicht.
 
-Die drei Fixtures `real_2026-09-20_{tc,fl,wf}_excerpt.json` enthalten je **ein unverändertes echtes Feature** aus dem offiziellen Feed. Die `FeatureCollection`-Hülle wurde für den Test neu gebildet; diese Ausschnitte sind **keine vollständige Originalantwort**. VO und DR kamen im Live-Abruf nicht vor und werden nur mit explizit veränderten Testdaten geprüft. Ein Browserzugriff auf die volle JSON-Datei wurde in dieser Umgebung blockiert. Über die branchbezogene GitHub Action gelang am 20.09.2026 um 11:47 UTC ein vollständiger Abruf: **134475 Bytes**, SHA-256 `3e7361a1aeb6ab71c44c8bff1be92ae7f33466860c2e263542c3de90c3c000cb`, **100 Features** (EQ 22, TC 3, FL 3, WF 72), **78** als relevant verarbeitet. [Lauf und Rohdaten-Artefakt](https://github.com/bene901/conflictwatch/actions/runs/35508798542). Dieser Befund belegt Parserfunktion für die drei tatsächlich vertretenen Typen, nicht Vollständigkeit oder öffentliche Freigabe.
+Die drei Fixtures `real_2026-09-20_{tc,fl,wf}_excerpt.json` enthalten je **ein unverändertes echtes Feature** aus dem offiziellen Feed. Die `FeatureCollection`-Hülle wurde für den Test neu gebildet; diese Ausschnitte sind **keine vollständige Originalantwort**. VO und DR kamen im Live-Abruf nicht vor und werden nur mit explizit veränderten Testdaten geprüft. Ein Browserzugriff auf die volle JSON-Datei wurde in dieser Umgebung blockiert. Über die branchbezogene GitHub Action gelang am 20.09.2026 um 11:47 UTC ein vollständiger Abruf: **134475 Bytes**, SHA-256 `3e7361a1aeb6ab71c44c8bff1be92ae7f33466860c2e263542c3de90c3c000cb`, **100 Features** (EQ 22, TC 3, FL 3, WF 72), **78** als relevant verarbeitet. [Lauf und Rohdaten-Artefakt](https://github.com/bene901/conflictwatch/actions/runs/35508798542). Dieser Befund belegt Parserfunktion für die drei tatsächlich vertretenen Typen, nicht die Vollständigkeit des GDACS-Feeds.
 
 Der [zweite Probe-Lauf](https://github.com/bene901/conflictwatch/actions/runs/35508975001) las zusätzlich `archive.geojson` (94421 Bytes, SHA-256 `aefeae87bf6d4168f3ae013a7953705fb4c602b5bb72a99252da4942f9221476`): EQ 26, FL 24, TC 18, VO 6, WF 15, DR 0. **Das Archiv hat ein anderes Schema.** Beim historischen VO-Feature sind z. B. `eventid`/`episodeid` Zeichenketten, `fromdate` ist `04 Sep 2026 21:00:00`, und `url.report` sowie `datemodified` fehlen. Diese VO-Einträge sind daher kein Live-Beweis, dass der App-Feed für VO dieselben Felder wie TC/FL/WF verwendet. Ein Archiv-Adapter wäre ein eigenständiger Arbeitsauftrag mit eigener Zeit- und Vollständigkeitssemantik.
 
-Vor öffentlicher Freigabe: wiederholte zeitlich getrennte Rohantworten und reale Episodenänderungen auswerten, aktuelle Ereignisse gegen die GDACS-Originalseite prüfen und die 7-Tage-Beobachtung je Quelle abschließen. VO/DR sind NICHT unterstützt, bis echte App-Feed-Antworten gesondert validiert sind. `registry.json public:false` bis zum Live-Tor beibehalten; der öffentlich zugängliche USGS/NOAA-Testmodus ist ausdrücklich weiterhin eine 2-Quellen-Allowlist und zeigt GDACS nicht automatisch.
+GDACS ist in der Produktionsregistry **regulär freigegeben** (`public:true`), zusammen mit USGS und NOAA. Für diesen Release wurde die frühere 7-Tage-Vorabbedingung auf Entscheidung des Projektinhabers aufgehoben; die Freigabe ersetzt die laufende technische Beobachtung der Quelle nicht. Die frühere separate Testansicht wird deshalb nicht mehr veröffentlicht.
+
+Weiterhin offen und **nicht** durch die Freigabe erledigt: VO (Vulkan) und DR (Dürre) sind nicht abgedeckt, solange ihr App-Feed-Format unbelegt ist — auf der Seite steht das ausdrücklich, weil eine fehlende Vulkanmeldung sonst als Entwarnung gelesen wird. Ebenso offen: wiederholte zeitlich getrennte Rohantworten und ein realer Episodenwechsel.
 
 ## Aktualität: gesehen ist nicht andauernd
 

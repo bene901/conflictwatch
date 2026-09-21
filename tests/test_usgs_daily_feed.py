@@ -16,12 +16,22 @@ class WiderUSGSDailyFeed(unittest.TestCase):
     def setUp(self):
         self.entry = next(s for s in full_registry()["sources"] if s["id"] == "usgs")
 
-    def test_registry_uses_official_all_day_feed_not_significant_only(self):
+    def test_registry_uses_the_official_magnitude_45_feed(self):
         self.assertEqual(self.entry["endpoints"], [
-            "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson"
+            "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
         ])
-        self.assertFalse(self.entry["public"])
+        # Die Schwelle stammt von USGS, nicht von ConflictWatch. Unterhalb M4.5 ist die
+        # weltweite Erfassung ungleichmaessig; eine Karte ohne Schwelle zeigt vor allem
+        # die Dichte des US-Messnetzes. Am 20.09.2026: 152 von 161 Beben unter M2.5 in
+        # den USA, aber nur 2 von 15 Beben ab M4.5.
+        self.assertIn("ab Magnitude 4,5", self.entry["coverage_note"])
+        self.assertIn("keine Entwarnung", self.entry["coverage_note"])
+        self.assertEqual(self.entry["retention_days"], 7)
+        self.assertTrue(self.entry["public"])  # seit 20.09.2026 regulaer freigegeben
         self.assertEqual(self.entry["highlight"]["window_h"], 24)
+        # Zeitpunkt-Quelle: die Aktualitaet zaehlt ab dem Bebenzeitpunkt, nicht ab der
+        # letzten Sichtung - anders als bei GDACS-Ereignissen mit Dauer.
+        self.assertEqual(self.entry["highlight"]["recency_basis"], "display_time")
 
     def test_daily_feed_parses_many_unique_small_and_large_earthquakes(self):
         doc = real_doc()
@@ -86,7 +96,7 @@ class WiderUSGSDailyFeed(unittest.TestCase):
                                           force_fetch=True, fetcher=fake_fetch,
                                           log=lambda *_: None), 0)
             self.assertEqual(len(requests), 2)
-            self.assertTrue(all(url.endswith("/all_day.geojson") for url in requests))
+            self.assertTrue(all(url.endswith("/4.5_day.geojson") for url in requests))
 
 
 if __name__ == "__main__":

@@ -18,9 +18,9 @@
    "kinds": [
     "event"
    ],
-   "public": false,
+   "public": true,
    "endpoints": [
-    "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson"
+    "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
    ],
    "terms_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
    "attribution": "Daten: U.S. Geological Survey",
@@ -28,7 +28,7 @@
    "max_fetch_gap_h": 6,
    "max_data_age_h": null,
    "max_empty_h": null,
-   "retention_days": 30,
+   "retention_days": 7,
    "level_schemes": [
     {
      "id": "usgs-pager",
@@ -54,8 +54,8 @@
     "recency_basis": "display_time"
    },
    "id_rule": "usgs:<feature.id>; bei ID-Wechsel der Quelle bleibt die zuerst gesehene ID (Abgleich über properties.ids)",
-   "completeness_rule": "metadata.count muss der Anzahl gelieferter Features entsprechen; sonst sanity-Fehler (Feed ist nicht paginiert). An echter Antwort vom 19.09.2026 belegt.",
-   "coverage_note": "Alle von USGS in seinem Echtzeit-Feed all_day gelisteten Ereignisse der letzten 24 Stunden (nicht nur signifikante Beben); geografische Abdeckung und Erfassung kleiner Beben variieren regional. Ältere bereits gespeicherte Einträge können separat als historische Meldungen erscheinen. Keine GDACS-Erdbeben.",
+   "completeness_rule": "metadata.count muss der Anzahl gelieferter Features entsprechen; sonst sanity-Fehler (Feed ist nicht paginiert). Vollständig ist damit die AUSWAHL des Feeds (M4.5+ der letzten 24 Stunden), nicht die Gesamtheit aller Beben.",
+   "coverage_note": "Erdbeben ab Magnitude 4,5 der letzten 24 Stunden, Auswahl des USGS-Feeds 4.5_day. Schwächere Beben sind NICHT enthalten; das ist keine Entwarnung. Die Schwelle stammt von USGS, nicht von ConflictWatch: unterhalb M4.5 ist die weltweite Erfassung ungleichmäßig. An der echten Antwort vom 20.09.2026 gemessen lagen 152 von 161 Beben unter M2.5 in den USA und deren Territorien, aber nur 2 von 15 Beben ab M4.5 - eine Karte ohne Schwelle zeigt vor allem die Dichte des US-Messnetzes.",
    "unseen_expiry_days": null
   },
   {
@@ -65,7 +65,7 @@
    "kinds": [
     "status"
    ],
-   "public": false,
+   "public": true,
    "endpoints": [
     "https://services.swpc.noaa.gov/products/noaa-scales.json"
    ],
@@ -156,7 +156,7 @@
    "kinds": [
     "event"
    ],
-   "public": false,
+   "public": true,
    "endpoints": [
     "https://www.gdacs.org/contentdata/xml/gdacs_app_feed.json"
    ],
@@ -192,7 +192,7 @@
    },
    "id_rule": "gdacs:<eventtype>:<eventid>; episodeid aktualisiert dasselbe Ereignis ohne doppelte ID.",
    "completeness_rule": "GDACS-App-Feed garantiert keine Vollständigkeit: complete=false; fehlende Einträge sind weder beendet noch zurückgezogen. Nur nach erfolgreich verarbeitetem Abruf und 30 Tagen ohne erneute Sichtung technische Entfernung aus aktivem Bestand. retention_days bleibt Schema-Pflicht, wirkt bei complete=false nicht.",
-   "coverage_note": "Testbetrieb, nicht freigegeben: nur GDACS-Zyklone (TC), Fluten (FL), Waldbrand-Ereignisse (WF). Vulkane (VO) und Dürren (DR) sind mangels authentischem App-Feed-Format NICHT ABGEDECKT; keine Entwarnung. Koordinaten sind Zentroid einer Region, keine Schadensfläche. GDACS liefert keine Vollständigkeitsgarantie. Ein Eintrag gilt als aktuell, wenn ihn der jüngste erfolgreiche Abruf geliefert hat; das heißt NUR, dass GDACS ihn weiterhin meldet, nicht dass das Ereignis nachweislich andauert."
+   "coverage_note": "Abgedeckt sind GDACS-Zyklone (TC), Fluten (FL) und Waldbrand-Ereignisse (WF). Vulkane (VO) und Dürren (DR) sind mangels authentischem App-Feed-Format NICHT ABGEDECKT; das ist keine Entwarnung. Koordinaten sind Zentroid einer Region, keine Schadensfläche. GDACS liefert keine Vollständigkeitsgarantie. Ein Eintrag gilt als aktuell, wenn ihn der jüngste erfolgreiche Abruf geliefert hat; das heißt NUR, dass GDACS ihn weiterhin meldet, nicht dass das Ereignis nachweislich andauert."
   }
  ]
 }

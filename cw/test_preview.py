@@ -48,6 +48,15 @@ def main(argv=None):
     args = ap.parse_args(argv)
     registry = registry_mod.load(args.registry)
     now = now_utc()
+    entries = {src["id"]: src for src in registry["sources"]}
+    released = sorted(sid for sid in TEST_SOURCE_IDS
+                      if sid in entries and entries[sid]["public"] is not False)
+    if released:
+        # Die separate Testansicht existierte nur fuer NICHT freigegebene Quellen.
+        # Sind sie regulaer freigegeben, gibt es nichts mehr gesondert vorzuschauen -
+        # das ist kein Fehler und darf den Lauf nicht abbrechen.
+        print("TEST-SNAPSHOT ENTFÄLLT: regulär freigegeben – " + ", ".join(released))
+        return 0
     try:
         items_doc, sources_doc = state.load(Path(args.state))
         if items_doc is None or sources_doc is None:

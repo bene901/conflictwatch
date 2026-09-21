@@ -7,7 +7,7 @@ const vm = require("vm");
 
 function makeEl(tag, ns) {
   return {
-    tagName: tag, ns: ns || null, attrs: {}, children: [], listeners: {},
+    tagName: tag, ns: ns || null, attrs: {}, children: [], listeners: {}, dataset: {},
     textContent: "", className: "", hidden: false, id: "", type: "", checked: false,
     setAttribute(k, v) { this.attrs[k] = String(v); },
     getAttribute(k) { return Object.prototype.hasOwnProperty.call(this.attrs, k) ? this.attrs[k] : null; },
@@ -39,15 +39,18 @@ vm.createContext(sandbox);
 vm.runInContext(fs.readFileSync(path.join(__dirname, "..", "..", "site", "map.js"), "utf8"),
                 sandbox, {filename: "map.js"});
 
-function inputs() {
+function controls(tag) {
   const found = [];
   const walk = (node) => {
-    if (node.tagName === "input") found.push(node);
+    if (!tag || node.tagName === tag) found.push(node);
     for (const kid of node.children) walk(kid);
   };
-  walk(registry["map-filters"]);
+  for (const kid of registry["map-filters"].children) walk(kid);
   return found;
 }
+
+function inputs() { return controls("input"); }
+function byId(id) { return controls(null).find((n) => n.id === id); }
 
 function dump() {
   const markers = registry["map-points"].children.map((a) => ({
@@ -67,6 +70,7 @@ function dump() {
     markers: markers,
     note: registry["map-events-note"].textContent,
     legend: {hidden: registry["map-legend"].hidden, text: registry["map-legend"].textContent},
+    viewBox: registry["map-view"].getAttribute("viewBox"),
     filters: {
       hidden: registry["map-filters"].hidden,
       boxes: inputs().map((i) => ({
@@ -77,6 +81,11 @@ function dump() {
           .find((w) => w.children.includes(i)) || {children: []})
           .children.map((c) => c.textContent).join(""),
       })),
+      selects: controls("select").map((s) => ({
+        id: s.id, value: s.value,
+        options: s.children.map((o) => o.value),
+      })),
+      buttons: controls("button").map((b) => ({id: b.id, label: b.textContent})),
     },
   };
 }
@@ -85,13 +94,20 @@ const payload = JSON.parse(fs.readFileSync(process.argv[2], "utf8"));
 sandbox.window.ConflictWatchMap.render(payload.items, payload.sources);
 const steps = [{step: "initial", result: dump()}];
 for (const toggle of payload.toggles || []) {
-  const input = inputs().find((i) => i.id === toggle.id);
-  if (!input) {
+  const el = byId(toggle.id);
+  if (!el) {
     steps.push({step: toggle.id, missing: true, result: dump()});
     continue;
   }
-  input.checked = toggle.checked;
-  input.listeners.change({target: input});
+  if (el.tagName === "button") {
+    el.listeners.click({});
+  } else if (el.tagName === "select") {
+    el.value = String(toggle.value);
+    el.listeners.change({target: el});
+  } else {
+    el.checked = toggle.checked;
+    el.listeners.change({target: el});
+  }
   steps.push({step: toggle.id, result: dump()});
 }
 process.stdout.write(JSON.stringify(steps));

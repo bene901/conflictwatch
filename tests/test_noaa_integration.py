@@ -1,4 +1,5 @@
 """Private NOAA integration: authentic source response enters state, never public snapshot."""
+import copy
 import datetime as dt
 import json
 import tempfile
@@ -20,7 +21,7 @@ GDACS_RAW = (ROOT / "tests" / "fixtures" / "gdacs" / "real_2026-09-20_tc_excerpt
 def fixture_fetcher(url: str) -> bytes:
     if url.endswith("noaa-scales.json"):
         return NOAA_RAW
-    if url.endswith("all_day.geojson"):
+    if url.endswith("4.5_day.geojson"):
         return USGS_RAW
     if url.endswith("gdacs_app_feed.json"):
         return GDACS_RAW
@@ -28,13 +29,15 @@ def fixture_fetcher(url: str) -> bytes:
 
 
 class NOAAIntegration(unittest.TestCase):
-    def test_registry_has_three_private_sources_and_real_endpoints(self):
+    def test_registry_has_three_released_sources_and_real_endpoints(self):
         reg = full_registry()
         self.assertEqual(check_registry(reg, ADAPTERS), [])
         self.assertEqual({s["id"] for s in reg["sources"]}, {"usgs", "noaa-swpc", "gdacs"})
-        self.assertTrue(all(s["public"] is False for s in reg["sources"]))
+        self.assertTrue(all(s["public"] is True for s in reg["sources"]))
+        for src in reg["sources"]:
+            self.assertTrue(src["endpoints"][0].startswith("https://"))
 
-    def test_authentic_noaa_statuses_ingested_but_not_published(self):
+    def test_authentic_noaa_statuses_reach_the_public_snapshot(self):
         reg = full_registry()
         with tempfile.TemporaryDirectory() as temp:
             state_dir = Path(temp)
@@ -55,16 +58,20 @@ class NOAAIntegration(unittest.TestCase):
             self.assertEqual([i["level"]["value"] for i in rows], ["0", "0", "0"])
             self.assertEqual({i["observed_at"] for i in rows}, {"2026-09-20T13:26:00Z"})
 
+            # Alle drei Quellen sind freigegeben: der regulaere Snapshot zeigt sie.
             prod = snapshot.build(items, sources, reg, "abc1234", "2026-09-20T13:30:00Z")
-            self.assertEqual(prod["sources"], [])
-            self.assertEqual(prod["items"], [])
+            self.assertEqual(len(prod["sources"]), 3)
+            self.assertEqual(len(prod["items"]), 5)  # 1 USGS + 3 NOAA + 1 GDACS
+            self.assertEqual({i["source"] for i in prod["items"]}, {"usgs", "noaa-swpc", "gdacs"})
             self.assertEqual(check_snapshot(prod, reg, CAPTURED_AT), [])
 
-            preview = snapshot.build(items, sources, reg, "abc1234", "2026-09-20T13:30:00Z",
-                                     include_unreleased=True)
-            self.assertEqual(len(preview["sources"]), 3)
-            self.assertEqual(len(preview["items"]), 5)
-            self.assertEqual(check_snapshot(preview, reg, CAPTURED_AT, preview=True), [])
+            # Kontrollfall: eine ausdruecklich gesperrte Quelle bleibt auch jetzt draussen.
+            blocked = copy.deepcopy(reg)
+            next(s for s in blocked["sources"] if s["id"] == "gdacs")["public"] = False
+            limited = snapshot.build(items, sources, blocked, "abc1234", "2026-09-20T13:30:00Z")
+            self.assertEqual({s["id"] for s in limited["sources"]}, {"usgs", "noaa-swpc"})
+            self.assertNotIn("gdacs", {i["source"] for i in limited["items"]})
+            self.assertEqual(check_snapshot(limited, blocked, CAPTURED_AT), [])
 
     def test_old_noaa_observation_is_not_marked_fresh_after_repeated_fetch(self):
         reg = full_registry()
