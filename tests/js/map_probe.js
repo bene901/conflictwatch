@@ -56,6 +56,9 @@ function dump() {
   const markers = registry["map-points"].children.map((a) => ({
     ariaLabel: a.getAttribute("aria-label"),
     href: a.getAttribute("href"),
+    role: a.getAttribute("role"),
+    tabIndex: a.getAttribute("tabindex"),
+    pressed: a.getAttribute("aria-pressed"),
     shapes: a.children.map((s) => ({
       tag: s.tagName,
       cls: s.getAttribute("class"),
@@ -68,6 +71,7 @@ function dump() {
   }));
   return {
     markers: markers,
+    selections: selections.slice(),
     note: registry["map-events-note"].textContent,
     legend: {hidden: registry["map-legend"].hidden, text: registry["map-legend"].textContent},
     viewBox: registry["map-view"].getAttribute("viewBox"),
@@ -91,9 +95,22 @@ function dump() {
 }
 
 const payload = JSON.parse(fs.readFileSync(process.argv[2], "utf8"));
-sandbox.window.ConflictWatchMap.render(payload.items, payload.sources);
+const selections = [];
+sandbox.window.ConflictWatchMap.render(payload.items, payload.sources,
+  (it) => selections.push(it.id));
 const steps = [{step: "initial", result: dump()}];
 for (const toggle of payload.toggles || []) {
+  if (toggle.markerLabelIncludes) {
+    const marker = registry["map-points"].children.find((m) =>
+      String(m.getAttribute("aria-label") || "").includes(toggle.markerLabelIncludes));
+    if (!marker || !marker.listeners.click) {
+      steps.push({step: "marker:" + toggle.markerLabelIncludes, missing: true, result: dump()});
+      continue;
+    }
+    marker.listeners.click({preventDefault() {}, stopPropagation() {}});
+    steps.push({step: "marker:" + toggle.markerLabelIncludes, result: dump()});
+    continue;
+  }
   const el = byId(toggle.id);
   if (!el) {
     steps.push({step: toggle.id, missing: true, result: dump()});
