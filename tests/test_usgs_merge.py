@@ -211,6 +211,28 @@ class T17SourceStates(unittest.TestCase):
         s2 = succeed_source_state(s1, entry, empty, self.items, fmt(at(hours=30)), "1.0.0")
         self.assertEqual(s2["fetch_health"], "degraded")
 
+    def test_incomplete_empty_fetches_are_timed_without_claiming_empty_state(self):
+        entry = dict(E, max_empty_h=24)
+        empty_incomplete = type(self.res)(items=[], complete=False, items_in_window=0)
+
+        s1 = succeed_source_state(
+            self.ok, entry, empty_incomplete, self.items, fmt(at(hours=1)), "1.0.0")
+        self.assertEqual(s1["empty_since"], fmt(at(hours=1)))
+        self.assertEqual((s1["fetch_health"], s1["data_state"]), ("ok", "fresh"))
+
+        s2 = succeed_source_state(
+            s1, entry, empty_incomplete, self.items, fmt(at(hours=30)), "1.0.0")
+        self.assertEqual(s2["fetch_health"], "degraded")
+        self.assertEqual(s2["data_state"], "fresh")
+        self.assertEqual(s2["last_error"]["kind"], "sanity")
+        self.assertIn("keine Einträge", s2["last_error"]["detail"])
+
+        recovered = succeed_source_state(
+            s2, entry, self.res, self.items, fmt(at(hours=31)), "1.0.0")
+        self.assertEqual((recovered["fetch_health"], recovered["data_state"]), ("ok", "fresh"))
+        self.assertIsNone(recovered["empty_since"])
+        self.assertIsNone(recovered["last_error"])
+
     def test_no_fetch_ages_to_down(self):
         s = age_source_state(self.ok, E, self.items, fmt(at(hours=7)))
         self.assertEqual(s["fetch_health"], "down")
