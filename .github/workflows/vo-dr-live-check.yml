@@ -1,0 +1,41 @@
+name: VO DR live integration check
+on:
+  push:
+    branches:
+      - feat/volcano-drought
+permissions:
+  contents: read
+jobs:
+  live-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Fetch all five production sources into isolated state
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/cw-live /tmp/cw-raw
+          python -m cw run --state /tmp/cw-live --raw-dir /tmp/cw-raw --force-fetch
+          python -m cw snapshot --state /tmp/cw-live --revision livecheck --out /tmp/snapshot.json
+          python - <<'PY'
+          import json
+          state=json.load(open("/tmp/cw-live/sources.json"))
+          snap=json.load(open("/tmp/snapshot.json"))
+          print("SOURCE_STATES")
+          for s in state["sources"]:
+              print(s["source"], s["fetch_health"], s["data_state"],
+                    "items=", s["items_in_window"], "complete=", s["last_fetch_complete"])
+          counts={}
+          hazards={}
+          for item in snap["items"]:
+              counts[item["source"]]=counts.get(item["source"],0)+1
+              h=(item.get("metrics") or {}).get("hazard_type")
+              if h: hazards[h]=hazards.get(h,0)+1
+          print("SNAPSHOT_ITEMS", len(snap["items"]), "SOURCES", len(snap["sources"]))
+          print("ITEMS_BY_SOURCE", json.dumps(counts, sort_keys=True))
+          print("HAZARDS", json.dumps(hazards, sort_keys=True))
+          PY
