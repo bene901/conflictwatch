@@ -49,11 +49,23 @@
             <image href="world-equal-earth.svg" x="0" y="0" width="1000" height="510"/>
             <g id="map-points"></g>
           </svg>
+          <aside id="map-detail" class="map-detail" aria-labelledby="map-detail-title" aria-live="polite" hidden>
+            <div class="map-detail-head">
+              <div>
+                <p id="map-detail-source" class="map-detail-source"></p>
+                <h3 id="map-detail-title">Ereignisdetails</h3>
+              </div>
+              <button id="map-detail-close" class="map-detail-close" type="button" aria-label="Detailfenster schließen">×</button>
+            </div>
+            <p id="map-detail-meta" class="map-detail-meta"></p>
+            <dl id="map-detail-facts" class="map-detail-facts"></dl>
+            <a id="map-detail-source-link" class="source-link map-detail-link" target="_blank" rel="noopener noreferrer">Originalmeldung öffnen</a>
+          </aside>
         </div>
         <div id="map-filters" class="map-filters" role="group" aria-label="Filter für die Kartendarstellung" hidden></div>
         <p id="map-legend" class="map-caption" hidden></p>
         <p id="map-events-note" class="map-caption">Ereignispositionen werden geladen …</p>
-        <p class="map-caption">Zoomen mit Mausrad oder den Schaltflächen, Verschieben durch Ziehen; mit Tastatur: Pfeiltasten, Plus, Minus, Null. Kartenprojektion: Equal Earth (flächentreu). Basiskarte: Natural Earth 1:110m, Public Domain. Marker zeigen ausschließlich von den Quellen gemeldete Koordinaten, nicht deinen Standort. GDACS-Marker sind Zentroide einer Region und bezeichnen keine Schadensfläche. Globale NOAA-Statuswerte haben keinen geografischen Einzelpunkt.</p>
+        <p class="map-caption">Marker auswählen, um die Meldung zuerst direkt auf ConflictWatch zu prüfen; die Originalquelle öffnet sich erst über den Link im Detailfenster. Cluster mit einer Zahl zoomen beim Auswählen hinein. Zoomen außerdem mit Mausrad oder den Schaltflächen, Verschieben durch Ziehen; mit Tastatur: Pfeiltasten, Plus, Minus, Null. Kartenprojektion: Equal Earth (flächentreu). Basiskarte: Natural Earth 1:110m, Public Domain. Marker zeigen ausschließlich von den Quellen gemeldete Koordinaten, nicht deinen Standort. GDACS-Marker sind Zentroide einer Region und bezeichnen keine Schadensfläche. Globale NOAA-Statuswerte haben keinen geografischen Einzelpunkt.</p>
       </section>
       <section id="themen" class="section" aria-labelledby="topics-title">
         <p class="section-kicker">THEMENRADAR / NATURAL HAZARDS</p>
