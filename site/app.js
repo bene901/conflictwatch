@@ -207,8 +207,21 @@
     }
     fact(dl, "Ort", !it.location || it.location.precision === "unknown"
       ? "nicht angegeben" : it.location.name);
+    if (it.location && it.location.precision === "region") {
+      fact(dl, "Ortsgenauigkeit",
+           "Ungefähre Lage laut Quelle (Zentroid einer Region), keine Schadensfläche.");
+    }
     fact(dl, "Warnstufe",
          it.level ? it.level.label : "von der Quelle nicht angegeben – keine Entwarnung");
+    if (it.level_change) {
+      const lc = it.level_change;
+      const note = lc.source_changed_at ? "laut Quelle am " + when(lc.source_changed_at)
+        : "Zeitpunkt laut Quelle nicht angegeben";
+      fact(dl, "Stufenwechsel",
+           "Von " + lc.from.label + " auf " + it.level.label + ", erkannt zwischen " +
+           when(lc.detected_between[0]) + " und " + when(lc.detected_between[1]) + ". " + note + ".");
+    }
+    fact(dl, "Prüfstatus", STATUS_TEXT[it.data_status]);
     fact(dl, "Messwerte", metricsText(it.metrics || {}));
     if (it.metrics && it.metrics.magnitude !== undefined && it.metrics.magnitude !== null &&
         it.metrics.shaking_mmi === null && it.metrics.reported_cdi === null) {
