@@ -25,6 +25,7 @@ class MinimalPublicSite(unittest.TestCase):
         self.assertIn('id="map-detail-source-link"', self.html)
         self.assertIn("Datenstand älter als 3 Stunden", self.app)
         self.assertIn("Abruf ausgefallen", self.app)
+        self.assertIn("Abruf gestört. Zuletzt gespeicherte Meldungen können veraltet sein", self.app)
         self.assertIn("s.coverage_note", self.app)
         self.assertIn("s.attribution", self.app)
         self.assertIn("setHttpsSourceLink(a, it.url", self.app)
