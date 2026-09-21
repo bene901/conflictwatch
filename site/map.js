@@ -13,7 +13,7 @@
   const A1 = 1.340264, A2 = -0.081106, A3 = 0.000893, A4 = 0.003796;
   const RAD = Math.PI / 180;
   const BASE = {x: 0, y: 0, w: 1000, h: 510};
-  const MAX_ZOOM = 16;
+  const MAX_ZOOM = 64;
   const CLUSTER_PX = 16;   // Bildschirmabstand; beim Hineinzoomen fallen Gruppen auseinander.
   const HAZARDS = [
     ["wildfire", "Waldbrände"],
@@ -480,28 +480,177 @@
     }
   }
 
+  function clientToMap(view, clientX, clientY) {
+    const rect = view && view.getBoundingClientRect ? view.getBoundingClientRect() : null;
+    if (!rect || !rect.width || !rect.height) {
+      return [state.view.x + state.view.w / 2, state.view.y + state.view.h / 2];
+    }
+    return [
+      state.view.x + ((clientX - rect.left) / rect.width) * state.view.w,
+      state.view.y + ((clientY - rect.top) / rect.height) * state.view.h,
+    ];
+  }
+
+  function zoomAtClient(view, factor, clientX, clientY) {
+    const focus = clientToMap(view, clientX, clientY);
+    zoomBy(factor, focus[0], focus[1]);
+  }
+
+  // Kombiniert Verschieben und Skalieren in EINEM ViewBox-Schritt. Der Kartenpunkt,
+  // der vorher unter oldClient lag, bleibt nach der Geste unter newClient. So fuehlt
+  // sich Pinch-Zoom wie eine echte Karte an statt wie ein Zoom um die Bildmitte.
+  function gestureView(view, factor, oldClient, newClient) {
+    const rect = view && view.getBoundingClientRect ? view.getBoundingClientRect() : null;
+    if (!rect || !rect.width || !rect.height || !Number.isFinite(factor) || factor <= 0) return;
+    const v = state.view;
+    const focusX = v.x + ((oldClient.x - rect.left) / rect.width) * v.w;
+    const focusY = v.y + ((oldClient.y - rect.top) / rect.height) * v.h;
+    const w = v.w / factor;
+    const h = w * BASE.h / BASE.w;
+    const rx = (newClient.x - rect.left) / rect.width;
+    const ry = (newClient.y - rect.top) / rect.height;
+    state.view = clampView({w: w, h: h, x: focusX - rx * w, y: focusY - ry * h});
+    draw();
+  }
+
   function wireNavigation(view) {
     if (!view || !view.addEventListener || view.dataset.navReady === "1") return;
     view.dataset.navReady = "1";
     view.setAttribute("tabindex", "0");
+
+    // Maus/Trackpad: am Zeiger zoomen, nicht starr um die Kartenmitte.
     view.addEventListener("wheel", function (ev) {
       if (ev.preventDefault) ev.preventDefault();
-      zoomBy(ev.deltaY < 0 ? 1.2 : 1 / 1.2);
+      const raw = Math.exp(-Number(ev.deltaY || 0) * 0.0018);
+      const factor = Math.max(0.72, Math.min(1.38, raw));
+      zoomAtClient(view, factor, Number(ev.clientX || 0), Number(ev.clientY || 0));
+    }, {passive: false});
+
+    view.addEventListener("dblclick", function (ev) {
+      if (ev.preventDefault) ev.preventDefault();
+      zoomAtClient(view, 1.8, Number(ev.clientX || 0), Number(ev.clientY || 0));
     });
-    let dragging = null;
-    view.addEventListener("pointerdown", function (ev) {
-      dragging = {x: ev.clientX, y: ev.clientY};
-    });
-    view.addEventListener("pointermove", function (ev) {
-      if (!dragging) return;
-      const rect = view.getBoundingClientRect ? view.getBoundingClientRect() : null;
-      const scale = rect && rect.width ? state.view.w / rect.width : 1;
-      panBy((dragging.x - ev.clientX) * scale, (dragging.y - ev.clientY) * scale);
-      dragging = {x: ev.clientX, y: ev.clientY};
-    });
-    for (const type of ["pointerup", "pointerleave", "pointercancel"]) {
-      view.addEventListener(type, function () { dragging = null; });
+
+    const pointers = new Map();
+    let drag = null;
+    let pinch = null;
+    let lastTap = null;
+
+    function isMarkerTarget(ev) {
+      return Boolean(ev && ev.target && ev.target.closest &&
+        ev.target.closest("#map-points a"));
     }
+
+    function pair() {
+      return Array.from(pointers.values()).slice(0, 2);
+    }
+
+    function midpoint(a, b) {
+      return {x: (a.x + b.x) / 2, y: (a.y + b.y) / 2};
+    }
+
+    function distance(a, b) {
+      return Math.hypot(a.x - b.x, a.y - b.y);
+    }
+
+    function beginPinch() {
+      const ps = pair();
+      if (ps.length < 2) { pinch = null; return; }
+      pinch = {distance: Math.max(1, distance(ps[0], ps[1])), mid: midpoint(ps[0], ps[1])};
+      drag = null;
+    }
+
+    view.addEventListener("pointerdown", function (ev) {
+      if (ev.pointerType === "mouse" && ev.button !== undefined && ev.button !== 0) return;
+      const id = ev.pointerId === undefined ? 1 : ev.pointerId;
+      const p = {id: id, x: ev.clientX, y: ev.clientY, marker: isMarkerTarget(ev)};
+      pointers.set(id, p);
+      if (view.setPointerCapture && ev.pointerId !== undefined) {
+        try { view.setPointerCapture(ev.pointerId); } catch (_) {}
+      }
+      if (pointers.size >= 2) beginPinch();
+      else drag = {
+        id: id, x: p.x, y: p.y, startX: p.x, startY: p.y,
+        moved: false, marker: p.marker, pointerType: ev.pointerType || "",
+        startedAt: Number(ev.timeStamp || 0),
+      };
+    });
+
+    view.addEventListener("pointermove", function (ev) {
+      const id = ev.pointerId === undefined ? 1 : ev.pointerId;
+      if (!pointers.has(id)) return;
+      pointers.set(id, {id: id, x: ev.clientX, y: ev.clientY,
+                        marker: pointers.get(id).marker});
+
+      if (pointers.size >= 2) {
+        if (ev.preventDefault) ev.preventDefault();
+        const ps = pair();
+        const nextDistance = Math.max(1, distance(ps[0], ps[1]));
+        const nextMid = midpoint(ps[0], ps[1]);
+        if (!pinch) beginPinch();
+        if (pinch) {
+          gestureView(view, nextDistance / pinch.distance, pinch.mid, nextMid);
+          pinch = {distance: nextDistance, mid: nextMid};
+        }
+        return;
+      }
+
+      if (!drag || drag.id !== id) return;
+      const dx = drag.x - ev.clientX;
+      const dy = drag.y - ev.clientY;
+      if (Math.hypot(ev.clientX - drag.startX, ev.clientY - drag.startY) > 4) {
+        drag.moved = true;
+      }
+      const rect = view.getBoundingClientRect ? view.getBoundingClientRect() : null;
+      const sx = rect && rect.width ? state.view.w / rect.width : 1;
+      const sy = rect && rect.height ? state.view.h / rect.height : sx;
+      panBy(dx * sx, dy * sy);
+      drag.x = ev.clientX;
+      drag.y = ev.clientY;
+    });
+
+    function finishPointer(ev) {
+      const id = ev.pointerId === undefined ? 1 : ev.pointerId;
+      const finishedDrag = drag && drag.id === id ? drag : null;
+      pointers.delete(id);
+      if (view.releasePointerCapture && ev.pointerId !== undefined) {
+        try { view.releasePointerCapture(ev.pointerId); } catch (_) {}
+      }
+
+      if (pointers.size >= 2) {
+        beginPinch();
+        return;
+      }
+      pinch = null;
+
+      if (pointers.size === 1) {
+        const p = Array.from(pointers.values())[0];
+        drag = {id: p.id, x: p.x, y: p.y, startX: p.x, startY: p.y,
+                moved: true, marker: p.marker, pointerType: ev.pointerType || "",
+                startedAt: Number(ev.timeStamp || 0)};
+        return;
+      }
+
+      drag = null;
+      if (!finishedDrag || finishedDrag.moved || finishedDrag.marker ||
+          finishedDrag.pointerType !== "touch") return;
+
+      // Doppeltipp: schneller Zoom um die angetippte Stelle.
+      const t = Number(ev.timeStamp || 0);
+      const tap = {time: t, x: ev.clientX, y: ev.clientY};
+      if (lastTap && t - lastTap.time > 0 && t - lastTap.time < 350 &&
+          Math.hypot(tap.x - lastTap.x, tap.y - lastTap.y) < 30) {
+        zoomAtClient(view, 1.8, tap.x, tap.y);
+        lastTap = null;
+      } else {
+        lastTap = tap;
+      }
+    }
+
+    for (const type of ["pointerup", "pointercancel", "pointerleave"]) {
+      view.addEventListener(type, finishPointer);
+    }
+
     view.addEventListener("keydown", function (ev) {
       const step = state.view.w / 8;
       const keys = {ArrowLeft: [-step, 0], ArrowRight: [step, 0],
