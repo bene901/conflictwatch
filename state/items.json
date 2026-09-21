@@ -1,7 +1,566 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-09-21T10:31:51Z",
+ "generated_at": "2026-09-21T10:57:59Z",
  "items": [
+  {
+   "id": "gdacs-drought:1018332",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs-drought",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=DR&eventid=1018332&episodeid=21",
+   "occurred_at": "2025-12-21T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": null,
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": null,
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Orange",
+    "label": "GDACS Orange"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, Fr",
+    "countries": [],
+    "lat": 48.009,
+    "lon": 10.879
+   },
+   "metrics": {
+    "hazard_type": "drought",
+    "episode_id": 21,
+    "alert_score": 1.25,
+    "severity": 1431152,
+    "event_name": "Europe-2026"
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T10:57:59Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
+    "last_changed_at": "2026-09-21T10:57:59Z"
+   }
+  },
+  {
+   "id": "gdacs-drought:1018344",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs-drought",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Drought in Democratic Republic of Congo, Republic of Congo, Gabon",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=DR&eventid=1018344&episodeid=22",
+   "occurred_at": "2025-12-21T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": null,
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": null,
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Drought in Democratic Republic of Congo, Republic of Congo, Gabon",
+    "countries": [],
+    "lat": -2.349,
+    "lon": 13.234
+   },
+   "metrics": {
+    "hazard_type": "drought",
+    "episode_id": 22,
+    "alert_score": 0.5,
+    "severity": 208030,
+    "event_name": "Gabon, Congo-2026"
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T10:57:59Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
+    "last_changed_at": "2026-09-21T10:57:59Z"
+   }
+  },
+  {
+   "id": "gdacs-drought:1018431",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs-drought",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Drought in Madagascar",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=DR&eventid=1018431&episodeid=14",
+   "occurred_at": "2025-11-21T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": null,
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": null,
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Orange",
+    "label": "GDACS Orange"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Drought in Madagascar",
+    "countries": [],
+    "lat": -19.34,
+    "lon": 47.017
+   },
+   "metrics": {
+    "hazard_type": "drought",
+    "episode_id": 14,
+    "alert_score": 1.25,
+    "severity": 369327,
+    "event_name": "Madagascar-2026"
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T10:57:59Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
+    "last_changed_at": "2026-09-21T10:57:59Z"
+   }
+  },
+  {
+   "id": "gdacs-drought:1018545",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs-drought",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Drought in Australia, Indonesia, Cambodia, Papua New Guinea, Philippines, Thailand, Vietnam",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=DR&eventid=1018545&episodeid=14",
+   "occurred_at": "2025-06-11T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": null,
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": null,
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Drought in Australia, Indonesia, Cambodia, Papua New Guinea, Philippines, Thailand, Vietnam",
+    "countries": [],
+    "lat": 12.147,
+    "lon": 104.517
+   },
+   "metrics": {
+    "hazard_type": "drought",
+    "episode_id": 14,
+    "alert_score": 0.75,
+    "severity": 1608359,
+    "event_name": "South-East Asia-2026"
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T10:57:59Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
+    "last_changed_at": "2026-09-21T10:57:59Z"
+   }
+  },
+  {
+   "id": "gdacs-drought:1018546",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs-drought",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Drought in United States",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=DR&eventid=1018546&episodeid=14",
+   "occurred_at": "2025-12-21T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": null,
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": null,
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Drought in United States",
+    "countries": [],
+    "lat": 42.679,
+    "lon": -105.66
+   },
+   "metrics": {
+    "hazard_type": "drought",
+    "episode_id": 14,
+    "alert_score": 0.75,
+    "severity": 327307,
+    "event_name": "Central-Western USA-2026"
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T10:57:59Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
+    "last_changed_at": "2026-09-21T10:57:59Z"
+   }
+  },
+  {
+   "id": "gdacs-drought:1023877",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs-drought",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Drought in Brazil, Colombia, Costa Rica, , Guyana, Panama, Suriname, Venezuela",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=DR&eventid=1023877&episodeid=8",
+   "occurred_at": "2026-02-21T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": null,
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": null,
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Drought in Brazil, Colombia, Costa Rica, , Guyana, Panama, Suriname, Venezuela",
+    "countries": [],
+    "lat": 7.273,
+    "lon": -67.747
+   },
+   "metrics": {
+    "hazard_type": "drought",
+    "episode_id": 8,
+    "alert_score": 0.75,
+    "severity": 965470,
+    "event_name": "Northern South America, Panama Isthmus-2026"
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T10:57:59Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
+    "last_changed_at": "2026-09-21T10:57:59Z"
+   }
+  },
+  {
+   "id": "gdacs-drought:1027448",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs-drought",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Drought in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=DR&eventid=1027448&episodeid=8",
+   "occurred_at": "2025-07-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": null,
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": null,
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Drought in Brazil",
+    "countries": [],
+    "lat": -6.723,
+    "lon": -46.046
+   },
+   "metrics": {
+    "hazard_type": "drought",
+    "episode_id": 8,
+    "alert_score": 0.5,
+    "severity": 581418,
+    "event_name": "Brazil-2025"
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T10:57:59Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
+    "last_changed_at": "2026-09-21T10:57:59Z"
+   }
+  },
+  {
+   "id": "gdacs-drought:1027449",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs-drought",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Drought in The Bahamas, Belize, Cuba, Dominican Republic, Guatemala, Honduras, Haiti, Mexico, Nicaragua, El Salvador",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=DR&eventid=1027449&episodeid=8",
+   "occurred_at": "2026-04-21T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": null,
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": null,
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Orange",
+    "label": "GDACS Orange"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Drought in The Bahamas, Belize, Cuba, Dominican Republic, Guatemala, Honduras, Haiti, Mexico, Nicaragua, El Salvador",
+    "countries": [],
+    "lat": 15.778,
+    "lon": -90.382
+   },
+   "metrics": {
+    "hazard_type": "drought",
+    "episode_id": 8,
+    "alert_score": 1.25,
+    "severity": 615664,
+    "event_name": "Central America-2026"
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T10:57:59Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
+    "last_changed_at": "2026-09-21T10:57:59Z"
+   }
+  },
+  {
+   "id": "gdacs-drought:1027450",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs-drought",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Drought in Eritrea, Ethiopia, Kenya, Somalia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=DR&eventid=1027450&episodeid=8",
+   "occurred_at": "2026-04-21T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": null,
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": null,
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Orange",
+    "label": "GDACS Orange"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Drought in Eritrea, Ethiopia, Kenya, Somalia",
+    "countries": [],
+    "lat": 11.015,
+    "lon": 39.528
+   },
+   "metrics": {
+    "hazard_type": "drought",
+    "episode_id": 8,
+    "alert_score": 1.25,
+    "severity": 509495,
+    "event_name": "East Africa-2026"
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T10:57:59Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
+    "last_changed_at": "2026-09-21T10:57:59Z"
+   }
+  },
+  {
+   "id": "gdacs-drought:1027465",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs-drought",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Drought in Democratic Republic of Congo, Kenya, Tanzania, Uganda",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=DR&eventid=1027465&episodeid=5",
+   "occurred_at": "2026-05-21T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": null,
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": null,
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Orange",
+    "label": "GDACS Orange"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Drought in Democratic Republic of Congo, Kenya, Tanzania, Uganda",
+    "countries": [],
+    "lat": 0.938,
+    "lon": 33.813
+   },
+   "metrics": {
+    "hazard_type": "drought",
+    "episode_id": 5,
+    "alert_score": 1.25,
+    "severity": 196893,
+    "event_name": "Uganda, Kenya-2026"
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T10:57:59Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
+    "last_changed_at": "2026-09-21T10:57:59Z"
+   }
+  },
+  {
+   "id": "gdacs-drought:1027491",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs-drought",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Drought in China, Kyrgyzstan, Kazakhstan, Mongolia, Russia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=DR&eventid=1027491&episodeid=7",
+   "occurred_at": "2026-05-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": null,
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": null,
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Drought in China, Kyrgyzstan, Kazakhstan, Mongolia, Russia",
+    "countries": [],
+    "lat": 48.077,
+    "lon": 82.572
+   },
+   "metrics": {
+    "hazard_type": "drought",
+    "episode_id": 7,
+    "alert_score": 0.75,
+    "severity": 1081074,
+    "event_name": "Kazakhstan, China, Siberia (Russia)-2026"
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T10:57:59Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
+    "last_changed_at": "2026-09-21T10:57:59Z"
+   }
+  },
+  {
+   "id": "gdacs-drought:1027567",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs-drought",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Drought in Central African Republic, Cameroon, Niger, Nigeria, Chad",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=DR&eventid=1027567&episodeid=1",
+   "occurred_at": "2026-06-21T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": null,
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": null,
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Drought in Central African Republic, Cameroon, Niger, Nigeria, Chad",
+    "countries": [],
+    "lat": 9.924,
+    "lon": 15.933
+   },
+   "metrics": {
+    "hazard_type": "drought",
+    "episode_id": 1,
+    "alert_score": 0.25,
+    "severity": 168576,
+    "event_name": "Central Sahel-2026"
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T10:57:59Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
+    "last_changed_at": "2026-09-21T10:57:59Z"
+   }
+  },
+  {
+   "id": "gdacs-drought:1027575",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs-drought",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Drought in India",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=DR&eventid=1027575&episodeid=2",
+   "occurred_at": "2026-01-21T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": null,
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": null,
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Drought in India",
+    "countries": [],
+    "lat": 11.937,
+    "lon": 76.525
+   },
+   "metrics": {
+    "hazard_type": "drought",
+    "episode_id": 2,
+    "alert_score": 0.5,
+    "severity": 249089,
+    "event_name": "India-2026"
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-21T10:57:59Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
+    "last_changed_at": "2026-09-21T10:57:59Z"
+   }
+  },
   {
    "id": "gdacs:FL:1103888",
    "kind": "event",
@@ -43,7 +602,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -88,7 +647,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -133,7 +692,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T09:15:18Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -178,7 +737,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T09:15:18Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -223,7 +782,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T09:15:18Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -268,7 +827,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -313,7 +872,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -358,7 +917,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -401,7 +960,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -418,7 +977,7 @@
    "occurred_at": "2026-09-20T09:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-21T08:52:51Z",
+   "source_updated_at": "2026-09-21T10:35:16Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -444,7 +1003,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -489,7 +1048,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T09:15:18Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -804,7 +1363,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T09:15:18Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -1704,7 +2263,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -1749,7 +2308,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -1839,7 +2398,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -2244,7 +2803,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -2469,7 +3028,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T09:15:18Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -3414,7 +3973,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T17:11:39Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -3459,7 +4018,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T17:11:39Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -3774,7 +4333,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T09:15:18Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -3819,7 +4378,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -3864,7 +4423,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -3909,7 +4468,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -3954,7 +4513,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -3999,7 +4558,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -4404,7 +4963,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -4899,7 +5458,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -4944,7 +5503,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -4989,7 +5548,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -5034,7 +5593,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -5079,7 +5638,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -5124,7 +5683,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -5169,7 +5728,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -5214,7 +5773,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -5259,7 +5818,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T20:47:03Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -5304,7 +5863,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -5349,7 +5908,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -5394,7 +5953,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -5439,7 +5998,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -5484,7 +6043,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -5529,7 +6088,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -5574,7 +6133,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -5619,7 +6178,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -5664,7 +6223,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -5709,7 +6268,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -5754,7 +6313,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -5799,7 +6358,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-20T15:01:58Z"
    }
   },
@@ -5844,7 +6403,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -5889,7 +6448,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -5934,7 +6493,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -5979,7 +6538,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T17:11:39Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-20T20:47:03Z"
    }
   },
@@ -6024,7 +6583,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T17:11:39Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -6069,7 +6628,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T06:19:05Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -6114,7 +6673,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T06:19:05Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T06:19:05Z"
    }
   },
@@ -6159,7 +6718,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T06:19:05Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T06:19:05Z"
    }
   },
@@ -6204,7 +6763,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T06:19:05Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T06:19:05Z"
    }
   },
@@ -6249,7 +6808,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T06:19:05Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T06:19:05Z"
    }
   },
@@ -6294,7 +6853,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T06:19:05Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T06:19:05Z"
    }
   },
@@ -6339,7 +6898,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T06:19:05Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T06:19:05Z"
    }
   },
@@ -6384,7 +6943,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T06:19:05Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T06:19:05Z"
    }
   },
@@ -6429,7 +6988,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T06:19:05Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T06:19:05Z"
    }
   },
@@ -6474,7 +7033,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T06:19:05Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -6519,7 +7078,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T09:15:18Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -6564,7 +7123,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T09:15:18Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -6609,7 +7168,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T09:15:18Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -6654,7 +7213,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T09:15:18Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -6699,7 +7258,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T09:15:18Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -6744,7 +7303,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T09:15:18Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -6789,7 +7348,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T09:15:18Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -6834,7 +7393,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T09:15:18Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -6879,7 +7438,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T09:15:18Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -6924,7 +7483,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T09:15:18Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -6969,7 +7528,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T09:15:18Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -7014,7 +7573,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T09:15:18Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -7059,7 +7618,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T09:15:18Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -7075,7 +7634,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-09-21T10:28:00Z",
+   "observed_at": "2026-09-21T10:54:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -7096,8 +7655,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
-    "last_changed_at": "2026-09-21T10:31:51Z"
+    "last_seen_at": "2026-09-21T10:57:59Z",
+    "last_changed_at": "2026-09-21T10:57:59Z"
    }
   },
   {
@@ -7112,7 +7671,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-09-21T10:28:00Z",
+   "observed_at": "2026-09-21T10:54:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -7133,8 +7692,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
-    "last_changed_at": "2026-09-21T10:31:51Z"
+    "last_seen_at": "2026-09-21T10:57:59Z",
+    "last_changed_at": "2026-09-21T10:57:59Z"
    }
   },
   {
@@ -7149,7 +7708,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-09-21T10:28:00Z",
+   "observed_at": "2026-09-21T10:54:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -7170,8 +7729,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
-    "last_changed_at": "2026-09-21T10:31:51Z"
+    "last_seen_at": "2026-09-21T10:57:59Z",
+    "last_changed_at": "2026-09-21T10:57:59Z"
    }
   },
   {
@@ -7591,7 +8150,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -7635,7 +8194,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -7675,7 +8234,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -7715,7 +8274,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -7755,7 +8314,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -7799,7 +8358,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T21:19:33Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -7839,7 +8398,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -7879,7 +8438,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T23:14:30Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -7919,7 +8478,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T06:19:05Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -7959,7 +8518,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T01:06:08Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -7999,7 +8558,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T06:19:05Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -8043,7 +8602,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T06:19:05Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -8083,7 +8642,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T06:19:05Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -8123,7 +8682,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T06:19:05Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -8163,7 +8722,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T09:15:18Z",
-    "last_seen_at": "2026-09-21T10:31:51Z",
+    "last_seen_at": "2026-09-21T10:57:59Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   }
