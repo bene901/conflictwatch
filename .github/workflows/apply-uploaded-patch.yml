@@ -1,0 +1,56 @@
+name: Apply uploaded ConflictWatch patch
+
+on:
+  push:
+    branches:
+      - feat/quake-impact-public-release
+    paths:
+      - .github/workflows/apply-uploaded-patch.yml
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reconstruct uploaded patch series
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .patches/p1_*.b64 | base64 -d | gzip -d > /tmp/p1.patch
+          cat .patches/p2_*.b64 | base64 -d | gzip -d > /tmp/p2.patch
+          cat .patches/p3_*.b64 | base64 -d | gzip -d > /tmp/p3.patch
+          cat .patches/p4_*.b64 | base64 -d | gzip -d > /tmp/p4.patch
+
+      - name: Apply exact four-commit series
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git am --3way /tmp/p1.patch /tmp/p2.patch /tmp/p3.patch /tmp/p4.patch
+
+      - name: Run full test suite
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m unittest discover -s tests -t . -q
+
+      - name: Remove temporary patch staging files
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf .patches
+          git add -A
+          git commit -m "Remove temporary patch staging files" || true
+
+      - name: Push applied series
+        shell: bash
+        run: |
+          set -euo pipefail
+          git push origin HEAD:${{ github.ref_name }}
