@@ -36,6 +36,8 @@ class NOAAIntegration(unittest.TestCase):
         self.assertTrue(all(s["public"] is True for s in reg["sources"]))
         for src in reg["sources"]:
             self.assertTrue(src["endpoints"][0].startswith("https://"))
+        gdacs = next(s for s in reg["sources"] if s["id"] == "gdacs")
+        self.assertEqual(gdacs["max_empty_h"], 72)
 
     def test_authentic_noaa_statuses_reach_the_public_snapshot(self):
         reg = full_registry()
