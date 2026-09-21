@@ -394,11 +394,13 @@
   function noteText(shownQuakes, allQuakes, quakeGroups, shownRegions, allRegions,
                     regionGroups, olderCount) {
     const parts = [];
-    if (allQuakes) parts.push(shownQuakes + " Erdbeben (USGS)");
-    if (allRegions) parts.push(shownRegions + " Naturereignisse (GDACS)");
+    if (allQuakes) parts.push(shownQuakes + "/" + allQuakes + " Erdbeben (USGS)");
+    if (allRegions) parts.push(shownRegions + "/" + allRegions + " Meldungen (GDACS)");
     if (!parts.length) parts.push("Keine verorteten Meldungen – keine Entwarnung");
     if (olderCount && !state.showOlder) {
-      parts.push(olderCount + " ältere Meldungen ausgeblendet – keine Entwarnung");
+      parts.push(olderCount + (olderCount === 1
+        ? " ältere Meldung ausgeblendet – keine Entwarnung"
+        : " ältere Meldungen ausgeblendet – keine Entwarnung"));
     }
     return parts.join(" · ");
   }
