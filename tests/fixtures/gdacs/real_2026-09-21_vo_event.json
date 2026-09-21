@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "bbox": [
+    -90.88,
+    14.473,
+    -90.88,
+    14.473
+  ],
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -90.88,
+      14.473
+    ]
+  },
+  "properties": {
+    "eventtype": "VO",
+    "eventid": 1000145,
+    "episodeid": 1,
+    "eventname": "Fuego",
+    "glide": "",
+    "name": "Eruption  Fuego",
+    "description": "Eruption  Fuego",
+    "htmldescription": "Green Eruption Fuego in Guatemala at: 05 Aug 2026 08:09.",
+    "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/VO.png",
+    "iconoverall": null,
+    "url": {
+      "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=VO&eventid=1000145&episodeid=1",
+      "report": "https://www.gdacs.org/report.aspx?eventid=1000145&episodeid=1&eventtype=VO",
+      "media": "https://www.gdacs.org/gdacsapi/api/emm/getemmnewsbykey?eventtype=VO&eventid=1000145",
+      "eventnews": "https://www.gdacs.org/gdacsapi/api/news/getnewsbygdacskey?eventtype=VO&eventid=1000145"
+    },
+    "alertlevel": "Green",
+    "alertscore": 1,
+    "episodealertlevel": "Green",
+    "episodealertscore": 0.5,
+    "istemporary": "false",
+    "iscurrent": "false",
+    "country": "Guatemala",
+    "fromdate": "2026-08-05T08:09:00",
+    "todate": "2026-08-05T08:09:00",
+    "datemodified": "2026-09-21T10:40:56",
+    "iso3": "GTM",
+    "source": "WASHINGTON",
+    "sourceid": "",
+    "polygonlabel": "Centroid",
+    "Class": "Point_Centroid",
+    "affectedcountries": [
+      {
+        "iso2": "GT",
+        "iso3": "GTM",
+        "countryname": "Guatemala"
+      }
+    ],
+    "severitydata": {
+      "severity": 0,
+      "severitytext": "",
+      "severityunit": ""
+    },
+    "episodes": [
+      {
+        "details": "https://www.gdacs.org/gdacsapi/api/events/getepisodedata?eventtype=VO&eventid=1000145&episodeid=1"
+      }
+    ],
+    "impacts": [
+      {
+        "source": "WASHINGTON",
+        "resource": {
+          "impact": "https://www.gdacs.org/gdacsapi/api/export/getimpact?id=775126"
+        }
+      }
+    ],
+    "images": {
+      "aster_images": "https://ava.jpl.nasa.gov/volcano.asp?vnum={identifiers.value:identifierid='gvp_id'}",
+      "overviewmap": "https://www.gdacs.org/contentdata/resources/{eventtype}/{eventid}/vo{eventname|~0,4}_2.png",
+      "overview_map_cached": "https://www.gdacs.org/contentdata/resources/VO/1000145/voFueg_1.png",
+      "thumbnailmap_cached": "https://www.gdacs.org/contentdata/resources/VO/1000145/voFueg_1.png",
+      "meteoimages": "https://www.gdacs.org/contentdata/resources/VO/1000145/meteo/",
+      "mslpimages": "https://www.gdacs.org/contentdata/img/mslp/",
+      "event_icon_map": "https://www.gdacs.org/images/gdacs_icons/maps/Green/VO.png",
+      "event_icon": "https://www.gdacs.org/images/gdacs_icons/big/Green/VO.png",
+      "tsunami_maxheight": "https://www.gdacs.org/contentdata/resources/VO/{eventid}/tsunami/{identifiers.value:identifierid='tsoutputpath'}/P1_MAXHEIGHT_END.jpg",
+      "tsunami_propagation": "https://www.gdacs.org/contentdata/resources/VO/{eventid}/tsunami/{identifiers.value:identifierid='tsoutputpath'}/TTT/Image.png",
+      "thumbnailmap": "https://www.gdacs.org/contentdata/resources/VO/1000145/voFueg_1.png",
+      "npp_icon": "https://www.gdacs.org/images/gdacs_icons/iconmap/Nuclear.png"
+    },
+    "additionalinfos": {
+      "alertscore": "0.5",
+      "dateweekly": "30 Jul 2026 10:15",
+      "oidvolcano": "342090",
+      "pei": "6",
+      "pop100": "9926902",
+      "vei": "4",
+      "weeklydescription": "\nThe Instituto Nacional de Sismolog?a, Vulcanologia, Meteorologia e Hidrolog?a (INSIVUMEH) reported that eruptive activity at Fuego continued during 22-29 July. Daily Strombolian explosions recorded by the seismic network, at rates of 5-11 per hour when reported, generated gas-and-ash plumes that rose as high as 1.1 km above the summit and drifted as far as 40 km SW, W, and NW. Rumbling sounds, shock waves, and/or sounds associated with explosions were reported daily. Explosions occasionally ejected incandescent material as high as 300 m above the summit and onto the flanks, causing incandescent block avalanches to descend the flanks; notably avalanches descended the Seca (W), Taniluy? (SSW), Ceniza (SSW), Trinidad (SSW), Las Lajas (SE), and Honda drainages, sometimes reaching vegetated areas. \nSource: Instituto Nacional de Sismologia, Vulcanologia, Meteorologia, e Hidrologia (INSIVUMEH)\n"
+    },
+    "documents": {}
+  }
+}
