@@ -4,7 +4,7 @@ import datetime as dt
 import json
 import unittest
 
-from cw.adapters import gdacs
+from cw.adapters import gdacs, ADAPTERS
 from cw.errors import AdapterError
 from cw.merge import blank_source_state, merge_items, succeed_source_state
 from cw.registry import load
@@ -55,7 +55,7 @@ class GdacsAdapter(unittest.TestCase):
         self.assertEqual((item["location"]["lat"], item["location"]["lon"]), (11.4, -124.5))
         self.assertIsNone(item["ongoing"])  # iscurrent is not a proven ongoing flag
         self.assertEqual(item["data_status"], "unknown")  # no GDACS review-status inference
-        self.assertEqual(check_registry(REG, {"usgs": object(), "noaa-swpc": object(), "gdacs": gdacs.parse}), [])
+        self.assertEqual(check_registry(REG, ADAPTERS), [])
         merged = merge_items({}, "gdacs", ENTRY, result, "2026-09-20T12:00:00Z")
         self.assertEqual(check_items(list(merged.values()), REG, NOW), [])
 

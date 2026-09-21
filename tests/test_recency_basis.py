@@ -77,7 +77,8 @@ class RecencyContract(unittest.TestCase):
     def test_every_source_declares_its_recency_basis(self):
         declared = {s["id"]: s["highlight"]["recency_basis"] for s in full_registry()["sources"]}
         self.assertEqual(declared, {"usgs": "display_time", "noaa-swpc": "display_time",
-                                    "gdacs": "last_seen"})
+                                    "gdacs": "last_seen", "gdacs-volcano": "last_seen",
+                                    "gdacs-drought": "last_seen"})
 
     def test_internal_state_keeps_ingest_and_public_snapshot_exposes_only_last_seen(self):
         items, st = gdacs_state(old_wildfire_feed(), RUN_AT)

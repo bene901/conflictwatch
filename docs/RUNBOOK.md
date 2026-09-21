@@ -53,7 +53,7 @@ Die frühere 7-Tage-Vorabbedingung ist für diesen Release aufgehoben. Die Beoba
 - Stündliche Läufe weiterlaufen lassen. `state/runlog.jsonl` auf `data-state` enthält jeden Lauf (14 Tage).
 - Rohantworten verschiedener Tage als Evidenz sichern; neue dauerhafte Fixtures nur anlegen, wenn sie einen zusätzlichen Parser-/Regressionsfall belegen.
 - Stichprobenartig USGS-Einträge mit der Originalquelle vergleichen (Zeit, Magnitude, Ort, PAGER sowie vorhandene MMI/CDI/Felt-Werte).
-- GDACS auf Episodenwechsel, 30-Tage-Expiry und die weiterhin fehlende VO/DR-Abdeckung beobachten; NOAA auf Aktualität der beobachteten G/S/R-Werte.
+- GDACS auf Episodenwechsel und 30-Tage-Expiry beobachten; zusätzlich die getrennten VO-/DR-Feeds prüfen (VO darf legitimerweise leer sein, DR hat einen 72-h-Leerwächter). NOAA auf Aktualität der beobachteten G/S/R-Werte prüfen.
 - Bei fachlicher oder technischer Regression Quelle nicht stillschweigend als korrekt darstellen: Fehlerstatus sichtbar halten und Ursache im Issue/PR dokumentieren.
 
 ## 4. Betrieb

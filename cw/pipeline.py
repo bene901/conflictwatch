@@ -56,6 +56,7 @@ def run(registry: dict, state_dir: Path, fetch: bool = True, now: dt.datetime | 
     attempted, failed, newly_down = 0, 0, []
     for entry in registry["sources"]:
         sid = entry["id"]
+        had_state = sid in states
         prev = states.get(sid) or blank_source_state(sid, ADAPTER_VERSION)
         if not fetch or (not force_fetch and not _due(prev, entry, now)):
             states[sid] = age_source_state(prev, entry, items, run_at)
@@ -82,7 +83,10 @@ def run(registry: dict, state_dir: Path, fetch: bool = True, now: dt.datetime | 
                 detail = f"interner Fehler: {type(exc).__name__}: {exc}"
                 states[sid] = fail_source_state(prev, entry, items, run_at, "sanity", detail)
                 log_entry["sources"][sid] = {"result": "error", "kind": "sanity", "detail": detail[:300]}
-        if prev["fetch_health"] != "down" and states[sid]["fetch_health"] == "down":
+        first_public_failure = (not had_state and entry["public"] and
+                                log_entry["sources"][sid]["result"] == "error")
+        if ((prev["fetch_health"] != "down" and states[sid]["fetch_health"] == "down") or
+                first_public_failure):
             newly_down.append(sid)
         log_entry["sources"][sid]["fetch_health"] = states[sid]["fetch_health"]
         log_entry["sources"][sid]["data_state"] = states[sid]["data_state"]
