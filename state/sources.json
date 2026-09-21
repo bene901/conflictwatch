@@ -1,19 +1,19 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-09-21T06:19:05Z",
+ "generated_at": "2026-09-21T09:15:18Z",
  "sources": [
   {
    "source": "gdacs",
    "adapter_version": "1.0.0",
    "fetch_health": "ok",
    "data_state": "fresh",
-   "last_attempt_at": "2026-09-21T06:19:05Z",
-   "last_success_at": "2026-09-21T06:19:05Z",
+   "last_attempt_at": "2026-09-21T09:15:18Z",
+   "last_success_at": "2026-09-21T09:15:18Z",
    "last_fetch_complete": false,
-   "newest_source_time": "2026-09-20T20:22:58Z",
+   "newest_source_time": "2026-09-21T09:08:04Z",
    "consecutive_failures": 0,
    "last_error": null,
-   "items_in_window": 86,
+   "items_in_window": 75,
    "empty_since": null
   },
   {
@@ -21,10 +21,10 @@
    "adapter_version": "1.0.0",
    "fetch_health": "ok",
    "data_state": "fresh",
-   "last_attempt_at": "2026-09-21T06:19:05Z",
-   "last_success_at": "2026-09-21T06:19:05Z",
+   "last_attempt_at": "2026-09-21T09:15:18Z",
+   "last_success_at": "2026-09-21T09:15:18Z",
    "last_fetch_complete": true,
-   "newest_source_time": "2026-09-21T06:17:00Z",
+   "newest_source_time": "2026-09-21T09:13:00Z",
    "consecutive_failures": 0,
    "last_error": null,
    "items_in_window": 3,
@@ -35,13 +35,13 @@
    "adapter_version": "1.0.0",
    "fetch_health": "ok",
    "data_state": "fresh",
-   "last_attempt_at": "2026-09-21T06:19:05Z",
-   "last_success_at": "2026-09-21T06:19:05Z",
+   "last_attempt_at": "2026-09-21T09:15:18Z",
+   "last_success_at": "2026-09-21T09:15:18Z",
    "last_fetch_complete": true,
-   "newest_source_time": "2026-09-21T06:17:54Z",
+   "newest_source_time": "2026-09-21T07:51:52Z",
    "consecutive_failures": 0,
    "last_error": null,
-   "items_in_window": 224,
+   "items_in_window": 16,
    "empty_since": null
   }
  ]
