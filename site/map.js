@@ -19,9 +19,12 @@
     ["wildfire", "Waldbrände"],
     ["flood", "Überschwemmungen"],
     ["tropical_cyclone", "Wirbelstürme"],
+    ["volcano", "Vulkane"],
+    ["drought", "Dürren"],
   ];
   const HAZARD_ONE = {wildfire: "Waldbrand", flood: "Überschwemmung",
-                      tropical_cyclone: "Wirbelsturm"};
+                      tropical_cyclone: "Wirbelsturm", volcano: "Vulkan",
+                      drought: "Dürre"};
   const LEVEL_ORDER = ["Green", "Orange", "Red"];
   // Der Bestand enthaelt bereits nur Beben ab M4.5 - das ist die Auswahl des
   // USGS-Feeds, nicht unsere. Die Voreinstellung blendet deshalb nichts aus; wer
