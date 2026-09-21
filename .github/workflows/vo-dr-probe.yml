@@ -10,26 +10,15 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Inspect official GDACS VO DR structures
+      - name: Emit authentic compact fixtures
         run: |
           set -euo pipefail
-
-          inspect() {
-            label="$1"; url="$2"; file="$3"
-            echo "=== $label ==="
-            curl -fsSL --max-time 45 --retry 2 "$url" -o "$file"
-            wc -c "$file"
-            jq -r '"type=" + (.type // "null") + " features=" + ((.features|length)|tostring)' "$file"
-            jq -r '.features[0:4][] | {geometry:.geometry.type,property_keys:(.properties|keys),properties:.properties}' "$file" | head -c 16000
-            echo
-          }
-
-          inspect "DR bulk" "https://www.gdacs.org/contentdata/xml/gdacsDR.geojson" DR.json
-          inspect "VO map" "https://www.gdacs.org/contentdata/xml/VO_map.geojson" VO_MAP.json
-          inspect "VO archive" "https://www.gdacs.org/contentdata/xml/gdacs_archive.geojson" ARCHIVE.json
-
-          echo "=== VO event API Fuego 1000145 ==="
-          curl -fsSL --max-time 45 --retry 2 "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=VO&eventid=1000145" -o VO_EVENT.json
-          wc -c VO_EVENT.json
-          jq -r 'if type=="object" then {keys:keys, sample:.} else {type:type,sample:.[0]} end' VO_EVENT.json | head -c 18000
+          curl -fsSL --max-time 45 --retry 2 "https://www.gdacs.org/contentdata/xml/gdacsDR.geojson" -o DR.json
+          jq -c '[.features[] | select(.geometry.type=="Point" and .properties.Class=="Point_Centroid")][0]' DR.json > dr_point.json
+          curl -fsSL --max-time 45 --retry 2 "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=VO&eventid=1000145" -o vo_event.json
+          echo "DR_FIXTURE_B64"
+          base64 -w0 dr_point.json
+          echo
+          echo "VO_FIXTURE_B64"
+          base64 -w0 vo_event.json
           echo
