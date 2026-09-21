@@ -1,0 +1,43 @@
+name: VO DR source probe
+
+on:
+  push:
+    branches: [probe/vo-dr-source]
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Fetch and inspect official GDACS VO/DR GeoJSON
+        shell: bash
+        run: |
+          set -euo pipefail
+          for kind in VO DR; do
+            url="https://www.gdacs.org/contentdata/xml/gdacs${kind}.geojson"
+            echo "=== ${kind} ${url} ==="
+            curl --fail --silent --show-error --location --max-time 45 --retry 2 "$url" -o "${kind}.json"
+            python - "${kind}.json" <<'PY'
+import json, os, sys, collections
+p=sys.argv[1]
+d=json.load(open(p, encoding="utf-8"))
+fs=d.get("features") if isinstance(d,dict) else None
+print("bytes", os.path.getsize(p), "type", d.get("type") if isinstance(d,dict) else type(d).__name__,
+      "features", len(fs) if isinstance(fs,list) else None)
+if not isinstance(fs,list):
+    raise SystemExit("features missing")
+print("eventtypes", collections.Counter((f.get("properties") or {}).get("eventtype") for f in fs))
+for i,f in enumerate(fs[:3]):
+    pr=f.get("properties") or {}
+    print("sample", i, "geometry", (f.get("geometry") or {}).get("type"))
+    print("keys", sorted(pr.keys()))
+    for k in ("eventtype","eventid","episodeid","name","alertlevel","alertscore","fromdate","todate",
+              "datemodified","iscurrent","affectedcountries","severitydata","url","country","description"):
+        if k in pr:
+            v=pr[k]
+            print(k, type(v).__name__, json.dumps(v, ensure_ascii=False)[:1000])
+PY
+          done
