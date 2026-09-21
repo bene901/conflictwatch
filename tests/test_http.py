@@ -21,6 +21,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
             time.sleep(2); self.send_response(200); self.end_headers(); self.wfile.write(b"{}")
         elif self.path == "/ua":
             self.send_response(200); self.end_headers(); self.wfile.write(self.headers.get("User-Agent", "").encode())
+        elif self.path in ("/accept.json", "/accept.geojson"):
+            self.send_response(200); self.end_headers(); self.wfile.write(self.headers.get("Accept", "").encode())
 
     def log_message(self, *a):
         pass
@@ -45,6 +47,10 @@ class HttpFetch(unittest.TestCase):
     def test_ok_and_user_agent(self):
         self.assertEqual(cw_http.fetch(self.base + "/ok"), b'{"ok": true}')
         self.assertTrue(cw_http.fetch(self.base + "/ua").startswith(b"ConflictWatch/"))
+
+    def test_json_and_geojson_use_matching_accept_headers(self):
+        self.assertEqual(cw_http.fetch(self.base + "/accept.json"), b"application/json")
+        self.assertEqual(cw_http.fetch(self.base + "/accept.geojson"), b"application/geo+json")
 
     def test_http_error(self):
         self.assertEqual(self.kind("/503"), "http")
