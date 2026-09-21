@@ -362,6 +362,8 @@
     for (const s of snap.sources) {
       if (s.fetch_health === "down") {
         warnings.push(`${s.name}: Abruf ausgefallen. Meldungen können veraltet sein.`);
+      } else if (s.fetch_health === "degraded") {
+        warnings.push(`${s.name}: Abruf gestört. Zuletzt gespeicherte Meldungen können veraltet sein.`);
       }
     }
     banner(warnings);
