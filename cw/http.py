@@ -3,6 +3,7 @@ from __future__ import annotations
 import socket
 import urllib.error
 import urllib.request
+from urllib.parse import urlparse
 
 from .errors import AdapterError
 
@@ -11,7 +12,9 @@ MAX_BYTES = 5_000_000
 
 
 def fetch(url: str, timeout: float = 20.0, max_bytes: int = MAX_BYTES) -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"})
+    path = urlparse(url).path.lower()
+    accept = "application/geo+json" if path.endswith(".geojson") else "application/json"
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": accept})
     try:
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             if resp.status != 200:
