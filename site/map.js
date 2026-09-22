@@ -79,6 +79,7 @@
     gdeltAction: "all", ucdpType: "all",
     items: [], sources: [], view: Object.assign({}, BASE),
     selectedId: null, onSelect: null,
+    aircraft: [], aircraftAt: null, aircraftVisible: false, onAircraft: null,
   };
 
   // CSS-Pixel in aktuelle SVG-Benutzereinheiten umrechnen. Die alte Rechnung
@@ -384,6 +385,47 @@
     layer.append(a);
   }
 
+  function drawAircraft(layer, group) {
+    const pos = group.pos;
+    const many = group.items.length > 1;
+    const sample = group.items[0];
+    const label = many
+      ? group.items.length + " von adsb.lol als militärisch markierte Flugzeugbeobachtungen, zusammengefasst"
+      : "Flugzeugbeobachtung: " + (sample.callsign || sample.id) +
+        ". Position vom " + sample.position_time +
+        ". Quelle adsb.lol, Zuordnung und Position nicht vollständig; keine Aussage über Einsätze.";
+    const a = markerAction(label, many
+      ? () => zoomBy(1.8, pos[0], pos[1])
+      : () => { if (state.onAircraft) state.onAircraft(sample, state.aircraftAt); }, false);
+    a.append(circle(pos, px(HIT_RADIUS_PX), "map-hit-target"),
+             circle(pos, px(many ? 13 : 9), "map-event-aircraft" + (many ? " is-cluster" : "")));
+    if (many) countLabel(a, pos, group.items.length);
+    const t = svg("title");
+    t.textContent = label;
+    a.append(t);
+    layer.append(a);
+  }
+
+  function setAircraftSnapshot(doc, onAircraft) {
+    state.onAircraft = typeof onAircraft === "function" ? onAircraft : null;
+    state.aircraft = [];
+    state.aircraftAt = null;
+    state.aircraftVisible = false;
+    const timestamp = doc && Date.parse(doc.observed_at || "");
+    const age = Date.now() - timestamp;
+    if (doc && doc.status === "ok" && Array.isArray(doc.aircraft) &&
+        Number.isFinite(age) && age >= -300000 && age <= 2 * 3600 * 1000) {
+      state.aircraft = doc.aircraft.slice(0, 2000).filter((a) =>
+        Number.isFinite(a.lat) && Number.isFinite(a.lon) &&
+        Math.abs(a.lat) <= 90 && Math.abs(a.lon) <= 180 &&
+        Number.isFinite(Date.parse(a.position_time || "")) &&
+        Date.parse(a.position_time) <= timestamp
+      ).map((a) => Object.assign({}, a, {location: {lat: a.lat, lon: a.lon}}));
+      state.aircraftAt = doc.observed_at;
+    }
+    draw();
+  }
+
   function control(box, tag, attrs, text, onChange) {
     const el = document.createElement(tag);
     for (const k in attrs) el[k] = attrs[k];
@@ -468,7 +510,7 @@
 
   function renderControls(box, hasQuakes, available, olderCount, conflictAvailable) {
     box.replaceChildren();
-    box.hidden = !hasQuakes && !available.length && !conflictAvailable.length;
+    box.hidden = !hasQuakes && !available.length && !conflictAvailable.length && !state.aircraft.length;
     if (box.hidden) return;
 
     const primary = document.createElement("div");
@@ -500,6 +542,13 @@
                !state.hidden.has(key), function (ev) {
         if (ev && ev.target && ev.target.checked === false) state.hidden.add(key);
         else state.hidden.delete(key);
+        draw();
+      });
+    }
+    if (state.aircraft.length) {
+      checkbox(box, "map-filter-aircraft", "Flugzeug-Snapshot (nicht live)",
+               state.aircraftVisible, function (ev) {
+        state.aircraftVisible = Boolean(ev && ev.target && ev.target.checked);
         draw();
       });
     }
@@ -618,10 +667,24 @@
     const conflictGroups = cluster(shownConflicts, (it) => it.source + ":" + it.location.precision);
     for (const g of conflictGroups) drawConflict(layer, g);
 
+    const flightAge = Date.now() - Date.parse(state.aircraftAt || "");
+    const aircraftFresh = Number.isFinite(flightAge) && flightAge >= -300000 &&
+                          flightAge <= 2 * 3600 * 1000;
+    if (!aircraftFresh) {
+      state.aircraft = [];
+      state.aircraftVisible = false;
+    }
+    if (state.aircraftVisible && aircraftFresh) {
+      for (const g of cluster(state.aircraft, () => "aircraft")) drawAircraft(layer, g);
+    }
+
     if (box) renderControls(box, quakes.length > 0, available, olderCount, conflictAvailable);
     note.textContent = noteText(shownQuakes.length, quakes.length, quakeGroups.length,
                                 shownRegions.length, regions.length, regionGroups.length,
                                 olderCount, shownConflicts.length, conflicts.length);
+    if (state.aircraftVisible && aircraftFresh) {
+      note.textContent += " · " + state.aircraft.length + " Flugzeugbeobachtungen (Stand " + state.aircraftAt + ", nicht live)";
+    }
 
     if (legend) {
       const parts = [];
@@ -629,6 +692,7 @@
       if (regions.length) parts.push("◌ weitere Ereignisse (Natur)");
       if (conflicts.some((it) => it.source === "ucdp-candidate")) parts.push("◆ UCDP · kuratiert/vorläufig");
       if (conflicts.some((it) => it.source === "gdelt")) parts.push("▲ GDELT · automatisch/ungeprüft");
+      if (state.aircraft.length) parts.push("◉ ADS-B-Flugzeug-Snapshot · kein Live-Tracking");
       if (parts.length) parts.push("Zahl = Gruppe");
       legend.hidden = !parts.length;
       legend.textContent = parts.join(" · ");
@@ -843,6 +907,6 @@
 
   // zoomBy/panBy/resetView sind dieselben Einstiege, die auch die Bedienelemente
   // benutzen; sie sind freigelegt, damit die Navigation pruefbar ist.
-  window.ConflictWatchMap = {render, project: xy, zoomBy, panBy, resetView,
+  window.ConflictWatchMap = {render, setAircraftSnapshot, project: xy, zoomBy, panBy, resetView,
                              viewBox: () => Object.assign({}, state.view)};
 })();
