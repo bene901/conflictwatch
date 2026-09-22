@@ -288,21 +288,11 @@
   function renderSources(sources, now) {
     const ul = $("sources");
     for (const s of sources) {
-      const li = el("li");
-      const head = el("div", "source-row");
-      head.append(el("span", "name", s.name));
-      head.append(el("span", "source-health",
-        s.fetch_health === "ok" ? "Abruf OK" : FETCH_TEXT[s.fetch_health]));
-      li.append(head);
-      li.append(el("div", "line", s.last_success_at
-        ? `Letzter Abruf ${relative(Date.parse(s.last_success_at), now)}`
-        : "Noch kein erfolgreicher Abruf"));
-      const extra = el("details", "source-extra");
-      extra.append(el("summary", null, "Abdeckung & Herkunft"));
-      extra.append(el("p", null, `Datenstatus: ${DATA_TEXT[s.data_state]}`));
-      extra.append(el("p", null, s.coverage_note));
-      extra.append(el("p", null, s.attribution));
-      li.append(extra);
+      const li = el("li", "source-row");
+      li.append(el("span", "name", s.name));
+      const status = s.fetch_health === "ok" ? "OK" : FETCH_TEXT[s.fetch_health];
+      const age = s.last_success_at ? relative(Date.parse(s.last_success_at), now) : "kein Abruf";
+      li.append(el("span", "source-health", status + " · " + age));
       ul.append(li);
     }
   }
@@ -347,7 +337,7 @@
     for (const card of document.querySelectorAll(".topic[data-source]")) {
       if (!releasedIds.has(card.dataset.source)) continue;
       const label = card.querySelector(".topic-state");
-      label.textContent = TEST_MODE ? "Test" : "Aktiv";
+      label.textContent = TEST_MODE ? "Test" : "Live";
       label.classList.add("live");
     }
 

@@ -238,8 +238,8 @@ class MagnitudeFilter(unittest.TestCase):
         step = run(scenario(with_gdacs=False), [FULL])[1]
         note = step["result"]["note"]
         self.assertIn("4/4 Erdbeben (USGS)", note)
-        self.assertIn("ab M 4,5", step["result"]["legend"]["text"])
-        self.assertIn("keine Entwarnung", (ROOT / "site/index.html").read_text())
+        self.assertIn('ab Magnitude 4,5', (ROOT / "site/map.js").read_text())
+        self.assertNotIn("Kartenprojektion:", (ROOT / "site/index.html").read_text())
         self.assertNotIn("Zusätzlich ausgeblendet", note)
 
     def test_stricter_filter_is_named_and_marked_as_stored_not_gone(self):

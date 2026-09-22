@@ -160,7 +160,7 @@ class RegionPresentation(unittest.TestCase):
         self.assertIn("Warnstufe laut GDACS", cyclone["ariaLabel"])
         legend = step["result"]["legend"]
         self.assertFalse(legend["hidden"])
-        self.assertIn("keine eigene Gefahrenbewertung", legend["text"])
+        self.assertIn("weitere Ereignisse", legend["text"])
 
     def test_single_region_marker_opens_conflictwatch_detail_before_original_report(self):
         step = run_map(scenario())[0]
@@ -239,7 +239,7 @@ class RecencyAndFilters(unittest.TestCase):
         boxes = {b["id"] for b in step["result"]["filters"]["boxes"]}
         self.assertEqual(boxes, set())  # keine Gefahrenart-Filter ohne GDACS-Daten
         self.assertNotIn("GDACS", step["result"]["legend"]["text"])
-        self.assertIn("laut USGS", step["result"]["legend"]["text"])
+        self.assertIn("Erdbeben", step["result"]["legend"]["text"])
         self.assertTrue(shapes(step, "map-event-point"))
 
 

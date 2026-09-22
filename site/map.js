@@ -26,18 +26,13 @@
                       tropical_cyclone: "Wirbelsturm", volcano: "Vulkan",
                       drought: "Dürre"};
   const LEVEL_ORDER = ["Green", "Orange", "Red"];
-  // Der Bestand enthaelt bereits nur Beben ab M4.5 - das ist die Auswahl des
-  // USGS-Feeds, nicht unsere. Die Voreinstellung blendet deshalb nichts aus; wer
-  // weiter einschraenken will, kann es, und der Hinweistext nennt beides getrennt:
-  // was die Quelle gar nicht liefert und was gerade ausgeblendet ist.
+  // Der USGS-Bestand beginnt bei M4,5; die Voreinstellung blendet nichts zusätzlich aus.
   const MAGNITUDES = [
-    [0, "alle gespeicherten"],
+    [0, "ab Magnitude 4,5"],
     [5, "ab Magnitude 5"],
     [6, "ab Magnitude 6"],
     [7, "ab Magnitude 7"],
   ];
-  const SOURCE_FLOOR = "Abgedeckt sind Beben ab Magnitude 4,5 laut USGS; schwächere Beben " +
-    "liefert die Quelle nicht und das ist keine Entwarnung.";
   const WINDOWS = [
     [24, "letzte 24 Stunden"],
     [168, "letzte 7 Tage"],
@@ -451,9 +446,9 @@
 
     if (legend) {
       const parts = [];
-      if (quakes.length) parts.push("● Erdbeben laut USGS (ab M 4,5)");
-      if (regions.length) parts.push("◌ GDACS: ungefähre Lage, keine Schadensfläche");
-      if (parts.length) parts.push("Zahl = Gruppe · Warnstufen laut Quelle, keine eigene Gefahrenbewertung");
+      if (quakes.length) parts.push("● Erdbeben");
+      if (regions.length) parts.push("◌ weitere Ereignisse");
+      if (parts.length) parts.push("Zahl = Gruppe");
       legend.hidden = !parts.length;
       legend.textContent = parts.join(" · ");
     }
