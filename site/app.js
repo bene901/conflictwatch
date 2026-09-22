@@ -157,6 +157,8 @@
 
   function renderItem(it, src, now) {
     const li = el("li", "item");
+    li.dataset.source = it.source || "";
+    li.dataset.domain = it.domain || "";
     if (it.level && OFFICIAL_COLORS.has(String(it.level.value).toLowerCase())) {
       li.dataset.color = String(it.level.value).toLowerCase(); // Farbe der Quelle, keine eigene Bewertung
     }
@@ -371,10 +373,18 @@
     for (const card of document.querySelectorAll(".topic[data-source]")) {
       if (!releasedIds.has(card.dataset.source)) continue;
       const label = card.querySelector(".topic-state");
-      if (TEST_MODE) label.textContent = "Test";
-      else if (card.dataset.source === "ucdp-candidate") label.textContent = "Monatsbestand";
-      else if (card.dataset.source === "gdelt") label.textContent = "Aktuell · ungeprüft";
-      else label.textContent = "Live";
+      label.classList.remove("monthly", "unverified");
+      if (TEST_MODE) {
+        label.textContent = "Test";
+      } else if (card.dataset.source === "ucdp-candidate") {
+        label.textContent = "Monatsbestand";
+        label.classList.add("monthly");
+      } else if (card.dataset.source === "gdelt") {
+        label.textContent = "Aktuell · ungeprüft";
+        label.classList.add("unverified");
+      } else {
+        label.textContent = "Live";
+      }
       label.classList.add("live");
     }
 
