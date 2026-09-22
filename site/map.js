@@ -13,6 +13,8 @@
   const BASE = {x: 0, y: 0, w: 1000, h: 510};
   const MAX_ZOOM = 64;
   const CLUSTER_PX = 16;   // Bildschirmabstand; beim Hineinzoomen fallen Gruppen auseinander.
+  const HIT_RADIUS_PX = 22; // 44px Touch-Ziel, unabhängig von Zoom und Gerätebreite.
+  const TAP_SLOP_PX = 10;   // Fingerzittern darf einen Tap nicht in ein Verschieben verwandeln.
   const HAZARDS = [
     ["wildfire", "Waldbrände"],
     ["flood", "Überschwemmungen"],
@@ -60,9 +62,16 @@
     selectedId: null, onSelect: null,
   };
 
-  const zoom = () => BASE.w / state.view.w;
-  // Marker sollen beim Zoomen ihre Bildschirmgroesse behalten, nicht mitwachsen.
-  const px = (v) => v / zoom();
+  // CSS-Pixel in aktuelle SVG-Benutzereinheiten umrechnen. Die alte Rechnung
+  // berücksichtigte nur den Karten-Zoom und nahm implizit 1000 CSS-Pixel Breite an.
+  // Auf einem 360–700px breiten Telefon wurden Marker und Trefferflächen dadurch
+  // deutlich kleiner als vorgesehen.
+  const px = (v) => {
+    const view = document.getElementById("map-view");
+    const rect = view && view.getBoundingClientRect ? view.getBoundingClientRect() : null;
+    const width = rect && Number.isFinite(rect.width) && rect.width > 0 ? rect.width : BASE.w;
+    return v * state.view.w / width;
+  };
 
   function clampView(v) {
     const w = Math.min(BASE.w, Math.max(BASE.w / MAX_ZOOM, v.w));
@@ -186,7 +195,8 @@
     c.setAttribute("cy", pos[1].toFixed(2));
     c.setAttribute("r", r.toFixed(2));
     if (cls) c.setAttribute("class", cls);
-    else c.setAttribute("fill", "transparent");
+    if (!cls || cls === "map-hit-target") c.setAttribute("fill", "transparent");
+    if (cls === "map-hit-target") c.setAttribute("pointer-events", "all");
     return c;
   }
 
@@ -248,7 +258,7 @@
       many ? () => zoomBy(1.8, pos[0], pos[1]) : () => selectItem(group.items[0]),
       selected
     );
-    a.append(circle(pos, px(19), null),
+    a.append(circle(pos, px(HIT_RADIUS_PX), "map-hit-target"),
              circle(pos, px(many ? 11 : 8),
                     "map-event-point" + (many ? " is-cluster" : "") + (selected ? " is-selected" : "")));
     if (many) countLabel(a, pos, group.items.length);
@@ -303,7 +313,7 @@
       (group.items.every((it) => !it.latest) ? " is-older" : "") +
       (selected ? " is-selected" : ""));
     if (level.top) marker.setAttribute("data-level", level.top.toLowerCase());
-    a.append(circle(pos, px(19), null), marker);
+    a.append(circle(pos, px(HIT_RADIUS_PX), "map-hit-target"), marker);
     if (many) countLabel(a, pos, group.items.length);
     const title = svg("title");
     title.textContent = label;
@@ -336,7 +346,7 @@
     const marker = circle(pos, px(many ? 12 : 9),
       "map-event-conflict " + (isGdelt ? "is-unverified" : "is-curated") +
       (many ? " is-cluster" : "") + (selected ? " is-selected" : ""));
-    a.append(circle(pos, px(19), null), marker);
+    a.append(circle(pos, px(HIT_RADIUS_PX), "map-hit-target"), marker);
     if (many) countLabel(a, pos, group.items.length);
     const t = svg("title");
     t.textContent = label;
@@ -617,7 +627,10 @@
       const id = ev.pointerId === undefined ? 1 : ev.pointerId;
       const p = {id: id, x: ev.clientX, y: ev.clientY, marker: isMarkerTarget(ev)};
       pointers.set(id, p);
-      if (view.setPointerCapture && ev.pointerId !== undefined) {
+      // Marker-Taps dürfen nicht sofort an das SVG gecaptured werden: Pointer-Capture
+      // kann den anschließenden synthetischen Click vom Marker weg auf die Karte
+      // umleiten. Für freie Kartenflächen capturen wir weiterhin sofort.
+      if (!p.marker && view.setPointerCapture && ev.pointerId !== undefined) {
         try { view.setPointerCapture(ev.pointerId); } catch (_) {}
       }
       if (pointers.size >= 2) beginPinch();
@@ -648,11 +661,20 @@
       }
 
       if (!drag || drag.id !== id) return;
+      const total = Math.hypot(ev.clientX - drag.startX, ev.clientY - drag.startY);
+      if (!drag.moved && total <= TAP_SLOP_PX) return;
+
+      if (!drag.moved) {
+        drag.moved = true;
+        // Ein Drag, der auf einem Marker begann, bekommt Capture erst NACHDEM
+        // die Bewegung eindeutig größer als die Tap-Toleranz ist.
+        if (drag.marker && view.setPointerCapture && ev.pointerId !== undefined) {
+          try { view.setPointerCapture(ev.pointerId); } catch (_) {}
+        }
+      }
+
       const dx = drag.x - ev.clientX;
       const dy = drag.y - ev.clientY;
-      if (Math.hypot(ev.clientX - drag.startX, ev.clientY - drag.startY) > 4) {
-        drag.moved = true;
-      }
       const rect = view.getBoundingClientRect ? view.getBoundingClientRect() : null;
       const sx = rect && rect.width ? state.view.w / rect.width : 1;
       const sy = rect && rect.height ? state.view.h / rect.height : sx;

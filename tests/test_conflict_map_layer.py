@@ -76,6 +76,11 @@ class ConflictMap(unittest.TestCase):
         self.assertIn("UCDP", text)
         self.assertIn("GDELT", text)
 
+    def test_conflict_marker_accepts_realistic_touch_tap(self):
+        steps = run_map([{"touchMarkerLabelIncludes": "GDELT Meldung"}])
+        self.assertTrue(steps[-1]["result"]["selections"])
+        self.assertTrue(steps[-1]["result"]["selections"][-1].endswith(":2"))
+
     def test_gdelt_filter_hides_only_gdelt(self):
         steps = run_map([{"id": "map-filter-conflict-gdelt", "checked": False}])
         before = " ".join(m["ariaLabel"] for m in conflict_markers(steps[0]))
