@@ -300,7 +300,7 @@
     "https://ucdp.uu.se/downloads/"
    ],
    "terms_url": "https://ucdp.uu.se/downloads/",
-   "attribution": "Daten: UCDP Candidate Events Dataset (CC BY 4.0)",
+   "attribution": "Daten: UCDP Candidate Events Dataset, CC BY 4.0 · Hegre et al. (2020)",
    "min_fetch_interval_h": 24,
    "max_fetch_gap_h": 72,
    "max_data_age_h": null,
