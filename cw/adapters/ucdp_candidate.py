@@ -46,12 +46,16 @@ def fetch_latest(fetcher, entry: dict) -> bytes:
 
 
 def _date(value: str, field: str, event_id: str, now: dt.datetime) -> tuple[str, str]:
-    if not isinstance(value, str):
+    if not isinstance(value, str) or not value.strip():
         raise AdapterError("schema", f"{event_id}: {field} fehlt")
+    # Der aktuelle Candidate-CSV exportiert Date-Felder als
+    # "YYYY-MM-DD 00:00:00.000", obwohl das Codebook sie als Tagesdatum
+    # beschreibt. date-only bleibt ebenfalls zulässig.
     try:
-        day = dt.datetime.strptime(value.strip(), "%Y-%m-%d").replace(tzinfo=dt.timezone.utc)
+        parsed = dt.datetime.fromisoformat(value.strip().replace("Z", "+00:00"))
     except ValueError:
-        raise AdapterError("schema", f"{event_id}: {field} ist kein YYYY-MM-DD") from None
+        raise AdapterError("schema", f"{event_id}: {field} ist kein ISO-Datum") from None
+    day = dt.datetime.combine(parsed.date(), dt.time.min, tzinfo=dt.timezone.utc)
     if day > now + dt.timedelta(days=2):
         raise AdapterError("sanity", f"{event_id}: {field} liegt in der Zukunft")
     return fmt(day), day.date().isoformat()

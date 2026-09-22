@@ -17,8 +17,8 @@ def source(source_id):
 
 
 UCDP_CSV = """id,type_of_violence,side_a,side_b,date_start,date_end,date_prec,where_prec,where_coordinates,where_description,country,latitude,longitude,low,best,high
-1001,1,State A,State B,2026-08-20,2026-08-20,1,1,Test City,Test City,Exampleland,10.5,20.5,5,10,8
-1002,3,Group C,Civilians,2026-08-21,2026-08-22,2,6,Exampleland,,Exampleland,12.0,22.0,1,2,3
+1001,1,State A,State B,2026-08-20 00:00:00.000,2026-08-20 00:00:00.000,1,1,Test City,Test City,Exampleland,10.5,20.5,5,10,8
+1002,3,Group C,Civilians,2026-08-21 00:00:00.000,2026-08-22 00:00:00.000,2,6,Exampleland,,Exampleland,12.0,22.0,1,2,3
 """
 
 
@@ -54,6 +54,11 @@ class UCDPCandidate(unittest.TestCase):
         self.assertEqual(item["metrics"]["fatalities_high"], 8)
         self.assertTrue(item["metrics"]["fatalities_inconsistent"])
         self.assertEqual(result.items[1]["location"]["precision"], "country")
+
+    def test_documented_date_only_format_is_also_accepted(self):
+        raw = UCDP_CSV.replace("2026-08-20 00:00:00.000", "2026-08-20")
+        result = ucdp_candidate.parse(raw.encode(), NOW, source("ucdp-candidate"))
+        self.assertEqual(result.items[0]["occurred_at"], "2026-08-20T00:00:00Z")
 
     def test_where_prec_7_stays_regional_instead_of_becoming_a_country_point(self):
         raw = UCDP_CSV.replace(",2,6,Exampleland,,Exampleland,12.0,22.0,",
