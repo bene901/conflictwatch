@@ -72,7 +72,7 @@ body:not([data-mode="test"]) .sidebar a:focus-visible{outline-color:#176c78}
 .equal-earth-map{touch-action:none;cursor:grab;user-select:none;-webkit-user-select:none}
 .equal-earth-map:active{cursor:grabbing}
 .equal-earth-map:focus-visible{outline:2px solid #16788a;outline-offset:2px}
-.map-cluster-count{font:700 11px system-ui,sans-serif;fill:#1d292c;paint-order:stroke;stroke:#fff;stroke-width:3px}
+.map-cluster-count{font-weight:700;font-family:system-ui,sans-serif;fill:#1d292c;paint-order:stroke;stroke:#fff}
 #map-points a:focus-visible .map-event-region,#map-points a:hover .map-event-region{stroke-width:4}
 .map-filters{display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:12px}
 .map-filter{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:#33505a;cursor:pointer}

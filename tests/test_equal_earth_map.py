@@ -14,7 +14,7 @@ class EqualEarthDisplay(unittest.TestCase):
                 self.assertIn('id="map-view"', page)
                 self.assertIn('id="map-points"', page)
                 self.assertIn('href="world-equal-earth.svg"', page)
-                self.assertIn('src="map.js?v=' + ('9' if name == 'index.html' else '7') + '"', page)
+                self.assertIn('src="map.js?v=' + ('10' if name == 'index.html' else '7') + '"', page)
                 self.assertNotIn('src="world.svg"', page)
                 self.assertEqual(page.count('id="map-view"'), 1)
         svg = (SITE / "world-equal-earth.svg").read_text(encoding="utf-8")

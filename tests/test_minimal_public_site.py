@@ -21,13 +21,20 @@ class MinimalPublicSite(unittest.TestCase):
         self.assertNotIn('class="method"', self.html)
         self.assertNotIn("PUBLIC DATA MONITOR", self.html)
 
+    def test_conflict_topic_states_do_not_call_monthly_ucdp_live(self):
+        self.assertIn('card.dataset.source === "ucdp-candidate"', self.app)
+        self.assertIn('label.textContent = "Monatsbestand"', self.app)
+        self.assertIn('card.dataset.source === "gdelt"', self.app)
+        self.assertIn('label.textContent = "Aktuell · ungeprüft"', self.app)
+
     def test_sources_and_topic_states_are_compact(self):
         self.assertIn("<summary>Datenquellen</summary>", self.html)
         self.assertIn('id="sources"', self.html)
         self.assertNotIn("Abdeckung & Herkunft", self.app)
         self.assertNotIn("s.coverage_note", self.app)
         self.assertIn('"source-health"', self.app)
-        self.assertIn('label.textContent = TEST_MODE ? "Test" : "Live";', self.app)
+        self.assertIn('if (TEST_MODE) label.textContent = "Test";', self.app)
+        self.assertIn('else label.textContent = "Live";', self.app)
 
     def test_operational_warnings_and_original_links_remain(self):
         self.assertIn('id="banner"', self.html)

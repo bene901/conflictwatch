@@ -193,6 +193,28 @@ class Navigation(unittest.TestCase):
         self.assertGreater(end, start)  # aufgetrennt
         self.assertLessEqual(end, 4)    # nie mehr Marker als Ereignisse
 
+    def test_cluster_count_stays_screen_sized_when_zooming(self):
+        steps = run(scenario(with_gdacs=False), [FULL, ALL_MAGS, {"id": "map-zoom-in"}])
+
+        def labels(step):
+            return [shape for marker in step["result"]["markers"] for shape in marker["shapes"]
+                    if shape["cls"] == "map-cluster-count"]
+
+        before = labels(steps[2])
+        after = labels(steps[3])
+        self.assertTrue(before)
+        self.assertTrue(after)
+        self.assertEqual(float(before[0]["fontSize"]), 11.0)
+        self.assertEqual(float(before[0]["strokeWidth"]), 3.0)
+        self.assertLess(float(after[0]["fontSize"]), float(before[0]["fontSize"]))
+        self.assertLess(float(after[0]["strokeWidth"]), float(before[0]["strokeWidth"]))
+
+        css = (ROOT / "site/style.css").read_text(encoding="utf-8")
+        rule = css.split(".map-cluster-count{", 1)[1].split("}", 1)[0]
+        self.assertNotIn("font:", rule)
+        self.assertNotIn("font-size", rule)
+        self.assertNotIn("stroke-width", rule)
+
     def test_cluster_marker_names_the_strongest_magnitude_of_the_group(self):
         steps = run(scenario(with_gdacs=False), [FULL, ALL_MAGS])
         clusters = [s for s in quake_markers(steps[2]) if "is-cluster" in s["cls"]]

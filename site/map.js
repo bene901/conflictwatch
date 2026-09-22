@@ -212,7 +212,11 @@
     t.setAttribute("y", (pos[1] + px(4)).toFixed(2));
     t.setAttribute("class", "map-cluster-count");
     t.setAttribute("text-anchor", "middle");
+    // Text und Kontur bleiben in Bildschirm-Pixeln konstant. CSS darf diese beiden
+    // Werte nicht wieder auf feste SVG-Benutzereinheiten setzen, sonst wachsen die
+    // Gruppenzahlen beim Zoomen riesig über die Karte.
     t.setAttribute("font-size", px(11).toFixed(2));
+    t.setAttribute("stroke-width", px(3).toFixed(2));
     t.textContent = String(n);
     a.append(t);
   }
