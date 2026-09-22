@@ -42,8 +42,8 @@ class MinimalPublicSite(unittest.TestCase):
         self.assertIn("const MAX_ZOOM = 64", self.map)
         self.assertIn('["volcano", "Vulkane"]', self.map)
         self.assertIn('["drought", "Dürren"]', self.map)
-        self.assertIn("shownQuakes + "/" + allQuakes", self.map)
-        self.assertIn("shownRegions + "/" + allRegions", self.map)
+        self.assertIn('shownQuakes + "/" + allQuakes', self.map)
+        self.assertIn('shownRegions + "/" + allRegions', self.map)
 
 
 if __name__ == "__main__":
