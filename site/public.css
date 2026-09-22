@@ -482,3 +482,45 @@ a:focus-visible,button:focus-visible,select:focus-visible,summary:focus-visible{
 @media(prefers-reduced-motion:reduce){
   *,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}
 }
+
+
+/* Map readability pass: larger mobile canvas and structured conflict filters. */
+.map-filter-section-label{
+  flex:0 0 100%;margin:2px 0 -1px;padding:3px 2px 0;
+  color:#7b9097;font-size:9px;font-weight:850;letter-spacing:.12em;text-transform:uppercase;
+}
+.map-conflict-filters{
+  flex:0 0 100%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;
+  padding-top:10px;margin-top:2px;border-top:1px solid #e0e8ea;
+}
+.map-conflict-filters .map-filter-section-label{grid-column:1/-1;margin:0}
+.map-conflict-filters .map-select-group{min-width:0}
+.map-conflict-filters .map-select{width:100%;min-width:0}
+.map-help[open]{
+  margin-top:9px!important;padding:8px 10px;border:1px solid #dbe5e7;border-radius:11px;background:#f8fafb;
+}
+.map-help[open] #map-legend{margin:6px 0 0!important;color:#415a63!important;font-weight:650}
+.map-event-conflict.is-curated{transform-box:fill-box;transform-origin:center}
+.map-event-conflict.is-unverified{transform-box:fill-box;transform-origin:center}
+
+@media(max-width:650px){
+  .map-section{
+    margin-left:-12px!important;margin-right:-12px!important;
+    padding:8px 6px 10px!important;border-left:0!important;border-right:0!important;
+    border-radius:0!important;
+  }
+  .map-section .panel-heading{padding:10px 12px 0!important}
+  .map-art{
+    margin-left:0!important;margin-right:0!important;border-radius:12px!important;
+  }
+  .equal-earth-map{width:100%!important;border-radius:11px!important}
+  .map-filters{margin-left:0!important;margin-right:0!important}
+  .map-conflict-filters{
+    grid-template-columns:1fr;gap:7px;padding-top:9px;
+  }
+  .map-conflict-filters .map-filter-section-label{grid-column:auto}
+  .map-conflict-filters .map-select-group{
+    display:grid;grid-template-columns:1fr;gap:4px;
+  }
+  .map-help{margin-left:4px!important;margin-right:4px!important}
+}
