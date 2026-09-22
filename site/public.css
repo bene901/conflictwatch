@@ -442,9 +442,9 @@ a:focus-visible,button:focus-visible,select:focus-visible,summary:focus-visible{
   .map-help{padding:0 4px}
 
   .map-detail{
-    position:absolute!important;left:8px!important;right:8px!important;bottom:8px!important;
-    width:auto!important;max-height:82%!important;margin:0!important;padding:15px!important;
-    border:1px solid #d3e0e3!important;border-radius:16px!important;box-shadow:0 18px 46px rgba(15,43,53,.2)!important;
+    position:static!important;left:auto!important;right:auto!important;bottom:auto!important;
+    width:auto!important;max-height:none!important;margin:8px!important;padding:15px!important;
+    border:1px solid #d3e0e3!important;border-radius:14px!important;box-shadow:0 8px 24px rgba(15,43,53,.09)!important;
   }
   .map-detail-close{width:40px!important;height:40px!important}
   .map-detail-facts{grid-template-columns:1fr!important}
