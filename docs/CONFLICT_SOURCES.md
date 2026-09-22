@@ -28,7 +28,10 @@ Die Kartenansicht bewertet den Monatsbestand relativ zum neuesten Ereignis der
 Datei. Sonst würde der Live-Zeitfilter einen korrekt veröffentlichten
 Monatsbestand vollständig ausblenden.
 
-Attribution: UCDP Candidate Events Dataset, CC BY 4.0.
+Attribution: UCDP Candidate Events Dataset, CC BY 4.0. Zusätzlich wird die
+von UCDP für Candidate angegebene Publikation zitiert: Hegre, Håvard; Mihai
+Croicu; Kristine Eck; Stina Högbladh (2020), "Introducing the UCDP Candidate
+Events Dataset", Research & Politics.
 Quelle: https://ucdp.uu.se/downloads/
 
 ## GDELT 2.0
