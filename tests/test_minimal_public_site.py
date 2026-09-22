@@ -28,7 +28,7 @@ class MinimalPublicSite(unittest.TestCase):
         self.assertIn('label.textContent = "Aktuell · ungeprüft"', self.app)
 
     def test_public_dashboard_loads_local_design_layer_and_keeps_core_controls(self):
-        self.assertIn('href="public.css?v=2"', self.html)
+        self.assertIn('href="public.css?v=3"', self.html)
         self.assertIn('class="hero-eyebrow"', self.html)
         self.assertIn('class="hero-meta"', self.html)
         self.assertIn('class="events-head"', self.html)

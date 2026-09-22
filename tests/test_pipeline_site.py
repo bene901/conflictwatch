@@ -283,10 +283,12 @@ class SiteStatic(unittest.TestCase):
         for sink in ("innerHTML", "outerHTML", "insertAdjacentHTML", "document.write", "eval("):
             self.assertNotIn(sink, js)
 
-    def test_f2_exactly_one_data_request(self):
+    def test_f2_only_main_snapshot_and_opt_in_aircraft_data_requests(self):
         js = (self.site / "app.js").read_text()
-        self.assertEqual(len(re.findall(r"\bfetch\(", js)), 1)
-        self.assertIn("data/snapshot.json", js)
+        self.assertEqual(len(re.findall(r"\bfetch\(", js)), 2)
+        self.assertIn('data/snapshot.json', js)
+        self.assertEqual(js.count('data/aircraft-snapshot.json'), 1)
+        self.assertIn('if (!TEST_MODE) void loadAircraftSnapshot();', js)
         self.assertIn('cache: "no-store"', js)
         self.assertIn('headers.get("Date")', js)  # Serverzeit für die Altersprüfung
 
