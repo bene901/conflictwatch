@@ -13,7 +13,18 @@ MAX_BYTES = 5_000_000
 
 def fetch(url: str, timeout: float = 20.0, max_bytes: int = MAX_BYTES) -> bytes:
     path = urlparse(url).path.lower()
-    accept = "application/geo+json" if path.endswith(".geojson") else "application/json"
+    if path.endswith(".geojson"):
+        accept = "application/geo+json"
+    elif path.endswith(".json"):
+        accept = "application/json"
+    elif path.endswith(".csv"):
+        accept = "text/csv,*/*;q=0.8"
+    elif path.endswith(".txt"):
+        accept = "text/plain,*/*;q=0.8"
+    elif path.endswith(".zip"):
+        accept = "application/zip,application/octet-stream;q=0.9,*/*;q=0.5"
+    else:
+        accept = "*/*"
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": accept})
     try:
         with urllib.request.urlopen(req, timeout=timeout) as resp:
