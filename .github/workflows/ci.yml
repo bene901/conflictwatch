@@ -17,4 +17,5 @@ jobs:
       # sich diese Tests still ueberspringen - der Lauf bliebe gruen, ohne die
       # Aktualitaetsregel geprueft zu haben. Deshalb hier laut scheitern.
       - run: node --version
+      - run: node tests/js/aircraft_worker_test.mjs
       - run: python -m unittest discover -s tests -t . -v
