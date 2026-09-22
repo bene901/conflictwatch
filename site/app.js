@@ -290,6 +290,54 @@
     box.hidden = false;
   }
 
+  function showAircraftDetail(aircraft, observedAt) {
+    const box = $("map-detail");
+    if (!box || !aircraft) return;
+    $("map-detail-source").textContent = "adsb.lol · Flugbeobachtung (kein Konfliktereignis)";
+    const title = $("map-detail-title");
+    title.textContent = aircraft.callsign || aircraft.id || "Flugbeobachtung";
+    title.lang = "";
+    $("map-detail-meta").textContent = "Einzelne empfangene Position, kein Live-Tracking";
+    const dl = $("map-detail-facts");
+    dl.replaceChildren();
+    fact(dl, "Position laut Quelle", aircraft.position_time ? when(aircraft.position_time) : "nicht angegeben");
+    fact(dl, "Stand des Snapshots", observedAt ? when(observedAt) : "nicht angegeben");
+    fact(dl, "Flugzeugtyp laut Quelle", aircraft.aircraft_type || "nicht angegeben");
+    if (Number.isFinite(aircraft.altitude_ft)) fact(dl, "Barometrische Höhe", aircraft.altitude_ft + " ft");
+    if (Number.isFinite(aircraft.speed_kt)) fact(dl, "Geschwindigkeit über Grund", aircraft.speed_kt + " kn");
+    fact(dl, "Datenqualität", "Nur empfangenes ADS-B/MLAT-Signal und Einordnung durch adsb.lol. Keine vollständige Abdeckung und kein Nachweis eines militärischen Einsatzes.");
+    const a = $("map-detail-source-link");
+    setHttpsSourceLink(a, "https://www.adsb.lol/", "Quelle: adsb.lol · ODbL 1.0 ↗");
+    box.dataset.source = "adsb-lol-snapshot";
+    box.hidden = false;
+  }
+
+  async function loadAircraftSnapshot() {
+    const status = $("aircraft-status");
+    if (!status || !window.ConflictWatchMap) return;
+    try {
+      const response = await fetch("data/aircraft-snapshot.json?t=" + Date.now(), {cache: "no-store"});
+      if (!response.ok) throw new Error("HTTP " + response.status);
+      const doc = await response.json();
+      const t = Date.parse(doc && doc.observed_at || "");
+      const age = Date.now() - t;
+      if (doc && doc.schema_version === 1 && doc.status === "ok" &&
+          Number.isFinite(age) && age >= -300000 && age <= 2 * 3600 * 1000) {
+        window.ConflictWatchMap.setAircraftSnapshot(doc, showAircraftDetail);
+        const n = Array.isArray(doc.aircraft) ? doc.aircraft.length : 0;
+        status.textContent = "Flugzeugbeobachtungen (adsb.lol): " + n +
+          " · Stand " + when(doc.observed_at) +
+          " · Momentaufnahme, keine Live-Positionen · © adsb.lol contributors (ODbL 1.0).";
+      } else {
+        window.ConflictWatchMap.setAircraftSnapshot(null, null);
+        status.textContent = "Flugzeug-Snapshot nicht verfügbar oder älter als 2 Stunden. Keine Flugzeugpositionen eingeblendet.";
+      }
+    } catch (_) {
+      window.ConflictWatchMap.setAircraftSnapshot(null, null);
+      status.textContent = "Flugzeug-Snapshot derzeit nicht erreichbar. Konflikt- und Naturereignisse bleiben verfügbar.";
+    }
+  }
+
   function wireMapDetail() {
     const close = $("map-detail-close");
     if (close && close.dataset.ready !== "1") {
@@ -410,6 +458,7 @@
     if (window.ConflictWatchMap) {
       window.ConflictWatchMap.render(items, snap.sources,
         (it) => showMapDetail(it, srcById[it.source], now));
+      if (!TEST_MODE) void loadAircraftSnapshot();
     }
     renderStatus(items, srcById);
     const start = [], rest = [];
