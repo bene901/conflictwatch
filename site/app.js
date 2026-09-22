@@ -337,7 +337,7 @@
     for (const card of document.querySelectorAll(".topic[data-source]")) {
       if (!releasedIds.has(card.dataset.source)) continue;
       const label = card.querySelector(".topic-state");
-      label.textContent = TEST_MODE ? "Test" : "Aktiv";
+      label.textContent = TEST_MODE ? "Test" : "Live";
       label.classList.add("live");
     }
 
