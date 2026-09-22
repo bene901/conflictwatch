@@ -371,7 +371,10 @@
     for (const card of document.querySelectorAll(".topic[data-source]")) {
       if (!releasedIds.has(card.dataset.source)) continue;
       const label = card.querySelector(".topic-state");
-      label.textContent = TEST_MODE ? "Test" : "Live";
+      if (TEST_MODE) label.textContent = "Test";
+      else if (card.dataset.source === "ucdp-candidate") label.textContent = "Monatsbestand";
+      else if (card.dataset.source === "gdelt") label.textContent = "Aktuell · ungeprüft";
+      else label.textContent = "Live";
       label.classList.add("live");
     }
 
