@@ -215,6 +215,21 @@ class Navigation(unittest.TestCase):
         self.assertNotIn("font-size", rule)
         self.assertNotIn("stroke-width", rule)
 
+    def test_touch_tap_with_small_finger_jitter_still_selects_single_marker(self):
+        toggles = [FULL, ALL_MAGS] + [{"id": "map-zoom-in"}] * 5
+        toggles.append({"touchMarkerLabelIncludes": "tq1003"})
+        step = run(scenario(with_gdacs=False), toggles)[-1]
+        self.assertFalse(step.get("missing", False))
+        self.assertTrue(step["result"]["selections"])
+        self.assertTrue(step["result"]["selections"][-1].endswith("tq1003"))
+
+    def test_each_marker_has_a_44px_touch_target_in_probe_geometry(self):
+        step = run(scenario(with_gdacs=False), [FULL, ALL_MAGS])[2]
+        hit_targets = [shape for marker in step["result"]["markers"] for shape in marker["shapes"]
+                       if shape["cls"] == "map-hit-target"]
+        self.assertTrue(hit_targets)
+        self.assertTrue(all(float(shape["r"]) == 22.0 for shape in hit_targets))
+
     def test_cluster_marker_names_the_strongest_magnitude_of_the_group(self):
         steps = run(scenario(with_gdacs=False), [FULL, ALL_MAGS])
         clusters = [s for s in quake_markers(steps[2]) if "is-cluster" in s["cls"]]
