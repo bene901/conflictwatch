@@ -44,8 +44,12 @@ for (const id of ["map-view", "map-points", "map-events-note", "map-filters", "m
   registry[id].id = id;
 }
 
+const FixedDate = class extends Date {
+  static now() { return Date.parse("2026-09-22T19:30:00Z"); }
+};
 const sandbox = {
   console, Math, Number, String, Boolean, Array, Set, Map, JSON, RegExp, Object,
+  Date: FixedDate,
   document: {
     createElementNS: (ns, name) => makeEl(name, ns),
     createElement: (name) => makeEl(name),
@@ -121,6 +125,11 @@ const selections = [];
 sandbox.window.ConflictWatchMap.render(payload.items, payload.sources,
   (it) => selections.push(it.id));
 const steps = [{step: "initial", result: dump()}];
+if (payload.aircraftSnapshot) {
+  sandbox.window.ConflictWatchMap.setAircraftSnapshot(payload.aircraftSnapshot,
+    (a) => selections.push("flight:" + a.id));
+  steps.push({step: "aircraft_loaded", result: dump()});
+}
 for (const toggle of payload.toggles || []) {
   if (toggle.touchMarkerLabelIncludes) {
     const marker = registry["map-points"].children.find((m) =>
