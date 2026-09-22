@@ -70,6 +70,8 @@ function dump() {
       cx: s.getAttribute("cx"),
       cy: s.getAttribute("cy"),
       text: s.textContent,
+      fontSize: s.getAttribute("font-size"),
+      strokeWidth: s.getAttribute("stroke-width"),
     })),
   }));
   return {
