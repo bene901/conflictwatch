@@ -27,14 +27,27 @@ class MinimalPublicSite(unittest.TestCase):
         self.assertIn('card.dataset.source === "gdelt"', self.app)
         self.assertIn('label.textContent = "Aktuell · ungeprüft"', self.app)
 
+    def test_public_dashboard_loads_local_design_layer_and_keeps_core_controls(self):
+        self.assertIn('href="public.css?v=1"', self.html)
+        self.assertIn('class="hero-eyebrow"', self.html)
+        self.assertIn('class="hero-meta"', self.html)
+        self.assertIn('class="events-head"', self.html)
+        self.assertIn('data-visual="ucdp"', self.html)
+        self.assertIn('data-visual="gdelt"', self.html)
+        self.assertIn('map-filter-primary', self.map)
+        self.assertIn('map-filter-chip', self.map)
+        self.assertIn('map-zoom-controls', self.map)
+        self.assertIn('li.dataset.source = it.source || "";', self.app)
+
     def test_sources_and_topic_states_are_compact(self):
         self.assertIn("<summary>Datenquellen</summary>", self.html)
         self.assertIn('id="sources"', self.html)
         self.assertNotIn("Abdeckung & Herkunft", self.app)
         self.assertNotIn("s.coverage_note", self.app)
         self.assertIn('"source-health"', self.app)
-        self.assertIn('if (TEST_MODE) label.textContent = "Test";', self.app)
-        self.assertIn('else label.textContent = "Live";', self.app)
+        self.assertIn('if (TEST_MODE) {', self.app)
+        self.assertIn('label.textContent = "Test";', self.app)
+        self.assertIn('label.textContent = "Live";', self.app)
 
     def test_operational_warnings_and_original_links_remain(self):
         self.assertIn('id="banner"', self.html)
