@@ -8,6 +8,10 @@
   {
    "id": "spaceweather",
    "label": "Weltraumwetter"
+  },
+  {
+   "id": "conflict",
+   "label": "Konflikte & militärische Entwicklungen"
   }
  ],
  "sources": [
@@ -283,6 +287,66 @@
    "id_rule": "gdacs-drought:<eventid>; episodeid aktualisiert dasselbe Dürreereignis ohne doppelte ID.",
    "completeness_rule": "Typ-spezifischer GDACS-DR-GeoJSON-Feed ohne Vollständigkeitsgarantie: complete=false; fehlende Einträge sind weder beendet noch zurückgezogen. Polygon-Features werden nicht als zusätzliche Ereignisse veröffentlicht; nur der Quell-Zentroid wird übernommen.",
    "coverage_note": "Abgedeckt sind GDACS-Dürremeldungen (DR) aus dem offiziellen typ-spezifischen GeoJSON-Feed. Pro Ereignis wird nur der von GDACS gelieferte Zentroid veröffentlicht; zugehörige MultiPolygon-Flächen werden nicht als zweite Meldung oder punktgenauer Schadensort interpretiert. Ein Eintrag gilt als aktuell, wenn ihn der jüngste erfolgreiche Abruf liefert."
+  },
+  {
+   "id": "ucdp-candidate",
+   "name": "UCDP Candidate",
+   "domain": "conflict",
+   "kinds": [
+    "event"
+   ],
+   "public": true,
+   "endpoints": [
+    "https://ucdp.uu.se/downloads/"
+   ],
+   "terms_url": "https://ucdp.uu.se/downloads/",
+   "attribution": "Daten: UCDP Candidate Events Dataset (CC BY 4.0)",
+   "min_fetch_interval_h": 24,
+   "max_fetch_gap_h": 72,
+   "max_data_age_h": null,
+   "max_empty_h": null,
+   "retention_days": 120,
+   "unseen_expiry_days": null,
+   "level_schemes": [],
+   "highlight": {
+    "min_levels": {},
+    "window_h": 720,
+    "include_ongoing": false,
+    "recency_basis": "display_time"
+   },
+   "id_rule": "ucdp-candidate:<UCDP id>; die stabile Ereignis-ID des Candidate Events Dataset wird unverändert namespaced.",
+   "completeness_rule": "Der jeweils neueste auf der offiziellen UCDP-Downloadseite gefundene monatliche Candidate-CSV wird vollständig geparst; ein leerer oder strukturell unvollständiger CSV gilt als Fehler.",
+   "coverage_note": "Vorläufiger, monatlich veröffentlichter UCDP-Candidate-Bestand organisierter tödlicher Gewalt. Orts- und Datumsgenauigkeit bleiben Quellangaben; Koordinaten werden nicht von ConflictWatch ergänzt. Die Kartenansicht nutzt für diesen Monatsbestand einen eigenen 30-Tage-Zeitraum relativ zum neuesten Ereignis der Datei, nicht den Live-Filter."
+  },
+  {
+   "id": "gdelt",
+   "name": "GDELT 2.0 Events",
+   "domain": "conflict",
+   "kinds": [
+    "event"
+   ],
+   "public": true,
+   "endpoints": [
+    "https://data.gdeltproject.org/gdeltv2/lastupdate.txt"
+   ],
+   "terms_url": "https://www.gdeltproject.org/",
+   "attribution": "Daten: GDELT Project",
+   "min_fetch_interval_h": 1,
+   "max_fetch_gap_h": 3,
+   "max_data_age_h": null,
+   "max_empty_h": 6,
+   "retention_days": 7,
+   "unseen_expiry_days": 7,
+   "level_schemes": [],
+   "highlight": {
+    "min_levels": {},
+    "window_h": 168,
+    "include_ongoing": false,
+    "recency_basis": "display_time"
+   },
+   "id_rule": "gdelt:<GLOBALEVENTID>; überlappende 15-Minuten-Fenster werden anhand derselben GDELT-Ereignis-ID dedupliziert.",
+   "completeness_rule": "Automatisch erzeugter News-Event-Feed ohne Vollständigkeitsgarantie: complete=false. ConflictWatch lädt die jüngsten acht 15-Minuten-Exports über lastupdate.txt und filtert nur ausgewählte militärische CAMEO-Codes mit IsRootEvent=1.",
+   "coverage_note": "Automatisch aus Nachrichten erkannte, ungeprüfte Meldungen zu ausgewählten militärischen CAMEO-Kategorien. Sie sind keine bestätigten Angriffe und keine ConflictWatch-Eskalationsbewertung. GDELT-Orte sind automatische Geokodierungen und werden deshalb nicht als punktgenaue Einschlagsorte dargestellt."
   }
  ]
 }
