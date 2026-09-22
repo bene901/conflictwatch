@@ -32,7 +32,7 @@ let upstreamCalls = 0;
 globalThis.fetch = async (url)=>{
   assert.equal(url,"https://api.adsb.lol/v2/mil");
   upstreamCalls += 1;
-  return new Response(JSON.stringify(data([plane()])),{status:200});
+  return new Response(JSON.stringify({now: Date.now(), ac:[plane()]}),{status:200});
 };
 const waits=[];
 const ctx={waitUntil(p){waits.push(p);}};
