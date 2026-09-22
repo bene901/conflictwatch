@@ -39,7 +39,7 @@ ConflictWatch-Ereignisdatenbank hinzugefügt.
 1. Einen eigenen Cloudflare-Workers-Zugang verwenden; kostenfreier Tarif
    kann für kleine Tests reichen. Ohne diesen Zugang **kein Live-Endpoint**.
 2. Den Worker aus diesem Repository mit Wrangler deployen, beispielsweise
-   `npx wrangler deploy edge/aircraft-worker.mjs --name conflictwatch-aircraft`
+   `npx wrangler deploy --config edge/wrangler.jsonc`
    (Login und Worker-Subdomain im eigenen Cloudflare-Konto durchführen).
 3. Vom eigenen Browser bzw. via `curl -H 'Origin: https://bene901.github.io'`
    `https://<eigene-worker-url>/v1/aircraft` prüfen: HTTP 200, Header
