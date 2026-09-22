@@ -8,16 +8,33 @@ const vm = require("vm");
 function makeEl(tag, ns) {
   return {
     tagName: tag, ns: ns || null, attrs: {}, children: [], listeners: {}, dataset: {},
+    parentNode: null, capturedPointer: null,
     textContent: "", className: "", hidden: false, id: "", type: "", checked: false,
     setAttribute(k, v) { this.attrs[k] = String(v); },
     getAttribute(k) { return Object.prototype.hasOwnProperty.call(this.attrs, k) ? this.attrs[k] : null; },
-    append(...kids) { for (const k of kids) this.children.push(k); return this; },
-    appendChild(k) { this.children.push(k); return k; },
-    replaceChildren(...kids) { this.children = kids.slice(); },
+    append(...kids) {
+      for (const k of kids) { k.parentNode = this; this.children.push(k); }
+      return this;
+    },
+    appendChild(k) { k.parentNode = this; this.children.push(k); return k; },
+    replaceChildren(...kids) {
+      for (const old of this.children) old.parentNode = null;
+      this.children = kids.slice();
+      for (const k of this.children) k.parentNode = this;
+    },
     addEventListener(type, fn) { this.listeners[type] = fn; },
     getBoundingClientRect() { return {left: 0, top: 0, width: 1000, height: 510}; },
-    setPointerCapture() {},
-    releasePointerCapture() {},
+    closest(selector) {
+      if (selector !== "#map-points a") return null;
+      let n = this;
+      while (n) {
+        if (n.tagName === "a" && n.parentNode && n.parentNode.id === "map-points") return n;
+        n = n.parentNode;
+      }
+      return null;
+    },
+    setPointerCapture(id) { this.capturedPointer = id; },
+    releasePointerCapture(id) { if (this.capturedPointer === id) this.capturedPointer = null; },
   };
 }
 
@@ -105,6 +122,33 @@ sandbox.window.ConflictWatchMap.render(payload.items, payload.sources,
   (it) => selections.push(it.id));
 const steps = [{step: "initial", result: dump()}];
 for (const toggle of payload.toggles || []) {
+  if (toggle.touchMarkerLabelIncludes) {
+    const marker = registry["map-points"].children.find((m) =>
+      String(m.getAttribute("aria-label") || "").includes(toggle.touchMarkerLabelIncludes));
+    const hit = marker && marker.children.find((s) => s.getAttribute("class") === "map-hit-target");
+    if (!marker || !hit) {
+      steps.push({step: "touch-marker:" + toggle.touchMarkerLabelIncludes, missing: true, result: dump()});
+      continue;
+    }
+    const vb = registry["map-view"].getAttribute("viewBox").split(" ").map(Number);
+    const x = (Number(hit.getAttribute("cx")) - vb[0]) / vb[2] * 1000;
+    const y = (Number(hit.getAttribute("cy")) - vb[1]) / vb[3] * 510;
+    const base = {
+      pointerId: 41, pointerType: "touch", button: 0, target: hit,
+      preventDefault() {}, stopPropagation() {},
+    };
+    registry["map-view"].listeners.pointerdown(Object.assign({}, base, {clientX: x, clientY: y, timeStamp: 100}));
+    registry["map-view"].listeners.pointermove(Object.assign({}, base, {clientX: x + 3, clientY: y + 2, timeStamp: 125}));
+    registry["map-view"].listeners.pointerup(Object.assign({}, base, {clientX: x + 3, clientY: y + 2, timeStamp: 150}));
+    // Ein echter Browser erzeugt nach einem unveränderten Touch-Ziel den Click.
+    // Wenn map.js während des kleinen Fingerzitterns neu zeichnet, ist der alte
+    // Marker nicht mehr im Layer und genau dieser Click geht verloren.
+    if (registry["map-points"].children.includes(marker) && marker.listeners.click) {
+      marker.listeners.click({preventDefault() {}, stopPropagation() {}});
+    }
+    steps.push({step: "touch-marker:" + toggle.touchMarkerLabelIncludes, result: dump()});
+    continue;
+  }
   if (toggle.event) {
     const fn = registry["map-view"].listeners[toggle.event];
     if (!fn) {
