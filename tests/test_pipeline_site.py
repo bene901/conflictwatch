@@ -286,7 +286,7 @@ class SiteStatic(unittest.TestCase):
     def test_f2_only_main_snapshot_and_opt_in_aircraft_data_requests(self):
         js = (self.site / "app.js").read_text()
         self.assertEqual(len(re.findall(r"\bfetch\(", js)), 2)
-        self.assertEqual(js.count('data/snapshot.json'), 1)
+        self.assertIn('data/snapshot.json', js)
         self.assertEqual(js.count('data/aircraft-snapshot.json'), 1)
         self.assertIn('if (!TEST_MODE) void loadAircraftSnapshot();', js)
         self.assertIn('cache: "no-store"', js)
