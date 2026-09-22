@@ -55,6 +55,12 @@ class UCDPCandidate(unittest.TestCase):
         self.assertTrue(item["metrics"]["fatalities_inconsistent"])
         self.assertEqual(result.items[1]["location"]["precision"], "country")
 
+    def test_where_prec_7_stays_regional_instead_of_becoming_a_country_point(self):
+        raw = UCDP_CSV.replace(",2,6,Exampleland,,Exampleland,12.0,22.0,",
+                               ",2,7,International waters,,Exampleland,12.0,22.0,")
+        result = ucdp_candidate.parse(raw.encode(), NOW, source("ucdp-candidate"))
+        self.assertEqual(result.items[1]["location"]["precision"], "region")
+
     def test_discovers_newest_monthly_candidate_csv_without_hardcoding_version(self):
         page = b'''<a href="/downloads/candidateged/GEDEvent_v26_0_7.csv">old</a>
 <a href="/downloads/candidateged/GEDEvent_v26_0_8.csv">new</a>
