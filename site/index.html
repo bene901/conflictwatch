@@ -9,8 +9,9 @@
 <meta name="description" content="ConflictWatch: Weltweite Naturereignisse, Konfliktereignisse und aktuelle militärische Meldungen aus öffentlichen Datenquellen.">
 <title>ConflictWatch – Ereignisse weltweit</title>
 <link rel="stylesheet" href="style.css?v=8">
-<script src="map.js?v=10" defer></script>
-<script src="app.js?v=10" defer></script>
+<link rel="stylesheet" href="public.css?v=1">
+<script src="map.js?v=11" defer></script>
+<script src="app.js?v=11" defer></script>
 </head>
 <body>
 <a class="skip" href="#inhalt">Zum Inhalt springen</a>
@@ -29,8 +30,14 @@
     <main id="inhalt" class="content">
       <span id="start" class="anchor" aria-hidden="true"></span>
       <section class="hero" aria-labelledby="hero-title">
+        <p class="hero-eyebrow">Globale Ereignisübersicht</p>
         <h1 id="hero-title">Ereignisse. <span>Weltweit.</span></h1>
-        <p class="hero-copy">Naturereignisse, kuratierte Konfliktdaten und aktuelle automatisch erkannte Militärmeldungen aus öffentlichen Quellen.</p>
+        <p class="hero-copy">Naturereignisse, kuratierte Konfliktdaten und aktuelle automatisch erkannte Militärmeldungen – Quellen und Datenqualität bleiben getrennt sichtbar.</p>
+        <div class="hero-meta" aria-label="Grundprinzipien">
+          <span>Quellengetrennte Darstellung</span>
+          <span>Originalzeitstempel</span>
+          <span>Keine eigene Eskalationswertung</span>
+        </div>
       </section>
       <div id="banner" class="banner" role="status" hidden></div>
       <section class="overview" aria-label="Datenlage">
@@ -39,7 +46,13 @@
         <div class="metric"><span class="metric-label">DATENSTAND</span><strong id="data-state">Lädt</strong><span id="stand" class="metric-note">Wird geladen …</span></div>
       </section>
       <section id="karte" class="section map-section" aria-labelledby="map-title">
-        <div class="panel-heading"><h2 id="map-title">Weltkarte</h2></div>
+        <div class="panel-heading">
+          <div>
+            <p class="section-kicker">Interaktive Lageübersicht</p>
+            <h2 id="map-title">Weltkarte</h2>
+          </div>
+          <span class="panel-tag">Mehrere Zeitfenster · Quellen getrennt</span>
+        </div>
         <div class="map-art" role="group" aria-label="Weltkarte mit Ereignissen">
           <svg id="map-view" class="equal-earth-map" viewBox="0 0 1000 510" role="img" aria-label="Weltkarte mit Naturereignissen sowie getrennt gekennzeichneten Konflikt- und Militärmeldungen">
             <image href="world-equal-earth.svg" x="0" y="0" width="1000" height="510"/>
@@ -63,21 +76,29 @@
         <details class="map-help"><summary>Legende</summary><p id="map-legend" class="map-caption" hidden></p></details>
       </section>
       <section id="themen" class="section" aria-labelledby="topics-title">
+        <p class="section-kicker">Datenquellen nach Typ</p>
         <h2 id="topics-title">Ereignisse &amp; Konflikte</h2>
+        <p class="section-intro">Jede Ebene behält ihre eigene Aktualität und Aussagekraft. „Live“, Monatsbestand und automatische Meldungserkennung werden nicht vermischt.</p>
         <div class="topic-grid">
-          <article class="topic" data-source="usgs"><span class="topic-symbol" aria-hidden="true">◇</span><h3>Erdbeben</h3><span class="topic-state">Wird geladen …</span></article>
-          <article class="topic" data-source="gdacs"><span class="topic-symbol" aria-hidden="true">◎</span><h3>Zyklone &amp; Fluten</h3><span class="topic-state">Wird geladen …</span></article>
-          <article class="topic" data-source="gdacs-volcano"><span class="topic-symbol" aria-hidden="true">△</span><h3>Vulkane</h3><span class="topic-state">Wird geladen …</span></article>
-          <article class="topic" data-source="gdacs"><span class="topic-symbol" aria-hidden="true">✳</span><h3>Waldbrände</h3><span class="topic-state">Wird geladen …</span></article>
-          <article class="topic" data-source="gdacs-drought"><span class="topic-symbol" aria-hidden="true">◌</span><h3>Dürren</h3><span class="topic-state">Wird geladen …</span></article>
-          <article class="topic" data-source="noaa-swpc"><span class="topic-symbol" aria-hidden="true">☼</span><h3>Weltraumwetter</h3><span class="topic-state">Wird geladen …</span></article>
-          <article class="topic" data-source="ucdp-candidate"><span class="topic-symbol" aria-hidden="true">◆</span><h3>Konfliktereignisse · UCDP</h3><span class="topic-state">Wird geladen …</span></article>
-          <article class="topic" data-source="gdelt"><span class="topic-symbol" aria-hidden="true">◇</span><h3>GDELT · automatisch/ungeprüft</h3><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="usgs" data-visual="quake"><div class="topic-head"><span class="topic-symbol" aria-hidden="true">◇</span><span class="topic-source">USGS</span></div><h3>Erdbeben</h3><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="gdacs" data-visual="flood"><div class="topic-head"><span class="topic-symbol" aria-hidden="true">◎</span><span class="topic-source">GDACS</span></div><h3>Zyklone &amp; Fluten</h3><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="gdacs-volcano" data-visual="volcano"><div class="topic-head"><span class="topic-symbol" aria-hidden="true">△</span><span class="topic-source">GDACS</span></div><h3>Vulkane</h3><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="gdacs" data-visual="fire"><div class="topic-head"><span class="topic-symbol" aria-hidden="true">✳</span><span class="topic-source">GDACS</span></div><h3>Waldbrände</h3><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="gdacs-drought" data-visual="drought"><div class="topic-head"><span class="topic-symbol" aria-hidden="true">◌</span><span class="topic-source">GDACS</span></div><h3>Dürren</h3><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="noaa-swpc" data-visual="space"><div class="topic-head"><span class="topic-symbol" aria-hidden="true">☼</span><span class="topic-source">NOAA</span></div><h3>Weltraumwetter</h3><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="ucdp-candidate" data-visual="ucdp"><div class="topic-head"><span class="topic-symbol" aria-hidden="true">◆</span><span class="topic-source">UCDP</span></div><h3>Konfliktereignisse</h3><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="gdelt" data-visual="gdelt"><div class="topic-head"><span class="topic-symbol" aria-hidden="true">◇</span><span class="topic-source">GDELT</span></div><h3>Militärische Meldungen</h3><span class="topic-state">Wird geladen …</span></article>
         </div>
       </section>
 
       <section id="meldungen" class="section events-section" aria-labelledby="events-title">
-        <h2 id="events-title">Meldungen</h2>
+        <div class="events-head">
+          <div>
+            <p class="section-kicker">Aktueller Datenstrom</p>
+            <h2 id="events-title">Meldungen</h2>
+            <p class="section-intro">Neuere Einträge zuerst. Details, Ortsgenauigkeit und Originalquelle öffnen sich direkt im jeweiligen Eintrag.</p>
+          </div>
+        </div>
         <section id="status" class="status" aria-label="Aktueller Zustand" hidden></section>
         <ol id="list" class="list"></ol>
         <p id="empty" class="empty" hidden></p>
