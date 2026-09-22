@@ -184,3 +184,12 @@ body:not([data-mode="test"]) .topic-state{margin-top:12px}
   body:not([data-mode="test"]) .sources li.source-row{align-items:baseline}
   body:not([data-mode="test"]) .foot{padding-bottom:20px}
 }
+
+
+/* Conflict layer: separate from earthquake points and GDACS region rings. */
+.map-event-conflict{fill:#fff;stroke:#5b557e;stroke-width:2.7;vector-effect:non-scaling-stroke}
+.map-event-conflict.is-curated{fill:#eceaf5;stroke:#514b78}
+.map-event-conflict.is-unverified{fill:#fff;stroke:#6f6a7f;stroke-dasharray:3 3}
+.map-event-conflict.is-cluster{stroke-width:3.4}
+.map-event-conflict.is-selected{stroke-width:5}
+#map-points a:focus-visible .map-event-conflict,#map-points a:hover .map-event-conflict{stroke-width:4.5}

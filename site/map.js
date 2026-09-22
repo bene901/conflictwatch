@@ -2,12 +2,10 @@
 // Geographic positions are taken exclusively from source-supplied event coordinates.
 // This module NEVER requests the visitor's location or estimates personal distance.
 //
-// Zwei Ortsgenauigkeiten, zwei Darstellungen:
-//   precision "point"  -> USGS-Erdbeben, punktgenaue Koordinate der Quelle.
-//   precision "region" -> GDACS-Zentroid einer Region. UNGEFAEHRE Lage, ausdruecklich
-//                         keine Schadensflaeche, nie wie ein punktgenauer Ort gezeichnet.
-// Warnstufen und Magnituden bleiben Angaben der Quelle. Dieses Modul leitet daraus
-// keine eigene Gefahrenbewertung ab und erfindet keine Schwellen.
+// Naturereignisse und Konfliktdaten bleiben optisch getrennt. UCDP-Ortsgenauigkeit
+// wird aus where_prec übernommen; GDELT-Orte sind automatische Geokodierungen und
+// werden NIE als bestätigte punktgenaue Angriffsorte dargestellt. Dieses Modul
+// leitet weder eine eigene Gefahren- noch eine Eskalationsbewertung ab.
 (function () {
   const NS = "http://www.w3.org/2000/svg";
   const A1 = 1.340264, A2 = -0.081106, A3 = 0.000893, A4 = 0.003796;
@@ -25,6 +23,10 @@
   const HAZARD_ONE = {wildfire: "Waldbrand", flood: "Überschwemmung",
                       tropical_cyclone: "Wirbelsturm", volcano: "Vulkan",
                       drought: "Dürre"};
+  const CONFLICT_SOURCES = [
+    ["ucdp-candidate", "UCDP-Monatsbestand"],
+    ["gdelt", "GDELT aktuell · ungeprüft"],
+  ];
   const LEVEL_ORDER = ["Green", "Orange", "Red"];
   // Der USGS-Bestand beginnt bei M4,5; die Voreinstellung blendet nichts zusätzlich aus.
   const MAGNITUDES = [
@@ -106,11 +108,15 @@
   }
 
   function pointEvents(items) {
-    return items.filter((it) => locatable(it) && it.location.precision === "point");
+    return items.filter((it) => it.domain !== "conflict" && locatable(it) && it.location.precision === "point");
   }
 
   function regionEvents(items) {
-    return items.filter((it) => locatable(it) && it.location.precision === "region");
+    return items.filter((it) => it.domain !== "conflict" && locatable(it) && it.location.precision === "region");
+  }
+
+  function conflictEvents(items) {
+    return items.filter((it) => it.domain === "conflict" && locatable(it));
   }
 
   const magnitudeOf = (it) => (it.metrics && typeof it.metrics.magnitude === "number")
@@ -141,7 +147,12 @@
   function withinWindow(it, src, ref) {
     if (!state.windowH || !Number.isFinite(ref)) return true;
     const t = windowTime(it, src);
-    return !Number.isFinite(t) || (ref - t) <= state.windowH * 3600 * 1000;
+    if (!Number.isFinite(t)) return true;
+    if (src && src.id === "ucdp-candidate") {
+      const sourceRef = Date.parse(src.newest_source_time || "");
+      return !Number.isFinite(sourceRef) || (sourceRef - t) <= src.highlight.window_h * 3600 * 1000;
+    }
+    return (ref - t) <= state.windowH * 3600 * 1000;
   }
 
   function markerAction(label, onActivate, selected) {
@@ -296,6 +307,39 @@
     layer.append(a);
   }
 
+  function drawConflict(layer, group) {
+    const pos = group.pos;
+    const many = group.items.length > 1;
+    const sample = group.items[0];
+    const isGdelt = sample.source === "gdelt";
+    const sourceName = isGdelt ? "GDELT" : "UCDP Candidate";
+    const descriptor = isGdelt
+      ? "automatisch aus Nachrichten erkannt, ungeprüft"
+      : "kuratierter vorläufiger Monatsdatensatz";
+    const precision = sample.location.precision === "country"
+      ? "nur auf Länderebene verortet"
+      : sample.location.precision === "point" && !isGdelt
+        ? "Punktkoordinate laut UCDP"
+        : "ungefähre/regionale Lage laut Quelle";
+    const title = many ? group.items.length + " Meldungen von " + sourceName : sample.title;
+    const label = [title, descriptor, precision].join(". ") + ".";
+    const selected = !many && sample.id === state.selectedId;
+    const a = markerAction(
+      label + (many ? " Auswählen, um hineinzuzoomen." : " Details auf ConflictWatch anzeigen."),
+      many ? () => zoomBy(1.8, pos[0], pos[1]) : () => selectItem(sample),
+      selected
+    );
+    const marker = circle(pos, px(many ? 12 : 9),
+      "map-event-conflict " + (isGdelt ? "is-unverified" : "is-curated") +
+      (many ? " is-cluster" : "") + (selected ? " is-selected" : ""));
+    a.append(circle(pos, px(19), null), marker);
+    if (many) countLabel(a, pos, group.items.length);
+    const t = svg("title");
+    t.textContent = label;
+    a.append(t);
+    layer.append(a);
+  }
+
   function control(box, tag, attrs, text, onChange) {
     const el = document.createElement(tag);
     for (const k in attrs) el[k] = attrs[k];
@@ -350,20 +394,30 @@
     return input;
   }
 
-  function renderControls(box, hasQuakes, available, olderCount) {
+  function renderControls(box, hasQuakes, available, olderCount, conflictAvailable) {
     box.replaceChildren();
-    box.hidden = !hasQuakes && !available.length;
+    box.hidden = !hasQuakes && !available.length && !conflictAvailable.length;
     if (box.hidden) return;
 
     if (hasQuakes) {
       select(box, "map-filter-magnitude", "Magnitude:", MAGNITUDES, state.minMag,
              (v) => { state.minMag = v; });
     }
-    select(box, "map-filter-window", "Zeitraum:", WINDOWS, state.windowH,
+    select(box, "map-filter-window", "Live-Zeitraum:", WINDOWS, state.windowH,
            (v) => { state.windowH = v; });
     for (const [key, labelText] of HAZARDS) {
       if (!available.includes(key)) continue;
       checkbox(box, "map-filter-" + key.replace(/_/g, "-"), labelText,
+               !state.hidden.has(key), function (ev) {
+        if (ev && ev.target && ev.target.checked === false) state.hidden.add(key);
+        else state.hidden.delete(key);
+        draw();
+      });
+    }
+    for (const [sourceId, labelText] of CONFLICT_SOURCES) {
+      if (!conflictAvailable.includes(sourceId)) continue;
+      const key = "conflict:" + sourceId;
+      checkbox(box, "map-filter-conflict-" + sourceId, labelText,
                !state.hidden.has(key), function (ev) {
         if (ev && ev.target && ev.target.checked === false) state.hidden.add(key);
         else state.hidden.delete(key);
@@ -387,10 +441,11 @@
   }
 
   function noteText(shownQuakes, allQuakes, quakeGroups, shownRegions, allRegions,
-                    regionGroups, olderCount) {
+                    regionGroups, olderCount, shownConflicts, allConflicts) {
     const parts = [];
     if (allQuakes) parts.push(shownQuakes + "/" + allQuakes + " Erdbeben (USGS)");
     if (allRegions) parts.push(shownRegions + "/" + allRegions + " Meldungen (GDACS)");
+    if (allConflicts) parts.push(shownConflicts + "/" + allConflicts + " Konflikt-/Militärmeldungen");
     if (!parts.length) parts.push("Keine verorteten Meldungen – keine Entwarnung");
     if (olderCount && !state.showOlder) {
       parts.push(olderCount + (olderCount === 1
@@ -439,15 +494,25 @@
     const regionGroups = cluster(shownRegions, (it) => it.metrics && it.metrics.hazard_type);
     for (const g of regionGroups) drawRegion(layer, g);
 
-    if (box) renderControls(box, quakes.length > 0, available, olderCount);
+    const conflicts = conflictEvents(state.items);
+    const conflictAvailable = CONFLICT_SOURCES.map((x) => x[0])
+      .filter((sourceId) => conflicts.some((it) => it.source === sourceId));
+    const shownConflicts = conflicts.filter((it) => !state.hidden.has("conflict:" + it.source) &&
+      withinWindow(it, byId.get(it.source), ref));
+    const conflictGroups = cluster(shownConflicts, (it) => it.source + ":" + it.location.precision);
+    for (const g of conflictGroups) drawConflict(layer, g);
+
+    if (box) renderControls(box, quakes.length > 0, available, olderCount, conflictAvailable);
     note.textContent = noteText(shownQuakes.length, quakes.length, quakeGroups.length,
                                 shownRegions.length, regions.length, regionGroups.length,
-                                olderCount);
+                                olderCount, shownConflicts.length, conflicts.length);
 
     if (legend) {
       const parts = [];
       if (quakes.length) parts.push("● Erdbeben");
       if (regions.length) parts.push("◌ weitere Ereignisse");
+      if (conflicts.some((it) => it.source === "ucdp-candidate")) parts.push("◆ UCDP · vorläufig");
+      if (conflicts.some((it) => it.source === "gdelt")) parts.push("◇ GDELT · automatisch/ungeprüft");
       if (parts.length) parts.push("Zahl = Gruppe");
       legend.hidden = !parts.length;
       legend.textContent = parts.join(" · ");

@@ -42,7 +42,8 @@ class RetiredTestPreview(unittest.TestCase):
         public = snapshot.build(self.items, self.sources, self.reg, "abc1234",
                                 "2026-09-20T13:30:00Z")
         self.assertEqual({s["id"] for s in public["sources"]},
-                         {"usgs", "noaa-swpc", "gdacs", "gdacs-volcano", "gdacs-drought"})
+                         {"usgs", "noaa-swpc", "gdacs", "gdacs-volcano", "gdacs-drought",
+                          "ucdp-candidate", "gdelt"})
         self.assertEqual(len(public["items"]), 6)
 
     def test_cli_skips_cleanly_instead_of_breaking_the_pipeline(self):

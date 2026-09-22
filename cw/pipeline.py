@@ -5,11 +5,12 @@ Alarm (Workflow später rot, NACH Commit und Deploy): Datei alarm_path, außerha
 """
 from __future__ import annotations
 import datetime as dt
+import gzip
 import json
 from pathlib import Path
 
 from . import http
-from .adapters import ADAPTERS
+from .adapters import ADAPTERS, RAW_SUFFIXES, SOURCE_FETCHERS
 from .errors import AdapterError
 from .merge import (age_source_state, blank_source_state, fail_source_state, merge_items,
                     succeed_source_state)
@@ -64,10 +65,17 @@ def run(registry: dict, state_dir: Path, fetch: bool = True, now: dt.datetime | 
         else:
             attempted += 1
             try:
-                raw = fetcher(entry["endpoints"][0])
+                source_fetcher = SOURCE_FETCHERS.get(sid)
+                raw = source_fetcher(fetcher, entry) if source_fetcher else fetcher(entry["endpoints"][0])
                 if raw_dir is not None:
                     raw_dir.mkdir(parents=True, exist_ok=True)
-                    (raw_dir / f"{sid}_{run_at.replace(':', '')}.json").write_bytes(raw)
+                    suffix = RAW_SUFFIXES.get(sid, ".json")
+                    out = raw_dir / f"{sid}_{run_at.replace(':', '')}{suffix}"
+                    if len(raw) > 1_000_000:
+                        out = Path(str(out) + ".gz")
+                        out.write_bytes(gzip.compress(raw))
+                    else:
+                        out.write_bytes(raw)
                 result = ADAPTERS[sid](raw, now, entry)
                 candidate = merge_items(items, sid, entry, result, run_at)
                 states[sid] = succeed_source_state(prev, entry, result, candidate, run_at, ADAPTER_VERSION)

@@ -6,7 +6,7 @@
   const TEST_IDS = new Set(["usgs", "noaa-swpc"]);
   const OFFICIAL_COLORS = new Set(["green", "yellow", "orange", "red"]);
   const STATUS_TEXT = {
-    preliminary: "vorläufig (automatisch erstellt)",
+    preliminary: "vorläufig / nicht abschließend",
     reviewed: "von der Quelle überprüft",
     withdrawn: "von der Quelle zurückgezogen",
     unknown: "nicht angegeben",
@@ -54,7 +54,9 @@
     if (bySighting(src)) {
       return Boolean(src.last_success_at) && it.last_seen_at === src.last_success_at;
     }
-    const within = now - displayTime(it) <= src.highlight.window_h * 3600 * 1000;
+    const reference = src.id === "ucdp-candidate" && src.newest_source_time
+      ? Date.parse(src.newest_source_time) : now;
+    const within = reference - displayTime(it) <= src.highlight.window_h * 3600 * 1000;
     const ongoing = src.highlight.include_ongoing && it.ongoing === true && src.fetch_health !== "down";
     return within || ongoing;
   }
@@ -88,6 +90,7 @@
 
   function metricsText(m) {
     const parts = [];
+    const handled = new Set();
     if (m.magnitude !== undefined && m.magnitude !== null) {
       parts.push(`Magnitude ${num.format(m.magnitude)}${m.magnitude_type ? " (" + m.magnitude_type + ")" : ""}`);
     }
@@ -101,8 +104,33 @@
     if (m.felt_reports !== undefined && m.felt_reports !== null) {
       parts.push(`${num.format(m.felt_reports)} Rückmeldung${m.felt_reports === 1 ? "" : "en"} von Menschen`);
     }
+    ["magnitude", "magnitude_type", "depth_km"].concat(IMPACT_KEYS).forEach((k) => handled.add(k));
+
+    const violenceLabels = {"state-based": "staatliche Gewalt", "non-state": "nichtstaatliche Gewalt", "one-sided": "einseitige Gewalt"};
+    if (m.violence_type) { parts.push("UCDP-Typ: " + (violenceLabels[m.violence_type] || m.violence_type)); handled.add("violence_type"); }
+    if (m.date_end) { parts.push("Zeitraum bis " + m.date_end); handled.add("date_end"); }
+    if (m.date_precision !== undefined) { parts.push("Datumsgenauigkeit laut UCDP: " + m.date_precision); handled.add("date_precision"); }
+    if (m.location_precision !== undefined) { parts.push("Ortsgenauigkeit laut UCDP: " + m.location_precision); handled.add("location_precision"); }
+    const fatalKeys = ["fatalities_low", "fatalities_best", "fatalities_high", "fatalities_inconsistent"];
+    if (fatalKeys.some((k) => m[k] !== undefined && m[k] !== null)) {
+      const bits = [];
+      if (m.fatalities_best !== null && m.fatalities_best !== undefined) bits.push("beste Schätzung " + num.format(m.fatalities_best));
+      if (m.fatalities_low !== null && m.fatalities_low !== undefined) bits.push("untere " + num.format(m.fatalities_low));
+      if (m.fatalities_high !== null && m.fatalities_high !== undefined) bits.push("obere " + num.format(m.fatalities_high));
+      if (bits.length) parts.push("Gemeldete Todesfälle (UCDP): " + bits.join(", "));
+      if (m.fatalities_inconsistent === true) parts.push("UCDP-Quellwerte widersprechen sich; unverändert übernommen");
+      fatalKeys.forEach((k) => handled.add(k));
+    }
+    if (m.cameo_category) { parts.push("GDELT-Kategorie: " + m.cameo_category); handled.add("cameo_category"); }
+    if (m.cameo_code) { parts.push("CAMEO " + m.cameo_code); handled.add("cameo_code"); }
+    if (m.actor1) { parts.push("Akteur 1: " + m.actor1); handled.add("actor1"); }
+    if (m.actor2) { parts.push("Akteur 2: " + m.actor2); handled.add("actor2"); }
+    if (m.sources !== undefined && m.sources !== null) { parts.push(num.format(m.sources) + " erkannte Nachrichtenquelle(n)"); handled.add("sources"); }
+    if (m.articles !== undefined && m.articles !== null) { parts.push(num.format(m.articles) + " Artikel"); handled.add("articles"); }
+    if (m.mentions !== undefined && m.mentions !== null) { parts.push(num.format(m.mentions) + " Erwähnungen"); handled.add("mentions"); }
+    if (m.automated_unverified === true) { parts.push("automatisch erkannt, ungeprüft"); handled.add("automated_unverified"); }
     for (const [k, v] of Object.entries(m)) {
-      if (!["magnitude", "magnitude_type", "depth_km"].concat(IMPACT_KEYS).includes(k) && v !== null) parts.push(`${k}: ${v}`);
+      if (!handled.has(k) && v !== null) parts.push(`${k}: ${v}`);
     }
     return parts.join(", ");
   }
@@ -177,7 +205,7 @@
     if (it.provenance === "relayed" && it.original_publisher) fact(dl, "Ursprünglich veröffentlicht von", it.original_publisher);
     det.append(dl);
     const a = el("a", "source-link");
-    setHttpsSourceLink(a, it.url, `Originalmeldung bei ${src.name} öffnen`);
+    setHttpsSourceLink(a, it.url, `Quelle bei ${src.name} öffnen`);
     det.append(a);
     li.append(det);
     return li;
@@ -221,8 +249,14 @@
     fact(dl, "Ort", !it.location || it.location.precision === "unknown"
       ? "nicht angegeben" : it.location.name);
     if (it.location && it.location.precision === "region") {
-      fact(dl, "Ortsgenauigkeit",
-           "Ungefähre Lage laut Quelle (Zentroid einer Region), keine Schadensfläche.");
+      const locationNote = it.source.startsWith("gdacs")
+        ? "Ungefähre Lage laut GDACS (Zentroid einer Region), keine Schadensfläche."
+        : it.source === "gdelt"
+          ? "Automatisch aus Nachrichtendaten geokodierte ungefähre Lage; ungeprüft, kein bestätigter Einschlagsort."
+          : "Regionale Ortsangabe laut Quelle; nicht als punktgenauer Ereignisort interpretieren.";
+      fact(dl, "Ortsgenauigkeit", locationNote);
+    } else if (it.location && it.location.precision === "country") {
+      fact(dl, "Ortsgenauigkeit", "Nur auf Länderebene verortet; kein punktgenauer Ereignisort.");
     }
     fact(dl, "Warnstufe",
          it.level ? it.level.label : "von der Quelle nicht angegeben – keine Entwarnung");
@@ -249,7 +283,7 @@
     }
 
     const a = $("map-detail-source-link");
-    setHttpsSourceLink(a, it.url, "Originalmeldung bei " + src.name + " öffnen ↗");
+    setHttpsSourceLink(a, it.url, "Quelle bei " + src.name + " öffnen ↗");
     box.dataset.source = it.source;
     box.hidden = false;
   }
@@ -371,8 +405,12 @@
       (onStart(it, srcById[it.source], now) ? start : rest).push(it);
     }
     const byTime = (a, b) => displayTime(b) - displayTime(a);
-    start.sort(byTime).forEach((it) => $("list").append(renderItem(it, srcById[it.source], now)));
-    rest.sort(byTime).forEach((it) => $("more-list").append(renderItem(it, srcById[it.source], now)));
+    start.sort(byTime);
+    rest.sort(byTime);
+    const visibleStart = start.slice(0, 300);
+    const overflow = start.slice(300);
+    visibleStart.forEach((it) => $("list").append(renderItem(it, srcById[it.source], now)));
+    overflow.concat(rest).sort(byTime).forEach((it) => $("more-list").append(renderItem(it, srcById[it.source], now)));
 
     const empty = $("empty");
     if (snap.sources.length === 0) {
@@ -382,8 +420,9 @@
       empty.textContent = TEST_MODE ? "Keine Ereignisse im aktuellen Anzeigezeitraum der Testquellen. Das ist keine Entwarnung und keine Aussage zu nicht abgedeckten Gefahren." : "Im Anzeigezeitraum gibt es keine Meldungen, die die Kriterien der Quellen erfüllen.";
       empty.hidden = false;
     }
-    if (rest.length) {
-      $("more-summary").textContent = `Ältere oder niedriger eingestufte Einträge (${rest.length})`;
+    const extraCount = rest.length + Math.max(0, start.length - 300);
+    if (extraCount) {
+      $("more-summary").textContent = `Weitere, ältere oder niedriger eingestufte Einträge (${extraCount})`;
       $("more").hidden = false;
     }
     renderSources(snap.sources, now);
