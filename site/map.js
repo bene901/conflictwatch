@@ -355,7 +355,7 @@
 
   function labelled(box, id, text) {
     const wrap = document.createElement("label");
-    wrap.className = "map-filter";
+    wrap.className = "map-filter map-filter-label";
     wrap.htmlFor = id;
     wrap.textContent = text;
     box.append(wrap);
@@ -363,7 +363,10 @@
   }
 
   function select(box, id, labelText, options, current, onPick) {
-    labelled(box, id, labelText);
+    const group = document.createElement("div");
+    group.className = "map-select-group";
+    box.append(group);
+    labelled(group, id, labelText);
     const sel = document.createElement("select");
     sel.id = id;
     sel.className = "map-select";
@@ -379,13 +382,13 @@
       onPick(Number(ev && ev.target ? ev.target.value : current));
       draw();
     });
-    box.append(sel);
+    group.append(sel);
     return sel;
   }
 
   function checkbox(box, id, labelText, checked, onChange) {
     const wrap = document.createElement("label");
-    wrap.className = "map-filter";
+    wrap.className = "map-filter map-filter-chip";
     const input = document.createElement("input");
     input.type = "checkbox";
     input.id = id;
@@ -403,11 +406,14 @@
     box.hidden = !hasQuakes && !available.length && !conflictAvailable.length;
     if (box.hidden) return;
 
+    const primary = document.createElement("div");
+    primary.className = "map-filter-primary";
+    box.append(primary);
     if (hasQuakes) {
-      select(box, "map-filter-magnitude", "Magnitude:", MAGNITUDES, state.minMag,
+      select(primary, "map-filter-magnitude", "Magnitude", MAGNITUDES, state.minMag,
              (v) => { state.minMag = v; });
     }
-    select(box, "map-filter-window", "Live-Zeitraum:", WINDOWS, state.windowH,
+    select(primary, "map-filter-window", "Live-Zeitraum", WINDOWS, state.windowH,
            (v) => { state.windowH = v; });
     for (const [key, labelText] of HAZARDS) {
       if (!available.includes(key)) continue;
