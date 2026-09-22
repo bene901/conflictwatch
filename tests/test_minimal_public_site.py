@@ -45,8 +45,9 @@ class MinimalPublicSite(unittest.TestCase):
         self.assertNotIn("Abdeckung & Herkunft", self.app)
         self.assertNotIn("s.coverage_note", self.app)
         self.assertIn('"source-health"', self.app)
-        self.assertIn('if (TEST_MODE) label.textContent = "Test";', self.app)
-        self.assertIn('else label.textContent = "Live";', self.app)
+        self.assertIn('if (TEST_MODE) {', self.app)
+        self.assertIn('label.textContent = "Test";', self.app)
+        self.assertIn('label.textContent = "Live";', self.app)
 
     def test_operational_warnings_and_original_links_remain(self):
         self.assertIn('id="banner"', self.html)
