@@ -195,7 +195,8 @@
     c.setAttribute("cy", pos[1].toFixed(2));
     c.setAttribute("r", r.toFixed(2));
     if (cls) c.setAttribute("class", cls);
-    else c.setAttribute("fill", "transparent");
+    if (!cls || cls === "map-hit-target") c.setAttribute("fill", "transparent");
+    if (cls === "map-hit-target") c.setAttribute("pointer-events", "all");
     return c;
   }
 
