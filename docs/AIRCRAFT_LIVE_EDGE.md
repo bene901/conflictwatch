@@ -38,16 +38,22 @@ ConflictWatch-Ereignisdatenbank hinzugefügt.
 
 1. Einen eigenen Cloudflare-Workers-Zugang verwenden; kostenfreier Tarif
    kann für kleine Tests reichen. Ohne diesen Zugang **kein Live-Endpoint**.
-2. Den Worker aus diesem Repository mit Wrangler deployen, beispielsweise
-   `npx wrangler deploy --config edge/wrangler.jsonc`
-   (Login und Worker-Subdomain im eigenen Cloudflare-Konto durchführen).
-3. Vom eigenen Browser bzw. via `curl -H 'Origin: https://bene901.github.io'`
-   `https://<eigene-worker-url>/v1/aircraft` prüfen: HTTP 200, Header
-   `Access-Control-Allow-Origin`, Schema, Quellzeit und Quellenattribution.
-4. Erst danach die **konkrete** Worker-URL in die Frontend-Integration
+2. Im Cloudflare-Konto eine auf Workers beschränkte API-Berechtigung erstellen
+   und die Account-ID ablesen. Beide Werte **nicht in Chat-Nachrichten,
+   Dateien oder Quellcode kopieren**. Stattdessen im privaten Repository-Menü
+   `Settings → Secrets and variables → Actions` als
+   `CLOUDFLARE_API_TOKEN` und `CLOUDFLARE_ACCOUNT_ID` hinterlegen.
+3. Auf GitHub unter `Actions → Deploy aircraft edge endpoint → Run workflow`
+   die bereitgestellte `workflow_dispatch`-Action starten. Sie verwendet die
+   versionierte `edge/wrangler.jsonc`-Konfiguration und installiert Wrangler
+   nur in der Actions-Laufzeit; kein lokales Terminal nötig.
+4. Die im Deployment ausgegebene Worker-URL mit `/v1/aircraft` prüfen:
+   HTTP 200, Header `Access-Control-Allow-Origin`, Schema, Quellzeit und
+   Quellenattribution.
+5. Erst danach die **konkrete** Worker-URL in die Frontend-Integration
    aufnehmen und die CSP-`connect-src`-Allowlist nur um diesen Host ergänzen.
    Nicht pauschal `*` freigeben. Die stündliche Momentaufnahme bleibt
-   unabhängiger Fallback. Bis Schritt 4 ist der Worker **nicht livegeschaltet**.
+   unabhängiger Fallback. Bis Schritt 5 ist der Worker **nicht livegeschaltet**.
 
 Cloudflare Workers Free hat laut offizieller Dokumentation derzeit
 100.000 Requests/Tag, aber keine garantierte unbegrenzte adsb.lol-Abfragequote.
