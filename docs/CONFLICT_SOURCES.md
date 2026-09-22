@@ -20,8 +20,9 @@ neueste monatliche Candidate-CSV-Version. Übernommen werden stabile ID,
 Gewaltart, Parteien, Beginn/Ende, Datums- und Ortsgenauigkeit,
 Quellkoordinaten sowie untere/beste/obere Todesfall-Schätzung.
 
-where_prec=1 wird als Punkt behandelt, where_prec=6 als Länderebene, die
-Zwischenstufen als regionale Lage. ConflictWatch geokodiert nichts hinzu.
+where_prec=1 wird als Punkt behandelt, where_prec=6 als Länderebene. Die
+Stufen 2 bis 5 sowie 7 (internationale Gewässer/Luftraum) bleiben als
+regionale/ungefähre Lage. ConflictWatch geokodiert nichts hinzu.
 
 Die Kartenansicht bewertet den Monatsbestand relativ zum neuesten Ereignis der
 Datei. Sonst würde der Live-Zeitfilter einen korrekt veröffentlichten
