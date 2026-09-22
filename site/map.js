@@ -12,7 +12,7 @@
   const RAD = Math.PI / 180;
   const BASE = {x: 0, y: 0, w: 1000, h: 510};
   const MAX_ZOOM = 64;
-  const CLUSTER_PX = 22;   // Weltansicht ruhiger halten; beim Hineinzoomen fallen Gruppen auseinander.
+  const CLUSTER_PX = 16;   // Bildschirmabstand; beim Hineinzoomen fallen Gruppen auseinander.
   const HIT_RADIUS_PX = 22; // 44px Touch-Ziel, unabhängig von Zoom und Gerätebreite.
   const TAP_SLOP_PX = 10;   // Fingerzittern darf einen Tap nicht in ein Verschieben verwandeln.
   const HAZARDS = [
@@ -626,7 +626,7 @@
     if (legend) {
       const parts = [];
       if (quakes.length) parts.push("● Erdbeben");
-      if (regions.length) parts.push("◌ Naturereignisse");
+      if (regions.length) parts.push("◌ weitere Ereignisse (Natur)");
       if (conflicts.some((it) => it.source === "ucdp-candidate")) parts.push("◆ UCDP · kuratiert/vorläufig");
       if (conflicts.some((it) => it.source === "gdelt")) parts.push("▲ GDELT · automatisch/ungeprüft");
       if (parts.length) parts.push("Zahl = Gruppe");
