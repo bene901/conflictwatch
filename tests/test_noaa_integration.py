@@ -36,11 +36,12 @@ def fixture_fetcher(url: str) -> bytes:
 
 
 class NOAAIntegration(unittest.TestCase):
-    def test_registry_has_five_released_sources_and_real_endpoints(self):
+    def test_registry_has_seven_released_sources_and_real_endpoints(self):
         reg = full_registry()
         self.assertEqual(check_registry(reg, ADAPTERS), [])
         self.assertEqual({s["id"] for s in reg["sources"]},
-                         {"usgs", "noaa-swpc", "gdacs", "gdacs-volcano", "gdacs-drought"})
+                         {"usgs", "noaa-swpc", "gdacs", "gdacs-volcano", "gdacs-drought",
+                          "ucdp-candidate", "gdelt"})
         self.assertTrue(all(s["public"] is True for s in reg["sources"]))
         for src in reg["sources"]:
             self.assertTrue(src["endpoints"][0].startswith("https://"))
@@ -68,9 +69,10 @@ class NOAAIntegration(unittest.TestCase):
             self.assertEqual([i["level"]["value"] for i in rows], ["0", "0", "0"])
             self.assertEqual({i["observed_at"] for i in rows}, {"2026-09-20T13:26:00Z"})
 
-            # Alle drei Quellen sind freigegeben: der regulaere Snapshot zeigt sie.
+            # Alle registrierten Quellen sind freigegeben; Fixture-fremde Konfliktquellen
+            # dürfen hier technisch ausfallen, bleiben aber mit Quellenstatus im Snapshot.
             prod = snapshot.build(items, sources, reg, "abc1234", "2026-09-20T13:30:00Z")
-            self.assertEqual(len(prod["sources"]), 5)
+            self.assertEqual(len(prod["sources"]), 7)
             self.assertEqual(len(prod["items"]), 6)  # 1 USGS + 3 NOAA + 1 base GDACS + 1 DR; VO feed is currently empty
             self.assertEqual({i["source"] for i in prod["items"]},
                              {"usgs", "noaa-swpc", "gdacs", "gdacs-drought"})
@@ -81,7 +83,8 @@ class NOAAIntegration(unittest.TestCase):
             next(s for s in blocked["sources"] if s["id"] == "gdacs")["public"] = False
             limited = snapshot.build(items, sources, blocked, "abc1234", "2026-09-20T13:30:00Z")
             self.assertEqual({s["id"] for s in limited["sources"]},
-                             {"usgs", "noaa-swpc", "gdacs-volcano", "gdacs-drought"})
+                             {"usgs", "noaa-swpc", "gdacs-volcano", "gdacs-drought",
+                              "ucdp-candidate", "gdelt"})
             self.assertNotIn("gdacs", {i["source"] for i in limited["items"]})
             self.assertEqual(check_snapshot(limited, blocked, CAPTURED_AT), [])
 
