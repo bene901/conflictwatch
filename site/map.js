@@ -12,7 +12,7 @@
   const RAD = Math.PI / 180;
   const BASE = {x: 0, y: 0, w: 1000, h: 510};
   const MAX_ZOOM = 64;
-  const CLUSTER_PX = 16;   // Bildschirmabstand; beim Hineinzoomen fallen Gruppen auseinander.
+  const CLUSTER_PX = 22;   // Weltansicht ruhiger halten; beim Hineinzoomen fallen Gruppen auseinander.
   const HIT_RADIUS_PX = 22; // 44px Touch-Ziel, unabhängig von Zoom und Gerätebreite.
   const TAP_SLOP_PX = 10;   // Fingerzittern darf einen Tap nicht in ein Verschieben verwandeln.
   const HAZARDS = [
@@ -28,6 +28,24 @@
   const CONFLICT_SOURCES = [
     ["ucdp-candidate", "UCDP-Monatsbestand"],
     ["gdelt", "GDELT aktuell · ungeprüft"],
+  ];
+  const MILITARY_ACTIONS = [
+    ["all", "Alle militärischen Aktionen", []],
+    ["threat", "Drohung / Ultimatum", ["138", "139"]],
+    ["readiness", "Bereitschaft / Mobilisierung", ["152", "154"]],
+    ["force", "Militärische Gewalt allgemein", ["190"]],
+    ["blockade", "Blockade / Bewegungsbeschränkung", ["191"]],
+    ["occupation", "Besetzung", ["192"]],
+    ["small-arms", "Hand- / leichte Waffen", ["193"]],
+    ["heavy-arms", "Artillerie / Panzer", ["194"]],
+    ["air", "Luftwaffeneinsatz", ["195"]],
+    ["ceasefire", "Waffenstillstandsverletzung", ["196"]],
+  ];
+  const UCDP_TYPES = [
+    ["all", "Alle UCDP-Konfliktarten"],
+    ["state-based", "Staatliche Gewalt"],
+    ["non-state", "Nichtstaatliche Gewalt"],
+    ["one-sided", "Einseitige Gewalt"],
   ];
   const LEVEL_ORDER = ["Green", "Orange", "Red"];
   // Der USGS-Bestand beginnt bei M4,5; die Voreinstellung blendet nichts zusätzlich aus.
@@ -58,6 +76,7 @@
 
   const state = {
     hidden: new Set(), showOlder: false, minMag: 0, windowH: 24,
+    gdeltAction: "all", ucdpType: "all",
     items: [], sources: [], view: Object.assign({}, BASE),
     selectedId: null, onSelect: null,
   };
@@ -198,6 +217,17 @@
     if (!cls || cls === "map-hit-target") c.setAttribute("fill", "transparent");
     if (cls === "map-hit-target") c.setAttribute("pointer-events", "all");
     return c;
+  }
+
+  function conflictShape(pos, r, isGdelt, cls) {
+    const p = svg("polygon");
+    const x = pos[0], y = pos[1];
+    const points = isGdelt
+      ? [[x, y - r], [x + r * 0.92, y + r * 0.72], [x - r * 0.92, y + r * 0.72]]
+      : [[x, y - r], [x + r, y], [x, y + r], [x - r, y]];
+    p.setAttribute("points", points.map((v) => v[0].toFixed(2) + "," + v[1].toFixed(2)).join(" "));
+    p.setAttribute("class", cls);
+    return p;
   }
 
   // Gruppiert nur Marker mit gleichem Schluessel, die einander auf dem Bildschirm
@@ -343,7 +373,7 @@
       many ? () => zoomBy(1.8, pos[0], pos[1]) : () => selectItem(sample),
       selected
     );
-    const marker = circle(pos, px(many ? 12 : 9),
+    const marker = conflictShape(pos, px(many ? 13 : 10), isGdelt,
       "map-event-conflict " + (isGdelt ? "is-unverified" : "is-curated") +
       (many ? " is-cluster" : "") + (selected ? " is-selected" : ""));
     a.append(circle(pos, px(HIT_RADIUS_PX), "map-hit-target"), marker);
@@ -396,6 +426,31 @@
     return sel;
   }
 
+  function selectText(box, id, labelText, options, current, onPick) {
+    const group = document.createElement("div");
+    group.className = "map-select-group map-select-group-conflict";
+    box.append(group);
+    labelled(group, id, labelText);
+    const sel = document.createElement("select");
+    sel.id = id;
+    sel.className = "map-select";
+    for (const option of options) {
+      const value = option[0], text = option[1];
+      const opt = document.createElement("option");
+      opt.value = String(value);
+      opt.textContent = text;
+      opt.selected = String(value) === String(current);
+      sel.append(opt);
+    }
+    sel.value = String(current);
+    sel.addEventListener("change", function (ev) {
+      onPick(String(ev && ev.target ? ev.target.value : current));
+      draw();
+    });
+    group.append(sel);
+    return sel;
+  }
+
   function checkbox(box, id, labelText, checked, onChange) {
     const wrap = document.createElement("label");
     wrap.className = "map-filter map-filter-chip";
@@ -425,6 +480,10 @@
     }
     select(primary, "map-filter-window", "Live-Zeitraum", WINDOWS, state.windowH,
            (v) => { state.windowH = v; });
+    const layerLabel = document.createElement("div");
+    layerLabel.className = "map-filter-section-label";
+    layerLabel.textContent = "Ebenen";
+    box.append(layerLabel);
     for (const [key, labelText] of HAZARDS) {
       if (!available.includes(key)) continue;
       checkbox(box, "map-filter-" + key.replace(/_/g, "-"), labelText,
@@ -443,6 +502,27 @@
         else state.hidden.delete(key);
         draw();
       });
+    }
+    const hasGdelt = conflictAvailable.includes("gdelt");
+    const hasUcdp = conflictAvailable.includes("ucdp-candidate");
+    if (hasGdelt || hasUcdp) {
+      const conflictBox = document.createElement("div");
+      conflictBox.className = "map-conflict-filters";
+      const conflictLabel = document.createElement("div");
+      conflictLabel.className = "map-filter-section-label";
+      conflictLabel.textContent = "Konfliktfilter";
+      conflictBox.append(conflictLabel);
+      if (hasGdelt) {
+        selectText(conflictBox, "map-filter-military-action", "Militärische Aktion",
+                   MILITARY_ACTIONS, state.gdeltAction,
+                   (v) => { state.gdeltAction = v; });
+      }
+      if (hasUcdp) {
+        selectText(conflictBox, "map-filter-ucdp-type", "UCDP-Konfliktart",
+                   UCDP_TYPES, state.ucdpType,
+                   (v) => { state.ucdpType = v; });
+      }
+      box.append(conflictBox);
     }
     if (available.length) {
       checkbox(box, "map-filter-older",
@@ -520,8 +600,21 @@
     const conflicts = conflictEvents(state.items);
     const conflictAvailable = CONFLICT_SOURCES.map((x) => x[0])
       .filter((sourceId) => conflicts.some((it) => it.source === sourceId));
-    const shownConflicts = conflicts.filter((it) => !state.hidden.has("conflict:" + it.source) &&
-      withinWindow(it, byId.get(it.source), ref));
+    const action = MILITARY_ACTIONS.find((x) => x[0] === state.gdeltAction) || MILITARY_ACTIONS[0];
+    const actionPrefixes = action[2];
+    const shownConflicts = conflicts.filter((it) => {
+      if (state.hidden.has("conflict:" + it.source) ||
+          !withinWindow(it, byId.get(it.source), ref)) return false;
+      if (it.source === "gdelt" && state.gdeltAction !== "all") {
+        const code = String((it.metrics && it.metrics.cameo_code) || "");
+        if (!actionPrefixes.some((prefix) => code.startsWith(prefix))) return false;
+      }
+      if (it.source === "ucdp-candidate" && state.ucdpType !== "all") {
+        const violence = String((it.metrics && it.metrics.violence_type) || "");
+        if (violence !== state.ucdpType) return false;
+      }
+      return true;
+    });
     const conflictGroups = cluster(shownConflicts, (it) => it.source + ":" + it.location.precision);
     for (const g of conflictGroups) drawConflict(layer, g);
 
@@ -533,9 +626,9 @@
     if (legend) {
       const parts = [];
       if (quakes.length) parts.push("● Erdbeben");
-      if (regions.length) parts.push("◌ weitere Ereignisse");
-      if (conflicts.some((it) => it.source === "ucdp-candidate")) parts.push("◆ UCDP · vorläufig");
-      if (conflicts.some((it) => it.source === "gdelt")) parts.push("◇ GDELT · automatisch/ungeprüft");
+      if (regions.length) parts.push("◌ Naturereignisse");
+      if (conflicts.some((it) => it.source === "ucdp-candidate")) parts.push("◆ UCDP · kuratiert/vorläufig");
+      if (conflicts.some((it) => it.source === "gdelt")) parts.push("▲ GDELT · automatisch/ungeprüft");
       if (parts.length) parts.push("Zahl = Gruppe");
       legend.hidden = !parts.length;
       legend.textContent = parts.join(" · ");
