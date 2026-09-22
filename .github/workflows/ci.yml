@@ -17,4 +17,9 @@ jobs:
       # sich diese Tests still ueberspringen - der Lauf bliebe gruen, ohne die
       # Aktualitaetsregel geprueft zu haben. Deshalb hier laut scheitern.
       - run: node --version
+      - name: Check adsb.lol browser CORS compatibility (nonblocking)
+        run: |
+          curl --silent --show-error --max-time 18 -D /tmp/adsb-headers -o /dev/null \
+            -H 'Origin: https://bene901.github.io' https://api.adsb.lol/v2/mil || true
+          grep -Ei '^(HTTP/|access-control-allow-origin:|content-type:|content-length:)' /tmp/adsb-headers || true
       - run: python -m unittest discover -s tests -t . -v
