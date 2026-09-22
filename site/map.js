@@ -510,7 +510,7 @@
     if (legend) {
       const parts = [];
       if (quakes.length) parts.push("● Erdbeben");
-      if (regions.length) parts.push("◌ weitere Naturereignisse");
+      if (regions.length) parts.push("◌ weitere Ereignisse");
       if (conflicts.some((it) => it.source === "ucdp-candidate")) parts.push("◆ UCDP · vorläufig");
       if (conflicts.some((it) => it.source === "gdelt")) parts.push("◇ GDELT · automatisch/ungeprüft");
       if (parts.length) parts.push("Zahl = Gruppe");
