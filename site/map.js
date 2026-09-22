@@ -451,9 +451,9 @@
 
     if (legend) {
       const parts = [];
-      if (quakes.length) parts.push("● Erdbeben laut USGS (ab M 4,5)");
-      if (regions.length) parts.push("◌ GDACS: ungefähre Lage, keine Schadensfläche");
-      if (parts.length) parts.push("Zahl = Gruppe · Warnstufen laut Quelle, keine eigene Gefahrenbewertung");
+      if (quakes.length) parts.push("● Erdbeben");
+      if (regions.length) parts.push("◌ weitere Ereignisse");
+      if (parts.length) parts.push("Zahl = Gruppe");
       legend.hidden = !parts.length;
       legend.textContent = parts.join(" · ");
     }
