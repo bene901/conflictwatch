@@ -442,11 +442,14 @@
         draw();
       });
     }
-    control(box, "button", {id: "map-zoom-in", type: "button", className: "map-btn"},
+    const zoom = document.createElement("div");
+    zoom.className = "map-zoom-controls";
+    box.append(zoom);
+    control(zoom, "button", {id: "map-zoom-in", type: "button", className: "map-btn"},
             "Vergrößern", () => zoomBy(1.6));
-    control(box, "button", {id: "map-zoom-out", type: "button", className: "map-btn"},
+    control(zoom, "button", {id: "map-zoom-out", type: "button", className: "map-btn"},
             "Verkleinern", () => zoomBy(1 / 1.6));
-    control(box, "button", {id: "map-zoom-reset", type: "button", className: "map-btn"},
+    control(zoom, "button", {id: "map-zoom-reset", type: "button", className: "map-btn"},
             "Ganze Welt", resetView);
   }
 
