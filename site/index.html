@@ -6,11 +6,11 @@
 <meta name="theme-color" content="#f7f9fb">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
-<meta name="description" content="ConflictWatch: Weltweite Naturereignisse auf einer Karte. Meldungen aus USGS, GDACS und NOAA.">
-<title>ConflictWatch – Naturereignisse weltweit</title>
+<meta name="description" content="ConflictWatch: Weltweite Naturereignisse, Konfliktereignisse und aktuelle militärische Meldungen aus öffentlichen Datenquellen.">
+<title>ConflictWatch – Ereignisse weltweit</title>
 <link rel="stylesheet" href="style.css?v=7">
-<script src="map.js?v=8" defer></script>
-<script src="app.js?v=8" defer></script>
+<script src="map.js?v=9" defer></script>
+<script src="app.js?v=9" defer></script>
 </head>
 <body>
 <a class="skip" href="#inhalt">Zum Inhalt springen</a>
@@ -20,7 +20,7 @@
     <p class="side-label">NAVIGATION</p>
     <nav aria-label="Bereiche">
       <a class="nav-link active" href="#start">Übersicht</a>
-      <a class="nav-link" href="#themen">Naturereignisse</a>
+      <a class="nav-link" href="#themen">Ereignisse</a>
       <a class="nav-link" href="#karte">Weltkarte</a>
       <a class="nav-link" href="#meldungen">Meldungen</a>
     </nav>
@@ -29,8 +29,8 @@
     <main id="inhalt" class="content">
       <span id="start" class="anchor" aria-hidden="true"></span>
       <section class="hero" aria-labelledby="hero-title">
-        <h1 id="hero-title">Naturereignisse. <span>Weltweit.</span></h1>
-        <p class="hero-copy">Aktuelle Meldungen aus USGS, GDACS und NOAA.</p>
+        <h1 id="hero-title">Ereignisse. <span>Weltweit.</span></h1>
+        <p class="hero-copy">Naturereignisse, kuratierte Konfliktdaten und aktuelle automatisch erkannte Militärmeldungen aus öffentlichen Quellen.</p>
       </section>
       <div id="banner" class="banner" role="status" hidden></div>
       <section class="overview" aria-label="Datenlage">
@@ -41,7 +41,7 @@
       <section id="karte" class="section map-section" aria-labelledby="map-title">
         <div class="panel-heading"><h2 id="map-title">Weltkarte</h2></div>
         <div class="map-art" role="group" aria-label="Weltkarte mit Ereignissen">
-          <svg id="map-view" class="equal-earth-map" viewBox="0 0 1000 510" role="img" aria-label="Weltkarte mit Erdbebenpositionen und ungefähren Lagen weiterer Naturereignisse">
+          <svg id="map-view" class="equal-earth-map" viewBox="0 0 1000 510" role="img" aria-label="Weltkarte mit Naturereignissen sowie getrennt gekennzeichneten Konflikt- und Militärmeldungen">
             <image href="world-equal-earth.svg" x="0" y="0" width="1000" height="510"/>
             <g id="map-points"></g>
           </svg>
@@ -63,7 +63,7 @@
         <details class="map-help"><summary>Legende</summary><p id="map-legend" class="map-caption" hidden></p></details>
       </section>
       <section id="themen" class="section" aria-labelledby="topics-title">
-        <h2 id="topics-title">Naturereignisse</h2>
+        <h2 id="topics-title">Ereignisse &amp; Konflikte</h2>
         <div class="topic-grid">
           <article class="topic" data-source="usgs"><span class="topic-symbol" aria-hidden="true">◇</span><h3>Erdbeben</h3><span class="topic-state">Wird geladen …</span></article>
           <article class="topic" data-source="gdacs"><span class="topic-symbol" aria-hidden="true">◎</span><h3>Zyklone &amp; Fluten</h3><span class="topic-state">Wird geladen …</span></article>
@@ -71,6 +71,8 @@
           <article class="topic" data-source="gdacs"><span class="topic-symbol" aria-hidden="true">✳</span><h3>Waldbrände</h3><span class="topic-state">Wird geladen …</span></article>
           <article class="topic" data-source="gdacs-drought"><span class="topic-symbol" aria-hidden="true">◌</span><h3>Dürren</h3><span class="topic-state">Wird geladen …</span></article>
           <article class="topic" data-source="noaa-swpc"><span class="topic-symbol" aria-hidden="true">☼</span><h3>Weltraumwetter</h3><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="ucdp-candidate"><span class="topic-symbol" aria-hidden="true">◆</span><h3>Konfliktereignisse · UCDP</h3><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="gdelt"><span class="topic-symbol" aria-hidden="true">◇</span><h3>GDELT · automatisch/ungeprüft</h3><span class="topic-state">Wird geladen …</span></article>
         </div>
       </section>
 
@@ -89,7 +91,7 @@
         </details>
       </section>
     </main>
-    <footer class="foot">ConflictWatch · USGS · GDACS · NOAA</footer>
+    <footer class="foot">ConflictWatch · USGS · GDACS · NOAA · UCDP · GDELT</footer>
   </div>
 </div>
 <noscript><p class="noscript">Diese Seite benötigt JavaScript, um den Datenstand und die Meldungen zu laden.</p></noscript>
