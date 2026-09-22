@@ -128,8 +128,8 @@ def parse(raw: bytes, now: dt.datetime, entry: dict) -> FetchResult:
         _, date_end = _date(row.get("date_end"), "date_end", raw_id, now)
         date_prec = _integer(row.get("date_prec"), "date_prec", raw_id)
         where_prec = _integer(row.get("where_prec"), "where_prec", raw_id)
-        if where_prec < 1 or where_prec > 6:
-            raise AdapterError("schema", f"{raw_id}: where_prec außerhalb 1..6")
+        if where_prec < 1 or where_prec > 7:
+            raise AdapterError("schema", f"{raw_id}: where_prec außerhalb 1..7")
 
         lat = _coordinate(row.get("latitude"), "latitude", raw_id)
         lon = _coordinate(row.get("longitude"), "longitude", raw_id)
