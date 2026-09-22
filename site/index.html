@@ -16,19 +16,18 @@
 <a class="skip" href="#inhalt">Zum Inhalt springen</a>
 <div class="shell">
   <aside class="sidebar" aria-label="Seitenleiste">
-    <a class="brand" href="#start" aria-label="ConflictWatch – Startseite"><span class="brand-mark" aria-hidden="true">✳</span><span>CONFLICT<span class="accent">WATCH</span><small>PUBLIC DATA MONITOR</small></span></a>
+    <a class="brand" href="#start" aria-label="ConflictWatch – Startseite"><span class="brand-mark" aria-hidden="true">✳</span><span>CONFLICT<span class="accent">WATCH</span></span></a>
     <p class="side-label">NAVIGATION</p>
     <nav aria-label="Bereiche">
       <a class="nav-link active" href="#start">Übersicht</a>
       <a class="nav-link" href="#themen">Naturereignisse</a>
       <a class="nav-link" href="#karte">Weltkarte</a>
       <a class="nav-link" href="#meldungen">Meldungen</a>
-      <a class="nav-link" href="#quellen">Quellen</a>
     </nav>
   </aside>
   <div class="workspace">
-    <header class="topbar" id="start"><span>Übersicht</span></header>
     <main id="inhalt" class="content">
+      <span id="start" class="anchor" aria-hidden="true"></span>
       <section class="hero" aria-labelledby="hero-title">
         <h1 id="hero-title">Naturereignisse. <span>Weltweit.</span></h1>
         <p class="hero-copy">Aktuelle Meldungen aus USGS, GDACS und NOAA.</p>
@@ -66,12 +65,12 @@
       <section id="themen" class="section" aria-labelledby="topics-title">
         <h2 id="topics-title">Naturereignisse</h2>
         <div class="topic-grid">
-          <article class="topic" data-source="usgs"><span class="topic-symbol" aria-hidden="true">◇</span><h3>Erdbeben</h3><p>USGS</p><span class="topic-state">Wird geladen …</span></article>
-          <article class="topic" data-source="gdacs"><span class="topic-symbol" aria-hidden="true">◎</span><h3>Zyklone &amp; Fluten</h3><p>GDACS</p><span class="topic-state">Wird geladen …</span></article>
-          <article class="topic" data-source="gdacs-volcano"><span class="topic-symbol" aria-hidden="true">△</span><h3>Vulkane</h3><p>GDACS</p><span class="topic-state">Wird geladen …</span></article>
-          <article class="topic" data-source="gdacs"><span class="topic-symbol" aria-hidden="true">✳</span><h3>Waldbrände</h3><p>GDACS</p><span class="topic-state">Wird geladen …</span></article>
-          <article class="topic" data-source="gdacs-drought"><span class="topic-symbol" aria-hidden="true">◌</span><h3>Dürren</h3><p>GDACS</p><span class="topic-state">Wird geladen …</span></article>
-          <article class="topic" data-source="noaa-swpc"><span class="topic-symbol" aria-hidden="true">☼</span><h3>Weltraumwetter</h3><p>NOAA</p><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="usgs"><span class="topic-symbol" aria-hidden="true">◇</span><h3>Erdbeben</h3><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="gdacs"><span class="topic-symbol" aria-hidden="true">◎</span><h3>Zyklone &amp; Fluten</h3><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="gdacs-volcano"><span class="topic-symbol" aria-hidden="true">△</span><h3>Vulkane</h3><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="gdacs"><span class="topic-symbol" aria-hidden="true">✳</span><h3>Waldbrände</h3><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="gdacs-drought"><span class="topic-symbol" aria-hidden="true">◌</span><h3>Dürren</h3><span class="topic-state">Wird geladen …</span></article>
+          <article class="topic" data-source="noaa-swpc"><span class="topic-symbol" aria-hidden="true">☼</span><h3>Weltraumwetter</h3><span class="topic-state">Wird geladen …</span></article>
         </div>
       </section>
 
@@ -82,16 +81,15 @@
         <p id="empty" class="empty" hidden></p>
         <details id="more" class="more" hidden><summary id="more-summary"></summary><ol id="more-list" class="list"></ol></details>
       </section>
-      <section id="quellen" class="section sources-section" aria-label="Quellen und Datenstatus">
+      <section id="quellen" class="section sources-section" aria-label="Datenquellen">
         <details class="sources-disclosure">
-          <summary>Quellen &amp; Datenstatus</summary>
+          <summary>Datenquellen</summary>
           <ul id="sources" class="sources"></ul>
           <p id="sources-empty" class="sources-empty" hidden>Keine Datenquelle verfügbar.</p>
-          <p class="method">USGS: Erdbeben ab Magnitude 4,5. GDACS: regionale Meldungen, keine flächendeckende Erfassung. Leere Feeds sind keine Entwarnung. Warnstufen stammen von der jeweiligen Quelle.</p>
         </details>
       </section>
     </main>
-    <footer class="foot"><span>© ConflictWatch</span><span>Daten: USGS · GDACS · NOAA</span></footer>
+    <footer class="foot">ConflictWatch · USGS · GDACS · NOAA</footer>
   </div>
 </div>
 <noscript><p class="noscript">Diese Seite benötigt JavaScript, um den Datenstand und die Meldungen zu laden.</p></noscript>
