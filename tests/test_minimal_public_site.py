@@ -13,7 +13,7 @@ class MinimalPublicSite(unittest.TestCase):
 
     def test_default_page_has_no_projection_or_method_boilerplate(self):
         self.assertIn('<details class="sources-disclosure">', self.html)
-        self.assertIn('<details class="map-help">', self.html)
+        self.assertIn('<details class="map-help" open>', self.html)
         self.assertNotIn("Kartenprojektion:", self.html)
         self.assertNotIn("FLÄCHENTREUE DARSTELLUNG", self.html)
         self.assertNotIn("Equal Earth", self.html)
@@ -28,7 +28,7 @@ class MinimalPublicSite(unittest.TestCase):
         self.assertIn('label.textContent = "Aktuell · ungeprüft"', self.app)
 
     def test_public_dashboard_loads_local_design_layer_and_keeps_core_controls(self):
-        self.assertIn('href="public.css?v=1"', self.html)
+        self.assertIn('href="public.css?v=2"', self.html)
         self.assertIn('class="hero-eyebrow"', self.html)
         self.assertIn('class="hero-meta"', self.html)
         self.assertIn('class="events-head"', self.html)
