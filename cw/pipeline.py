@@ -31,8 +31,8 @@ def recovered_fetch_gap(previous_success: str | None, run_at: str, max_gap_h: in
     """Return elapsed hours when a successful fetch reveals a missed freshness window."""
     if previous_success is None:
         return None
-    hours = (parse_utc(run_at) - parse_utc(previous_success)).total_seconds() / 3600
-    return round(hours, 3) if hours > max_gap_h else None
+    seconds = int((parse_utc(run_at) - parse_utc(previous_success)).total_seconds())
+    return seconds if seconds > max_gap_h * 3600 else None
 
 
 def run(registry: dict, state_dir: Path, fetch: bool = True, now: dt.datetime | None = None,
@@ -90,7 +90,7 @@ def run(registry: dict, state_dir: Path, fetch: bool = True, now: dt.datetime | 
                 # A successful recovery must not erase evidence of a missed fetch window.
                 gap = recovered_fetch_gap(prev["last_success_at"], run_at, entry["max_fetch_gap_h"])
                 if gap is not None and entry["public"]:
-                    recovered_gaps[sid] = {"hours": gap, "limit_hours": entry["max_fetch_gap_h"]}
+                    recovered_gaps[sid] = {"seconds": gap, "limit_seconds": int(entry["max_fetch_gap_h"] * 3600)}
                 items = candidate
                 log_entry["sources"][sid] = {"result": "ok", "items": result.items_in_window,
                                              "complete": result.complete}
