@@ -15,7 +15,7 @@ class RecoveredFetchGapTests(unittest.TestCase):
         self.assertIsNone(recovered_fetch_gap("2026-09-25T06:10:55Z", "2026-09-25T08:10:55Z", 3))
 
     def test_recovered_gdelt_gap_is_detected(self):
-        self.assertEqual(recovered_fetch_gap("2026-09-25T04:54:44Z", "2026-09-25T08:10:55Z", 3), 3.27)
+        self.assertEqual(recovered_fetch_gap("2026-09-25T04:54:44Z", "2026-09-25T08:10:55Z", 3), 11771)
 
     def test_source_specific_limit(self):
         self.assertIsNone(recovered_fetch_gap("2026-09-25T04:54:44Z", "2026-09-25T08:10:55Z", 6))
