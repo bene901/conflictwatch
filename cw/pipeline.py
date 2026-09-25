@@ -27,6 +27,14 @@ def _due(state: dict, entry: dict, now: dt.datetime) -> bool:
     return last is None or now - parse_utc(last) >= dt.timedelta(hours=entry["min_fetch_interval_h"]) - INTERVAL_TOLERANCE
 
 
+def recovered_fetch_gap(previous_success: str | None, run_at: str, max_gap_h: int | float) -> float | None:
+    """Return elapsed hours when a successful fetch reveals a missed freshness window."""
+    if previous_success is None:
+        return None
+    seconds = int((parse_utc(run_at) - parse_utc(previous_success)).total_seconds())
+    return seconds if seconds > max_gap_h * 3600 else None
+
+
 def run(registry: dict, state_dir: Path, fetch: bool = True, now: dt.datetime | None = None,
         fetcher=http.fetch, raw_dir: Path | None = None, alarm_path: Path | None = None,
         log=print, force_fetch: bool = False) -> int:
@@ -54,7 +62,7 @@ def run(registry: dict, state_dir: Path, fetch: bool = True, now: dt.datetime | 
     states = {s["source"]: s for s in (sources_doc or {"sources": []})["sources"]}
 
     log_entry = {"run_at": run_at, "fetch": fetch, "sources": {}}
-    attempted, failed, newly_down = 0, 0, []
+    attempted, failed, newly_down, recovered_gaps = 0, 0, [], {}
     for entry in registry["sources"]:
         sid = entry["id"]
         had_state = sid in states
@@ -79,6 +87,10 @@ def run(registry: dict, state_dir: Path, fetch: bool = True, now: dt.datetime | 
                 result = ADAPTERS[sid](raw, now, entry)
                 candidate = merge_items(items, sid, entry, result, run_at)
                 states[sid] = succeed_source_state(prev, entry, result, candidate, run_at, ADAPTER_VERSION)
+                # A successful recovery must not erase evidence of a missed fetch window.
+                gap = recovered_fetch_gap(prev["last_success_at"], run_at, entry["max_fetch_gap_h"])
+                if gap is not None and entry["public"]:
+                    recovered_gaps[sid] = {"seconds": gap, "limit_seconds": int(entry["max_fetch_gap_h"] * 3600)}
                 items = candidate
                 log_entry["sources"][sid] = {"result": "ok", "items": result.items_in_window,
                                              "complete": result.complete}
@@ -110,10 +122,13 @@ def run(registry: dict, state_dir: Path, fetch: bool = True, now: dt.datetime | 
         log("VALIDIERUNG GESCHEITERT – nichts geschrieben:\n  " + "\n  ".join(problems[:30]))
         return 2
 
+    if recovered_gaps:
+        log_entry["recovered_fetch_gaps"] = recovered_gaps
     save(state_dir, items, states, run_at)
     append_runlog(state_dir, log_entry, now)
-    alarm = bool(newly_down) or (attempted > 0 and failed == attempted)
+    alarm = bool(newly_down or recovered_gaps) or (attempted > 0 and failed == attempted)
     if alarm and alarm_path is not None:
-        alarm_path.write_text(json.dumps({"newly_down": newly_down, "all_failed": failed == attempted}) + "\n")
+        alarm_path.write_text(json.dumps({"newly_down": newly_down, "recovered_fetch_gaps": recovered_gaps,
+                                          "all_failed": attempted > 0 and failed == attempted}) + "\n")
     log(json.dumps(log_entry, ensure_ascii=False, indent=1))
     return 0
