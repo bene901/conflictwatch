@@ -60,13 +60,15 @@ Die frühere 7-Tage-Vorabbedingung ist für diesen Release aufgehoben. Die Beoba
 
 | Situation | Handlung |
 |---|---|
-| Workflow rot mit „Alarm“ | Log lesen; Quelle `down` oder alle Abrufe gescheitert |
+| Workflow rot mit „Alarm“ | `alarm.json` im Schritt „Alarm auswerten“ lesen: `newly_down` = Quelle neu ausgefallen; `all_failed` = alle versuchten Abrufe gescheitert; `recovered_fetch_gaps` = eine veröffentlichte Quelle wurde erst nach Überschreitung ihrer `max_fetch_gap_h`-Grenze erfolgreich erneut abgerufen. Ein solcher Lauf kann nach erfolgreichem State-Push und Pages-Deploy rot sein, obwohl die Quelle wieder `fetch_health: ok` meldet. |
 | Workflow rot bei „Bestand sichern“ | Überlappender Lauf; nächster Lauf korrigiert es |
 | Workflow rot bei „Tests“ | Code auf `main` reparieren; bis dahin keine Datenänderung |
 | Seite zeigt Hinweis „seit mehr als drei Stunden“ | Actions prüfen; ggf. Workflow reaktivieren |
 | Geplanter Workflow deaktiviert (60 Tage) | Actions → Pipeline → Enable workflow, dann Run workflow |
 | Fehlerhafter Bestand | Auf `data-state` den letzten guten Commit wiederherstellen (`git revert`), dann Run workflow |
 | `data-state` über 100 MB | Branch manuell auf einen Commit zusammenfassen |
+
+Bei `recovered_fetch_gaps` die protokollierten `seconds` mit `limit_seconds` vergleichen, den vorherigen erfolgreichen Abruf in `data-state/state/runlog.jsonl` und die tatsächlichen `schedule`-Runs unter Actions prüfen. Die Lücke ist ein **historischer Aktualitätsausfall**, kein Beleg für einen aktuell fehlerhaften Quelladapter. Keine zusätzlichen USGS-Abrufe zur Diagnose starten, solange vorhandene Runs/Runlog den Zustand belegen. GitHub-Cron-Lücken separat beheben (unabhängiger Trigger); ein grüner Folge-Lauf löscht den Runlog-Nachweis nicht. Die veröffentlichten Quellen und `public:true` bleiben unverändert.
 
 ## 5. Lokale Vorschau mit echten Daten
 
