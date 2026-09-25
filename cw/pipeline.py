@@ -122,10 +122,10 @@ def run(registry: dict, state_dir: Path, fetch: bool = True, now: dt.datetime | 
         log("VALIDIERUNG GESCHEITERT – nichts geschrieben:\n  " + "\n  ".join(problems[:30]))
         return 2
 
-    save(state_dir, items, states, run_at)
-    append_runlog(state_dir, log_entry, now)
     if recovered_gaps:
         log_entry["recovered_fetch_gaps"] = recovered_gaps
+    save(state_dir, items, states, run_at)
+    append_runlog(state_dir, log_entry, now)
     alarm = bool(newly_down or recovered_gaps) or (attempted > 0 and failed == attempted)
     if alarm and alarm_path is not None:
         alarm_path.write_text(json.dumps({"newly_down": newly_down, "recovered_fetch_gaps": recovered_gaps,
