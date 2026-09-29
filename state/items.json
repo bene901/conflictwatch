@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-09-29T07:30:26Z",
+ "generated_at": "2026-09-29T08:27:10Z",
  "items": [
   {
    "id": "gdacs-drought:1015915",
@@ -44,7 +44,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T18:08:51Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-22T10:09:39Z"
    }
   },
@@ -61,7 +61,7 @@
    "occurred_at": "2025-12-21T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-29T07:30:13Z",
+   "source_updated_at": "2026-09-29T08:25:20Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "false",
@@ -114,7 +114,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-22T06:47:10Z"
    }
   },
@@ -162,7 +162,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-22T06:47:10Z"
    }
   },
@@ -208,7 +208,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-22T06:47:10Z"
    }
   },
@@ -260,7 +260,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-22T06:47:10Z"
    }
   },
@@ -307,7 +307,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-22T06:47:10Z"
    }
   },
@@ -359,7 +359,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-22T06:47:10Z"
    }
   },
@@ -457,7 +457,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-22T06:47:10Z"
    }
   },
@@ -510,7 +510,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-22T06:47:10Z"
    }
   },
@@ -559,7 +559,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-22T06:47:10Z"
    }
   },
@@ -609,7 +609,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-22T06:47:10Z"
    }
   },
@@ -659,7 +659,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-22T06:47:10Z"
    }
   },
@@ -705,7 +705,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-22T06:47:10Z"
    }
   },
@@ -748,7 +748,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T14:06:23Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-21T14:06:23Z"
    }
   },
@@ -838,7 +838,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T14:28:04Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T14:28:04Z"
    }
   },
@@ -941,11 +941,11 @@
    "original_publisher": null,
    "title": "Flood in Mexico",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1104099&episodeid=17&eventtype=FL",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1104099&episodeid=19&eventtype=FL",
    "occurred_at": "2026-08-17T01:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-28T06:04:58Z",
+   "source_updated_at": "2026-09-29T08:05:16Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -960,12 +960,12 @@
     "countries": [
      "MX"
     ],
-    "lat": 23.2036,
-    "lon": -106.4208
+    "lat": 20.2987,
+    "lon": -104.9524
    },
    "metrics": {
     "hazard_type": "flood",
-    "episode_id": 17,
+    "episode_id": 19,
     "severity": 0.0,
     "severity_unit": "",
     "alert_score": 1
@@ -973,8 +973,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T14:06:23Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
-    "last_changed_at": "2026-09-28T06:51:08Z"
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
    }
   },
   {
@@ -1153,7 +1153,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T09:15:18Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T14:28:04Z"
    }
   },
@@ -1288,7 +1288,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T14:28:04Z"
    }
   },
@@ -1918,7 +1918,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-23T09:57:47Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -2006,7 +2006,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -2066,7 +2066,7 @@
    "occurred_at": "2026-09-21T03:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-29T07:25:19Z",
+   "source_updated_at": "2026-09-29T08:25:20Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2105,7 +2105,7 @@
    },
    "ingest": {
     "first_seen_at": "2026-09-21T09:15:18Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -2178,7 +2178,7 @@
    "occurred_at": "2026-09-23T06:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-29T07:25:16Z",
+   "source_updated_at": "2026-09-29T08:25:57Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2206,7 +2206,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-23T09:57:47Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -2296,7 +2296,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-27T13:56:35Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -2339,7 +2339,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T20:48:23Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -5534,7 +5534,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -9282,11 +9282,11 @@
    "original_publisher": null,
    "title": "Forest fires in Indonesia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032264&episodeid=22&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1032264&episodeid=23&eventtype=WF",
    "occurred_at": "2026-09-16T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-28T23:17:37Z",
+   "source_updated_at": "2026-09-29T07:24:19Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -9301,21 +9301,21 @@
     "countries": [
      "ID"
     ],
-    "lat": -3.1129,
-    "lon": 112.6691
+    "lat": -3.1131,
+    "lon": 112.6692
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 22,
-    "severity": 7542.0,
+    "episode_id": 23,
+    "severity": 7564.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-29T01:16:09Z",
-    "last_changed_at": "2026-09-28T20:48:23Z"
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
    }
   },
   {
@@ -12256,7 +12256,7 @@
    "occurred_at": "2026-09-16T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-28T23:16:23Z",
+   "source_updated_at": "2026-09-29T07:24:09Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -12284,7 +12284,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-22T12:04:27Z",
-    "last_seen_at": "2026-09-29T01:16:09Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T01:16:09Z"
    }
   },
@@ -12732,7 +12732,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-22T23:16:01Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -12957,7 +12957,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-23T01:47:02Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -13047,7 +13047,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-23T12:11:47Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -14710,7 +14710,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-24T23:30:41Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T14:28:04Z"
    }
   },
@@ -14755,7 +14755,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-24T23:30:41Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T01:16:09Z"
    }
   },
@@ -15205,7 +15205,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-26T07:38:38Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T14:28:04Z"
    }
   },
@@ -15561,7 +15561,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-26T07:38:38Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T01:16:09Z"
    }
   },
@@ -15606,7 +15606,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-26T07:38:38Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T14:28:04Z"
    }
   },
@@ -15696,7 +15696,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-26T07:38:38Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T01:16:09Z"
    }
   },
@@ -15786,7 +15786,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-26T13:03:28Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T01:16:09Z"
    }
   },
@@ -15876,7 +15876,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-26T13:03:28Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -16056,7 +16056,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-27T01:25:13Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T01:16:09Z"
    }
   },
@@ -16101,7 +16101,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-26T19:50:20Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -16146,7 +16146,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-26T19:50:20Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T20:48:23Z"
    }
   },
@@ -16191,7 +16191,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-26T19:50:20Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -16236,7 +16236,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-26T19:50:20Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T20:48:23Z"
    }
   },
@@ -16371,7 +16371,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-27T01:25:13Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -16416,7 +16416,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-27T01:25:13Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T01:16:09Z"
    }
   },
@@ -16551,7 +16551,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-27T13:56:35Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T01:16:09Z"
    }
   },
@@ -16641,7 +16641,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-27T13:56:35Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T01:16:09Z"
    }
   },
@@ -16686,7 +16686,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-27T13:56:35Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T01:16:09Z"
    }
   },
@@ -16731,7 +16731,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-27T13:56:35Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T14:28:04Z"
    }
   },
@@ -16748,7 +16748,7 @@
    "occurred_at": "2026-09-16T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-28T23:17:45Z",
+   "source_updated_at": "2026-09-29T07:23:59Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -16776,7 +16776,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-27T13:56:35Z",
-    "last_seen_at": "2026-09-29T01:16:09Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T14:28:04Z"
    }
   },
@@ -16866,7 +16866,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-27T21:36:52Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T21:58:57Z"
    }
   },
@@ -16911,7 +16911,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-27T21:36:52Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T21:58:57Z"
    }
   },
@@ -16956,7 +16956,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-27T21:36:52Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T21:58:57Z"
    }
   },
@@ -17001,7 +17001,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-27T21:36:52Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T21:58:57Z"
    }
   },
@@ -17046,7 +17046,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-27T21:36:52Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -17091,7 +17091,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-27T21:36:52Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -17136,7 +17136,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-27T21:36:52Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T20:48:23Z"
    }
   },
@@ -17181,7 +17181,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-27T21:36:52Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -17406,7 +17406,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T05:52:14Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T01:16:09Z"
    }
   },
@@ -17451,7 +17451,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T05:52:14Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -17496,7 +17496,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T05:52:14Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -17541,7 +17541,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T05:52:14Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -17631,7 +17631,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T05:52:14Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T01:16:09Z"
    }
   },
@@ -17677,7 +17677,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T14:28:04Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T01:16:09Z"
    }
   },
@@ -17722,7 +17722,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T14:28:04Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T01:16:09Z"
    }
   },
@@ -17767,7 +17767,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T14:28:04Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T01:16:09Z"
    }
   },
@@ -17812,7 +17812,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T14:28:04Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T14:28:04Z"
    }
   },
@@ -17857,7 +17857,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T14:28:04Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T01:16:09Z"
    }
   },
@@ -17902,7 +17902,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T14:28:04Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -17947,7 +17947,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T14:28:04Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T01:16:09Z"
    }
   },
@@ -17964,7 +17964,7 @@
    "occurred_at": "2026-09-22T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-09-28T23:06:27Z",
+   "source_updated_at": "2026-09-29T07:13:30Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -17992,7 +17992,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T14:28:04Z",
-    "last_seen_at": "2026-09-29T01:16:09Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T01:16:09Z"
    }
   },
@@ -18037,7 +18037,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T15:25:09Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -18172,7 +18172,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T21:58:57Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T21:58:57Z"
    }
   },
@@ -18217,7 +18217,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T21:58:57Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -18262,7 +18262,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T21:58:57Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -18307,7 +18307,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T21:58:57Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T21:58:57Z"
    }
   },
@@ -18352,7 +18352,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T21:58:57Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T21:58:57Z"
    }
   },
@@ -18397,7 +18397,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T20:48:23Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -18442,7 +18442,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T20:48:23Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T20:48:23Z"
    }
   },
@@ -18487,7 +18487,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T20:48:23Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -18577,7 +18577,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T01:16:09Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T01:16:09Z"
    }
   },
@@ -18622,7 +18622,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T01:16:09Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T01:16:09Z"
    }
   },
@@ -18667,7 +18667,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T01:16:09Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T01:16:09Z"
    }
   },
@@ -18712,7 +18712,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T01:16:09Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -18757,7 +18757,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T01:16:09Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T01:16:09Z"
    }
   },
@@ -18848,7 +18848,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -18893,7 +18893,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -602399,7 +602399,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -602441,7 +602441,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -602483,7 +602483,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -602525,7 +602525,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -602567,7 +602567,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -602609,7 +602609,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -602651,7 +602651,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -602693,7 +602693,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -602735,7 +602735,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -602777,7 +602777,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -602819,7 +602819,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -602861,7 +602861,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -602903,7 +602903,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -602945,7 +602945,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -602987,7 +602987,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -603029,7 +603029,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -603071,7 +603071,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -603113,7 +603113,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -603155,7 +603155,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -603197,7 +603197,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -603239,7 +603239,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -603281,7 +603281,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -603323,7 +603323,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -603365,7 +603365,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -603407,7 +603407,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -603449,7 +603449,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -603491,7 +603491,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -603533,7 +603533,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -603575,7 +603575,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -603617,7 +603617,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -603659,7 +603659,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -603701,7 +603701,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -603743,7 +603743,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -603785,7 +603785,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -603827,7 +603827,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -603869,7 +603869,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -603911,7 +603911,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -603953,7 +603953,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -603995,7 +603995,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -604037,7 +604037,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -604079,7 +604079,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -604121,7 +604121,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -604163,7 +604163,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -604205,7 +604205,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -604247,7 +604247,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -604289,7 +604289,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -604331,7 +604331,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -604373,7 +604373,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -604415,7 +604415,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -604457,7 +604457,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -604499,7 +604499,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -604541,7 +604541,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -604583,7 +604583,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -604625,7 +604625,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -604667,7 +604667,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -604709,7 +604709,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -604751,7 +604751,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -604793,7 +604793,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -604835,7 +604835,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -604877,7 +604877,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -604919,7 +604919,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -604961,7 +604961,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -605003,7 +605003,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -605045,7 +605045,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -605087,7 +605087,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -605129,7 +605129,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -605171,7 +605171,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -605213,7 +605213,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -605255,7 +605255,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -605297,7 +605297,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -605339,7 +605339,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -605381,7 +605381,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -605423,7 +605423,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -605465,7 +605465,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -605507,7 +605507,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -605549,7 +605549,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -605591,7 +605591,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -605633,7 +605633,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -605675,7 +605675,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -605717,7 +605717,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -605759,7 +605759,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -605801,7 +605801,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -605843,7 +605843,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -605885,7 +605885,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -605927,7 +605927,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -605969,7 +605969,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -606011,7 +606011,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -606053,7 +606053,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -606095,7 +606095,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -606137,7 +606137,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -606179,7 +606179,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -606221,7 +606221,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -606263,7 +606263,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -606305,7 +606305,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -606347,7 +606347,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -606389,7 +606389,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -606431,7 +606431,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -606473,7 +606473,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -606515,7 +606515,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -606557,7 +606557,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -606599,7 +606599,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -606641,7 +606641,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -606683,7 +606683,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -606725,7 +606725,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -606767,7 +606767,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -606809,7 +606809,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -606851,7 +606851,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -606893,7 +606893,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -606935,7 +606935,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -606977,7 +606977,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -607019,7 +607019,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -607061,7 +607061,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -607103,7 +607103,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -607145,7 +607145,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -607187,7 +607187,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -607229,7 +607229,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -607271,7 +607271,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -607313,7 +607313,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -607355,7 +607355,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -607397,7 +607397,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -607439,7 +607439,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -607481,7 +607481,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -607523,7 +607523,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -607565,7 +607565,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -607607,7 +607607,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -607649,7 +607649,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -607691,7 +607691,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -607733,7 +607733,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -607775,7 +607775,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -607817,7 +607817,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -607859,7 +607859,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -607901,7 +607901,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -607943,7 +607943,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -607985,7 +607985,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -608027,7 +608027,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -608069,7 +608069,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -608111,7 +608111,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -608153,7 +608153,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -608195,7 +608195,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -608237,7 +608237,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -608279,7 +608279,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -608321,7 +608321,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -608363,7 +608363,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -608405,8 +608405,3704 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
+   }
+  },
+  {
+   "id": "gdelt:1325395554",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.thedailybeast.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → MEDIA",
+   "lang": "de",
+   "url": "https://www.thedailybeast.com/donald-trump-unravels-in-all-day-media-meltdown/",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T07:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Iran",
+    "countries": [],
+    "lat": 32.0,
+    "lon": 53.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "MEDIA",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325395579",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.thedailybeast.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → UNITED STATES",
+   "lang": "de",
+   "url": "https://www.thedailybeast.com/maga-candidate-ken-paxton-defends-his-1-day-prison-deal-for-child-sex-predator/",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T07:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "London, London, City of, United Kingdom",
+    "countries": [],
+    "lat": 51.5,
+    "lon": -0.1167
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "UNITED STATES",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325395818",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aol.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: FRANCE → PREMIER",
+   "lang": "de",
+   "url": "https://www.aol.co.uk/articles/thierry-henry-hits-man-city-071616000.html",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T07:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "France",
+    "countries": [],
+    "lat": 46.0,
+    "lon": 2.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "FRANCE",
+    "actor2": "PREMIER",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325395836",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.heraldscotland.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: UNITED KINGDOM → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.heraldscotland.com/politics/viewpoint/26587414.shame-drumcree-orangemen-desecrate-memory-dead/",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T07:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Northern Ireland, Craigavon, United Kingdom",
+    "countries": [],
+    "lat": 54.5,
+    "lon": -6.5
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "UNITED KINGDOM",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325395851",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aol.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: MANCHESTER → PREMIER",
+   "lang": "de",
+   "url": "https://www.aol.co.uk/articles/thierry-henry-hits-man-city-071616000.html",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T07:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "France",
+    "countries": [],
+    "lat": 46.0,
+    "lon": 2.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "MANCHESTER",
+    "actor2": "PREMIER",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325395888",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.bankinfosecurity.com",
+   "title": "Besetzung: SOVEREIGN → ESTONIA",
+   "lang": "de",
+   "url": "https://www.bankinfosecurity.com/estonia-tests-sovereign-ai-on-national-health-data-a-32958",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T07:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "192",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Paris, France (general), France",
+    "countries": [],
+    "lat": 48.8667,
+    "lon": 2.3333
+   },
+   "metrics": {
+    "cameo_code": "192",
+    "cameo_category": "Besetzung",
+    "actor1": "SOVEREIGN",
+    "actor2": "ESTONIA",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325395889",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.bankinfosecurity.com",
+   "title": "Besetzung: SOVEREIGN → ESTONIA",
+   "lang": "de",
+   "url": "https://www.bankinfosecurity.com/estonia-tests-sovereign-ai-on-national-health-data-a-32958",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T07:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "192",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "New York, United States",
+    "countries": [],
+    "lat": 42.1497,
+    "lon": -74.9384
+   },
+   "metrics": {
+    "cameo_code": "192",
+    "cameo_category": "Besetzung",
+    "actor1": "SOVEREIGN",
+    "actor2": "ESTONIA",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325395890",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.bankinfosecurity.com",
+   "title": "Besetzung: SOVEREIGN → ESTONIA",
+   "lang": "de",
+   "url": "https://www.bankinfosecurity.com/estonia-tests-sovereign-ai-on-national-health-data-a-32958",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T07:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "192",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "New York, United States",
+    "countries": [],
+    "lat": 42.1497,
+    "lon": -74.9384
+   },
+   "metrics": {
+    "cameo_code": "192",
+    "cameo_category": "Besetzung",
+    "actor1": "SOVEREIGN",
+    "actor2": "ESTONIA",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325395891",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.bankinfosecurity.com",
+   "title": "Besetzung: SOVEREIGN → ESTONIA",
+   "lang": "de",
+   "url": "https://www.bankinfosecurity.com/estonia-tests-sovereign-ai-on-national-health-data-a-32958",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T07:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "192",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "New York, United States",
+    "countries": [],
+    "lat": 42.1497,
+    "lon": -74.9384
+   },
+   "metrics": {
+    "cameo_code": "192",
+    "cameo_category": "Besetzung",
+    "actor1": "SOVEREIGN",
+    "actor2": "ESTONIA",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325395892",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aol.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: PREMIER → FRANCE",
+   "lang": "de",
+   "url": "https://www.aol.co.uk/articles/thierry-henry-hits-man-city-071616000.html",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T07:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "France",
+    "countries": [],
+    "lat": 46.0,
+    "lon": 2.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "PREMIER",
+    "actor2": "FRANCE",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325395894",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aol.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: PREMIER → MANCHESTER",
+   "lang": "de",
+   "url": "https://www.aol.co.uk/articles/thierry-henry-hits-man-city-071616000.html",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T07:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "France",
+    "countries": [],
+    "lat": 46.0,
+    "lon": 2.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "PREMIER",
+    "actor2": "MANCHESTER",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325395931",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aol.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: NATO → UKRAINE",
+   "lang": "de",
+   "url": "https://www.aol.co.uk/articles/nato-scrambles-fighter-jets-russia-070600000.html",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T07:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Gropeni, Romania (general), Romania",
+    "countries": [],
+    "lat": 47.9,
+    "lon": 26.1
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "NATO",
+    "actor2": "UKRAINE",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325395956",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.newindianexpress.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: KERALA → CONGRESS",
+   "lang": "de",
+   "url": "https://www.newindianexpress.com/states/kerala/2026/Sep/29/kerala-hc-rejects-plea-to-transfer-trial-in-2018-murder-of-youth-congress-leader-shuhaib",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T07:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "KERALA",
+    "actor2": "CONGRESS",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325395971",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.thejournal.ie",
+   "title": "Militärische Mobilisierung oder Verstärkung: IRISH → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.thejournal.ie/readme/irish-immigration-7172318-Sep2026/",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T07:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "154",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Dublin, Dublin, Ireland",
+    "countries": [],
+    "lat": 53.3331,
+    "lon": -6.2489
+   },
+   "metrics": {
+    "cameo_code": "154",
+    "cameo_category": "Militärische Mobilisierung oder Verstärkung",
+    "actor1": "IRISH",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 8,
+    "sources": 1,
+    "articles": 8,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325396055",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "capitalfm.africa",
+   "title": "Kampf mit Hand- oder leichten Waffen: KENYA → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://capitalfm.africa/eastleigh-shooting-trial-ipoa-investigator-to-testify-against-ahmed-rashid/",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T07:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Eastleigh, Nairobi Area, Kenya",
+    "countries": [],
+    "lat": -1.2667,
+    "lon": 36.85
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "KENYA",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325396056",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "capitalfm.africa",
+   "title": "Kampf mit Hand- oder leichten Waffen: KENYA → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://capitalfm.africa/eastleigh-shooting-trial-ipoa-investigator-to-testify-against-ahmed-rashid/",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T07:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Nairobi, Nairobi Area, Kenya",
+    "countries": [],
+    "lat": -1.2833,
+    "lon": 36.8167
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "KENYA",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325396206",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.theage.com.au",
+   "title": "Kampf mit Hand- oder leichten Waffen: GUNMAN → SYDNEY",
+   "lang": "de",
+   "url": "https://www.theage.com.au/national/gunman-on-the-run-after-daytime-sydney-shooting-20260929-p611ic.html",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T07:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Sydney, New South Wales, Australia",
+    "countries": [],
+    "lat": -33.8833,
+    "lon": 151.217
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "GUNMAN",
+    "actor2": "SYDNEY",
+    "mentions": 20,
+    "sources": 2,
+    "articles": 20,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325396224",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.rferl.org",
+   "title": "Einsatz konventioneller militärischer Gewalt: UKRAINE → RUSSIAN",
+   "lang": "de",
+   "url": "https://www.rferl.org/a/ukraine-graham-legislation-russia-sanctions-congress/33866211.html",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T07:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Washington, District of Columbia, United States",
+    "countries": [],
+    "lat": 38.8951,
+    "lon": -77.0364
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "UKRAINE",
+    "actor2": "RUSSIAN",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325396225",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.rferl.org",
+   "title": "Einsatz konventioneller militärischer Gewalt: KYIV → RUSSIAN",
+   "lang": "de",
+   "url": "https://www.rferl.org/a/ukraine-graham-legislation-russia-sanctions-congress/33866211.html",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T07:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Washington, District of Columbia, United States",
+    "countries": [],
+    "lat": 38.8951,
+    "lon": -77.0364
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "KYIV",
+    "actor2": "RUSSIAN",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325397416",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.whmi.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: GANG → HAITI",
+   "lang": "de",
+   "url": "https://www.whmi.com/news/fox/least-40-rescued-2-dead-boat-capsizes-machete-fight-near-puerto-rico",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Port-Au-Prince, Ouest, Haiti",
+    "countries": [],
+    "lat": 18.5392,
+    "lon": -72.335
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "GANG",
+    "actor2": "HAITI",
+    "mentions": 8,
+    "sources": 1,
+    "articles": 8,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325397463",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.mirror.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: SPANISH → ROMANIA",
+   "lang": "de",
+   "url": "https://www.mirror.co.uk/news/world-news/romania-russia-ukraine-nato-spain-37712734",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Russia",
+    "countries": [],
+    "lat": 60.0,
+    "lon": 100.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "SPANISH",
+    "actor2": "ROMANIA",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325397464",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.mirror.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: SPANISH → ROMANIA",
+   "lang": "de",
+   "url": "https://www.mirror.co.uk/news/world-news/romania-russia-ukraine-nato-spain-37712734",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Isaccea, Romania (general), Romania",
+    "countries": [],
+    "lat": 45.2667,
+    "lon": 28.4667
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "SPANISH",
+    "actor2": "ROMANIA",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325397465",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.mirror.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: SPANISH → ROMANIA",
+   "lang": "de",
+   "url": "https://www.mirror.co.uk/news/world-news/romania-russia-ukraine-nato-spain-37712734",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Russia",
+    "countries": [],
+    "lat": 60.0,
+    "lon": 100.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "SPANISH",
+    "actor2": "ROMANIA",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325397466",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.mirror.co.uk",
+   "title": "Einsatz von Luftwaffen: SPANISH → ROMANIA",
+   "lang": "de",
+   "url": "https://www.mirror.co.uk/news/world-news/romania-russia-ukraine-nato-spain-37712734",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "195",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Isaccea, Romania (general), Romania",
+    "countries": [],
+    "lat": 45.2667,
+    "lon": 28.4667
+   },
+   "metrics": {
+    "cameo_code": "195",
+    "cameo_category": "Einsatz von Luftwaffen",
+    "actor1": "SPANISH",
+    "actor2": "ROMANIA",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325397467",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.mirror.co.uk",
+   "title": "Einsatz von Luftwaffen: SPANISH → ROMANIA",
+   "lang": "de",
+   "url": "https://www.mirror.co.uk/news/world-news/romania-russia-ukraine-nato-spain-37712734",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "195",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Spain",
+    "countries": [],
+    "lat": 40.0,
+    "lon": -4.0
+   },
+   "metrics": {
+    "cameo_code": "195",
+    "cameo_category": "Einsatz von Luftwaffen",
+    "actor1": "SPANISH",
+    "actor2": "ROMANIA",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325397469",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.mirror.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: SPAIN → ROMANIA",
+   "lang": "de",
+   "url": "https://www.mirror.co.uk/news/world-news/romania-russia-ukraine-nato-spain-37712734",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Russia",
+    "countries": [],
+    "lat": 60.0,
+    "lon": 100.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "SPAIN",
+    "actor2": "ROMANIA",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325397470",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.mirror.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: SPANISH → ROMANIA",
+   "lang": "de",
+   "url": "https://www.mirror.co.uk/news/world-news/romania-russia-ukraine-nato-spain-37712734",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Russia",
+    "countries": [],
+    "lat": 60.0,
+    "lon": 100.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "SPANISH",
+    "actor2": "ROMANIA",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325397471",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.mirror.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: SPANISH → ROMANIA",
+   "lang": "de",
+   "url": "https://www.mirror.co.uk/news/world-news/romania-russia-ukraine-nato-spain-37712734",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Isaccea, Romania (general), Romania",
+    "countries": [],
+    "lat": 45.2667,
+    "lon": 28.4667
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "SPANISH",
+    "actor2": "ROMANIA",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325397472",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.mirror.co.uk",
+   "title": "Einsatz von Luftwaffen: SPANISH → ROMANIA",
+   "lang": "de",
+   "url": "https://www.mirror.co.uk/news/world-news/romania-russia-ukraine-nato-spain-37712734",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "195",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Isaccea, Romania (general), Romania",
+    "countries": [],
+    "lat": 45.2667,
+    "lon": 28.4667
+   },
+   "metrics": {
+    "cameo_code": "195",
+    "cameo_category": "Einsatz von Luftwaffen",
+    "actor1": "SPANISH",
+    "actor2": "ROMANIA",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325397473",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.mirror.co.uk",
+   "title": "Einsatz von Luftwaffen: SPANISH → ROMANIA",
+   "lang": "de",
+   "url": "https://www.mirror.co.uk/news/world-news/romania-russia-ukraine-nato-spain-37712734",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "195",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Spain",
+    "countries": [],
+    "lat": 40.0,
+    "lon": -4.0
+   },
+   "metrics": {
+    "cameo_code": "195",
+    "cameo_category": "Einsatz von Luftwaffen",
+    "actor1": "SPANISH",
+    "actor2": "ROMANIA",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325397484",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aol.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: FRANCE → CABINET",
+   "lang": "de",
+   "url": "https://www.aol.co.uk/articles/angela-rayner-draws-blood-now-072900000.html",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Red Ange, Lorraine, France",
+    "countries": [],
+    "lat": 49.4909,
+    "lon": 5.9251
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "FRANCE",
+    "actor2": "CABINET",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325397485",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aol.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: FRANCE → CABINET",
+   "lang": "de",
+   "url": "https://www.aol.co.uk/articles/angela-rayner-draws-blood-now-072900000.html",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Burnham, Somerset, United Kingdom",
+    "countries": [],
+    "lat": 51.2417,
+    "lon": -2.9953
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "FRANCE",
+    "actor2": "CABINET",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325397493",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.echo-news.co.uk",
+   "title": "Blockade oder Bewegungsbeschränkung: LONDON → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.echo-news.co.uk/news/26589350.crash-partially-blocks-busy-a13-london-road-essex/",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "191",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "191",
+    "cameo_category": "Blockade oder Bewegungsbeschränkung",
+    "actor1": "LONDON",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325397500",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.birminghammail.co.uk",
+   "title": "Militärische Drohung: BIRMINGHAM → SCHOOL",
+   "lang": "de",
+   "url": "https://www.birminghammail.co.uk/news/midlands-news/scary-birmingham-stalker-claimed-mums-34667341",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "138",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "138",
+    "cameo_category": "Militärische Drohung",
+    "actor1": "BIRMINGHAM",
+    "actor2": "SCHOOL",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325397590",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aol.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: CABINET → FRANCE",
+   "lang": "de",
+   "url": "https://www.aol.co.uk/articles/angela-rayner-draws-blood-now-072900000.html",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Red Ange, Lorraine, France",
+    "countries": [],
+    "lat": 49.4909,
+    "lon": 5.9251
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "CABINET",
+    "actor2": "FRANCE",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325397673",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.orissapost.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: BHUBANESWAR → GOVERNMENT",
+   "lang": "de",
+   "url": "https://www.orissapost.com/odisha-vigilance-launches-raids-on-properties-of-two-govt-officers/",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "BHUBANESWAR",
+    "actor2": "GOVERNMENT",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325397726",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.sconeadvocate.com.au",
+   "title": "Einsatz von Luftwaffen: ISRAELI → GAZA",
+   "lang": "de",
+   "url": "https://www.sconeadvocate.com.au/story/9359075/israeli-gaza-strip-airstrike-kills-senior-hamas-figure/",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "195",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Gaza, Israel (general), Israel",
+    "countries": [],
+    "lat": 31.4167,
+    "lon": 34.3333
+   },
+   "metrics": {
+    "cameo_code": "195",
+    "cameo_category": "Einsatz von Luftwaffen",
+    "actor1": "ISRAELI",
+    "actor2": "GAZA",
+    "mentions": 8,
+    "sources": 1,
+    "articles": 8,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325397727",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "bdnews24.com",
+   "title": "Einsatz von Luftwaffen: ISRAELI → GAZA",
+   "lang": "de",
+   "url": "https://bdnews24.com/world/middle-east/8zeqad7i1j",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "195",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Gaza, Israel (general), Israel",
+    "countries": [],
+    "lat": 31.4167,
+    "lon": 34.3333
+   },
+   "metrics": {
+    "cameo_code": "195",
+    "cameo_category": "Einsatz von Luftwaffen",
+    "actor1": "ISRAELI",
+    "actor2": "GAZA",
+    "mentions": 8,
+    "sources": 1,
+    "articles": 8,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325397728",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.sconeadvocate.com.au",
+   "title": "Einsatz konventioneller militärischer Gewalt: ISRAEL → HAMAS",
+   "lang": "de",
+   "url": "https://www.sconeadvocate.com.au/story/9359075/israeli-gaza-strip-airstrike-kills-senior-hamas-figure/",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Gaza, Israel (general), Israel",
+    "countries": [],
+    "lat": 31.4167,
+    "lon": 34.3333
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "ISRAEL",
+    "actor2": "HAMAS",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325397729",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "bdnews24.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: ISRAEL → HAMAS",
+   "lang": "de",
+   "url": "https://bdnews24.com/world/middle-east/8zeqad7i1j",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Gaza, Israel (general), Israel",
+    "countries": [],
+    "lat": 31.4167,
+    "lon": 34.3333
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "ISRAEL",
+    "actor2": "HAMAS",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325397939",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.mirror.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: RUSSIAN → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.mirror.co.uk/news/world-news/romania-russia-ukraine-nato-spain-37712734",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Kyiv, Kyyiv, Misto, Ukraine",
+    "countries": [],
+    "lat": 50.4333,
+    "lon": 30.5167
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "RUSSIAN",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 8,
+    "sources": 1,
+    "articles": 8,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325397951",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.mirror.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: RUSSIA → UKRAINE",
+   "lang": "de",
+   "url": "https://www.mirror.co.uk/news/world-news/romania-russia-ukraine-nato-spain-37712734",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Spain",
+    "countries": [],
+    "lat": 40.0,
+    "lon": -4.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "RUSSIA",
+    "actor2": "UKRAINE",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325397997",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "news.az",
+   "title": "Militärische Mobilisierung oder Verstärkung: UKRAINIAN → RUSSIA",
+   "lang": "de",
+   "url": "https://news.az/news/ukraine-s-zelenskyy-claims-north-korea-prepares-10-000-troop-deployment-to-russia",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "154",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Kursk, Kurskaya Oblast', Russia",
+    "countries": [],
+    "lat": 51.7373,
+    "lon": 36.1873
+   },
+   "metrics": {
+    "cameo_code": "154",
+    "cameo_category": "Militärische Mobilisierung oder Verstärkung",
+    "actor1": "UKRAINIAN",
+    "actor2": "RUSSIA",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325398102",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.manchestereveningnews.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: THE US → IRAN",
+   "lang": "de",
+   "url": "https://www.manchestereveningnews.co.uk/news/uk-news/foreign-actor-behind-raf-fairford-34686691",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Gloucestershire, Gloucestershire, United Kingdom",
+    "countries": [],
+    "lat": 51.8333,
+    "lon": -2.1667
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "THE US",
+    "actor2": "IRAN",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325398103",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.manchestereveningnews.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: THE US → IRAN",
+   "lang": "de",
+   "url": "https://www.manchestereveningnews.co.uk/news/uk-news/foreign-actor-behind-raf-fairford-34686691",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Tehran, Tehran, Iran",
+    "countries": [],
+    "lat": 35.75,
+    "lon": 51.5148
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "THE US",
+    "actor2": "IRAN",
+    "mentions": 8,
+    "sources": 1,
+    "articles": 8,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325400612",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.winnipegfreepress.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: VANCOUVER → CANADA",
+   "lang": "de",
+   "url": "https://www.winnipegfreepress.com/canada/2026/09/29/b-c-court-to-rule-on-constitutional-challenge-of-activists-trafficking-convictions",
+   "occurred_at": "2025-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Vancouver, British Columbia, Canada",
+    "countries": [],
+    "lat": 49.25,
+    "lon": -123.133
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "VANCOUVER",
+    "actor2": "CANADA",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325400614",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.winnipegfreepress.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: VANCOUVER → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.winnipegfreepress.com/canada/2026/09/29/b-c-court-to-rule-on-constitutional-challenge-of-activists-trafficking-convictions",
+   "occurred_at": "2025-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Vancouver, British Columbia, Canada",
+    "countries": [],
+    "lat": 49.25,
+    "lon": -123.133
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "VANCOUVER",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325400629",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "aninews.in",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → BANK",
+   "lang": "de",
+   "url": "https://aninews.in/news/national/general-news/pune-fire-breaks-out-at-bank-of-india-office-on-laxmi-road-brought-under-control20260929130135/",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Delhi, Delhi, India",
+    "countries": [],
+    "lat": 28.6667,
+    "lon": 77.2167
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "BANK",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325400660",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.gulte.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → MADHYA PRADESH",
+   "lang": "de",
+   "url": "https://www.gulte.com/political-news/434172/how-ai-was-misused-to-create-communal-clashes",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "MADHYA PRADESH",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325400680",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "nigerianobservernews.com",
+   "title": "Militärische Mobilisierung oder Verstärkung: Akteur 1 nicht erkannt → LAGOS",
+   "lang": "de",
+   "url": "https://nigerianobservernews.com/2026/09/stakeholders-express-concerns-over-self-service-fuel-stations/",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "154",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Abuja, Abuja Federal Capital Territory, Nigeria",
+    "countries": [],
+    "lat": 9.0833,
+    "lon": 7.5333
+   },
+   "metrics": {
+    "cameo_code": "154",
+    "cameo_category": "Militärische Mobilisierung oder Verstärkung",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "LAGOS",
+    "mentions": 8,
+    "sources": 1,
+    "articles": 8,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325400696",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.express.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → UNITED STATES",
+   "lang": "de",
+   "url": "https://www.express.co.uk/celebrity-news/2252668/saved-by-the-bell-star-dies",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Philadelphia, Pennsylvania, United States",
+    "countries": [],
+    "lat": 39.9523,
+    "lon": -75.1638
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "UNITED STATES",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325400717",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.begadistrictnews.com.au",
+   "title": "Einsatz konventioneller militärischer Gewalt: AUSTRALIA → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.begadistrictnews.com.au/story/9359464/adam-britt-tiffany-spence-killer-admits-form-of-torture-in-court/",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Canberra, Australian Capital Territory, Australia",
+    "countries": [],
+    "lat": -35.2833,
+    "lon": 149.217
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "AUSTRALIA",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325400718",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.oceanfm.ie",
+   "title": "Blockade oder Bewegungsbeschränkung: ADELAIDE → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.oceanfm.ie/news/investigation-continuing-into-alleged-assault-in-sligo-1469727",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "191",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "191",
+    "cameo_category": "Blockade oder Bewegungsbeschränkung",
+    "actor1": "ADELAIDE",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325400800",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.tribuneindia.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: CRIMINAL → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.tribuneindia.com/news/punjab/gangster-lawrence-bishnoi-created-religious-image-to-recruit-aides-fbi-sheds-light-on-his-crime-network/",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Sabarmati, Gujarat, India",
+    "countries": [],
+    "lat": 23.0833,
+    "lon": 72.6667
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "CRIMINAL",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325400875",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.thehindu.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: STUDENT → TELEVISION",
+   "lang": "de",
+   "url": "https://www.thehindu.com/news/national/west-bengal/why-is-srfti-on-the-boil-explained/article71523007.ece",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Kolkata, West Bengal, India",
+    "countries": [],
+    "lat": 22.5697,
+    "lon": 88.3697
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "STUDENT",
+    "actor2": "TELEVISION",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325400907",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "allafrica.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: ETHIOPIA → OROMO",
+   "lang": "de",
+   "url": "https://allafrica.com/stories/202609290034.html",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Tigray, Tigray, Ethiopia",
+    "countries": [],
+    "lat": 13.5,
+    "lon": 39.5
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "ETHIOPIA",
+    "actor2": "OROMO",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325400908",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "allafrica.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: ETHIOPIA → OROMO",
+   "lang": "de",
+   "url": "https://allafrica.com/stories/202609290034.html",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Tigray, Tigray, Ethiopia",
+    "countries": [],
+    "lat": 13.5,
+    "lon": 39.5
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "ETHIOPIA",
+    "actor2": "OROMO",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325400968",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.telegraphherald.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: FIRE DEPARTMENT → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.telegraphherald.com/news/tri-state/article_2f902eb5-c7df-4757-8cd1-9ce66b6a692e.html",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Hopkinton, Iowa, United States",
+    "countries": [],
+    "lat": 42.3439,
+    "lon": -91.2485
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "FIRE DEPARTMENT",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401018",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.gulte.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: AUTHORITIES → UNITED STATES",
+   "lang": "de",
+   "url": "https://www.gulte.com/overseas/434175/%e2%82%b99-crore-bounty-on-indian-criminal-in-usa-who-is-he",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "California, United States",
+    "countries": [],
+    "lat": 36.17,
+    "lon": -119.746
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "AUTHORITIES",
+    "actor2": "UNITED STATES",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401043",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "english.pravda.ru",
+   "title": "Einsatz konventioneller militärischer Gewalt: EUROPEAN UNION → BRUSSELS",
+   "lang": "de",
+   "url": "https://english.pravda.ru/news/world/169328-eu-ukraine-accession-legal-barriers/",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Berlin, Berlin, Germany",
+    "countries": [],
+    "lat": 52.5167,
+    "lon": 13.4
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "EUROPEAN UNION",
+    "actor2": "BRUSSELS",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401044",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "english.pravda.ru",
+   "title": "Einsatz konventioneller militärischer Gewalt: EUROPEAN UNION → BRUSSELS",
+   "lang": "de",
+   "url": "https://english.pravda.ru/news/world/169328-eu-ukraine-accession-legal-barriers/",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Berlin, Berlin, Germany",
+    "countries": [],
+    "lat": 52.5167,
+    "lon": 13.4
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "EUROPEAN UNION",
+    "actor2": "BRUSSELS",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401052",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.newsday.com",
+   "title": "Militärische Drohung: UNITED NATIONS → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.newsday.com/opinion/letters/energy-heating-prices-flight-safety-end-of-life-care-trumps-arch-fro2fo92",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "138",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "New York, United States",
+    "countries": [],
+    "lat": 42.1497,
+    "lon": -74.9384
+   },
+   "metrics": {
+    "cameo_code": "138",
+    "cameo_category": "Militärische Drohung",
+    "actor1": "UNITED NATIONS",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401055",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.express.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: NATO → RUSSIA",
+   "lang": "de",
+   "url": "https://www.express.co.uk/news/world/2252688/nato-scrambles-fighter-jets-russia-attack",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Isaccea, Romania (general), Romania",
+    "countries": [],
+    "lat": 45.2667,
+    "lon": 28.4667
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "NATO",
+    "actor2": "RUSSIA",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401056",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.express.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: NATO → RUSSIA",
+   "lang": "de",
+   "url": "https://www.express.co.uk/news/world/2252688/nato-scrambles-fighter-jets-russia-attack",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Spain",
+    "countries": [],
+    "lat": 40.0,
+    "lon": -4.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "NATO",
+    "actor2": "RUSSIA",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401057",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.express.co.uk",
+   "title": "Einsatz von Luftwaffen: NATO → RUSSIA",
+   "lang": "de",
+   "url": "https://www.express.co.uk/news/world/2252688/nato-scrambles-fighter-jets-russia-attack",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "195",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Russia",
+    "countries": [],
+    "lat": 60.0,
+    "lon": 100.0
+   },
+   "metrics": {
+    "cameo_code": "195",
+    "cameo_category": "Einsatz von Luftwaffen",
+    "actor1": "NATO",
+    "actor2": "RUSSIA",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401058",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.express.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: NATO → UKRAINE",
+   "lang": "de",
+   "url": "https://www.express.co.uk/news/world/2252688/nato-scrambles-fighter-jets-russia-attack",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Russia",
+    "countries": [],
+    "lat": 60.0,
+    "lon": 100.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "NATO",
+    "actor2": "UKRAINE",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401059",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.express.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: NATO → UKRAINE",
+   "lang": "de",
+   "url": "https://www.express.co.uk/news/world/2252688/nato-scrambles-fighter-jets-russia-attack",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Russia",
+    "countries": [],
+    "lat": 60.0,
+    "lon": 100.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "NATO",
+    "actor2": "UKRAINE",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401068",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.gulte.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: MADHYA PRADESH → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.gulte.com/political-news/434172/how-ai-was-misused-to-create-communal-clashes",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "MADHYA PRADESH",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401071",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "aninews.in",
+   "title": "Einsatz konventioneller militärischer Gewalt: PUNE → BANK",
+   "lang": "de",
+   "url": "https://aninews.in/news/national/general-news/pune-fire-breaks-out-at-bank-of-india-office-on-laxmi-road-brought-under-control20260929130135/",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Delhi, Delhi, India",
+    "countries": [],
+    "lat": 28.6667,
+    "lon": 77.2167
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "PUNE",
+    "actor2": "BANK",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401086",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.tribuneindia.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: CHANDIGARH → POLE",
+   "lang": "de",
+   "url": "https://www.tribuneindia.com/news/chandigarh/drunk-woman-in-thar-hits-bike-in-chandigarhs-dhanas-crashes-into-pole-while-trying-to-flee/",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "CHANDIGARH",
+    "actor2": "POLE",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401211",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.tribuneindia.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: PROSECUTOR → UNITED KINGDOM",
+   "lang": "de",
+   "url": "https://www.tribuneindia.com/news/punjab/gangster-lawrence-bishnoi-created-religious-image-to-recruit-aides-fbi-sheds-light-on-his-crime-network/",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Sabarmati, Gujarat, India",
+    "countries": [],
+    "lat": 23.0833,
+    "lon": 72.6667
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "PROSECUTOR",
+    "actor2": "UNITED KINGDOM",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401212",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.tribuneindia.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: PROSECUTOR → UNITED KINGDOM",
+   "lang": "de",
+   "url": "https://www.tribuneindia.com/news/punjab/gangster-lawrence-bishnoi-created-religious-image-to-recruit-aides-fbi-sheds-light-on-his-crime-network/",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "United Kingdom",
+    "countries": [],
+    "lat": 54.0,
+    "lon": -4.0
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "PROSECUTOR",
+    "actor2": "UNITED KINGDOM",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401213",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.tribuneindia.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: PROSECUTOR → UNITED KINGDOM",
+   "lang": "de",
+   "url": "https://www.tribuneindia.com/news/punjab/gangster-lawrence-bishnoi-created-religious-image-to-recruit-aides-fbi-sheds-light-on-his-crime-network/",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "United Kingdom",
+    "countries": [],
+    "lat": 54.0,
+    "lon": -4.0
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "PROSECUTOR",
+    "actor2": "UNITED KINGDOM",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401214",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.tribuneindia.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: PROSECUTOR → UNITED KINGDOM",
+   "lang": "de",
+   "url": "https://www.tribuneindia.com/news/punjab/gangster-lawrence-bishnoi-created-religious-image-to-recruit-aides-fbi-sheds-light-on-his-crime-network/",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "United States",
+    "countries": [],
+    "lat": 39.8282,
+    "lon": -98.5795
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "PROSECUTOR",
+    "actor2": "UNITED KINGDOM",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401260",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.thehindu.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: TELEVISION → STUDENT",
+   "lang": "de",
+   "url": "https://www.thehindu.com/news/national/west-bengal/why-is-srfti-on-the-boil-explained/article71523007.ece",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Jadavpur, West Bengal, India",
+    "countries": [],
+    "lat": 22.4833,
+    "lon": 88.3833
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "TELEVISION",
+    "actor2": "STUDENT",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401271",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "en.interfax.com.ua",
+   "title": "Kampf mit Hand- oder leichten Waffen: DEFENSE FORCE → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://en.interfax.com.ua/news/general/1211464.html",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Ukraine",
+    "countries": [],
+    "lat": 49.0,
+    "lon": 32.0
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "DEFENSE FORCE",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 7,
+    "sources": 1,
+    "articles": 7,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401277",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "en.interfax.com.ua",
+   "title": "Kampf mit Hand- oder leichten Waffen: DEFENSE FORCE → UKRAINE",
+   "lang": "de",
+   "url": "https://en.interfax.com.ua/news/general/1211464.html",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Ukraine",
+    "countries": [],
+    "lat": 49.0,
+    "lon": 32.0
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "DEFENSE FORCE",
+    "actor2": "UKRAINE",
+    "mentions": 3,
+    "sources": 1,
+    "articles": 3,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401278",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.sentinelassam.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: MYANMAR → ASSAM",
+   "lang": "de",
+   "url": "https://www.sentinelassam.com/breakingnews/assam-rifles-personnel-killed-in-attack-along-india-myanmar-border-in-arunachal",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Guwahati, Assam, India",
+    "countries": [],
+    "lat": 26.1833,
+    "lon": 91.7333
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "MYANMAR",
+    "actor2": "ASSAM",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401358",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "en.interfax.com.ua",
+   "title": "Kampf mit Artillerie oder Panzern: RUSSIAN → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://en.interfax.com.ua/news/economic/1211449.html",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "194",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Kakhovka, Amurskaya Oblast', Russia",
+    "countries": [],
+    "lat": 50.7932,
+    "lon": 129.218
+   },
+   "metrics": {
+    "cameo_code": "194",
+    "cameo_category": "Kampf mit Artillerie oder Panzern",
+    "actor1": "RUSSIAN",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 3,
+    "sources": 1,
+    "articles": 3,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401362",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "english.pravda.ru",
+   "title": "Besetzung: RUSSIA → BHARAT",
+   "lang": "de",
+   "url": "https://english.pravda.ru/news/business/169336-russia-india-innoprom-industrial-production/",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "192",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Moscow, Moskva, Russia",
+    "countries": [],
+    "lat": 55.7522,
+    "lon": 37.6156
+   },
+   "metrics": {
+    "cameo_code": "192",
+    "cameo_category": "Besetzung",
+    "actor1": "RUSSIA",
+    "actor2": "BHARAT",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401376",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.bankingnews.gr",
+   "title": "Einsatz konventioneller militärischer Gewalt: RUSSIAN → RUSSIA",
+   "lang": "de",
+   "url": "https://www.bankingnews.gr/diethni/articles/902112/hypersonic-shock-devastates-kyiv-national-academy-of-sciences-and-ukrtelecom-leveled-with-6-zircon-missiles-damage-reported-near-parliament",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Ukrayinska, Zaporiz'ka Oblast', Ukraine",
+    "countries": [],
+    "lat": 47.0338,
+    "lon": 35.0073
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "RUSSIAN",
+    "actor2": "RUSSIA",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401385",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.bankingnews.gr",
+   "title": "Einsatz konventioneller militärischer Gewalt: RUSSIAN → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.bankingnews.gr/diethni/articles/902112/hypersonic-shock-devastates-kyiv-national-academy-of-sciences-and-ukrtelecom-leveled-with-6-zircon-missiles-damage-reported-near-parliament",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Ukrayinska, Zaporiz'ka Oblast', Ukraine",
+    "countries": [],
+    "lat": 47.0338,
+    "lon": 35.0073
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "RUSSIAN",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401420",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.tribuneindia.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: GUNMEN → PROSECUTOR",
+   "lang": "de",
+   "url": "https://www.tribuneindia.com/news/punjab/gangster-lawrence-bishnoi-created-religious-image-to-recruit-aides-fbi-sheds-light-on-his-crime-network/",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "United States",
+    "countries": [],
+    "lat": 39.8282,
+    "lon": -98.5795
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "GUNMEN",
+    "actor2": "PROSECUTOR",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401421",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.ksl.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: GUNMAN → UNITED STATES",
+   "lang": "de",
+   "url": "https://www.ksl.com:443/article/51629787/hope-rises-from-tragedy-ground-broken-for-new-church-meetinghouse-in-grand-blanc",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Grand Blanc, Michigan, United States",
+    "countries": [],
+    "lat": 42.9275,
+    "lon": -83.63
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "GUNMAN",
+    "actor2": "UNITED STATES",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401441",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "en.interfax.com.ua",
+   "title": "Kampf mit Hand- oder leichten Waffen: UKRAINIAN → UKRAINIAN",
+   "lang": "de",
+   "url": "https://en.interfax.com.ua/news/general/1211464.html",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Ukraine",
+    "countries": [],
+    "lat": 49.0,
+    "lon": 32.0
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "UKRAINIAN",
+    "actor2": "UKRAINIAN",
+    "mentions": 3,
+    "sources": 1,
+    "articles": 3,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401470",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.express.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: UNITED STATES → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.express.co.uk/celebrity-news/2252668/saved-by-the-bell-star-dies",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Philadelphia, Pennsylvania, United States",
+    "countries": [],
+    "lat": 39.9523,
+    "lon": -75.1638
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "UNITED STATES",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401515",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.telegraphherald.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: UNITED STATES → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.telegraphherald.com/news/tri-state/article_2f902eb5-c7df-4757-8cd1-9ce66b6a692e.html",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Hopkinton, Iowa, United States",
+    "countries": [],
+    "lat": 42.3439,
+    "lon": -91.2485
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "UNITED STATES",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 8,
+    "sources": 1,
+    "articles": 8,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
+   }
+  },
+  {
+   "id": "gdelt:1325401523",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.juancole.com",
+   "title": "Besetzung: YEMEN → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.juancole.com/2026/09/waterway-research-countries.html",
+   "occurred_at": "2026-09-29T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-09-29T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "192",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Bab Al-Mandab, , Djibouti",
+    "countries": [],
+    "lat": 12.5833,
+    "lon": 43.35
+   },
+   "metrics": {
+    "cameo_code": "192",
+    "cameo_category": "Besetzung",
+    "actor1": "YEMEN",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-09-29T08:27:10Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
    }
   },
   {
@@ -608421,7 +612117,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-09-29T07:29:00Z",
+   "observed_at": "2026-09-29T08:25:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -608442,8 +612138,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
-    "last_changed_at": "2026-09-29T07:30:26Z"
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
    }
   },
   {
@@ -608458,7 +612154,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-09-29T07:29:00Z",
+   "observed_at": "2026-09-29T08:25:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -608479,8 +612175,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
-    "last_changed_at": "2026-09-29T07:30:26Z"
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
    }
   },
   {
@@ -608495,7 +612191,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-09-29T07:29:00Z",
+   "observed_at": "2026-09-29T08:25:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -608516,8 +612212,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
-    "last_changed_at": "2026-09-29T07:30:26Z"
+    "last_seen_at": "2026-09-29T08:27:10Z",
+    "last_changed_at": "2026-09-29T08:27:10Z"
    }
   },
   {
@@ -688396,7 +692092,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T14:28:04Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T14:28:04Z"
    }
   },
@@ -688436,7 +692132,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T14:28:04Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T14:28:04Z"
    }
   },
@@ -688480,7 +692176,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T14:28:04Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T14:28:04Z"
    }
   },
@@ -688520,7 +692216,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T15:25:09Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T15:25:09Z"
    }
   },
@@ -688560,7 +692256,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T20:48:23Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T20:48:23Z"
    }
   },
@@ -688600,7 +692296,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T20:48:23Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T20:48:23Z"
    }
   },
@@ -688640,7 +692336,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T20:48:23Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-28T20:48:23Z"
    }
   },
@@ -688680,7 +692376,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T20:48:23Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T01:16:09Z"
    }
   },
@@ -688720,7 +692416,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-28T20:48:23Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -688760,7 +692456,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T01:16:09Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T01:16:09Z"
    }
   },
@@ -688800,7 +692496,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -688840,7 +692536,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
@@ -688880,7 +692576,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-29T07:30:26Z",
-    "last_seen_at": "2026-09-29T07:30:26Z",
+    "last_seen_at": "2026-09-29T08:27:10Z",
     "last_changed_at": "2026-09-29T07:30:26Z"
    }
   },
