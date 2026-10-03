@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-03T19:25:32Z",
+ "generated_at": "2026-10-03T19:51:34Z",
  "sources": [
   {
    "source": "gdacs",
@@ -51,7 +51,7 @@
   {
    "source": "gdelt",
    "adapter_version": "1.0.0",
-   "fetch_health": "degraded",
+   "fetch_health": "down",
    "data_state": "fresh",
    "last_attempt_at": "2026-10-03T19:25:32Z",
    "last_success_at": "2026-10-03T16:43:43Z",
