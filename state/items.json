@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-17T14:25:03Z",
+ "generated_at": "2026-10-17T15:31:02Z",
  "items": [
   {
    "id": "gdacs-drought:1015915",
@@ -748,7 +748,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T14:06:23Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-09-21T14:06:23Z"
    }
   },
@@ -793,7 +793,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-09-21T09:15:18Z"
    }
   },
@@ -2098,7 +2098,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-05T07:40:52Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-15T12:07:09Z"
    }
   },
@@ -2998,7 +2998,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-14T13:42:05Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-16T11:19:27Z"
    }
   },
@@ -3796,7 +3796,7 @@
    },
    "ingest": {
     "first_seen_at": "2026-10-07T20:35:59Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-16T22:49:35Z"
    }
   },
@@ -3852,11 +3852,11 @@
    "original_publisher": null,
    "title": "Tropical Cyclone TRUDY-26",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=16&eventtype=TC",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=17&eventtype=TC",
    "occurred_at": "2026-10-13T15:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-17T11:24:00Z",
+   "source_updated_at": "2026-10-17T14:54:50Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3869,12 +3869,12 @@
     "precision": "region",
     "name": "Tropical Cyclone TRUDY-26",
     "countries": [],
-    "lat": 16.0,
-    "lon": -103.4
+    "lat": 16.6,
+    "lon": -103.9
    },
    "metrics": {
     "hazard_type": "tropical_cyclone",
-    "episode_id": 16,
+    "episode_id": 17,
     "severity": 194.4432,
     "severity_unit": "km/h",
     "alert_score": 1
@@ -3893,8 +3893,8 @@
    },
    "ingest": {
     "first_seen_at": "2026-10-13T19:15:04Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
-    "last_changed_at": "2026-10-17T11:10:36Z"
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
    }
   },
   {
@@ -3906,11 +3906,11 @@
    "original_publisher": null,
    "title": "Tropical Cyclone CHAMPI-26",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=12&eventtype=TC",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=13&eventtype=TC",
    "occurred_at": "2026-10-14T12:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-17T08:02:57Z",
+   "source_updated_at": "2026-10-17T15:01:17Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3925,12 +3925,12 @@
     "countries": [
      "GU"
     ],
-    "lat": 12.5,
-    "lon": 147.3
+    "lat": 12.6,
+    "lon": 146.1
    },
    "metrics": {
     "hazard_type": "tropical_cyclone",
-    "episode_id": 12,
+    "episode_id": 13,
     "severity": 259.2576,
     "severity_unit": "km/h",
     "alert_score": 3
@@ -3949,8 +3949,8 @@
    },
    "ingest": {
     "first_seen_at": "2026-10-14T18:36:34Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
-    "last_changed_at": "2026-10-17T11:10:36Z"
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
    }
   },
   {
@@ -4005,7 +4005,7 @@
    },
    "ingest": {
     "first_seen_at": "2026-10-16T11:19:27Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -26992,7 +26992,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-08T00:58:36Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-16T16:36:06Z"
    }
   },
@@ -27082,7 +27082,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-08T00:58:36Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -27843,7 +27843,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-08T22:27:31Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T01:17:25Z"
    }
   },
@@ -28473,7 +28473,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-09T09:00:16Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -28968,7 +28968,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-09T16:10:04Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T01:17:25Z"
    }
   },
@@ -29013,7 +29013,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-09T16:10:04Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -29148,7 +29148,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-09T16:10:04Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -29328,7 +29328,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-09T20:52:20Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-16T19:56:52Z"
    }
   },
@@ -29553,7 +29553,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-09T20:52:20Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-16T19:56:52Z"
    }
   },
@@ -30046,7 +30046,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-10T07:04:00Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T01:17:25Z"
    }
   },
@@ -30541,7 +30541,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-10T13:39:09Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -30586,7 +30586,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-10T13:39:09Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T01:17:25Z"
    }
   },
@@ -30677,7 +30677,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-10T13:39:09Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -30813,7 +30813,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-10T13:39:09Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T01:17:25Z"
    }
   },
@@ -31218,7 +31218,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-11T01:51:14Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-16T19:56:52Z"
    }
   },
@@ -31263,7 +31263,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-11T01:51:14Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-16T19:56:52Z"
    }
   },
@@ -31353,7 +31353,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-11T01:51:14Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-16T19:56:52Z"
    }
   },
@@ -31398,7 +31398,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-11T01:51:14Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-16T11:19:27Z"
    }
   },
@@ -31443,7 +31443,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-11T01:51:14Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -31668,7 +31668,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-11T08:47:13Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -31850,7 +31850,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-11T20:14:34Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -32077,7 +32077,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-11T15:38:16Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T01:17:25Z"
    }
   },
@@ -32212,7 +32212,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-11T15:38:16Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -32257,7 +32257,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-11T15:38:16Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -32525,7 +32525,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-11T23:40:18Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -32660,7 +32660,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-13T23:16:58Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T01:17:25Z"
    }
   },
@@ -32976,7 +32976,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-12T15:18:40Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-16T16:36:06Z"
    }
   },
@@ -33156,7 +33156,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-12T15:18:40Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-16T11:19:27Z"
    }
   },
@@ -33246,7 +33246,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-12T15:18:40Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -33291,7 +33291,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-13T23:16:58Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -33471,7 +33471,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-12T22:57:04Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -33786,7 +33786,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-12T22:57:04Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-16T19:56:52Z"
    }
   },
@@ -33831,7 +33831,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-12T22:57:04Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-16T16:36:06Z"
    }
   },
@@ -34371,7 +34371,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-13T23:16:58Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -34506,7 +34506,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-13T23:16:58Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -35001,7 +35001,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-14T18:36:34Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -35091,7 +35091,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-14T18:36:34Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -35271,7 +35271,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-14T22:17:20Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -35451,7 +35451,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-15T00:52:04Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -35496,7 +35496,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-15T00:52:04Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -35811,7 +35811,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-15T00:52:04Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -35856,7 +35856,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-15T00:52:04Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -35991,7 +35991,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-15T12:07:09Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -36261,7 +36261,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-15T17:21:07Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -36306,7 +36306,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-15T17:21:07Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -36351,7 +36351,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-15T17:21:07Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -36441,7 +36441,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-15T20:32:19Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -36576,7 +36576,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-15T20:32:19Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -36709,7 +36709,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-15T20:32:19Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -36799,7 +36799,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-15T23:17:31Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -36934,7 +36934,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-16T05:49:53Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -36979,7 +36979,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-16T11:19:27Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -37069,7 +37069,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-16T16:36:06Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -37159,7 +37159,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-16T16:36:06Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -37294,7 +37294,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-16T22:49:35Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -37339,7 +37339,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-16T22:49:35Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -37429,7 +37429,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T06:11:34Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -37474,7 +37474,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T11:10:36Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -37519,7 +37519,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -37564,7 +37564,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -37609,7 +37609,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T06:11:34Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -37654,7 +37654,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T06:11:34Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -37699,7 +37699,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T11:10:36Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -37744,7 +37744,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T11:10:36Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -37789,7 +37789,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T11:10:36Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -37834,7 +37834,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T11:10:36Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -37879,7 +37879,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -37924,7 +37924,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -497698,7 +497698,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -497740,7 +497740,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -497782,7 +497782,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -497824,7 +497824,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -497866,7 +497866,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -497908,7 +497908,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -497950,7 +497950,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -497992,7 +497992,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -498034,7 +498034,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -498076,7 +498076,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -498118,7 +498118,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -498160,7 +498160,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -498202,7 +498202,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -498244,7 +498244,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -498286,7 +498286,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -498328,7 +498328,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -498370,7 +498370,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -498412,7 +498412,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -498454,7 +498454,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -498496,7 +498496,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -498538,7 +498538,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -498580,7 +498580,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -498622,7 +498622,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -498664,7 +498664,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -498706,7 +498706,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -498748,7 +498748,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -498790,7 +498790,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -498832,7 +498832,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -498874,7 +498874,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -498916,7 +498916,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -498958,7 +498958,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -499000,7 +499000,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -499042,7 +499042,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -499084,7 +499084,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -499126,7 +499126,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -499168,7 +499168,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -499210,7 +499210,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -499252,7 +499252,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -499294,7 +499294,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -499336,7 +499336,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -499378,7 +499378,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -499420,7 +499420,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -499462,7 +499462,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -499504,7 +499504,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -499546,7 +499546,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -499588,7 +499588,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -499630,7 +499630,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -499672,7 +499672,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -499714,7 +499714,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -499756,7 +499756,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -499798,7 +499798,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -499840,7 +499840,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -499882,7 +499882,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -499924,7 +499924,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -499966,7 +499966,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -500008,7 +500008,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -500050,7 +500050,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -500092,7 +500092,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -500134,7 +500134,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -500176,7 +500176,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -500218,7 +500218,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -500260,7 +500260,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -500302,7 +500302,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -500344,7 +500344,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -500386,7 +500386,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -500428,7 +500428,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -500470,7 +500470,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -500512,7 +500512,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -500554,7 +500554,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -500596,7 +500596,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -500638,7 +500638,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -500680,7 +500680,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -500722,7 +500722,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -500764,7 +500764,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -500806,7 +500806,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -500848,7 +500848,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -500890,7 +500890,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -500932,7 +500932,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -500974,7 +500974,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   },
@@ -501016,8 +501016,4964 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461025",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "thehardtackle.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → MANCHESTER",
+   "lang": "de",
+   "url": "https://thehardtackle.com/transfer-news/2026/10/17/manchester-united-face-aston-villa-tottenham-battle-in-bazoumana-toure-race/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Cote D'ivoire",
+    "countries": [],
+    "lat": 8.0,
+    "lon": -5.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "MANCHESTER",
+    "mentions": 9,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461142",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "thehardtackle.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: COTE D'IVOIRE → MANCHESTER",
+   "lang": "de",
+   "url": "https://thehardtackle.com/transfer-news/2026/10/17/manchester-united-face-aston-villa-tottenham-battle-in-bazoumana-toure-race/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Cote D'ivoire",
+    "countries": [],
+    "lat": 8.0,
+    "lon": -5.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "COTE D'IVOIRE",
+    "actor2": "MANCHESTER",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461164",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "dailypost.ng",
+   "title": "Kampf mit Hand- oder leichten Waffen: ASSAILANT → POLICE",
+   "lang": "de",
+   "url": "https://dailypost.ng/2026/10/17/bandits-kill-three-policemen-in-zamfara-night-attack/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "ASSAILANT",
+    "actor2": "POLICE",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461171",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "en.interfax.com.ua",
+   "title": "Kampf mit Artillerie oder Panzern: VILLAGE → RUSSIA",
+   "lang": "de",
+   "url": "https://en.interfax.com.ua/news/general/1221920.html",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "194",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Bryansk, Bryanskaya Oblast', Russia",
+    "countries": [],
+    "lat": 53.2521,
+    "lon": 34.3717
+   },
+   "metrics": {
+    "cameo_code": "194",
+    "cameo_category": "Kampf mit Artillerie oder Panzern",
+    "actor1": "VILLAGE",
+    "actor2": "RUSSIA",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461172",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "dominicanrepublicpost.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: VILLAGE → SETTLER",
+   "lang": "de",
+   "url": "https://dominicanrepublicpost.com/child-four-women-among-palestinians-injured-in-west-bank-pogroms/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Ramallah, West Bank (general), West Bank",
+    "countries": [],
+    "lat": 31.9026,
+    "lon": 35.1955
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "VILLAGE",
+    "actor2": "SETTLER",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461173",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "dominicanrepublicpost.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: VILLAGE → SETTLER",
+   "lang": "de",
+   "url": "https://dominicanrepublicpost.com/child-four-women-among-palestinians-injured-in-west-bank-pogroms/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Ramallah, West Bank (general), West Bank",
+    "countries": [],
+    "lat": 31.9026,
+    "lon": 35.1955
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "VILLAGE",
+    "actor2": "SETTLER",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461191",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.siasat.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: STUDENTS AND TEACHER → ADMINISTRATION",
+   "lang": "de",
+   "url": "https://www.siasat.com/jamia-rusticates-1-student-suspends-2-amid-union-poll-protest-3560093/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Delhi, Delhi, India",
+    "countries": [],
+    "lat": 28.6667,
+    "lon": 77.2167
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "STUDENTS AND TEACHER",
+    "actor2": "ADMINISTRATION",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461197",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.mirror.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: SCHOOL → UNITED STATES",
+   "lang": "de",
+   "url": "https://www.mirror.co.uk/news/us-news/oregon-shooting-school-meghan-lambert-37782997",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "New York, United States",
+    "countries": [],
+    "lat": 42.1497,
+    "lon": -74.9384
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "SCHOOL",
+    "actor2": "UNITED STATES",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461260",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "thehardtackle.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: MANCHESTER → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://thehardtackle.com/transfer-news/2026/10/17/manchester-united-face-aston-villa-tottenham-battle-in-bazoumana-toure-race/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Germany",
+    "countries": [],
+    "lat": 51.5,
+    "lon": 10.5
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "MANCHESTER",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461261",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "thehardtackle.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: MANCHESTER → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://thehardtackle.com/transfer-news/2026/10/17/manchester-united-face-aston-villa-tottenham-battle-in-bazoumana-toure-race/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Cote D'ivoire",
+    "countries": [],
+    "lat": 8.0,
+    "lon": -5.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "MANCHESTER",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 3,
+    "sources": 1,
+    "articles": 3,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461263",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "thehardtackle.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: MANCHESTER → COTE D'IVOIRE",
+   "lang": "de",
+   "url": "https://thehardtackle.com/transfer-news/2026/10/17/manchester-united-face-aston-villa-tottenham-battle-in-bazoumana-toure-race/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Cote D'ivoire",
+    "countries": [],
+    "lat": 8.0,
+    "lon": -5.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "MANCHESTER",
+    "actor2": "COTE D'IVOIRE",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461271",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.mirror.co.uk",
+   "title": "Militärische Drohung: BRITISH → UNITED KINGDOM",
+   "lang": "de",
+   "url": "https://www.mirror.co.uk/news/uk-news/british-army-war-service-conscription-37782998",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "138",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "North Yorkshire, North Yorkshire, United Kingdom",
+    "countries": [],
+    "lat": 54.1667,
+    "lon": -1.5
+   },
+   "metrics": {
+    "cameo_code": "138",
+    "cameo_category": "Militärische Drohung",
+    "actor1": "BRITISH",
+    "actor2": "UNITED KINGDOM",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461292",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.mirror.co.uk",
+   "title": "Militärische Drohung: BRITISH → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.mirror.co.uk/news/uk-news/british-army-war-service-conscription-37782998",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "138",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "North Yorkshire, North Yorkshire, United Kingdom",
+    "countries": [],
+    "lat": 54.1667,
+    "lon": -1.5
+   },
+   "metrics": {
+    "cameo_code": "138",
+    "cameo_category": "Militärische Drohung",
+    "actor1": "BRITISH",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461318",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.prokerala.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: CHIEF MINISTER → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.prokerala.com/news/articles/a1825730.html",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Guwahati, Assam, India",
+    "countries": [],
+    "lat": 26.1833,
+    "lon": 91.7333
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "CHIEF MINISTER",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461319",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.salon.com",
+   "title": "Besetzung: PRESIDENT → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.salon.com/2026/10/17/a-blue-wave-could-take-out-susie-wiles/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "192",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Washington, District of Columbia, United States",
+    "countries": [],
+    "lat": 38.8951,
+    "lon": -77.0364
+   },
+   "metrics": {
+    "cameo_code": "192",
+    "cameo_category": "Besetzung",
+    "actor1": "PRESIDENT",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 3,
+    "sources": 1,
+    "articles": 3,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461334",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.siasat.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: ADMINISTRATION → STUDENTS AND TEACHER",
+   "lang": "de",
+   "url": "https://www.siasat.com/jamia-rusticates-1-student-suspends-2-amid-union-poll-protest-3560093/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Delhi, Delhi, India",
+    "countries": [],
+    "lat": 28.6667,
+    "lon": 77.2167
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "ADMINISTRATION",
+    "actor2": "STUDENTS AND TEACHER",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461411",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.prokerala.com",
+   "title": "Besetzung: ASSAM → MINIST OF HOME AFFAIRS",
+   "lang": "de",
+   "url": "https://www.prokerala.com/news/articles/a1825730.html",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "192",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Guwahati, Assam, India",
+    "countries": [],
+    "lat": 26.1833,
+    "lon": 91.7333
+   },
+   "metrics": {
+    "cameo_code": "192",
+    "cameo_category": "Besetzung",
+    "actor1": "ASSAM",
+    "actor2": "MINIST OF HOME AFFAIRS",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461455",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "dominicanrepublicpost.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: ISRAELI → RESIDENTS",
+   "lang": "de",
+   "url": "https://dominicanrepublicpost.com/child-four-women-among-palestinians-injured-in-west-bank-pogroms/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Hebron, Israel (general), Israel",
+    "countries": [],
+    "lat": 31.5333,
+    "lon": 35.1
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "ISRAELI",
+    "actor2": "RESIDENTS",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461460",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "dominicanrepublicpost.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: ISRAELI → PALESTINIAN",
+   "lang": "de",
+   "url": "https://dominicanrepublicpost.com/child-four-women-among-palestinians-injured-in-west-bank-pogroms/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Hebron, Israel (general), Israel",
+    "countries": [],
+    "lat": 31.5333,
+    "lon": 35.1
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "ISRAELI",
+    "actor2": "PALESTINIAN",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461461",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "dominicanrepublicpost.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: ISRAELI → PALESTINIAN",
+   "lang": "de",
+   "url": "https://dominicanrepublicpost.com/child-four-women-among-palestinians-injured-in-west-bank-pogroms/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Hebron, Israel (general), Israel",
+    "countries": [],
+    "lat": 31.5333,
+    "lon": 35.1
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "ISRAELI",
+    "actor2": "PALESTINIAN",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461468",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "dominicanrepublicpost.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: ISRAELI → RESIDENTS",
+   "lang": "de",
+   "url": "https://dominicanrepublicpost.com/child-four-women-among-palestinians-injured-in-west-bank-pogroms/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Hebron, Israel (general), Israel",
+    "countries": [],
+    "lat": 31.5333,
+    "lon": 35.1
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "ISRAELI",
+    "actor2": "RESIDENTS",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461470",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "dominicanrepublicpost.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: ISRAEL → PALESTINIAN",
+   "lang": "de",
+   "url": "https://dominicanrepublicpost.com/child-four-women-among-palestinians-injured-in-west-bank-pogroms/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Hebron, Israel (general), Israel",
+    "countries": [],
+    "lat": 31.5333,
+    "lon": 35.1
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "ISRAEL",
+    "actor2": "PALESTINIAN",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461471",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "dominicanrepublicpost.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: ISRAELI → PALESTINIAN",
+   "lang": "de",
+   "url": "https://dominicanrepublicpost.com/child-four-women-among-palestinians-injured-in-west-bank-pogroms/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Hebron, Israel (general), Israel",
+    "countries": [],
+    "lat": 31.5333,
+    "lon": 35.1
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "ISRAELI",
+    "actor2": "PALESTINIAN",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461477",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "thehardtackle.com",
+   "title": "Ultimatum: MILAN → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://thehardtackle.com/round-up/2026/10/17/ac-milan-vs-atalanta-preview-prediction-probable-lineups-tactics-team-news-key-stats/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "139",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Milan, Lombardia, Italy",
+    "countries": [],
+    "lat": 45.4667,
+    "lon": 9.2
+   },
+   "metrics": {
+    "cameo_code": "139",
+    "cameo_category": "Ultimatum",
+    "actor1": "MILAN",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461568",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "en.interfax.com.ua",
+   "title": "Kampf mit Hand- oder leichten Waffen: AIR FORCE → UKRAINE",
+   "lang": "de",
+   "url": "https://en.interfax.com.ua/news/general/1221885.html",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Ukraine",
+    "countries": [],
+    "lat": 49.0,
+    "lon": 32.0
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "AIR FORCE",
+    "actor2": "UKRAINE",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461587",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.hindustantimes.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: ABUJA → FIREFIGHTER",
+   "lang": "de",
+   "url": "https://www.hindustantimes.com/trending/private-jet-door-detaches-mid-air-at-3-500-feet-in-nigeria-pilots-make-emergency-landing-101792244489939.html",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Abuja, Abuja Federal Capital Territory, Nigeria",
+    "countries": [],
+    "lat": 9.0833,
+    "lon": 7.5333
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "ABUJA",
+    "actor2": "FIREFIGHTER",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461658",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "dominicanrepublicpost.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: WEST BANK → SETTLER",
+   "lang": "de",
+   "url": "https://dominicanrepublicpost.com/child-four-women-among-palestinians-injured-in-west-bank-pogroms/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Ramallah, West Bank (general), West Bank",
+    "countries": [],
+    "lat": 31.9026,
+    "lon": 35.1955
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "WEST BANK",
+    "actor2": "SETTLER",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461679",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "en.interfax.com.ua",
+   "title": "Kampf mit Artillerie oder Panzern: RUSSIA → RUSSIA",
+   "lang": "de",
+   "url": "https://en.interfax.com.ua/news/general/1221920.html",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "194",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Bryansk, Bryanskaya Oblast', Russia",
+    "countries": [],
+    "lat": 53.2521,
+    "lon": 34.3717
+   },
+   "metrics": {
+    "cameo_code": "194",
+    "cameo_category": "Kampf mit Artillerie oder Panzern",
+    "actor1": "RUSSIA",
+    "actor2": "RUSSIA",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461680",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "en.interfax.com.ua",
+   "title": "Kampf mit Artillerie oder Panzern: RUSSIA → RUSSIA",
+   "lang": "de",
+   "url": "https://en.interfax.com.ua/news/general/1221920.html",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "194",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Ukraine",
+    "countries": [],
+    "lat": 49.0,
+    "lon": 32.0
+   },
+   "metrics": {
+    "cameo_code": "194",
+    "cameo_category": "Kampf mit Artillerie oder Panzern",
+    "actor1": "RUSSIA",
+    "actor2": "RUSSIA",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461693",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.strategypage.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: TURKEY → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.gdeltproject.org/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Gaza, Israel (general), Israel",
+    "countries": [],
+    "lat": 31.4167,
+    "lon": 34.3333
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "TURKEY",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461694",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.strategypage.com",
+   "title": "Einsatz von Luftwaffen: TURKISH → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.gdeltproject.org/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "195",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Kizilelma, Bartin Ili, Turkey",
+    "countries": [],
+    "lat": 41.5748,
+    "lon": 32.1818
+   },
+   "metrics": {
+    "cameo_code": "195",
+    "cameo_category": "Einsatz von Luftwaffen",
+    "actor1": "TURKISH",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 8,
+    "sources": 1,
+    "articles": 8,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461762",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.salon.com",
+   "title": "Einsatz von Luftwaffen: UNITED STATES → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.salon.com/2026/10/17/elon-musk-is-the-donor-behind-senate-republicans-massive-rescue-mission-for-ken-paxton-partner/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "195",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Washington, District of Columbia, United States",
+    "countries": [],
+    "lat": 38.8951,
+    "lon": -77.0364
+   },
+   "metrics": {
+    "cameo_code": "195",
+    "cameo_category": "Einsatz von Luftwaffen",
+    "actor1": "UNITED STATES",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461772",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.salon.com",
+   "title": "Besetzung: UNITED STATES → PRESIDENT",
+   "lang": "de",
+   "url": "https://www.salon.com/2026/10/17/a-blue-wave-could-take-out-susie-wiles/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "192",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Washington, District of Columbia, United States",
+    "countries": [],
+    "lat": 38.8951,
+    "lon": -77.0364
+   },
+   "metrics": {
+    "cameo_code": "192",
+    "cameo_category": "Besetzung",
+    "actor1": "UNITED STATES",
+    "actor2": "PRESIDENT",
+    "mentions": 3,
+    "sources": 1,
+    "articles": 3,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328461798",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "chicago.suntimes.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: CHICAGO → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://chicago.suntimes.com/crime/2026/10/17/4-men-injured-in-little-village-drive-by-shooting",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T14:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Chicago, Illinois, United States",
+    "countries": [],
+    "lat": 41.85,
+    "lon": -87.6501
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "CHICAGO",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328462537",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.naturalnews.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: Akteur 1 nicht erkannt → GOVERNMENT",
+   "lang": "de",
+   "url": "https://www.naturalnews.com/2026-10-17-trump-says-govt-leakers-should-be-shot.html",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Bullhead City, Arizona, United States",
+    "countries": [],
+    "lat": 35.1478,
+    "lon": -114.568
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "GOVERNMENT",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328462555",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.naturalnews.com",
+   "title": "Kampf mit Artillerie oder Panzern: Akteur 1 nicht erkannt → SAUDI ARABIA",
+   "lang": "de",
+   "url": "https://www.naturalnews.com/2026-10-17-houthis-strikes-end-saudi-arabia-containment-strategy.html",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "194",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Riyadh, Ar Riya?, Saudi Arabia",
+    "countries": [],
+    "lat": 24.6408,
+    "lon": 46.7728
+   },
+   "metrics": {
+    "cameo_code": "194",
+    "cameo_category": "Kampf mit Artillerie oder Panzern",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "SAUDI ARABIA",
+    "mentions": 8,
+    "sources": 1,
+    "articles": 8,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328462618",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.orissapost.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: TANKER → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.orissapost.com/tanker-attacked-off-saudi-coast-ukmto/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Dhahran, Ash Sharqiyah, Saudi Arabia",
+    "countries": [],
+    "lat": 26.3032,
+    "lon": 50.1353
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "TANKER",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328462669",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.wfmd.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: DETECTIVE → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.wfmd.com/2026/10/17/detective-suspected-in-girls-murder-may-have-killed-others-former-investigator-fears/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Chicago, Illinois, United States",
+    "countries": [],
+    "lat": 41.85,
+    "lon": -87.6501
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "DETECTIVE",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328462728",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.dailymail.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: SCHOOL → UNITED STATES",
+   "lang": "de",
+   "url": "https://www.dailymail.com/news/article-16216741/silver-rail-elementary-school-shooting-victims.html",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Oregon, United States",
+    "countries": [],
+    "lat": 44.5672,
+    "lon": -122.127
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "SCHOOL",
+    "actor2": "UNITED STATES",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328462774",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aol.co.uk",
+   "title": "Militärische Drohung: BRITISH → UNITED KINGDOM",
+   "lang": "de",
+   "url": "https://www.aol.co.uk/articles/brit-soldiers-told-theyre-going-141100000.html",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "138",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Ukraine",
+    "countries": [],
+    "lat": 49.0,
+    "lon": 32.0
+   },
+   "metrics": {
+    "cameo_code": "138",
+    "cameo_category": "Militärische Drohung",
+    "actor1": "BRITISH",
+    "actor2": "UNITED KINGDOM",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328462787",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.jns.org",
+   "title": "Einsatz konventioneller militärischer Gewalt: UNITED KINGDOM → NORWEGIAN",
+   "lang": "de",
+   "url": "https://www.jns.org/news/world/norwegian-teen-given-kill-mission-in-uk-by-iranian-linked-criminal-group",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Israel",
+    "countries": [],
+    "lat": 31.5,
+    "lon": 34.75
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "UNITED KINGDOM",
+    "actor2": "NORWEGIAN",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328462788",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.jns.org",
+   "title": "Einsatz konventioneller militärischer Gewalt: UNITED KINGDOM → NORWEGIAN",
+   "lang": "de",
+   "url": "https://www.jns.org/news/world/norwegian-teen-given-kill-mission-in-uk-by-iranian-linked-criminal-group",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Tehran, Tehran, Iran",
+    "countries": [],
+    "lat": 35.75,
+    "lon": 51.5148
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "UNITED KINGDOM",
+    "actor2": "NORWEGIAN",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328462800",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aol.co.uk",
+   "title": "Militärische Drohung: BRITISH → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.aol.co.uk/articles/brit-soldiers-told-theyre-going-141100000.html",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "138",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Moscow, Moskva, Russia",
+    "countries": [],
+    "lat": 55.7522,
+    "lon": 37.6156
+   },
+   "metrics": {
+    "cameo_code": "138",
+    "cameo_category": "Militärische Drohung",
+    "actor1": "BRITISH",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328462917",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "timesofindia.indiatimes.com",
+   "title": "Besetzung: BHUBANESWAR → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/dri-seizes-hydroponic-weed-worth-rs-1-85crore-at-bhubaneswar-airport-4-detained/articleshow/135015800.cms",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "192",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Bangkok, Krung Thep Mahanakhon, Thailand",
+    "countries": [],
+    "lat": 13.75,
+    "lon": 100.517
+   },
+   "metrics": {
+    "cameo_code": "192",
+    "cameo_category": "Besetzung",
+    "actor1": "BHUBANESWAR",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 30,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328462919",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.thehindu.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: ANDHRA PRADESH → CORPORATION",
+   "lang": "de",
+   "url": "https://www.thehindu.com/news/national/karnataka/three-killed-in-two-separate-accidents-near-kr-puram/article71596996.ece",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "ANDHRA PRADESH",
+    "actor2": "CORPORATION",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328462945",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "irannewsupdate.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: IRAN → UNITED STATES",
+   "lang": "de",
+   "url": "https://irannewsupdate.com/news/news-digest/iran-regimes-internal-power-struggle-deepens-as-factions-clash-over-war-and-negotiations/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Washington, District of Columbia, United States",
+    "countries": [],
+    "lat": 38.8951,
+    "lon": -77.0364
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "IRAN",
+    "actor2": "UNITED STATES",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328462976",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.jns.org",
+   "title": "Einsatz konventioneller militärischer Gewalt: JUDGE → POLICE",
+   "lang": "de",
+   "url": "https://www.jns.org/news/world/norwegian-teen-given-kill-mission-in-uk-by-iranian-linked-criminal-group",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "London, London, City of, United Kingdom",
+    "countries": [],
+    "lat": 51.5,
+    "lon": -0.1167
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "JUDGE",
+    "actor2": "POLICE",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328463083",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.jns.org",
+   "title": "Einsatz konventioneller militärischer Gewalt: NORWEGIAN → ISRAEL",
+   "lang": "de",
+   "url": "https://www.jns.org/news/world/norwegian-teen-given-kill-mission-in-uk-by-iranian-linked-criminal-group",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Israel",
+    "countries": [],
+    "lat": 31.5,
+    "lon": 34.75
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "NORWEGIAN",
+    "actor2": "ISRAEL",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328463115",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.jpost.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: PALESTINIAN → SETTLER",
+   "lang": "de",
+   "url": "https://www.jpost.com/israel-news/defense-news/article-911973",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Samaria, West Bank (general), West Bank",
+    "countries": [],
+    "lat": 32.25,
+    "lon": 35.1667
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "PALESTINIAN",
+    "actor2": "SETTLER",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328463143",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.orissapost.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: SAUDI → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.orissapost.com/tanker-attacked-off-saudi-coast-ukmto/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Dhahran, Ash Sharqiyah, Saudi Arabia",
+    "countries": [],
+    "lat": 26.3032,
+    "lon": 50.1353
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "SAUDI",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328463157",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aljazeera.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: RIYADH → SAUDI ARABIA",
+   "lang": "de",
+   "url": "https://www.aljazeera.com/economy/2026/10/17/egypts-sisi-seeks-authorisation-for-defence-assistance-to-saudi-arabia",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Suez Canal, As Suways, Egypt",
+    "countries": [],
+    "lat": 29.9314,
+    "lon": 32.5628
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "RIYADH",
+    "actor2": "SAUDI ARABIA",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328463158",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aljazeera.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: RIYADH → SAUDI ARABIA",
+   "lang": "de",
+   "url": "https://www.aljazeera.com/economy/2026/10/17/egypts-sisi-seeks-authorisation-for-defence-assistance-to-saudi-arabia",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Tehran, Tehran, Iran",
+    "countries": [],
+    "lat": 35.75,
+    "lon": 51.5148
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "RIYADH",
+    "actor2": "SAUDI ARABIA",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328463161",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.jpost.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: SETTLER → ISRAEL",
+   "lang": "de",
+   "url": "https://www.jpost.com/israel-news/defense-news/article-911973",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Beilinson, HaMerkaz, Israel",
+    "countries": [],
+    "lat": 32.0839,
+    "lon": 34.9156
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "SETTLER",
+    "actor2": "ISRAEL",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328463162",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.jpost.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: SETTLER → PALESTINIAN",
+   "lang": "de",
+   "url": "https://www.jpost.com/israel-news/defense-news/article-911973",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Beilinson, HaMerkaz, Israel",
+    "countries": [],
+    "lat": 32.0839,
+    "lon": 34.9156
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "SETTLER",
+    "actor2": "PALESTINIAN",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328463163",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.jpost.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: SETTLER → PALESTINIAN",
+   "lang": "de",
+   "url": "https://www.jpost.com/israel-news/defense-news/article-911973",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Samaria, West Bank (general), West Bank",
+    "countries": [],
+    "lat": 32.25,
+    "lon": 35.1667
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "SETTLER",
+    "actor2": "PALESTINIAN",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328463164",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.jpost.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: SETTLER → PALESTINIAN",
+   "lang": "de",
+   "url": "https://www.jpost.com/israel-news/defense-news/article-911973",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Washington, District of Columbia, United States",
+    "countries": [],
+    "lat": 38.8951,
+    "lon": -77.0364
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "SETTLER",
+    "actor2": "PALESTINIAN",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328463192",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.rte.ie",
+   "title": "Besetzung: UKRAINE → SETTLEMENT",
+   "lang": "de",
+   "url": "https://www.rte.ie/news/2026/1017/1595768-russian-claims-of-ukraine-territory-advance-an-illusion/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "192",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Moscow, Moskva, Russia",
+    "countries": [],
+    "lat": 55.7522,
+    "lon": 37.6156
+   },
+   "metrics": {
+    "cameo_code": "192",
+    "cameo_category": "Besetzung",
+    "actor1": "UKRAINE",
+    "actor2": "SETTLEMENT",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328463204",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.themoscowtimes.com",
+   "title": "Besetzung: UKRAINE → RUSSIA",
+   "lang": "de",
+   "url": "https://www.themoscowtimes.com/2026/10/17/ukraine-dismisses-russias-latest-claimed-territorial-advances-as-an-illusion-a94013",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "192",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Moscow, Moskva, Russia",
+    "countries": [],
+    "lat": 55.7522,
+    "lon": 37.6156
+   },
+   "metrics": {
+    "cameo_code": "192",
+    "cameo_category": "Besetzung",
+    "actor1": "UKRAINE",
+    "actor2": "RUSSIA",
+    "mentions": 3,
+    "sources": 1,
+    "articles": 3,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328463234",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.naturalnews.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: UNITED STATES → GOVERNMENT",
+   "lang": "de",
+   "url": "https://www.naturalnews.com/2026-10-17-trump-says-govt-leakers-should-be-shot.html",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Bullhead City, Arizona, United States",
+    "countries": [],
+    "lat": 35.1478,
+    "lon": -114.568
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "UNITED STATES",
+    "actor2": "GOVERNMENT",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328463235",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.naturalnews.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: ARIZONA → GOVERNMENT",
+   "lang": "de",
+   "url": "https://www.naturalnews.com/2026-10-17-trump-says-govt-leakers-should-be-shot.html",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Bullhead City, Arizona, United States",
+    "countries": [],
+    "lat": 35.1478,
+    "lon": -114.568
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "ARIZONA",
+    "actor2": "GOVERNMENT",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328463240",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "irannewsupdate.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: UNITED STATES → IRAN",
+   "lang": "de",
+   "url": "https://irannewsupdate.com/news/news-digest/iran-regimes-internal-power-struggle-deepens-as-factions-clash-over-war-and-negotiations/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Washington, District of Columbia, United States",
+    "countries": [],
+    "lat": 38.8951,
+    "lon": -77.0364
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "UNITED STATES",
+    "actor2": "IRAN",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328463241",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "irannewsupdate.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: UNITED STATES → IRAN",
+   "lang": "de",
+   "url": "https://irannewsupdate.com/news/news-digest/iran-regimes-internal-power-struggle-deepens-as-factions-clash-over-war-and-negotiations/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Washington, District of Columbia, United States",
+    "countries": [],
+    "lat": 38.8951,
+    "lon": -77.0364
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "UNITED STATES",
+    "actor2": "IRAN",
+    "mentions": 8,
+    "sources": 1,
+    "articles": 8,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328463247",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.wnd.com",
+   "title": "Militärische Drohung: AMERICAN → JEWISH",
+   "lang": "de",
+   "url": "https://www.wnd.com/2026/10/anti-jew-organization-gets-more-cash/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "138",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "New York, United States",
+    "countries": [],
+    "lat": 42.1497,
+    "lon": -74.9384
+   },
+   "metrics": {
+    "cameo_code": "138",
+    "cameo_category": "Militärische Drohung",
+    "actor1": "AMERICAN",
+    "actor2": "JEWISH",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328463288",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.naturalnews.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: UNITED STATES → ARIZONA",
+   "lang": "de",
+   "url": "https://www.naturalnews.com/2026-10-17-trump-says-govt-leakers-should-be-shot.html",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Bullhead City, Arizona, United States",
+    "countries": [],
+    "lat": 35.1478,
+    "lon": -114.568
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "UNITED STATES",
+    "actor2": "ARIZONA",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328463298",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.wnd.com",
+   "title": "Militärische Drohung: AMERICAN → JEWISH",
+   "lang": "de",
+   "url": "https://www.wnd.com/2026/10/anti-jew-organization-gets-more-cash/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "138",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "New York, United States",
+    "countries": [],
+    "lat": 42.1497,
+    "lon": -74.9384
+   },
+   "metrics": {
+    "cameo_code": "138",
+    "cameo_category": "Militärische Drohung",
+    "actor1": "AMERICAN",
+    "actor2": "JEWISH",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464014",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "vermontbiz.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: VERMONT → POLICE OFFICER",
+   "lang": "de",
+   "url": "https://vermontbiz.com/news/2026/october/16/vsp-provides-update-investigation-williston-police-shooting",
+   "occurred_at": "2026-10-10T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Vermont, United States",
+    "countries": [],
+    "lat": 44.0407,
+    "lon": -72.7093
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "VERMONT",
+    "actor2": "POLICE OFFICER",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464015",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "vermontbiz.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: VERMONT → POLICE OFFICER",
+   "lang": "de",
+   "url": "https://vermontbiz.com/news/2026/october/16/vsp-provides-update-investigation-williston-police-shooting",
+   "occurred_at": "2026-10-10T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Vermont, United States",
+    "countries": [],
+    "lat": 44.0407,
+    "lon": -72.7093
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "VERMONT",
+    "actor2": "POLICE OFFICER",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464124",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.samaa.tv",
+   "title": "Kampf mit Hand- oder leichten Waffen: TALIBAN → PAKISTAN",
+   "lang": "de",
+   "url": "https://www.samaa.tv/2087358645-pakistan-army-afghan-taliban-exchange-fire-in-upper-kurram",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Afghanistan",
+    "countries": [],
+    "lat": 33.0,
+    "lon": 66.0
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "TALIBAN",
+    "actor2": "PAKISTAN",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464159",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.zerohedge.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: TANKER → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.gdeltproject.org/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Jubail, Ash Sharqiyah, Saudi Arabia",
+    "countries": [],
+    "lat": 27.0112,
+    "lon": 49.6583
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "TANKER",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464175",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.zerohedge.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: TANKER → SAUDI ARABIA",
+   "lang": "de",
+   "url": "https://www.gdeltproject.org/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Russia",
+    "countries": [],
+    "lat": 60.0,
+    "lon": 100.0
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "TANKER",
+    "actor2": "SAUDI ARABIA",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464215",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.theportugalnews.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: POLICE → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.theportugalnews.com/news/2026-10-17/police-to-be-reinforced-in-portugal/1101593",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Portugal",
+    "countries": [],
+    "lat": 39.5,
+    "lon": -8.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "POLICE",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464216",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "vermontbiz.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: POLICE → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://vermontbiz.com/news/2026/october/16/vsp-provides-update-investigation-williston-police-shooting",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Chittenden County, Vermont, United States",
+    "countries": [],
+    "lat": 44.4501,
+    "lon": -73.0496
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "POLICE",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464245",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "vermontbiz.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: POLICE → UNITED STATES",
+   "lang": "de",
+   "url": "https://vermontbiz.com/news/2026/october/16/vsp-provides-update-investigation-williston-police-shooting",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Vermont, United States",
+    "countries": [],
+    "lat": 44.0407,
+    "lon": -72.7093
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "POLICE",
+    "actor2": "UNITED STATES",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464493",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "nypost.com",
+   "title": "Militärische Drohung: PRESIDENT → UKRAINE",
+   "lang": "de",
+   "url": "https://nypost.com/2026/10/17/opinion/trumps-oil-deal-with-putin-and-more-letters/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "138",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Israel",
+    "countries": [],
+    "lat": 31.5,
+    "lon": 34.75
+   },
+   "metrics": {
+    "cameo_code": "138",
+    "cameo_category": "Militärische Drohung",
+    "actor1": "PRESIDENT",
+    "actor2": "UKRAINE",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464501",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.thehindu.com",
+   "title": "Blockade oder Bewegungsbeschränkung: HEALTH DEPARTMENT → VILLAGE",
+   "lang": "de",
+   "url": "https://www.thehindu.com/news/national/karnataka/two-clinics-running-illegally-sealed/article71596470.ece",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "191",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "191",
+    "cameo_category": "Blockade oder Bewegungsbeschränkung",
+    "actor1": "HEALTH DEPARTMENT",
+    "actor2": "VILLAGE",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464598",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "nypost.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: IRAN → UNITED STATES",
+   "lang": "de",
+   "url": "https://nypost.com/2026/10/17/world-news/meet-the-glamorous-broadcaster-the-iranian-regime-cant-kill/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Tehran, Tehran, Iran",
+    "countries": [],
+    "lat": 35.75,
+    "lon": 51.5148
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "IRAN",
+    "actor2": "UNITED STATES",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464639",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.middleeastmonitor.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: ISRAEL → SYRIA",
+   "lang": "de",
+   "url": "https://www.middleeastmonitor.com/20261017-israeli-forces-enter-western-daraa-countryside-in-southern-syria/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Abidin, Dara, Syria",
+    "countries": [],
+    "lat": 32.7803,
+    "lon": 35.8243
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "ISRAEL",
+    "actor2": "SYRIA",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464640",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.middleeastmonitor.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: ISRAEL → SYRIA",
+   "lang": "de",
+   "url": "https://www.middleeastmonitor.com/20261017-israeli-forces-enter-western-daraa-countryside-in-southern-syria/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Abidin, Dara, Syria",
+    "countries": [],
+    "lat": 32.7803,
+    "lon": 35.8243
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "ISRAEL",
+    "actor2": "SYRIA",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464641",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.middleeastmonitor.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: ISRAEL → SYRIA",
+   "lang": "de",
+   "url": "https://www.middleeastmonitor.com/20261017-israeli-forces-enter-western-daraa-countryside-in-southern-syria/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Israel",
+    "countries": [],
+    "lat": 31.5,
+    "lon": 34.75
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "ISRAEL",
+    "actor2": "SYRIA",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464642",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.middleeastmonitor.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: ISRAEL → SYRIA",
+   "lang": "de",
+   "url": "https://www.middleeastmonitor.com/20261017-israeli-forces-enter-western-daraa-countryside-in-southern-syria/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Abidin, Dara, Syria",
+    "countries": [],
+    "lat": 32.7803,
+    "lon": 35.8243
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "ISRAEL",
+    "actor2": "SYRIA",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464643",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.middleeastmonitor.com",
+   "title": "Besetzung: ISRAEL → BASHAR AL ASSAD",
+   "lang": "de",
+   "url": "https://www.middleeastmonitor.com/20261017-israeli-forces-enter-western-daraa-countryside-in-southern-syria/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "192",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Abidin, Dara, Syria",
+    "countries": [],
+    "lat": 32.7803,
+    "lon": 35.8243
+   },
+   "metrics": {
+    "cameo_code": "192",
+    "cameo_category": "Besetzung",
+    "actor1": "ISRAEL",
+    "actor2": "BASHAR AL ASSAD",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464747",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "nypost.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: HUMAN RIGHTS ACTIVIST → TEHRAN",
+   "lang": "de",
+   "url": "https://nypost.com/2026/10/17/world-news/meet-the-glamorous-broadcaster-the-iranian-regime-cant-kill/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "London, London, City of, United Kingdom",
+    "countries": [],
+    "lat": 51.5,
+    "lon": -0.1167
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "HUMAN RIGHTS ACTIVIST",
+    "actor2": "TEHRAN",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464748",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "nypost.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: HUMAN RIGHTS ACTIVIST → TEHRAN",
+   "lang": "de",
+   "url": "https://nypost.com/2026/10/17/world-news/meet-the-glamorous-broadcaster-the-iranian-regime-cant-kill/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Tehran, Tehran, Iran",
+    "countries": [],
+    "lat": 35.75,
+    "lon": 51.5148
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "HUMAN RIGHTS ACTIVIST",
+    "actor2": "TEHRAN",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464762",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.samaa.tv",
+   "title": "Kampf mit Hand- oder leichten Waffen: PAKISTAN → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.samaa.tv/2087358640-pilot-killed-one-injured-in-paragliding-accident-at-thal-desert-jeep-rally",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Peshawar, North-West Frontier, Pakistan",
+    "countries": [],
+    "lat": 34.0078,
+    "lon": 71.5733
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "PAKISTAN",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 8,
+    "sources": 1,
+    "articles": 8,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464763",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.samaa.tv",
+   "title": "Einsatz konventioneller militärischer Gewalt: PAKISTANI → TALIBAN",
+   "lang": "de",
+   "url": "https://www.samaa.tv/2087358645-pakistan-army-afghan-taliban-exchange-fire-in-upper-kurram",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Upper Kurram, Federally Administered Tribal Areas, Pakistan",
+    "countries": [],
+    "lat": 33.9728,
+    "lon": 70.1392
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "PAKISTANI",
+    "actor2": "TALIBAN",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464777",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.samaa.tv",
+   "title": "Kampf mit Hand- oder leichten Waffen: PAKISTAN → PAKISTAN",
+   "lang": "de",
+   "url": "https://www.samaa.tv/2087358645-pakistan-army-afghan-taliban-exchange-fire-in-upper-kurram",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Upper Kurram, Federally Administered Tribal Areas, Pakistan",
+    "countries": [],
+    "lat": 33.9728,
+    "lon": 70.1392
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "PAKISTAN",
+    "actor2": "PAKISTAN",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464778",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.samaa.tv",
+   "title": "Kampf mit Hand- oder leichten Waffen: PAKISTAN → PAKISTAN",
+   "lang": "de",
+   "url": "https://www.samaa.tv/2087358645-pakistan-army-afghan-taliban-exchange-fire-in-upper-kurram",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Afghanistan",
+    "countries": [],
+    "lat": 33.0,
+    "lon": 66.0
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "PAKISTAN",
+    "actor2": "PAKISTAN",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464784",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.samaa.tv",
+   "title": "Kampf mit Hand- oder leichten Waffen: PAKISTAN → TALIBAN",
+   "lang": "de",
+   "url": "https://www.samaa.tv/2087358645-pakistan-army-afghan-taliban-exchange-fire-in-upper-kurram",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Upper Kurram, Federally Administered Tribal Areas, Pakistan",
+    "countries": [],
+    "lat": 33.9728,
+    "lon": 70.1392
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "PAKISTAN",
+    "actor2": "TALIBAN",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464785",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.samaa.tv",
+   "title": "Kampf mit Hand- oder leichten Waffen: PAKISTAN → PAKISTAN",
+   "lang": "de",
+   "url": "https://www.samaa.tv/2087358645-pakistan-army-afghan-taliban-exchange-fire-in-upper-kurram",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Upper Kurram, Federally Administered Tribal Areas, Pakistan",
+    "countries": [],
+    "lat": 33.9728,
+    "lon": 70.1392
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "PAKISTAN",
+    "actor2": "PAKISTAN",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464928",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "vermontbiz.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: VERMONT → POLICE",
+   "lang": "de",
+   "url": "https://vermontbiz.com/news/2026/october/16/vsp-provides-update-investigation-williston-police-shooting",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Vermont, United States",
+    "countries": [],
+    "lat": 44.0407,
+    "lon": -72.7093
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "VERMONT",
+    "actor2": "POLICE",
+    "mentions": 20,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464975",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "decrypt.co",
+   "title": "Einsatz konventioneller militärischer Gewalt: NEW JERSEY → UNITED STATES",
+   "lang": "de",
+   "url": "https://decrypt.co/380284/engineer-gets-32-months-for-bitcoin-extortion-plot-against-his-own-employer&t=engineer%20gets%2032%20months%20for%20bitcoin%20extortion%20plot%20against%20his%20own%20employer&fnp_t=1792247287.17606f6f6f6d1b4c",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "New Jersey, United States",
+    "countries": [],
+    "lat": 40.314,
+    "lon": -74.5089
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "NEW JERSEY",
+    "actor2": "UNITED STATES",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328464982",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "decrypt.co",
+   "title": "Einsatz konventioneller militärischer Gewalt: NEW JERSEY → ENGINEER",
+   "lang": "de",
+   "url": "https://decrypt.co/380284/engineer-gets-32-months-for-bitcoin-extortion-plot-against-his-own-employer&t=engineer%20gets%2032%20months%20for%20bitcoin%20extortion%20plot%20against%20his%20own%20employer&fnp_t=1792247287.17606f6f6f6d1b4c",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "New Jersey, United States",
+    "countries": [],
+    "lat": 40.314,
+    "lon": -74.5089
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "NEW JERSEY",
+    "actor2": "ENGINEER",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328465631",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.freemalaysiatoday.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → POLICE",
+   "lang": "de",
+   "url": "https://www.freemalaysiatoday.com/category/nation/2026/10/17/thai-cop-3-separatists-killed-in-narathiwat-gun-battle",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Si Sakhon, Narathiwat, Thailand",
+    "countries": [],
+    "lat": 6.2314,
+    "lon": 101.5
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "POLICE",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328465648",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "economictimes.indiatimes.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → MANIPUR",
+   "lang": "de",
+   "url": "https://economictimes.indiatimes.com/news/india/manipur-violence-1-killed-4-injured-in-militant-firing/articleshow/135016213.cms",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "MANIPUR",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328465654",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.carscoops.com",
+   "title": "Besetzung: Akteur 1 nicht erkannt → ROLLS ROYCE",
+   "lang": "de",
+   "url": "https://www.carscoops.com/2286830/bentley-owned-by-volkswagen-cars-not-built-germany-but-crewe-england/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "192",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "United Kingdom",
+    "countries": [],
+    "lat": 54.0,
+    "lon": -4.0
+   },
+   "metrics": {
+    "cameo_code": "192",
+    "cameo_category": "Besetzung",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "ROLLS ROYCE",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328465669",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "news4sanantonio.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → SAN ANTONIO",
+   "lang": "de",
+   "url": "https://news4sanantonio.com/news/local/motorcyclist-reportedly-killed-in-overnight-crash-on-us-281-san-antonio-texas-investigation-police-evidence-vehicle-traffic",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "France",
+    "countries": [],
+    "lat": 46.0,
+    "lon": 2.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "SAN ANTONIO",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328465670",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "news4sanantonio.com",
+   "title": "Besetzung: Akteur 1 nicht erkannt → AUSTIN",
+   "lang": "de",
+   "url": "https://news4sanantonio.com/news/instagram/tesla-takes-over-austin-thousands-roll-into-giga-texas-for-x-takeover",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "192",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Texas, United States",
+    "countries": [],
+    "lat": 31.106,
+    "lon": -97.6475
+   },
+   "metrics": {
+    "cameo_code": "192",
+    "cameo_category": "Besetzung",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "AUSTIN",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328465675",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.siasat.com",
+   "title": "Einsatz von Luftwaffen: UNITED ARAB EMIRATES → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.siasat.com/watch-emirates-delhi-dubai-flight-delayed-after-bird-strike-3560148/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "195",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Patna, Bihar, India",
+    "countries": [],
+    "lat": 25.6,
+    "lon": 85.1167
+   },
+   "metrics": {
+    "cameo_code": "195",
+    "cameo_category": "Einsatz von Luftwaffen",
+    "actor1": "UNITED ARAB EMIRATES",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328465710",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.tsn.ca",
+   "title": "Kampf mit Hand- oder leichten Waffen: CANADA → BUFFALO",
+   "lang": "de",
+   "url": "https://www.tsn.ca/nhl/article/maple-leafs-tavares-out-week-to-week-with-lower-body-injury/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Toronto, Ontario, Canada",
+    "countries": [],
+    "lat": 43.6667,
+    "lon": -79.4167
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "CANADA",
+    "actor2": "BUFFALO",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328465730",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.wfsb.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: POLICE → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.wfsb.com/2026/10/17/bristol-officer-fatally-shoots-person-during-overnight-wellness-check-police-say/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Chippens Hill Middle School, Connecticut, United States",
+    "countries": [],
+    "lat": 41.6995,
+    "lon": -72.9668
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "POLICE",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328465738",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.freemalaysiatoday.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: POLICE OFFICER → THAILAND",
+   "lang": "de",
+   "url": "https://www.freemalaysiatoday.com/category/nation/2026/10/17/thai-cop-3-separatists-killed-in-narathiwat-gun-battle",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Si Sakhon, Narathiwat, Thailand",
+    "countries": [],
+    "lat": 6.2314,
+    "lon": 101.5
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "POLICE OFFICER",
+    "actor2": "THAILAND",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328465756",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "agassizharrisonobserver.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: VILLAGE → MAYOR",
+   "lang": "de",
+   "url": "https://agassizharrisonobserver.com/2026/10/17/municipal-election-2026-polls-are-open-in-agassiz-harrison/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Canada",
+    "countries": [],
+    "lat": 60.0,
+    "lon": -96.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "VILLAGE",
+    "actor2": "MAYOR",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328465758",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aol.com",
+   "title": "Besetzung: TRAVELER → COCA COLA",
+   "lang": "de",
+   "url": "https://www.aol.com/articles/where-oldest-roadside-welcome-center-104500000.html",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "192",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Statesboro, Georgia, United States",
+    "countries": [],
+    "lat": 32.4488,
+    "lon": -81.7832
+   },
+   "metrics": {
+    "cameo_code": "192",
+    "cameo_category": "Besetzung",
+    "actor1": "TRAVELER",
+    "actor2": "COCA COLA",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328465760",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aol.com",
+   "title": "Besetzung: TRAVELER → UNITED STATES",
+   "lang": "de",
+   "url": "https://www.aol.com/articles/where-oldest-roadside-welcome-center-104500000.html",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "192",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Statesboro, Georgia, United States",
+    "countries": [],
+    "lat": 32.4488,
+    "lon": -81.7832
+   },
+   "metrics": {
+    "cameo_code": "192",
+    "cameo_category": "Besetzung",
+    "actor1": "TRAVELER",
+    "actor2": "UNITED STATES",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328465761",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aol.com",
+   "title": "Besetzung: TRAVELER → UNITED STATES",
+   "lang": "de",
+   "url": "https://www.aol.com/articles/where-oldest-roadside-welcome-center-104500000.html",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "192",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Statesboro, Georgia, United States",
+    "countries": [],
+    "lat": 32.4488,
+    "lon": -81.7832
+   },
+   "metrics": {
+    "cameo_code": "192",
+    "cameo_category": "Besetzung",
+    "actor1": "TRAVELER",
+    "actor2": "UNITED STATES",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328465762",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aol.com",
+   "title": "Besetzung: TRAVELER → UNITED STATES",
+   "lang": "de",
+   "url": "https://www.aol.com/articles/where-oldest-roadside-welcome-center-104500000.html",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "192",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Georgia, United States",
+    "countries": [],
+    "lat": 32.9866,
+    "lon": -83.6487
+   },
+   "metrics": {
+    "cameo_code": "192",
+    "cameo_category": "Besetzung",
+    "actor1": "TRAVELER",
+    "actor2": "UNITED STATES",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328465842",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.cntraveler.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: ENVOY → ASSAILANT",
+   "lang": "de",
+   "url": "https://www.cntraveler.com/story/the-diplomat-is-back-for-season-four-where-is-the-political-thriller-filmed",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Belvoir Castle, Leicestershire, United Kingdom",
+    "countries": [],
+    "lat": 52.8833,
+    "lon": -0.7833
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "ENVOY",
+    "actor2": "ASSAILANT",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328465843",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.cntraveler.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: ENVOY → ASSAILANT",
+   "lang": "de",
+   "url": "https://www.cntraveler.com/story/the-diplomat-is-back-for-season-four-where-is-the-political-thriller-filmed",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Wrotham, Kent, United Kingdom",
+    "countries": [],
+    "lat": 51.3,
+    "lon": 0.3167
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "ENVOY",
+    "actor2": "ASSAILANT",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328465849",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "agassizharrisonobserver.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: MAYOR → VILLAGE",
+   "lang": "de",
+   "url": "https://agassizharrisonobserver.com/2026/10/17/municipal-election-2026-polls-are-open-in-agassiz-harrison/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Canada",
+    "countries": [],
+    "lat": 60.0,
+    "lon": -96.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "MAYOR",
+    "actor2": "VILLAGE",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328465909",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.siasat.com",
+   "title": "Einsatz von Luftwaffen: NEW DELHI → DUBAI",
+   "lang": "de",
+   "url": "https://www.siasat.com/watch-emirates-delhi-dubai-flight-delayed-after-bird-strike-3560148/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "195",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Patna, Bihar, India",
+    "countries": [],
+    "lat": 25.6,
+    "lon": 85.1167
+   },
+   "metrics": {
+    "cameo_code": "195",
+    "cameo_category": "Einsatz von Luftwaffen",
+    "actor1": "NEW DELHI",
+    "actor2": "DUBAI",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328465927",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "screenrant.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: SOUTH KOREA → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://screenrant.com/best-unreliable-narrator-books/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "United States",
+    "countries": [],
+    "lat": 39.8282,
+    "lon": -98.5795
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "SOUTH KOREA",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328466008",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.thenews.com.pk",
+   "title": "Kampf mit Artillerie oder Panzern: RUSSIAN → NAVAL",
+   "lang": "de",
+   "url": "https://www.thenews.com.pk/latest/1420308-ukraine-dismisses-russias-claimed-territorial-advances-as-an-illusion",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "194",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Russia",
+    "countries": [],
+    "lat": 60.0,
+    "lon": 100.0
+   },
+   "metrics": {
+    "cameo_code": "194",
+    "cameo_category": "Kampf mit Artillerie oder Panzern",
+    "actor1": "RUSSIAN",
+    "actor2": "NAVAL",
+    "mentions": 7,
+    "sources": 1,
+    "articles": 7,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328466032",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.freemalaysiatoday.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: SEPARATIST → THAI",
+   "lang": "de",
+   "url": "https://www.freemalaysiatoday.com/category/nation/2026/10/17/thai-cop-3-separatists-killed-in-narathiwat-gun-battle",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Narathiwat, Narathiwat, Thailand",
+    "countries": [],
+    "lat": 6.4264,
+    "lon": 101.823
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "SEPARATIST",
+    "actor2": "THAI",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328466035",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.freemalaysiatoday.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: THAI → SEPARATIST",
+   "lang": "de",
+   "url": "https://www.freemalaysiatoday.com/category/nation/2026/10/17/thai-cop-3-separatists-killed-in-narathiwat-gun-battle",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Si Sakhon, Narathiwat, Thailand",
+    "countries": [],
+    "lat": 6.2314,
+    "lon": 101.5
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "THAI",
+    "actor2": "SEPARATIST",
+    "mentions": 7,
+    "sources": 1,
+    "articles": 7,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328466099",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.sun-sentinel.com",
+   "title": "Militärische Drohung: UNITED STATES → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.sun-sentinel.com/2026/10/17/just-what-florida-needs-a-democrat-with-subpoena-power-steve-bousquet/",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "138",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Florida, United States",
+    "countries": [],
+    "lat": 27.8333,
+    "lon": -81.717
+   },
+   "metrics": {
+    "cameo_code": "138",
+    "cameo_category": "Militärische Drohung",
+    "actor1": "UNITED STATES",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328466116",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "ianslive.in",
+   "title": "Militärische Mobilisierung oder Verstärkung: THE US → AIR FORCE",
+   "lang": "de",
+   "url": "https://ianslive.in/indias-expanding-military-to-military-engagements-reflect-deepening-interoperability-report--20261017185048",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "154",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Uttarakhand, Uttaranchal, India",
+    "countries": [],
+    "lat": 30.25,
+    "lon": 79.25
+   },
+   "metrics": {
+    "cameo_code": "154",
+    "cameo_category": "Militärische Mobilisierung oder Verstärkung",
+    "actor1": "THE US",
+    "actor2": "AIR FORCE",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328466117",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "ianslive.in",
+   "title": "Militärische Mobilisierung oder Verstärkung: THE US → AIR FORCE",
+   "lang": "de",
+   "url": "https://ianslive.in/indias-expanding-military-to-military-engagements-reflect-deepening-interoperability-report--20261017185048",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "154",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Russia",
+    "countries": [],
+    "lat": 60.0,
+    "lon": 100.0
+   },
+   "metrics": {
+    "cameo_code": "154",
+    "cameo_category": "Militärische Mobilisierung oder Verstärkung",
+    "actor1": "THE US",
+    "actor2": "AIR FORCE",
+    "mentions": 8,
+    "sources": 1,
+    "articles": 8,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
+   }
+  },
+  {
+   "id": "gdelt:1328466126",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "news4sanantonio.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: AUSTIN → AUSTIN",
+   "lang": "de",
+   "url": "https://news4sanantonio.com/news/instagram/driver-shot-by-person-inside-vehicle-before-crashing-in-downtown-austin",
+   "occurred_at": "2026-10-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-17T15:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Texas, United States",
+    "countries": [],
+    "lat": 31.106,
+    "lon": -97.6475
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "AUSTIN",
+    "actor2": "AUSTIN",
+    "mentions": 7,
+    "sources": 1,
+    "articles": 7,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-17T15:31:02Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
    }
   },
   {
@@ -501032,7 +505988,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-10-17T14:24:00Z",
+   "observed_at": "2026-10-17T15:30:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -501064,8 +506020,8 @@
    },
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
-    "last_changed_at": "2026-10-17T14:25:03Z"
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
    }
   },
   {
@@ -501080,7 +506036,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-10-17T14:24:00Z",
+   "observed_at": "2026-10-17T15:30:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -501101,8 +506057,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
-    "last_changed_at": "2026-10-17T14:25:03Z"
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
    }
   },
   {
@@ -501117,7 +506073,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-10-17T14:24:00Z",
+   "observed_at": "2026-10-17T15:30:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -501138,8 +506094,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
-    "last_changed_at": "2026-10-17T14:25:03Z"
+    "last_seen_at": "2026-10-17T15:31:02Z",
+    "last_changed_at": "2026-10-17T15:31:02Z"
    }
   },
   {
@@ -577035,126 +581991,6 @@
    }
   },
   {
-   "id": "usgs:us6000u1f3",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "usgs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "M 4.5 - 10 km NNW of El Cortezo, Panama",
-   "lang": "en",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1f3",
-   "occurred_at": "2026-10-10T14:51:45Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-10-10T17:55:01Z",
-   "ongoing": null,
-   "data_status": "reviewed",
-   "source_status_raw": "reviewed",
-   "level": null,
-   "location": {
-    "precision": "point",
-    "name": "10 km NNW of El Cortezo, Panama",
-    "countries": [],
-    "lat": 7.5178,
-    "lon": -80.6744
-   },
-   "metrics": {
-    "magnitude": 4.5,
-    "magnitude_type": "mb",
-    "depth_km": 10,
-    "shaking_mmi": null,
-    "reported_cdi": null,
-    "felt_reports": null
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-10-10T18:33:32Z",
-    "last_seen_at": "2026-10-11T08:47:13Z",
-    "last_changed_at": "2026-10-10T18:33:32Z"
-   }
-  },
-  {
-   "id": "usgs:us6000u1f6",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "usgs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "M 4.5 - 5 km WNW of Guarumal, Panama",
-   "lang": "en",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1f6",
-   "occurred_at": "2026-10-10T14:59:23Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-10-10T18:33:10Z",
-   "ongoing": null,
-   "data_status": "reviewed",
-   "source_status_raw": "reviewed",
-   "level": null,
-   "location": {
-    "precision": "point",
-    "name": "5 km WNW of Guarumal, Panama",
-    "countries": [],
-    "lat": 7.8256,
-    "lon": -81.3036
-   },
-   "metrics": {
-    "magnitude": 4.5,
-    "magnitude_type": "mb",
-    "depth_km": 10,
-    "shaking_mmi": null,
-    "reported_cdi": null,
-    "felt_reports": null
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-10-10T18:33:32Z",
-    "last_seen_at": "2026-10-11T08:47:13Z",
-    "last_changed_at": "2026-10-10T18:33:32Z"
-   }
-  },
-  {
-   "id": "usgs:us6000u1fa",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "usgs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "M 4.6 - 51 km NNW of Rabaul, Papua New Guinea",
-   "lang": "en",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1fa",
-   "occurred_at": "2026-10-10T15:10:20Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-10-10T19:00:57Z",
-   "ongoing": null,
-   "data_status": "reviewed",
-   "source_status_raw": "reviewed",
-   "level": null,
-   "location": {
-    "precision": "point",
-    "name": "51 km NNW of Rabaul, Papua New Guinea",
-    "countries": [],
-    "lat": -3.7668,
-    "lon": 151.9827
-   },
-   "metrics": {
-    "magnitude": 4.6,
-    "magnitude_type": "mb",
-    "depth_km": 10,
-    "shaking_mmi": null,
-    "reported_cdi": null,
-    "felt_reports": null
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-10-10T22:29:42Z",
-    "last_seen_at": "2026-10-11T08:47:13Z",
-    "last_changed_at": "2026-10-10T22:29:42Z"
-   }
-  },
-  {
    "id": "usgs:us6000u1fj",
    "kind": "event",
    "domain": "disaster",
@@ -581470,7 +586306,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-16T16:36:06Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-16T16:36:06Z"
    }
   },
@@ -581510,7 +586346,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-16T19:56:52Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-16T22:49:35Z"
    }
   },
@@ -581550,7 +586386,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T01:17:25Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T01:17:25Z"
    }
   },
@@ -581590,7 +586426,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T01:17:25Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T01:17:25Z"
    }
   },
@@ -581630,7 +586466,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T01:17:25Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -581647,7 +586483,7 @@
    "occurred_at": "2026-10-16T23:57:50Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-17T06:08:13Z",
+   "source_updated_at": "2026-10-17T15:17:11Z",
    "ongoing": null,
    "data_status": "reviewed",
    "source_status_raw": "reviewed",
@@ -581670,7 +586506,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T01:17:25Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T06:11:34Z"
    }
   },
@@ -581710,7 +586546,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T06:11:34Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T06:11:34Z"
    }
   },
@@ -581750,7 +586586,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T06:11:34Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T06:11:34Z"
    }
   },
@@ -581794,7 +586630,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T06:11:34Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -581834,7 +586670,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T11:10:36Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -581874,7 +586710,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T11:10:36Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -581914,7 +586750,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T11:10:36Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -581954,7 +586790,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T11:10:36Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T11:10:36Z"
    }
   },
@@ -581994,7 +586830,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T14:25:03Z",
-    "last_seen_at": "2026-10-17T14:25:03Z",
+    "last_seen_at": "2026-10-17T15:31:02Z",
     "last_changed_at": "2026-10-17T14:25:03Z"
    }
   }
