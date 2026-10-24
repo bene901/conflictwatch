@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-24T18:59:42Z",
+ "generated_at": "2026-10-24T20:45:50Z",
  "items": [
   {
    "id": "gdacs-drought:1015915",
@@ -44,7 +44,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T18:08:51Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -115,7 +115,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -163,7 +163,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -220,7 +220,7 @@
    },
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -271,7 +271,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -317,7 +317,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -365,7 +365,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -422,7 +422,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -477,7 +477,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -528,7 +528,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -576,7 +576,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -670,7 +670,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -713,7 +713,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T14:06:23Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-09-21T14:06:23Z"
    }
   },
@@ -5506,51 +5506,6 @@
    }
   },
   {
-   "id": "gdacs:WF:1032247",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Brazil",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032247&episodeid=14&eventtype=WF",
-   "occurred_at": "2026-09-12T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-09-24T19:21:21Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Brazil",
-    "countries": [
-     "BR"
-    ],
-    "lat": -11.8873,
-    "lon": -50.0356
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 14,
-    "severity": 17406.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-24T20:29:43Z",
-    "last_changed_at": "2026-09-24T11:42:35Z"
-   }
-  },
-  {
    "id": "gdacs:WF:1032248",
    "kind": "event",
    "domain": "disaster",
@@ -5596,96 +5551,6 @@
    }
   },
   {
-   "id": "gdacs:WF:1032249",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Brazil",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032249&episodeid=14&eventtype=WF",
-   "occurred_at": "2026-09-11T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-09-24T19:25:21Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Brazil",
-    "countries": [
-     "BR"
-    ],
-    "lat": -6.3127,
-    "lon": -59.9676
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 14,
-    "severity": 7109.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-24T20:29:43Z",
-    "last_changed_at": "2026-09-24T11:42:35Z"
-   }
-  },
-  {
-   "id": "gdacs:WF:1032251",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Indonesia",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032251&episodeid=17&eventtype=WF",
-   "occurred_at": "2026-09-10T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-09-24T19:31:41Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Indonesia",
-    "countries": [
-     "ID"
-    ],
-    "lat": -2.5052,
-    "lon": 110.4797
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 17,
-    "severity": 8280.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-24T20:29:43Z",
-    "last_changed_at": "2026-09-24T11:42:35Z"
-   }
-  },
-  {
    "id": "gdacs:WF:1032256",
    "kind": "event",
    "domain": "disaster",
@@ -5728,96 +5593,6 @@
     "first_seen_at": "2026-09-20T15:01:58Z",
     "last_seen_at": "2026-09-28T21:58:57Z",
     "last_changed_at": "2026-09-28T14:28:04Z"
-   }
-  },
-  {
-   "id": "gdacs:WF:1032258",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Indonesia",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032258&episodeid=16&eventtype=WF",
-   "occurred_at": "2026-09-09T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-09-24T19:36:46Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Indonesia",
-    "countries": [
-     "ID"
-    ],
-    "lat": -3.7862,
-    "lon": 105.5548
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 16,
-    "severity": 6913.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-24T20:29:43Z",
-    "last_changed_at": "2026-09-24T20:29:43Z"
-   }
-  },
-  {
-   "id": "gdacs:WF:1032261",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Australia",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032261&episodeid=6&eventtype=WF",
-   "occurred_at": "2026-09-18T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-09-24T19:07:02Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Australia",
-    "countries": [
-     "AU"
-    ],
-    "lat": -13.9783,
-    "lon": 130.2155
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 6,
-    "severity": 9453.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-24T20:29:43Z",
-    "last_changed_at": "2026-09-24T11:42:35Z"
    }
   },
   {
@@ -5956,96 +5731,6 @@
    }
   },
   {
-   "id": "gdacs:WF:1032268",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Indonesia",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032268&episodeid=9&eventtype=WF",
-   "occurred_at": "2026-09-09T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-09-24T19:37:06Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Indonesia",
-    "countries": [
-     "ID"
-    ],
-    "lat": -2.2022,
-    "lon": 110.1532
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 9,
-    "severity": 5630.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-09-20T15:01:58Z",
-    "last_seen_at": "2026-09-24T20:29:43Z",
-    "last_changed_at": "2026-09-24T11:42:35Z"
-   }
-  },
-  {
-   "id": "gdacs:WF:1032271",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Zimbabwe",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032271&episodeid=9&eventtype=WF",
-   "occurred_at": "2026-09-19T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-09-24T19:03:47Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Zimbabwe",
-    "countries": [
-     "ZW"
-    ],
-    "lat": -16.1422,
-    "lon": 29.7932
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 9,
-    "severity": 9565.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-09-21T06:19:05Z",
-    "last_seen_at": "2026-09-24T20:29:43Z",
-    "last_changed_at": "2026-09-24T20:29:43Z"
-   }
-  },
-  {
    "id": "gdacs:WF:1032272",
    "kind": "event",
    "domain": "disaster",
@@ -6088,51 +5773,6 @@
     "first_seen_at": "2026-09-21T06:19:05Z",
     "last_seen_at": "2026-09-28T21:58:57Z",
     "last_changed_at": "2026-09-28T15:25:09Z"
-   }
-  },
-  {
-   "id": "gdacs:WF:1032274",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Mozambique",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032274&episodeid=3&eventtype=WF",
-   "occurred_at": "2026-09-12T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-09-24T19:23:58Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Mozambique",
-    "countries": [
-     "MZ"
-    ],
-    "lat": -16.9915,
-    "lon": 37.9983
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 3,
-    "severity": 8457.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-09-21T06:19:05Z",
-    "last_seen_at": "2026-09-24T20:29:43Z",
-    "last_changed_at": "2026-09-24T20:29:43Z"
    }
   },
   {
@@ -6223,51 +5863,6 @@
     "first_seen_at": "2026-09-21T09:15:18Z",
     "last_seen_at": "2026-09-26T07:38:38Z",
     "last_changed_at": "2026-09-25T14:10:01Z"
-   }
-  },
-  {
-   "id": "gdacs:WF:1032284",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Brazil",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032284&episodeid=11&eventtype=WF",
-   "occurred_at": "2026-09-19T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-09-24T19:04:29Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Brazil",
-    "countries": [
-     "BR"
-    ],
-    "lat": -10.3667,
-    "lon": -50.2561
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 11,
-    "severity": 17485.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-09-21T09:15:18Z",
-    "last_seen_at": "2026-09-24T20:29:43Z",
-    "last_changed_at": "2026-09-24T11:42:35Z"
    }
   },
   {
@@ -41499,7 +41094,7 @@
    "occurred_at": "2026-10-10T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T15:35:27Z",
+   "source_updated_at": "2026-10-24T19:38:04Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -41527,7 +41122,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T12:06:36Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T12:13:45Z"
    }
   },
@@ -41585,11 +41180,11 @@
    "original_publisher": null,
    "title": "Forest fires in Mozambique",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033100&episodeid=2&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033100&episodeid=3&eventtype=WF",
    "occurred_at": "2026-10-18T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T07:14:40Z",
+   "source_updated_at": "2026-10-24T19:16:15Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -41604,21 +41199,21 @@
     "countries": [
      "MZ"
     ],
-    "lat": -16.9533,
-    "lon": 38.3399
+    "lat": -16.9536,
+    "lon": 38.3285
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 2,
-    "severity": 9077.0,
+    "episode_id": 3,
+    "severity": 10798.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T17:26:42Z",
-    "last_seen_at": "2026-10-24T10:54:59Z",
-    "last_changed_at": "2026-10-23T20:38:48Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -41676,11 +41271,11 @@
    "original_publisher": null,
    "title": "Forest fires in Burkina Faso",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033102&episodeid=2&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033102&episodeid=3&eventtype=WF",
    "occurred_at": "2026-10-22T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T15:03:05Z",
+   "source_updated_at": "2026-10-24T19:02:31Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -41695,21 +41290,21 @@
     "countries": [
      "BF"
     ],
-    "lat": 13.922,
-    "lon": 0.0591
+    "lat": 13.923,
+    "lon": 0.0627
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 2,
-    "severity": 6134.0,
+    "episode_id": 3,
+    "severity": 6411.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
-    "last_changed_at": "2026-10-24T07:35:39Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -41721,11 +41316,11 @@
    "original_publisher": null,
    "title": "Forest fires in Botswana, Zimbabwe",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033103&episodeid=2&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033103&episodeid=3&eventtype=WF",
    "occurred_at": "2026-10-22T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T07:02:08Z",
+   "source_updated_at": "2026-10-24T19:03:26Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -41741,21 +41336,21 @@
      "BW",
      "ZW"
     ],
-    "lat": -19.7414,
-    "lon": 26.1979
+    "lat": -19.7434,
+    "lon": 26.1998
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 2,
-    "severity": 12648.0,
+    "episode_id": 3,
+    "severity": 13988.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T10:54:59Z",
-    "last_changed_at": "2026-10-24T05:49:25Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -41767,11 +41362,11 @@
    "original_publisher": null,
    "title": "Forest fires in Botswana",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033104&episodeid=2&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033104&episodeid=3&eventtype=WF",
    "occurred_at": "2026-10-21T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T07:02:46Z",
+   "source_updated_at": "2026-10-24T19:04:40Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -41786,21 +41381,21 @@
     "countries": [
      "BW"
     ],
-    "lat": -19.7982,
-    "lon": 25.8195
+    "lat": -19.7985,
+    "lon": 25.8171
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 2,
-    "severity": 6287.0,
+    "episode_id": 3,
+    "severity": 6622.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T10:54:59Z",
-    "last_changed_at": "2026-10-24T05:49:25Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -41812,11 +41407,11 @@
    "original_publisher": null,
    "title": "Forest fires in Chad",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033105&episodeid=2&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033105&episodeid=3&eventtype=WF",
    "occurred_at": "2026-10-21T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T07:03:11Z",
+   "source_updated_at": "2026-10-24T19:04:50Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -41831,21 +41426,21 @@
     "countries": [
      "TD"
     ],
-    "lat": 12.0968,
-    "lon": 20.7076
+    "lat": 12.1003,
+    "lon": 20.7142
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 2,
-    "severity": 7240.0,
+    "episode_id": 3,
+    "severity": 8871.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T10:54:59Z",
-    "last_changed_at": "2026-10-24T05:49:25Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -41857,11 +41452,11 @@
    "original_publisher": null,
    "title": "Forest fires in Zimbabwe",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033106&episodeid=3&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033106&episodeid=4&eventtype=WF",
    "occurred_at": "2026-10-21T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T15:05:48Z",
+   "source_updated_at": "2026-10-24T19:05:10Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -41876,21 +41471,21 @@
     "countries": [
      "ZW"
     ],
-    "lat": -16.2414,
-    "lon": 29.2284
+    "lat": -16.24,
+    "lon": 29.23
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 3,
-    "severity": 10030.0,
+    "episode_id": 4,
+    "severity": 10685.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
-    "last_changed_at": "2026-10-24T12:13:45Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -41902,11 +41497,11 @@
    "original_publisher": null,
    "title": "Forest fires in Namibia, Botswana",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033107&episodeid=2&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033107&episodeid=3&eventtype=WF",
    "occurred_at": "2026-10-20T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T07:06:08Z",
+   "source_updated_at": "2026-10-24T19:08:08Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -41922,21 +41517,21 @@
      "NA",
      "BW"
     ],
-    "lat": -18.5618,
-    "lon": 21.1041
+    "lat": -18.5674,
+    "lon": 21.1078
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 2,
-    "severity": 8540.0,
+    "episode_id": 3,
+    "severity": 9834.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T10:54:59Z",
-    "last_changed_at": "2026-10-24T05:49:25Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -41948,11 +41543,11 @@
    "original_publisher": null,
    "title": "Forest fires in Botswana",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033108&episodeid=3&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033108&episodeid=4&eventtype=WF",
    "occurred_at": "2026-10-20T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T15:08:32Z",
+   "source_updated_at": "2026-10-24T19:08:46Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -41967,21 +41562,21 @@
     "countries": [
      "BW"
     ],
-    "lat": -19.8989,
-    "lon": 24.8437
+    "lat": -19.8953,
+    "lon": 24.8358
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 3,
-    "severity": 10846.0,
+    "episode_id": 4,
+    "severity": 13923.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
-    "last_changed_at": "2026-10-24T07:35:39Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -41993,11 +41588,11 @@
    "original_publisher": null,
    "title": "Forest fires in Madagascar",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033109&episodeid=1&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033109&episodeid=2&eventtype=WF",
    "occurred_at": "2026-10-19T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T07:08:01Z",
+   "source_updated_at": "2026-10-24T19:11:16Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42012,21 +41607,21 @@
     "countries": [
      "MG"
     ],
-    "lat": -19.0852,
-    "lon": 48.3617
+    "lat": -19.0971,
+    "lon": 48.3574
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 5029.0,
+    "episode_id": 2,
+    "severity": 5953.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T10:54:59Z",
-    "last_changed_at": "2026-10-23T20:38:48Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -42038,11 +41633,11 @@
    "original_publisher": null,
    "title": "Forest fires in Angola",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033110&episodeid=1&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033110&episodeid=2&eventtype=WF",
    "occurred_at": "2026-10-19T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T07:08:54Z",
+   "source_updated_at": "2026-10-24T19:10:02Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42057,21 +41652,21 @@
     "countries": [
      "AO"
     ],
-    "lat": -17.3845,
-    "lon": 19.7262
+    "lat": -17.3841,
+    "lon": 19.7266
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 5179.0,
+    "episode_id": 2,
+    "severity": 5245.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T10:54:59Z",
-    "last_changed_at": "2026-10-23T20:38:48Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -42083,11 +41678,11 @@
    "original_publisher": null,
    "title": "Forest fires in South Sudan",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033111&episodeid=1&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033111&episodeid=2&eventtype=WF",
    "occurred_at": "2026-10-19T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T07:09:59Z",
+   "source_updated_at": "2026-10-24T19:11:26Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42102,21 +41697,21 @@
     "countries": [
      "SS"
     ],
-    "lat": 8.9167,
-    "lon": 28.6593
+    "lat": 8.9177,
+    "lon": 28.6597
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 5619.0,
+    "episode_id": 2,
+    "severity": 5955.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T10:54:59Z",
-    "last_changed_at": "2026-10-23T20:38:48Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -42160,7 +41755,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T12:13:45Z"
    }
   },
@@ -42218,11 +41813,11 @@
    "original_publisher": null,
    "title": "Forest fires in Zambia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033114&episodeid=2&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033114&episodeid=3&eventtype=WF",
    "occurred_at": "2026-10-18T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T15:14:59Z",
+   "source_updated_at": "2026-10-24T19:14:29Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42237,21 +41832,21 @@
     "countries": [
      "ZM"
     ],
-    "lat": -12.9892,
-    "lon": 31.3843
+    "lat": -12.9891,
+    "lon": 31.3916
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 2,
-    "severity": 5038.0,
+    "episode_id": 3,
+    "severity": 6388.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
-    "last_changed_at": "2026-10-24T12:13:45Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -42263,11 +41858,11 @@
    "original_publisher": null,
    "title": "Forest fires in Mozambique",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033115&episodeid=2&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033115&episodeid=3&eventtype=WF",
    "occurred_at": "2026-10-18T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T07:13:39Z",
+   "source_updated_at": "2026-10-24T19:15:20Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42282,21 +41877,21 @@
     "countries": [
      "MZ"
     ],
-    "lat": -12.0958,
-    "lon": 36.6365
+    "lat": -12.0881,
+    "lon": 36.6334
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 2,
-    "severity": 5465.0,
+    "episode_id": 3,
+    "severity": 7243.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T10:54:59Z",
-    "last_changed_at": "2026-10-23T23:29:39Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -42312,7 +41907,7 @@
    "occurred_at": "2026-10-18T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T15:16:46Z",
+   "source_updated_at": "2026-10-24T19:13:49Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42341,7 +41936,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T07:35:39Z"
    }
   },
@@ -42354,11 +41949,11 @@
    "original_publisher": null,
    "title": "Forest fires in Mozambique",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033117&episodeid=1&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033117&episodeid=2&eventtype=WF",
    "occurred_at": "2026-10-18T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T07:14:12Z",
+   "source_updated_at": "2026-10-24T19:14:39Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42373,21 +41968,21 @@
     "countries": [
      "MZ"
     ],
-    "lat": -13.034,
-    "lon": 36.2173
+    "lat": -13.0336,
+    "lon": 36.217
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 6264.0,
+    "episode_id": 2,
+    "severity": 6719.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T10:54:59Z",
-    "last_changed_at": "2026-10-23T20:38:48Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -42444,11 +42039,11 @@
    "original_publisher": null,
    "title": "Forest fires in Malawi",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033119&episodeid=1&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033119&episodeid=2&eventtype=WF",
    "occurred_at": "2026-10-17T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T07:16:32Z",
+   "source_updated_at": "2026-10-24T19:18:18Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42463,21 +42058,21 @@
     "countries": [
      "MW"
     ],
-    "lat": -11.6238,
-    "lon": 33.957
+    "lat": -11.6268,
+    "lon": 33.9583
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 10104.0,
+    "episode_id": 2,
+    "severity": 11117.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T10:54:59Z",
-    "last_changed_at": "2026-10-23T20:38:48Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -42489,11 +42084,11 @@
    "original_publisher": null,
    "title": "Forest fires in Mozambique",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033120&episodeid=1&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033120&episodeid=2&eventtype=WF",
    "occurred_at": "2026-10-17T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T07:16:37Z",
+   "source_updated_at": "2026-10-24T19:18:35Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42508,21 +42103,21 @@
     "countries": [
      "MZ"
     ],
-    "lat": -15.9916,
-    "lon": 31.9688
+    "lat": -15.9937,
+    "lon": 31.9671
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 10850.0,
+    "episode_id": 2,
+    "severity": 11512.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T10:54:59Z",
-    "last_changed_at": "2026-10-23T20:38:48Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -42534,11 +42129,11 @@
    "original_publisher": null,
    "title": "Forest fires in Tanzania",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033121&episodeid=1&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033121&episodeid=2&eventtype=WF",
    "occurred_at": "2026-10-16T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T07:17:33Z",
+   "source_updated_at": "2026-10-24T19:19:45Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42553,21 +42148,21 @@
     "countries": [
      "TZ"
     ],
-    "lat": -9.7978,
-    "lon": 36.4765
+    "lat": -9.7989,
+    "lon": 36.4778
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 5096.0,
+    "episode_id": 2,
+    "severity": 5412.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T10:54:59Z",
-    "last_changed_at": "2026-10-23T20:38:48Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -42579,11 +42174,11 @@
    "original_publisher": null,
    "title": "Forest fires in Malawi",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033122&episodeid=1&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033122&episodeid=2&eventtype=WF",
    "occurred_at": "2026-10-16T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T07:17:58Z",
+   "source_updated_at": "2026-10-24T19:20:20Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42598,21 +42193,21 @@
     "countries": [
      "MW"
     ],
-    "lat": -12.0489,
-    "lon": 33.8977
+    "lat": -12.0436,
+    "lon": 33.898
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 6091.0,
+    "episode_id": 2,
+    "severity": 6937.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T10:54:59Z",
-    "last_changed_at": "2026-10-23T20:38:48Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -42624,11 +42219,11 @@
    "original_publisher": null,
    "title": "Forest fires in Mozambique",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033123&episodeid=1&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033123&episodeid=2&eventtype=WF",
    "occurred_at": "2026-10-16T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T07:18:13Z",
+   "source_updated_at": "2026-10-24T19:20:56Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42643,21 +42238,21 @@
     "countries": [
      "MZ"
     ],
-    "lat": -15.3251,
-    "lon": 37.055
+    "lat": -15.3266,
+    "lon": 37.0488
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 7236.0,
+    "episode_id": 2,
+    "severity": 8220.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T10:54:59Z",
-    "last_changed_at": "2026-10-23T20:38:48Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -42714,11 +42309,11 @@
    "original_publisher": null,
    "title": "Forest fires in Zimbabwe, Mozambique, Zambia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033125&episodeid=1&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033125&episodeid=2&eventtype=WF",
    "occurred_at": "2026-10-13T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T07:23:37Z",
+   "source_updated_at": "2026-10-24T19:28:51Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42735,21 +42330,21 @@
      "MZ",
      "ZM"
     ],
-    "lat": -15.5057,
-    "lon": 30.501
+    "lat": -15.5061,
+    "lon": 30.5019
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 5077.0,
+    "episode_id": 2,
+    "severity": 5184.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T10:54:59Z",
-    "last_changed_at": "2026-10-23T20:38:48Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -42761,11 +42356,11 @@
    "original_publisher": null,
    "title": "Forest fires in Botswana",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033126&episodeid=1&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033126&episodeid=2&eventtype=WF",
    "occurred_at": "2026-10-12T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T07:26:12Z",
+   "source_updated_at": "2026-10-24T19:33:40Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42780,21 +42375,21 @@
     "countries": [
      "BW"
     ],
-    "lat": -18.9519,
-    "lon": 21.4997
+    "lat": -18.952,
+    "lon": 21.5003
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 5124.0,
+    "episode_id": 2,
+    "severity": 5181.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T10:54:59Z",
-    "last_changed_at": "2026-10-23T20:38:48Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -42896,11 +42491,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033129&episodeid=3&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033129&episodeid=4&eventtype=WF",
    "occurred_at": "2026-10-22T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T15:03:56Z",
+   "source_updated_at": "2026-10-24T19:03:21Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42915,21 +42510,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -18.4516,
-    "lon": 133.758
+    "lat": -18.4515,
+    "lon": 133.757
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 3,
-    "severity": 10830.0,
+    "episode_id": 4,
+    "severity": 10972.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T23:29:39Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
-    "last_changed_at": "2026-10-24T16:14:47Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -42945,7 +42540,7 @@
    "occurred_at": "2026-10-21T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T15:04:48Z",
+   "source_updated_at": "2026-10-24T19:04:24Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42973,7 +42568,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T23:29:39Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T12:13:45Z"
    }
   },
@@ -42986,11 +42581,11 @@
    "original_publisher": null,
    "title": "Forest fires in South Africa",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033131&episodeid=1&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033131&episodeid=2&eventtype=WF",
    "occurred_at": "2026-10-20T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T07:04:17Z",
+   "source_updated_at": "2026-10-24T19:07:11Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43005,21 +42600,21 @@
     "countries": [
      "ZA"
     ],
-    "lat": -24.2885,
-    "lon": 29.0926
+    "lat": -24.2764,
+    "lon": 29.0963
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 5114.0,
+    "episode_id": 2,
+    "severity": 6762.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T10:54:59Z",
-    "last_changed_at": "2026-10-24T05:49:25Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -43035,7 +42630,7 @@
    "occurred_at": "2026-10-23T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T15:01:08Z",
+   "source_updated_at": "2026-10-24T19:01:03Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43063,7 +42658,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T16:14:47Z"
    }
   },
@@ -43076,11 +42671,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033133&episodeid=2&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033133&episodeid=3&eventtype=WF",
    "occurred_at": "2026-10-23T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T15:01:20Z",
+   "source_updated_at": "2026-10-24T19:01:13Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43095,21 +42690,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -16.8945,
-    "lon": 126.8239
+    "lat": -16.8943,
+    "lon": 126.8236
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 2,
-    "severity": 6888.0,
+    "episode_id": 3,
+    "severity": 6934.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
-    "last_changed_at": "2026-10-24T16:14:47Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -43121,11 +42716,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033134&episodeid=2&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033134&episodeid=3&eventtype=WF",
    "occurred_at": "2026-10-23T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T15:01:48Z",
+   "source_updated_at": "2026-10-24T19:01:28Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43140,21 +42735,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -21.005,
-    "lon": 128.8734
+    "lat": -21.0046,
+    "lon": 128.8731
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 2,
-    "severity": 27617.0,
+    "episode_id": 3,
+    "severity": 27778.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
-    "last_changed_at": "2026-10-24T16:14:47Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -43166,11 +42761,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033135&episodeid=2&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033135&episodeid=3&eventtype=WF",
    "occurred_at": "2026-10-22T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T15:02:54Z",
+   "source_updated_at": "2026-10-24T19:02:10Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43185,21 +42780,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -16.1056,
-    "lon": 126.3254
+    "lat": -16.1055,
+    "lon": 126.3296
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 2,
-    "severity": 5592.0,
+    "episode_id": 3,
+    "severity": 5833.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
-    "last_changed_at": "2026-10-24T16:14:47Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -43211,11 +42806,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033136&episodeid=1&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033136&episodeid=2&eventtype=WF",
    "occurred_at": "2026-10-22T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T15:02:08Z",
+   "source_updated_at": "2026-10-24T19:01:42Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43235,16 +42830,16 @@
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 5257.0,
+    "episode_id": 2,
+    "severity": 5267.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
-    "last_changed_at": "2026-10-24T12:13:45Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -43260,7 +42855,7 @@
    "occurred_at": "2026-10-22T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T15:02:17Z",
+   "source_updated_at": "2026-10-24T19:01:49Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43288,7 +42883,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T12:13:45Z"
    }
   },
@@ -43305,7 +42900,7 @@
    "occurred_at": "2026-10-22T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T15:03:21Z",
+   "source_updated_at": "2026-10-24T19:02:49Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43333,7 +42928,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T12:13:45Z"
    }
   },
@@ -43346,11 +42941,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033139&episodeid=2&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033139&episodeid=3&eventtype=WF",
    "occurred_at": "2026-10-22T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T15:03:49Z",
+   "source_updated_at": "2026-10-24T19:03:13Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43366,20 +42961,20 @@
      "AU"
     ],
     "lat": -19.3636,
-    "lon": 128.2266
+    "lon": 128.2264
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 2,
-    "severity": 7491.0,
+    "episode_id": 3,
+    "severity": 7514.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
-    "last_changed_at": "2026-10-24T16:14:47Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -43391,11 +42986,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033140&episodeid=2&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033140&episodeid=3&eventtype=WF",
    "occurred_at": "2026-10-22T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T15:04:15Z",
+   "source_updated_at": "2026-10-24T19:03:42Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43415,16 +43010,16 @@
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 2,
-    "severity": 20706.0,
+    "episode_id": 3,
+    "severity": 20702.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
-    "last_changed_at": "2026-10-24T16:14:47Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -43436,11 +43031,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033141&episodeid=2&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033141&episodeid=3&eventtype=WF",
    "occurred_at": "2026-10-21T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T15:04:41Z",
+   "source_updated_at": "2026-10-24T19:04:18Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43455,21 +43050,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -15.1311,
-    "lon": 128.9969
+    "lat": -15.1312,
+    "lon": 128.997
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 2,
-    "severity": 5677.0,
+    "episode_id": 3,
+    "severity": 5735.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
-    "last_changed_at": "2026-10-24T16:14:47Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -43481,11 +43076,11 @@
    "original_publisher": null,
    "title": "Forest fires in Bolivia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033142&episodeid=2&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033142&episodeid=3&eventtype=WF",
    "occurred_at": "2026-10-21T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T15:04:51Z",
+   "source_updated_at": "2026-10-24T19:04:27Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43505,16 +43100,16 @@
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 2,
-    "severity": 6180.0,
+    "episode_id": 3,
+    "severity": 6185.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
-    "last_changed_at": "2026-10-24T16:14:47Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -43530,7 +43125,7 @@
    "occurred_at": "2026-10-20T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T15:06:55Z",
+   "source_updated_at": "2026-10-24T19:06:30Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43558,7 +43153,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T12:13:45Z"
    }
   },
@@ -43571,11 +43166,11 @@
    "original_publisher": null,
    "title": "Forest fires in Botswana",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033144&episodeid=1&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033144&episodeid=2&eventtype=WF",
    "occurred_at": "2026-10-16T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T15:20:43Z",
+   "source_updated_at": "2026-10-24T19:21:23Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43590,21 +43185,21 @@
     "countries": [
      "BW"
     ],
-    "lat": -18.8064,
-    "lon": 22.0281
+    "lat": -18.8156,
+    "lon": 22.0295
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 6021.0,
+    "episode_id": 2,
+    "severity": 8638.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
-    "last_changed_at": "2026-10-24T12:13:45Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -43620,7 +43215,7 @@
    "occurred_at": "2026-10-23T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T15:00:43Z",
+   "source_updated_at": "2026-10-24T19:00:41Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43648,7 +43243,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T16:14:47Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T16:14:47Z"
    }
   },
@@ -43661,11 +43256,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033146&episodeid=1&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033146&episodeid=2&eventtype=WF",
    "occurred_at": "2026-10-23T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T15:00:56Z",
+   "source_updated_at": "2026-10-24T19:00:54Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43680,21 +43275,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -20.9433,
-    "lon": 128.6136
+    "lat": -20.9431,
+    "lon": 128.6134
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 5326.0,
+    "episode_id": 2,
+    "severity": 5359.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T16:14:47Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
-    "last_changed_at": "2026-10-24T16:14:47Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -43706,11 +43301,11 @@
    "original_publisher": null,
    "title": "Forest fires in Nigeria",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033147&episodeid=1&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033147&episodeid=2&eventtype=WF",
    "occurred_at": "2026-10-21T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T15:04:18Z",
+   "source_updated_at": "2026-10-24T19:04:08Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43725,21 +43320,652 @@
     "countries": [
      "NG"
     ],
-    "lat": 12.3488,
-    "lon": 13.2292
+    "lat": 12.349,
+    "lon": 13.2287
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 5042.0,
+    "episode_id": 2,
+    "severity": 5655.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T16:14:47Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
-    "last_changed_at": "2026-10-24T16:14:47Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033148",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Mali",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033148&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-10-22T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T19:02:18Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Mali",
+    "countries": [
+     "ML"
+    ],
+    "lat": 15.1144,
+    "lon": -6.0568
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5990.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T20:45:50Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033149",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Chad",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033149&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-10-22T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T19:02:53Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Chad",
+    "countries": [
+     "TD"
+    ],
+    "lat": 12.0464,
+    "lon": 20.9008
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 6655.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T20:45:50Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033150",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Zambia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033150&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-10-21T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T19:03:47Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Zambia",
+    "countries": [
+     "ZM"
+    ],
+    "lat": -12.1051,
+    "lon": 31.8611
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5311.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T20:45:50Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033151",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Mozambique",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033151&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-10-21T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T19:04:36Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Mozambique",
+    "countries": [
+     "MZ"
+    ],
+    "lat": -13.5966,
+    "lon": 36.729
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 6600.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T20:45:50Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033152",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Chad",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033152&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-10-20T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T19:06:11Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Chad",
+    "countries": [
+     "TD"
+    ],
+    "lat": 12.3571,
+    "lon": 20.3852
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5086.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T20:45:50Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033153",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in South Sudan",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033153&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-10-19T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T19:10:36Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in South Sudan",
+    "countries": [
+     "SS"
+    ],
+    "lat": 8.931,
+    "lon": 29.1947
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5359.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T20:45:50Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033154",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Mozambique",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033154&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-10-18T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T19:13:08Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Mozambique",
+    "countries": [
+     "MZ"
+    ],
+    "lat": -13.2388,
+    "lon": 35.9195
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5022.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T20:45:50Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033155",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Mozambique",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033155&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-10-18T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T19:13:22Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Mozambique",
+    "countries": [
+     "MZ"
+    ],
+    "lat": -12.7426,
+    "lon": 35.6639
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5118.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T20:45:50Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033156",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Tanzania",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033156&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-10-18T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T19:14:34Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Tanzania",
+    "countries": [
+     "TZ"
+    ],
+    "lat": -10.1481,
+    "lon": 34.9669
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 6555.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T20:45:50Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033157",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Sudan",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033157&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-10-16T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T19:19:36Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Sudan",
+    "countries": [
+     "SD"
+    ],
+    "lat": 9.6554,
+    "lon": 24.1552
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5199.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T20:45:50Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033158",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Chad",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033158&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-10-16T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T19:20:46Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Chad",
+    "countries": [
+     "TD"
+    ],
+    "lat": 11.4162,
+    "lon": 20.6308
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 7246.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T20:45:50Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033159",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Zambia, Malawi",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033159&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-10-15T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T19:22:38Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Zambia, Malawi",
+    "countries": [
+     "ZM",
+     "MW"
+    ],
+    "lat": -9.9872,
+    "lon": 33.6084
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5612.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T20:45:50Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033160",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Tanzania",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033160&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-10-15T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T19:22:50Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Tanzania",
+    "countries": [
+     "TZ"
+    ],
+    "lat": -9.9366,
+    "lon": 35.4694
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 6166.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T20:45:50Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033161",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Mozambique",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033161&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-10-15T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T19:24:41Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Mozambique",
+    "countries": [
+     "MZ"
+    ],
+    "lat": -12.185,
+    "lon": 35.741
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 15456.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T20:45:50Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -684086,7 +684312,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-10-24T18:59:00Z",
+   "observed_at": "2026-10-24T20:45:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -684118,8 +684344,8 @@
    },
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
-    "last_changed_at": "2026-10-24T18:59:42Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -684134,7 +684360,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-10-24T18:59:00Z",
+   "observed_at": "2026-10-24T20:45:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -684155,8 +684381,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
-    "last_changed_at": "2026-10-24T18:59:42Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -684171,7 +684397,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-10-24T18:59:00Z",
+   "observed_at": "2026-10-24T20:45:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -684192,8 +684418,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
-    "last_changed_at": "2026-10-24T18:59:42Z"
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
   {
@@ -848248,7 +848474,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T22:08:16Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-23T22:08:16Z"
    }
   },
@@ -848288,7 +848514,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T16:14:47Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T16:14:47Z"
    }
   },
@@ -848328,7 +848554,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T23:29:39Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-23T23:29:39Z"
    }
   },
@@ -848368,7 +848594,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T23:29:39Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-23T23:29:39Z"
    }
   },
@@ -848408,7 +848634,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T23:29:39Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-23T23:29:39Z"
    }
   },
@@ -848448,7 +848674,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T23:29:39Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-23T23:29:39Z"
    }
   },
@@ -848488,7 +848714,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T00:39:30Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T00:39:30Z"
    }
   },
@@ -848528,7 +848754,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T01:58:05Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T01:58:05Z"
    }
   },
@@ -848572,7 +848798,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T10:54:59Z"
    }
   },
@@ -848616,7 +848842,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T05:49:25Z"
    }
   },
@@ -848656,7 +848882,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T05:49:25Z"
    }
   },
@@ -848696,7 +848922,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T05:49:25Z"
    }
   },
@@ -848736,7 +848962,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T05:49:25Z"
    }
   },
@@ -848780,7 +849006,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T05:49:25Z"
    }
   },
@@ -848824,7 +849050,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T05:49:25Z"
    }
   },
@@ -848864,7 +849090,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T05:49:25Z"
    }
   },
@@ -848904,7 +849130,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T05:49:25Z"
    }
   },
@@ -848944,7 +849170,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T05:49:25Z"
    }
   },
@@ -848984,7 +849210,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T05:49:25Z"
    }
   },
@@ -849028,7 +849254,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T05:49:25Z"
    }
   },
@@ -849068,7 +849294,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T07:35:39Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T07:35:39Z"
    }
   },
@@ -849148,7 +849374,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T07:35:39Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T07:35:39Z"
    }
   },
@@ -849188,7 +849414,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T07:35:39Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T07:35:39Z"
    }
   },
@@ -849232,7 +849458,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T07:35:39Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T07:35:39Z"
    }
   },
@@ -849272,7 +849498,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T07:35:39Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T07:35:39Z"
    }
   },
@@ -849312,7 +849538,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T07:35:39Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T07:35:39Z"
    }
   },
@@ -849352,7 +849578,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T10:54:59Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T10:54:59Z"
    }
   },
@@ -849392,7 +849618,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T10:54:59Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T10:54:59Z"
    }
   },
@@ -849432,7 +849658,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T10:54:59Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T10:54:59Z"
    }
   },
@@ -849472,7 +849698,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T10:54:59Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T10:54:59Z"
    }
   },
@@ -849512,7 +849738,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T10:54:59Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T10:54:59Z"
    }
   },
@@ -849552,7 +849778,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T10:54:59Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T10:54:59Z"
    }
   },
@@ -849592,7 +849818,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T10:54:59Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T10:54:59Z"
    }
   },
@@ -849632,7 +849858,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T10:54:59Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T10:54:59Z"
    }
   },
@@ -849676,7 +849902,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T10:54:59Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T10:54:59Z"
    }
   },
@@ -849716,7 +849942,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T10:54:59Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T10:54:59Z"
    }
   },
@@ -849756,7 +849982,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T10:54:59Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T10:54:59Z"
    }
   },
@@ -849796,7 +850022,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T12:13:45Z"
    }
   },
@@ -849836,7 +850062,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T12:13:45Z"
    }
   },
@@ -849876,7 +850102,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T12:13:45Z"
    }
   },
@@ -849916,7 +850142,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T16:14:47Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T16:14:47Z"
    }
   },
@@ -849956,7 +850182,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T16:14:47Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T16:14:47Z"
    }
   },
@@ -849996,7 +850222,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T18:07:04Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T18:07:04Z"
    }
   },
@@ -850036,7 +850262,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T16:14:47Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T16:14:47Z"
    }
   },
@@ -850080,7 +850306,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T16:14:47Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T16:14:47Z"
    }
   },
@@ -850120,7 +850346,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T18:07:04Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T18:07:04Z"
    }
   },
@@ -850160,8 +850386,88 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T18:07:04Z",
-    "last_seen_at": "2026-10-24T18:59:42Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
     "last_changed_at": "2026-10-24T18:07:04Z"
+   }
+  },
+  {
+   "id": "usgs:us6000u4nv",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 5.0 - 193 km NW of Port-Olry, Vanuatu",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4nv",
+   "occurred_at": "2026-10-24T19:07:15Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T19:24:33Z",
+   "ongoing": null,
+   "data_status": "reviewed",
+   "source_status_raw": "reviewed",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "193 km NW of Port-Olry, Vanuatu",
+    "countries": [],
+    "lat": -13.975,
+    "lon": 165.6556
+   },
+   "metrics": {
+    "magnitude": 5,
+    "magnitude_type": "mb",
+    "depth_km": 10,
+    "shaking_mmi": null,
+    "reported_cdi": null,
+    "felt_reports": null
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T20:45:50Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
+   }
+  },
+  {
+   "id": "usgs:us6000u4ny",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 4.9 - 73 km SW of Isangel, Vanuatu",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ny",
+   "occurred_at": "2026-10-24T19:18:20Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T19:43:33Z",
+   "ongoing": null,
+   "data_status": "reviewed",
+   "source_status_raw": "reviewed",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "73 km SW of Isangel, Vanuatu",
+    "countries": [],
+    "lat": -20.025,
+    "lon": 168.7941
+   },
+   "metrics": {
+    "magnitude": 4.9,
+    "magnitude_type": "mb",
+    "depth_km": 22.398,
+    "shaking_mmi": null,
+    "reported_cdi": null,
+    "felt_reports": null
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T20:45:50Z",
+    "last_seen_at": "2026-10-24T20:45:50Z",
+    "last_changed_at": "2026-10-24T20:45:50Z"
    }
   }
  ]
