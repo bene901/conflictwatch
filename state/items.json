@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-24T21:52:45Z",
+ "generated_at": "2026-10-24T23:11:14Z",
  "items": [
   {
    "id": "gdacs-drought:1015915",
@@ -44,7 +44,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T18:08:51Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -115,7 +115,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -163,7 +163,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -220,7 +220,7 @@
    },
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -271,7 +271,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -317,7 +317,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -365,7 +365,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -422,7 +422,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -477,7 +477,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -528,7 +528,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -576,7 +576,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -670,7 +670,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -713,7 +713,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T14:06:23Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-09-21T14:06:23Z"
    }
   },
@@ -41665,7 +41665,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -41710,7 +41710,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -41755,7 +41755,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T12:13:45Z"
    }
   },
@@ -41845,7 +41845,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -41890,7 +41890,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -41936,7 +41936,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T07:35:39Z"
    }
   },
@@ -41981,7 +41981,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -42071,7 +42071,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -42116,7 +42116,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -42161,7 +42161,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -42206,7 +42206,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -42251,7 +42251,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -42343,7 +42343,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -42388,7 +42388,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -42491,11 +42491,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033129&episodeid=4&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033129&episodeid=5&eventtype=WF",
    "occurred_at": "2026-10-22T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T19:03:21Z",
+   "source_updated_at": "2026-10-24T23:06:19Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42510,21 +42510,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -18.4515,
-    "lon": 133.757
+    "lat": -18.4476,
+    "lon": 133.7508
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 4,
-    "severity": 10972.0,
+    "episode_id": 5,
+    "severity": 12859.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T23:29:39Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
-    "last_changed_at": "2026-10-24T20:45:50Z"
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
    }
   },
   {
@@ -42540,7 +42540,7 @@
    "occurred_at": "2026-10-21T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T19:04:24Z",
+   "source_updated_at": "2026-10-24T23:07:11Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42568,7 +42568,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T23:29:39Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T12:13:45Z"
    }
   },
@@ -42581,11 +42581,11 @@
    "original_publisher": null,
    "title": "Forest fires in South Africa",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033131&episodeid=2&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033131&episodeid=3&eventtype=WF",
    "occurred_at": "2026-10-20T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T19:07:11Z",
+   "source_updated_at": "2026-10-24T23:10:29Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42600,21 +42600,21 @@
     "countries": [
      "ZA"
     ],
-    "lat": -24.2764,
-    "lon": 29.0963
+    "lat": -24.2759,
+    "lon": 29.0965
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 2,
-    "severity": 6762.0,
+    "episode_id": 3,
+    "severity": 6846.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
-    "last_changed_at": "2026-10-24T20:45:50Z"
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
    }
   },
   {
@@ -42630,7 +42630,7 @@
    "occurred_at": "2026-10-23T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T19:01:03Z",
+   "source_updated_at": "2026-10-24T23:01:54Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42658,7 +42658,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T16:14:47Z"
    }
   },
@@ -42671,11 +42671,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033133&episodeid=3&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033133&episodeid=4&eventtype=WF",
    "occurred_at": "2026-10-23T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T19:01:13Z",
+   "source_updated_at": "2026-10-24T23:02:48Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42690,21 +42690,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -16.8943,
-    "lon": 126.8236
+    "lat": -16.8914,
+    "lon": 126.8238
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 3,
-    "severity": 6934.0,
+    "episode_id": 4,
+    "severity": 8468.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
-    "last_changed_at": "2026-10-24T20:45:50Z"
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
    }
   },
   {
@@ -42716,11 +42716,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033134&episodeid=3&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033134&episodeid=4&eventtype=WF",
    "occurred_at": "2026-10-23T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T19:01:28Z",
+   "source_updated_at": "2026-10-24T23:03:15Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42735,21 +42735,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -21.0046,
-    "lon": 128.8731
+    "lat": -21.0033,
+    "lon": 128.8713
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 3,
-    "severity": 27778.0,
+    "episode_id": 4,
+    "severity": 29253.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
-    "last_changed_at": "2026-10-24T20:45:50Z"
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
    }
   },
   {
@@ -42761,11 +42761,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033135&episodeid=3&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033135&episodeid=4&eventtype=WF",
    "occurred_at": "2026-10-22T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T19:02:10Z",
+   "source_updated_at": "2026-10-24T23:05:11Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42780,21 +42780,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -16.1055,
-    "lon": 126.3296
+    "lat": -16.1046,
+    "lon": 126.329
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 3,
-    "severity": 5833.0,
+    "episode_id": 4,
+    "severity": 6537.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
-    "last_changed_at": "2026-10-24T20:45:50Z"
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
    }
   },
   {
@@ -42810,7 +42810,7 @@
    "occurred_at": "2026-10-22T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T19:01:42Z",
+   "source_updated_at": "2026-10-24T23:04:05Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42838,7 +42838,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -42851,11 +42851,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033137&episodeid=1&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033137&episodeid=2&eventtype=WF",
    "occurred_at": "2026-10-22T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T19:01:49Z",
+   "source_updated_at": "2026-10-24T23:04:28Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42870,21 +42870,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -17.5142,
-    "lon": 126.921
+    "lat": -17.5152,
+    "lon": 126.9227
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 5291.0,
+    "episode_id": 2,
+    "severity": 5617.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
-    "last_changed_at": "2026-10-24T12:13:45Z"
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
    }
   },
   {
@@ -42900,7 +42900,7 @@
    "occurred_at": "2026-10-22T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T19:02:49Z",
+   "source_updated_at": "2026-10-24T23:05:32Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42928,7 +42928,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T12:13:45Z"
    }
   },
@@ -42941,11 +42941,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033139&episodeid=3&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033139&episodeid=4&eventtype=WF",
    "occurred_at": "2026-10-22T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T19:03:13Z",
+   "source_updated_at": "2026-10-24T23:06:07Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42960,21 +42960,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -19.3636,
-    "lon": 128.2264
+    "lat": -19.3614,
+    "lon": 128.2243
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 3,
-    "severity": 7514.0,
+    "episode_id": 4,
+    "severity": 9153.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
-    "last_changed_at": "2026-10-24T20:45:50Z"
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
    }
   },
   {
@@ -42986,11 +42986,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033140&episodeid=3&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033140&episodeid=4&eventtype=WF",
    "occurred_at": "2026-10-22T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T19:03:42Z",
+   "source_updated_at": "2026-10-24T23:06:38Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43005,21 +43005,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -18.7505,
-    "lon": 123.9165
+    "lat": -18.7522,
+    "lon": 123.9172
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 3,
-    "severity": 20702.0,
+    "episode_id": 4,
+    "severity": 21844.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
-    "last_changed_at": "2026-10-24T20:45:50Z"
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
    }
   },
   {
@@ -43031,11 +43031,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033141&episodeid=3&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033141&episodeid=4&eventtype=WF",
    "occurred_at": "2026-10-21T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T19:04:18Z",
+   "source_updated_at": "2026-10-24T23:07:44Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43050,21 +43050,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -15.1312,
-    "lon": 128.997
+    "lat": -15.1487,
+    "lon": 129.0021
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 3,
-    "severity": 5735.0,
+    "episode_id": 4,
+    "severity": 8420.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
-    "last_changed_at": "2026-10-24T20:45:50Z"
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
    }
   },
   {
@@ -43076,11 +43076,11 @@
    "original_publisher": null,
    "title": "Forest fires in Bolivia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033142&episodeid=3&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033142&episodeid=4&eventtype=WF",
    "occurred_at": "2026-10-21T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T19:04:27Z",
+   "source_updated_at": "2026-10-24T23:07:30Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43095,21 +43095,21 @@
     "countries": [
      "BO"
     ],
-    "lat": -13.0624,
-    "lon": -67.6635
+    "lat": -13.0639,
+    "lon": -67.6663
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 3,
-    "severity": 6185.0,
+    "episode_id": 4,
+    "severity": 6919.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
-    "last_changed_at": "2026-10-24T20:45:50Z"
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
    }
   },
   {
@@ -43125,7 +43125,7 @@
    "occurred_at": "2026-10-20T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T19:06:30Z",
+   "source_updated_at": "2026-10-24T23:09:39Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43153,7 +43153,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T12:13:45Z"
    }
   },
@@ -43198,7 +43198,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -43211,11 +43211,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033145&episodeid=1&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033145&episodeid=2&eventtype=WF",
    "occurred_at": "2026-10-23T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T19:00:41Z",
+   "source_updated_at": "2026-10-24T23:03:02Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43230,21 +43230,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -15.1684,
-    "lon": 128.5909
+    "lat": -15.197,
+    "lon": 128.607
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 5232.0,
+    "episode_id": 2,
+    "severity": 9064.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T16:14:47Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
-    "last_changed_at": "2026-10-24T16:14:47Z"
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
    }
   },
   {
@@ -43256,11 +43256,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033146&episodeid=2&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033146&episodeid=3&eventtype=WF",
    "occurred_at": "2026-10-23T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T19:00:54Z",
+   "source_updated_at": "2026-10-24T23:02:17Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43275,21 +43275,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -20.9431,
-    "lon": 128.6134
+    "lat": -20.944,
+    "lon": 128.6129
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 2,
-    "severity": 5359.0,
+    "episode_id": 3,
+    "severity": 5501.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T16:14:47Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
-    "last_changed_at": "2026-10-24T20:45:50Z"
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
    }
   },
   {
@@ -43305,7 +43305,7 @@
    "occurred_at": "2026-10-21T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T19:04:08Z",
+   "source_updated_at": "2026-10-24T23:06:52Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43333,7 +43333,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T16:14:47Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -43350,7 +43350,7 @@
    "occurred_at": "2026-10-22T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T19:02:18Z",
+   "source_updated_at": "2026-10-24T23:04:34Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43378,7 +43378,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -43391,11 +43391,11 @@
    "original_publisher": null,
    "title": "Forest fires in Chad",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033149&episodeid=1&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033149&episodeid=2&eventtype=WF",
    "occurred_at": "2026-10-22T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T19:02:53Z",
+   "source_updated_at": "2026-10-24T23:05:45Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43410,21 +43410,21 @@
     "countries": [
      "TD"
     ],
-    "lat": 12.0464,
-    "lon": 20.9008
+    "lat": 12.0459,
+    "lon": 20.9011
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 6655.0,
+    "episode_id": 2,
+    "severity": 6728.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
-    "last_changed_at": "2026-10-24T20:45:50Z"
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
    }
   },
   {
@@ -43440,7 +43440,7 @@
    "occurred_at": "2026-10-21T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T19:03:47Z",
+   "source_updated_at": "2026-10-24T23:06:42Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43468,7 +43468,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -43485,7 +43485,7 @@
    "occurred_at": "2026-10-21T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T19:04:36Z",
+   "source_updated_at": "2026-10-24T23:07:21Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43513,7 +43513,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -43530,7 +43530,7 @@
    "occurred_at": "2026-10-20T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-24T19:06:11Z",
+   "source_updated_at": "2026-10-24T23:08:54Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43558,7 +43558,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -43603,7 +43603,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -43648,7 +43648,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -43693,7 +43693,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -43738,7 +43738,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -43783,7 +43783,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -43828,7 +43828,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -43874,7 +43874,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -43919,7 +43919,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -43964,8 +43964,413 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033162",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033162&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:00:47Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -18.3984,
+    "lon": 133.2492
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5004.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033163",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033163&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:01:20Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -17.4146,
+    "lon": 132.1466
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 9167.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033164",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033164&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:01:41Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -18.8879,
+    "lon": 134.1623
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 16596.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033165",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033165&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-10-23T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:02:10Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -16.8945,
+    "lon": 128.3442
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5486.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033166",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033166&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-10-23T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:02:32Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -18.7866,
+    "lon": 134.37
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5791.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033167",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033167&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-10-22T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:03:43Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -20.7886,
+    "lon": 126.1726
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5136.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033168",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033168&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-10-21T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:08:02Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -19.2099,
+    "lon": 128.751
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 12837.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033169",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033169&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-10-20T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:09:32Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -17.9141,
+    "lon": 126.6615
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5298.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033170",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033170&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-10-20T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:11:32Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -15.7644,
+    "lon": 129.2143
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 11225.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
    }
   },
   {
@@ -674804,7 +675209,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -674846,7 +675251,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -674888,7 +675293,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -674930,7 +675335,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -674972,7 +675377,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -675014,7 +675419,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -675056,7 +675461,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -675098,7 +675503,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -675140,7 +675545,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -675182,7 +675587,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -675224,7 +675629,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -675266,7 +675671,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -675308,7 +675713,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -675350,7 +675755,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -675392,7 +675797,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -675434,7 +675839,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -675476,7 +675881,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -675518,7 +675923,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -675560,7 +675965,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -675602,7 +676007,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -675644,7 +676049,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -675686,7 +676091,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -675728,7 +676133,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -675770,7 +676175,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -675812,7 +676217,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -675854,7 +676259,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -675896,7 +676301,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -675938,7 +676343,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -675980,7 +676385,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -676022,7 +676427,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -676064,7 +676469,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -676106,7 +676511,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -676148,7 +676553,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -676190,7 +676595,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -676232,7 +676637,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -676274,7 +676679,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -676316,7 +676721,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -676358,7 +676763,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -676400,7 +676805,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -676442,7 +676847,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -676484,7 +676889,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -676526,7 +676931,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -676568,7 +676973,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -676610,7 +677015,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -676652,7 +677057,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -676694,7 +677099,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -676736,7 +677141,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -676778,7 +677183,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -676820,7 +677225,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -676862,7 +677267,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -676904,7 +677309,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -676946,7 +677351,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -676988,7 +677393,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -677030,7 +677435,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -677072,7 +677477,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -677114,7 +677519,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -677156,7 +677561,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -677198,7 +677603,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -677240,7 +677645,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -677282,7 +677687,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -677324,7 +677729,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -677366,7 +677771,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -677408,7 +677813,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -677450,7 +677855,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -677492,7 +677897,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -677534,7 +677939,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -677576,7 +677981,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -677618,7 +678023,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -677660,8 +678065,4040 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
+   }
+  },
+  {
+   "id": "gdelt:1329697682",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.ghanamma.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: DEMOCRATIC REPUBLIC OF CONGO → SUDAN",
+   "lang": "de",
+   "url": "https://www.ghanamma.com/2026/10/24/africa-is-not-an-empty-chessboard-for-foreign-powers-mahama/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Congo",
+    "countries": [],
+    "lat": -1.0,
+    "lon": 15.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "DEMOCRATIC REPUBLIC OF CONGO",
+    "actor2": "SUDAN",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329697842",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.ghanamma.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: SUDAN → DEMOCRATIC REPUBLIC OF CONGO",
+   "lang": "de",
+   "url": "https://www.ghanamma.com/2026/10/24/africa-is-not-an-empty-chessboard-for-foreign-powers-mahama/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Sudan",
+    "countries": [],
+    "lat": 16.0,
+    "lon": 30.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "SUDAN",
+    "actor2": "DEMOCRATIC REPUBLIC OF CONGO",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329697939",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aljazeera.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: YEMEN → YEMEN",
+   "lang": "de",
+   "url": "https://www.aljazeera.com/news/2026/10/24/houthis-launch-attacks-on-saudi-arabia-and-yemens-aden",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Sanaa, Sana', Yemen",
+    "countries": [],
+    "lat": 15.3547,
+    "lon": 44.2067
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "YEMEN",
+    "actor2": "YEMEN",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329698278",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.mirror.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → UNITED KINGDOM",
+   "lang": "de",
+   "url": "https://www.mirror.co.uk/news/uk-news/storm-boelo-met-weather-warnings-37807796",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Cumbria, Cumbria, United Kingdom",
+    "countries": [],
+    "lat": 54.5833,
+    "lon": -2.8333
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "UNITED KINGDOM",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329698296",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.bignewsnetwork.com",
+   "title": "Einsatz von Luftwaffen: Akteur 1 nicht erkannt → SAUDI ARABIA",
+   "lang": "de",
+   "url": "https://www.gdeltproject.org/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "195",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Sanaa, Sana', Yemen",
+    "countries": [],
+    "lat": 15.3547,
+    "lon": 44.2067
+   },
+   "metrics": {
+    "cameo_code": "195",
+    "cameo_category": "Einsatz von Luftwaffen",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "SAUDI ARABIA",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329698297",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.bignewsnetwork.com",
+   "title": "Einsatz von Luftwaffen: Akteur 1 nicht erkannt → SAUDI ARABIA",
+   "lang": "de",
+   "url": "https://www.gdeltproject.org/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "195",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Mecca, Makkah, Saudi Arabia",
+    "countries": [],
+    "lat": 21.4267,
+    "lon": 39.8261
+   },
+   "metrics": {
+    "cameo_code": "195",
+    "cameo_category": "Einsatz von Luftwaffen",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "SAUDI ARABIA",
+    "mentions": 12,
+    "sources": 1,
+    "articles": 12,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329698321",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.kynt1450.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → NEBRASKA",
+   "lang": "de",
+   "url": "https://www.kynt1450.com/2026/10/24/hartington-man-killed-in-single-vehicle-crash/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Cedar County, Nebraska, United States",
+    "countries": [],
+    "lat": 42.6,
+    "lon": -97.267
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "NEBRASKA",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329698387",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "nationalaccordnewspaper.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: COMMUNITY → BANK",
+   "lang": "de",
+   "url": "https://nationalaccordnewspaper.com/bandits-invade-taraba-community-after-jumaa-prayers-kill-26-villagers-as-residents-flee/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "COMMUNITY",
+    "actor2": "BANK",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329698392",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.dailymail.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: PRIVATE CITIZEN → UNITED STATES",
+   "lang": "de",
+   "url": "https://www.dailymail.com/news/article-16235601/JFK-Jrs-body-100-feet-deep-ocean-horror-plane-crash-hours-recovery-crews-quit-never-him.html",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "New York, United States",
+    "countries": [],
+    "lat": 42.1497,
+    "lon": -74.9384
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "PRIVATE CITIZEN",
+    "actor2": "UNITED STATES",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329698395",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.romesentinel.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: GERMANY → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.romesentinel.com/opinion/remembering-a-local-educator-and-a-life-well-lived/article_c42c47f7-dd70-4045-b131-9f216463974c.html",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Vietnam, Republic Of",
+    "countries": [],
+    "lat": 16.1667,
+    "lon": 107.8333
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "GERMANY",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329698400",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "recorder.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: COLLEGE → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://recorder.com/2026/10/24/smith-college-microscopic-protist-discovery/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Acadia National Park, Maine, United States",
+    "countries": [],
+    "lat": 44.3501,
+    "lon": -68.2828
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "COLLEGE",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329698401",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "recorder.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: COLLEGE → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://recorder.com/2026/10/24/smith-college-microscopic-protist-discovery/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Maine, United States",
+    "countries": [],
+    "lat": 44.6074,
+    "lon": -69.3977
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "COLLEGE",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329698405",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.bignewsnetwork.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: STUDENT → ARUNACHAL PRADESH",
+   "lang": "de",
+   "url": "https://www.gdeltproject.org/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Arunachal, Assam, India",
+    "countries": [],
+    "lat": 24.8667,
+    "lon": 92.7667
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "STUDENT",
+    "actor2": "ARUNACHAL PRADESH",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329698409",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.bignewsnetwork.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: STUDENT → PROTESTER",
+   "lang": "de",
+   "url": "https://www.gdeltproject.org/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Arunachal, Assam, India",
+    "countries": [],
+    "lat": 24.8667,
+    "lon": 92.7667
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "STUDENT",
+    "actor2": "PROTESTER",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329698410",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.bignewsnetwork.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: STUDENT → PROTESTER",
+   "lang": "de",
+   "url": "https://www.gdeltproject.org/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Arunachal, Assam, India",
+    "countries": [],
+    "lat": 24.8667,
+    "lon": 92.7667
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "STUDENT",
+    "actor2": "PROTESTER",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329698411",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.bignewsnetwork.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: STUDENT → PROTESTER",
+   "lang": "de",
+   "url": "https://www.gdeltproject.org/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Delhi, Delhi, India",
+    "countries": [],
+    "lat": 28.6667,
+    "lon": 77.2167
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "STUDENT",
+    "actor2": "PROTESTER",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329698423",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.mirror.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: UNITED KINGDOM → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.mirror.co.uk/news/uk-news/storm-boelo-met-weather-warnings-37807796",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Ewenny, Vale of Glamorgan, The, United Kingdom",
+    "countries": [],
+    "lat": 51.4811,
+    "lon": -3.5714
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "UNITED KINGDOM",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329698443",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.odnako.org",
+   "title": "Militärische Drohung: FINANCE MINIST → WEST BANK",
+   "lang": "de",
+   "url": "https://www.odnako.org/attack-in-hebron-two-israeli-soldiers-killed-netanyahu-seals-the-west-bank-the-anti-terrorism-operation-begins/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "138",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Hebron, Israel (general), Israel",
+    "countries": [],
+    "lat": 31.5333,
+    "lon": 35.1
+   },
+   "metrics": {
+    "cameo_code": "138",
+    "cameo_category": "Militärische Drohung",
+    "actor1": "FINANCE MINIST",
+    "actor2": "WEST BANK",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329698444",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.odnako.org",
+   "title": "Militärische Drohung: FINANCE MINIST → WEST BANK",
+   "lang": "de",
+   "url": "https://www.odnako.org/attack-in-hebron-two-israeli-soldiers-killed-netanyahu-seals-the-west-bank-the-anti-terrorism-operation-begins/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "138",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Farsh Al-Hawa, West Bank (general), West Bank",
+    "countries": [],
+    "lat": 31.5599,
+    "lon": 35.0801
+   },
+   "metrics": {
+    "cameo_code": "138",
+    "cameo_category": "Militärische Drohung",
+    "actor1": "FINANCE MINIST",
+    "actor2": "WEST BANK",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329698537",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.the-star.co.ke",
+   "title": "Kampf mit Hand- oder leichten Waffen: NAIROBI → LAWYER",
+   "lang": "de",
+   "url": "https://www.the-star.co.ke/news/2026-10-24-inspector-on-the-run-arrested-over-mbobu-mutiso-murders",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Nairobi, Nairobi Area, Kenya",
+    "countries": [],
+    "lat": -1.2833,
+    "lon": 36.8167
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "NAIROBI",
+    "actor2": "LAWYER",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329698543",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.the-star.co.ke",
+   "title": "Kampf mit Hand- oder leichten Waffen: NAIROBI → KENYA",
+   "lang": "de",
+   "url": "https://www.the-star.co.ke/news/2026-10-24-inspector-on-the-run-arrested-over-mbobu-mutiso-murders",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Eldoret, Rift Valley, Kenya",
+    "countries": [],
+    "lat": 0.5204,
+    "lon": 35.2699
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "NAIROBI",
+    "actor2": "KENYA",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329698604",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.odnako.org",
+   "title": "Militärische Drohung: WEST BANK → WEST BANK",
+   "lang": "de",
+   "url": "https://www.odnako.org/attack-in-hebron-two-israeli-soldiers-killed-netanyahu-seals-the-west-bank-the-anti-terrorism-operation-begins/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "138",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Hebron, Israel (general), Israel",
+    "countries": [],
+    "lat": 31.5333,
+    "lon": 35.1
+   },
+   "metrics": {
+    "cameo_code": "138",
+    "cameo_category": "Militärische Drohung",
+    "actor1": "WEST BANK",
+    "actor2": "WEST BANK",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329698605",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.odnako.org",
+   "title": "Militärische Drohung: WEST BANK → WEST BANK",
+   "lang": "de",
+   "url": "https://www.odnako.org/attack-in-hebron-two-israeli-soldiers-killed-netanyahu-seals-the-west-bank-the-anti-terrorism-operation-begins/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "138",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Farsh Al-Hawa, West Bank (general), West Bank",
+    "countries": [],
+    "lat": 31.5599,
+    "lon": 35.0801
+   },
+   "metrics": {
+    "cameo_code": "138",
+    "cameo_category": "Militärische Drohung",
+    "actor1": "WEST BANK",
+    "actor2": "WEST BANK",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329698652",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.bignewsnetwork.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: SAUDI ARABIA → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.gdeltproject.org/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Mecca, Makkah, Saudi Arabia",
+    "countries": [],
+    "lat": 21.4267,
+    "lon": 39.8261
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "SAUDI ARABIA",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 20,
+    "sources": 1,
+    "articles": 20,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329698678",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.the-star.co.ke",
+   "title": "Einsatz konventioneller militärischer Gewalt: TANZANIA → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.the-star.co.ke/news/realtime/2026-10-24-sheila-murder-suspect-arrested-in-tanzania",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Muhuru, Mtwara, Tanzania",
+    "countries": [],
+    "lat": -10.3167,
+    "lon": 40.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "TANZANIA",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 3,
+    "sources": 1,
+    "articles": 3,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699119",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "irannewsupdate.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → IRAN",
+   "lang": "de",
+   "url": "https://irannewsupdate.com/news/iranian-opposition/resistance-reports-ten-retaliatory-actions-after-authorities-demolish-khorramshahr-cafes/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Khorramshahr, Khuzestan, Iran",
+    "countries": [],
+    "lat": 30.4397,
+    "lon": 48.1664
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "IRAN",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699126",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "irannewsupdate.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → BATTALION",
+   "lang": "de",
+   "url": "https://irannewsupdate.com/news/iranian-opposition/resistance-reports-ten-retaliatory-actions-after-authorities-demolish-khorramshahr-cafes/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Khorramshahr, Khuzestan, Iran",
+    "countries": [],
+    "lat": 30.4397,
+    "lon": 48.1664
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "BATTALION",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699127",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "irannewsupdate.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → BATTALION",
+   "lang": "de",
+   "url": "https://irannewsupdate.com/news/iranian-opposition/resistance-reports-ten-retaliatory-actions-after-authorities-demolish-khorramshahr-cafes/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Baluchestan, Sistan va Baluchestan, Iran",
+    "countries": [],
+    "lat": 28.5,
+    "lon": 60.5
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "BATTALION",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699128",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "irannewsupdate.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → BATTALION",
+   "lang": "de",
+   "url": "https://irannewsupdate.com/news/iranian-opposition/resistance-reports-ten-retaliatory-actions-after-authorities-demolish-khorramshahr-cafes/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Baluchestan, Sistan va Baluchestan, Iran",
+    "countries": [],
+    "lat": 28.5,
+    "lon": 60.5
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "BATTALION",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699129",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "irannewsupdate.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → BATTALION",
+   "lang": "de",
+   "url": "https://irannewsupdate.com/news/iranian-opposition/resistance-reports-ten-retaliatory-actions-after-authorities-demolish-khorramshahr-cafes/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Basij, Fars, Iran",
+    "countries": [],
+    "lat": 30.608,
+    "lon": 53.1874
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "BATTALION",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699142",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aol.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → TEXAS",
+   "lang": "de",
+   "url": "https://www.aol.com/articles/suspect-fired-more-800-rounds-212434000.html",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "China",
+    "countries": [],
+    "lat": 35.0,
+    "lon": 105.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "TEXAS",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699198",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aol.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: CANTON → DEPUTY",
+   "lang": "de",
+   "url": "https://www.aol.com/articles/suspect-fired-more-800-rounds-212434000.html",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "China",
+    "countries": [],
+    "lat": 35.0,
+    "lon": 105.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "CANTON",
+    "actor2": "DEPUTY",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699207",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "dailyridge.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: DETECTIVE → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://dailyridge.com/2025/02/18/lake-wales-man-arrested-for-attempted-murder-2nd-degree/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Lake Wales Police Department, Florida, United States",
+    "countries": [],
+    "lat": 27.9005,
+    "lon": -81.5884
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "DETECTIVE",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699208",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.birminghammail.co.uk",
+   "title": "Blockade oder Bewegungsbeschränkung: POLICE → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.birminghammail.co.uk/news/midlands-news/driver-lucky-escape-after-large-34813728",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "191",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Midlands, Leicestershire, United Kingdom",
+    "countries": [],
+    "lat": 52.75,
+    "lon": -1.5
+   },
+   "metrics": {
+    "cameo_code": "191",
+    "cameo_category": "Blockade oder Bewegungsbeschränkung",
+    "actor1": "POLICE",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699218",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aol.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: DEPUTY → TEXAS",
+   "lang": "de",
+   "url": "https://www.aol.com/articles/suspect-fired-more-800-rounds-212434000.html",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Van Zandt County, Texas, United States",
+    "countries": [],
+    "lat": 32.5668,
+    "lon": -95.8502
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "DEPUTY",
+    "actor2": "TEXAS",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699219",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "dailyridge.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: DETECTIVE → UNITED STATES",
+   "lang": "de",
+   "url": "https://dailyridge.com/2025/02/18/lake-wales-man-arrested-for-attempted-murder-2nd-degree/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Lake Wales Police Department, Florida, United States",
+    "countries": [],
+    "lat": 27.9005,
+    "lon": -81.5884
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "DETECTIVE",
+    "actor2": "UNITED STATES",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699220",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "dailyridge.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: DETECTIVE → UNITED STATES",
+   "lang": "de",
+   "url": "https://dailyridge.com/2025/02/18/lake-wales-man-arrested-for-attempted-murder-2nd-degree/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Lake Wales, Florida, United States",
+    "countries": [],
+    "lat": 27.9014,
+    "lon": -81.5859
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "DETECTIVE",
+    "actor2": "UNITED STATES",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699221",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aol.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: DEPUTY → TEXAS",
+   "lang": "de",
+   "url": "https://www.aol.com/articles/suspect-fired-more-800-rounds-212434000.html",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "China",
+    "countries": [],
+    "lat": 35.0,
+    "lon": 105.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "DEPUTY",
+    "actor2": "TEXAS",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699222",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "dailyridge.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: DETECTIVE → UNITED STATES",
+   "lang": "de",
+   "url": "https://dailyridge.com/2025/02/18/lake-wales-man-arrested-for-attempted-murder-2nd-degree/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Lake Wales Police Department, Florida, United States",
+    "countries": [],
+    "lat": 27.9005,
+    "lon": -81.5884
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "DETECTIVE",
+    "actor2": "UNITED STATES",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699231",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.vanguardngr.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: COMMUNITY → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.vanguardngr.com/2026/10/we-counted-over-20-bodies-after-attackers-left-taraba-massacre-survivors/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Kaduna, Kaduna, Nigeria",
+    "countries": [],
+    "lat": 10.5231,
+    "lon": 7.4403
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "COMMUNITY",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 3,
+    "sources": 1,
+    "articles": 3,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699232",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.vanguardngr.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: VILLAGE → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.vanguardngr.com/2026/10/we-counted-over-20-bodies-after-attackers-left-taraba-massacre-survivors/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Kaduna, Kaduna, Nigeria",
+    "countries": [],
+    "lat": 10.5231,
+    "lon": 7.4403
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "VILLAGE",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699244",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.dailyfreeman.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: GERMAN → ARMY",
+   "lang": "de",
+   "url": "https://www.dailyfreeman.com/2026/10/24/wwii-soldiers-remains-finally-buried-in-kingston/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Saar River, Germany (general), Germany",
+    "countries": [],
+    "lat": 49.7,
+    "lon": 6.5667
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "GERMAN",
+    "actor2": "ARMY",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699245",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.dailyfreeman.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: GERMANY → ARMY",
+   "lang": "de",
+   "url": "https://www.dailyfreeman.com/2026/10/24/wwii-soldiers-remains-finally-buried-in-kingston/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Saar River, Germany (general), Germany",
+    "countries": [],
+    "lat": 49.7,
+    "lon": 6.5667
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "GERMANY",
+    "actor2": "ARMY",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699246",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.dailyfreeman.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: GERMAN → ARMY",
+   "lang": "de",
+   "url": "https://www.dailyfreeman.com/2026/10/24/wwii-soldiers-remains-finally-buried-in-kingston/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Indiana, United States",
+    "countries": [],
+    "lat": 39.8647,
+    "lon": -86.2604
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "GERMAN",
+    "actor2": "ARMY",
+    "mentions": 3,
+    "sources": 1,
+    "articles": 3,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699248",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.dailyfreeman.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: GERMAN → UNITED STATES",
+   "lang": "de",
+   "url": "https://www.dailyfreeman.com/2026/10/24/wwii-soldiers-remains-finally-buried-in-kingston/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Saar River, Germany (general), Germany",
+    "countries": [],
+    "lat": 49.7,
+    "lon": 6.5667
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "GERMAN",
+    "actor2": "UNITED STATES",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699249",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.dailyfreeman.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: GERMAN → UNITED STATES",
+   "lang": "de",
+   "url": "https://www.dailyfreeman.com/2026/10/24/wwii-soldiers-remains-finally-buried-in-kingston/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Kingston High School, Arkansas, United States",
+    "countries": [],
+    "lat": 36.054,
+    "lon": -93.5163
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "GERMAN",
+    "actor2": "UNITED STATES",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699250",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.dailyfreeman.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: GERMAN → UNITED STATES",
+   "lang": "de",
+   "url": "https://www.dailyfreeman.com/2026/10/24/wwii-soldiers-remains-finally-buried-in-kingston/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Indiana, United States",
+    "countries": [],
+    "lat": 39.8647,
+    "lon": -86.2604
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "GERMAN",
+    "actor2": "UNITED STATES",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699340",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "irannewsupdate.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: IRAN → BATTALION",
+   "lang": "de",
+   "url": "https://irannewsupdate.com/news/iranian-opposition/resistance-reports-ten-retaliatory-actions-after-authorities-demolish-khorramshahr-cafes/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Basij, Fars, Iran",
+    "countries": [],
+    "lat": 30.608,
+    "lon": 53.1874
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "IRAN",
+    "actor2": "BATTALION",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699341",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "irannewsupdate.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: IRAN → BATTALION",
+   "lang": "de",
+   "url": "https://irannewsupdate.com/news/iranian-opposition/resistance-reports-ten-retaliatory-actions-after-authorities-demolish-khorramshahr-cafes/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Baluchestan, Sistan va Baluchestan, Iran",
+    "countries": [],
+    "lat": 28.5,
+    "lon": 60.5
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "IRAN",
+    "actor2": "BATTALION",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699380",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aol.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: MAGAZINE → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.aol.com/articles/knots-landing-star-donna-mills-212406000.html",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "United Kingdom",
+    "countries": [],
+    "lat": 54.0,
+    "lon": -4.0
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "MAGAZINE",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699387",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.dailyfreeman.com",
+   "title": "Kampf mit Artillerie oder Panzern: ARMY → GERMANY",
+   "lang": "de",
+   "url": "https://www.dailyfreeman.com/2026/10/24/wwii-soldiers-remains-finally-buried-in-kingston/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "194",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Saar River, Germany (general), Germany",
+    "countries": [],
+    "lat": 49.7,
+    "lon": 6.5667
+   },
+   "metrics": {
+    "cameo_code": "194",
+    "cameo_category": "Kampf mit Artillerie oder Panzern",
+    "actor1": "ARMY",
+    "actor2": "GERMANY",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699388",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.dailyfreeman.com",
+   "title": "Kampf mit Artillerie oder Panzern: ARMY → GERMANY",
+   "lang": "de",
+   "url": "https://www.dailyfreeman.com/2026/10/24/wwii-soldiers-remains-finally-buried-in-kingston/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "194",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Saar River, Germany (general), Germany",
+    "countries": [],
+    "lat": 49.7,
+    "lon": 6.5667
+   },
+   "metrics": {
+    "cameo_code": "194",
+    "cameo_category": "Kampf mit Artillerie oder Panzern",
+    "actor1": "ARMY",
+    "actor2": "GERMANY",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699389",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.dailyfreeman.com",
+   "title": "Kampf mit Artillerie oder Panzern: ARMY → GERMANY",
+   "lang": "de",
+   "url": "https://www.dailyfreeman.com/2026/10/24/wwii-soldiers-remains-finally-buried-in-kingston/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "194",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Saar River, Germany (general), Germany",
+    "countries": [],
+    "lat": 49.7,
+    "lon": 6.5667
+   },
+   "metrics": {
+    "cameo_code": "194",
+    "cameo_category": "Kampf mit Artillerie oder Panzern",
+    "actor1": "ARMY",
+    "actor2": "GERMANY",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699393",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.vanguardngr.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: NIGERIA → VILLAGE",
+   "lang": "de",
+   "url": "https://www.vanguardngr.com/2026/10/we-counted-over-20-bodies-after-attackers-left-taraba-massacre-survivors/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Kaduna, Kaduna, Nigeria",
+    "countries": [],
+    "lat": 10.5231,
+    "lon": 7.4403
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "NIGERIA",
+    "actor2": "VILLAGE",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699445",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.newschannel10.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: UNITED STATES → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.newschannel10.com/2026/10/24/three-arrested-amarillo-homicide-investigation-one-faces-murder-charge/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Amarillo, Texas, United States",
+    "countries": [],
+    "lat": 35.222,
+    "lon": -101.831
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "UNITED STATES",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699446",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.newschannel10.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: UNITED STATES → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.newschannel10.com/2026/10/24/three-arrested-amarillo-homicide-investigation-one-faces-murder-charge/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Randall County, Texas, United States",
+    "countries": [],
+    "lat": 34.9667,
+    "lon": -101.9
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "UNITED STATES",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699447",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.azfamily.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: PHOENIX → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.azfamily.com/2026/10/24/police-investigation-closes-major-road-central-phoenix/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Spain",
+    "countries": [],
+    "lat": 40.0,
+    "lon": -4.0
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "PHOENIX",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699479",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.dailyfreeman.com",
+   "title": "Kampf mit Artillerie oder Panzern: UNITED STATES → ARMY",
+   "lang": "de",
+   "url": "https://www.dailyfreeman.com/2026/10/24/wwii-soldiers-remains-finally-buried-in-kingston/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "194",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Saar River, Germany (general), Germany",
+    "countries": [],
+    "lat": 49.7,
+    "lon": 6.5667
+   },
+   "metrics": {
+    "cameo_code": "194",
+    "cameo_category": "Kampf mit Artillerie oder Panzern",
+    "actor1": "UNITED STATES",
+    "actor2": "ARMY",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699489",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aol.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: TEXAS → TEXAS",
+   "lang": "de",
+   "url": "https://www.aol.com/articles/suspect-fired-more-800-rounds-212434000.html",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Texas, United States",
+    "countries": [],
+    "lat": 31.106,
+    "lon": -97.6475
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "TEXAS",
+    "actor2": "TEXAS",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699497",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aol.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: UNITED STATES → TEXAS",
+   "lang": "de",
+   "url": "https://www.aol.com/articles/suspect-fired-more-800-rounds-212434000.html",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T22:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Texas, United States",
+    "countries": [],
+    "lat": 31.106,
+    "lon": -97.6475
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "UNITED STATES",
+    "actor2": "TEXAS",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699985",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.kshb.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: CANTON → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.kshb.com/news/crime/jackson-county-grand-jury-indicts-man-on-charges-in-midtown-fatal-shooting",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Midtown, Missouri, United States",
+    "countries": [],
+    "lat": 38.6327,
+    "lon": -90.2347
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "CANTON",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 3,
+    "sources": 1,
+    "articles": 3,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329699992",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.kshb.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: CANTON → UNITED STATES",
+   "lang": "de",
+   "url": "https://www.kshb.com/news/crime/jackson-county-grand-jury-indicts-man-on-charges-in-midtown-fatal-shooting",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Midtown, Missouri, United States",
+    "countries": [],
+    "lat": 38.6327,
+    "lon": -90.2347
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "CANTON",
+    "actor2": "UNITED STATES",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700038",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "collider.com",
+   "title": "Besetzung: DENMARK → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://collider.com/walton-goggins-tomb-raider-streaming-hit-netflix-october-2026/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "192",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Indiana, United States",
+    "countries": [],
+    "lat": 39.8647,
+    "lon": -86.2604
+   },
+   "metrics": {
+    "cameo_code": "192",
+    "cameo_category": "Besetzung",
+    "actor1": "DENMARK",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700156",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.israelnationalnews.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: IRAN → ISRAEL",
+   "lang": "de",
+   "url": "https://www.israelnationalnews.com/news/435092",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Jerusalem, Israel (general), Israel",
+    "countries": [],
+    "lat": 31.7667,
+    "lon": 35.2333
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "IRAN",
+    "actor2": "ISRAEL",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700157",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.israelnationalnews.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: IRAN → ISRAEL",
+   "lang": "de",
+   "url": "https://www.israelnationalnews.com/news/435092",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Iran",
+    "countries": [],
+    "lat": 32.0,
+    "lon": 53.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "IRAN",
+    "actor2": "ISRAEL",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700158",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.israelnationalnews.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: IRAN → ISRAEL",
+   "lang": "de",
+   "url": "https://www.israelnationalnews.com/news/435092",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Iran",
+    "countries": [],
+    "lat": 32.0,
+    "lon": 53.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "IRAN",
+    "actor2": "ISRAEL",
+    "mentions": 3,
+    "sources": 1,
+    "articles": 3,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700159",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.israelnationalnews.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: IRANIAN → ATTORNEY",
+   "lang": "de",
+   "url": "https://www.israelnationalnews.com/news/435092",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Hebron, Israel (general), Israel",
+    "countries": [],
+    "lat": 31.5333,
+    "lon": 35.1
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "IRANIAN",
+    "actor2": "ATTORNEY",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700160",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.wfmd.com",
+   "title": "Militärische Drohung: IRAN → MILITARY",
+   "lang": "de",
+   "url": "https://www.wfmd.com/2026/10/24/trump-iran-attacks-plan/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "1384",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Tehran, Tehran, Iran",
+    "countries": [],
+    "lat": 35.75,
+    "lon": 51.5148
+   },
+   "metrics": {
+    "cameo_code": "1384",
+    "cameo_category": "Militärische Drohung",
+    "actor1": "IRAN",
+    "actor2": "MILITARY",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700161",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.wfmd.com",
+   "title": "Militärische Drohung: IRAN → MILITARY",
+   "lang": "de",
+   "url": "https://www.wfmd.com/2026/10/24/trump-iran-attacks-plan/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "1384",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Washington, District of Columbia, United States",
+    "countries": [],
+    "lat": 38.8951,
+    "lon": -77.0364
+   },
+   "metrics": {
+    "cameo_code": "1384",
+    "cameo_category": "Militärische Drohung",
+    "actor1": "IRAN",
+    "actor2": "MILITARY",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700162",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.israelnationalnews.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: IRAN → PALESTINIAN",
+   "lang": "de",
+   "url": "https://www.israelnationalnews.com/news/435092",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Hebron, Israel (general), Israel",
+    "countries": [],
+    "lat": 31.5333,
+    "lon": 35.1
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "IRAN",
+    "actor2": "PALESTINIAN",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700163",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.israelnationalnews.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: IRAN → PALESTINIAN",
+   "lang": "de",
+   "url": "https://www.israelnationalnews.com/news/435092",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Culver City, California, United States",
+    "countries": [],
+    "lat": 34.0211,
+    "lon": -118.396
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "IRAN",
+    "actor2": "PALESTINIAN",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700164",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.israelnationalnews.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: IRANIAN → PALESTINIAN",
+   "lang": "de",
+   "url": "https://www.israelnationalnews.com/news/435092",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Iran",
+    "countries": [],
+    "lat": 32.0,
+    "lon": 53.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "IRANIAN",
+    "actor2": "PALESTINIAN",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700175",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.israelnationalnews.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: ISRAEL → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.israelnationalnews.com/news/435092",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Culver City, California, United States",
+    "countries": [],
+    "lat": 34.0211,
+    "lon": -118.396
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "ISRAEL",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700180",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.middleeasteye.net",
+   "title": "Blockade oder Bewegungsbeschränkung: ISRAELI → WEST BANK",
+   "lang": "de",
+   "url": "https://www.middleeasteye.net/news/disaster-zone-hebron-under-full-israeli-siege-mayor-says",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "191",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Hebron, Israel (general), Israel",
+    "countries": [],
+    "lat": 31.5333,
+    "lon": 35.1
+   },
+   "metrics": {
+    "cameo_code": "191",
+    "cameo_category": "Blockade oder Bewegungsbeschränkung",
+    "actor1": "ISRAELI",
+    "actor2": "WEST BANK",
+    "mentions": 8,
+    "sources": 1,
+    "articles": 8,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700308",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.kshb.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: UNITED STATES → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.kshb.com/news/crime/jackson-county-grand-jury-indicts-man-on-charges-in-midtown-fatal-shooting",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Midtown, Missouri, United States",
+    "countries": [],
+    "lat": 38.6327,
+    "lon": -90.2347
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "UNITED STATES",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700309",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.kshb.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: UNITED STATES → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.kshb.com/news/crime/jackson-county-grand-jury-indicts-man-on-charges-in-midtown-fatal-shooting",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Jackson County, Missouri, United States",
+    "countries": [],
+    "lat": 39.0167,
+    "lon": -94.3502
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "UNITED STATES",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 3,
+    "sources": 1,
+    "articles": 3,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700310",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.kshb.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: UNITED STATES → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.kshb.com/news/crime/jackson-county-grand-jury-indicts-man-on-charges-in-midtown-fatal-shooting",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Missouri, United States",
+    "countries": [],
+    "lat": 38.4623,
+    "lon": -92.302
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "UNITED STATES",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700311",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.kshb.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: KANSAS CITY → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.kshb.com/news/crime/jackson-county-grand-jury-indicts-man-on-charges-in-midtown-fatal-shooting",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Midtown, Missouri, United States",
+    "countries": [],
+    "lat": 38.6327,
+    "lon": -90.2347
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "KANSAS CITY",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 8,
+    "sources": 1,
+    "articles": 8,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700312",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.kshb.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: UNITED STATES → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.kshb.com/news/crime/jackson-county-grand-jury-indicts-man-on-charges-in-midtown-fatal-shooting",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Jackson County, Missouri, United States",
+    "countries": [],
+    "lat": 39.0167,
+    "lon": -94.3502
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "UNITED STATES",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700364",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "foxreno.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: WASHOE → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://foxreno.com/news/local/washoe-deputies-investigate-road-rage-shooting-on-red-rock-road",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "WASHOE",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700747",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.nbcsandiego.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → UNITED STATES",
+   "lang": "de",
+   "url": "https://www.nbcsandiego.com/news/local/el-cajon-street-closed-for-hours-after-man-lying-in-roadway-was-struck-and-killed/4091723/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Cajon, California, United States",
+    "countries": [],
+    "lat": 34.2989,
+    "lon": -117.456
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "UNITED STATES",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700755",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "twitchy.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: AFRICA → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://twitchy.com/brettt/2026/10/24/emmanuel-macrons-memory-of-terrorist-attacks-in-france-is-pretty-spotty-n2433691",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Paris, France (general), France",
+    "countries": [],
+    "lat": 48.8667,
+    "lon": 2.3333
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "AFRICA",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 3,
+    "sources": 1,
+    "articles": 3,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700927",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "twitchy.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: FRANCE → AFRICA",
+   "lang": "de",
+   "url": "https://twitchy.com/brettt/2026/10/24/emmanuel-macrons-memory-of-terrorist-attacks-in-france-is-pretty-spotty-n2433691",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Paris, France (general), France",
+    "countries": [],
+    "lat": 48.8667,
+    "lon": 2.3333
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "FRANCE",
+    "actor2": "AFRICA",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700931",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "twitchy.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: FRANCE → AFRICA",
+   "lang": "de",
+   "url": "https://twitchy.com/brettt/2026/10/24/emmanuel-macrons-memory-of-terrorist-attacks-in-france-is-pretty-spotty-n2433691",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Paris, France (general), France",
+    "countries": [],
+    "lat": 48.8667,
+    "lon": 2.3333
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "FRANCE",
+    "actor2": "AFRICA",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700946",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "twitchy.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: MAYOR → AFRICA",
+   "lang": "de",
+   "url": "https://twitchy.com/brettt/2026/10/24/emmanuel-macrons-memory-of-terrorist-attacks-in-france-is-pretty-spotty-n2433691",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Paris, France (general), France",
+    "countries": [],
+    "lat": 48.8667,
+    "lon": 2.3333
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "MAYOR",
+    "actor2": "AFRICA",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700955",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "aa.com.tr",
+   "title": "Einsatz konventioneller militärischer Gewalt: PRESIDENT → IRAN",
+   "lang": "de",
+   "url": "https://aa.com.tr/en/us-israel-iran-war/iran-intensifies-plots-against-us-officials-in-mideast-axios-reports/4099158",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Iran",
+    "countries": [],
+    "lat": 32.0,
+    "lon": 53.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "PRESIDENT",
+    "actor2": "IRAN",
+    "mentions": 8,
+    "sources": 1,
+    "articles": 8,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329700966",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.nbcsandiego.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: AUTHORITIES → UNITED STATES",
+   "lang": "de",
+   "url": "https://www.nbcsandiego.com/news/local/el-cajon-street-closed-for-hours-after-man-lying-in-roadway-was-struck-and-killed/4091723/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Cajon, California, United States",
+    "countries": [],
+    "lat": 34.2989,
+    "lon": -117.456
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "AUTHORITIES",
+    "actor2": "UNITED STATES",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329701002",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "aa.com.tr",
+   "title": "Erhöhte militärische Bereitschaft: ISRAELI → ISRAEL",
+   "lang": "de",
+   "url": "https://aa.com.tr/en/middle-east/israeli-army-on-highest-alert-deploys-tens-of-thousands-of-troops-ahead-of-elections/4099876",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "152",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Hebron, Israel (general), Israel",
+    "countries": [],
+    "lat": 31.5333,
+    "lon": 35.1
+   },
+   "metrics": {
+    "cameo_code": "152",
+    "cameo_category": "Erhöhte militärische Bereitschaft",
+    "actor1": "ISRAELI",
+    "actor2": "ISRAEL",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329701003",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "aa.com.tr",
+   "title": "Militärische Mobilisierung oder Verstärkung: ISRAELI → ISRAEL",
+   "lang": "de",
+   "url": "https://aa.com.tr/en/middle-east/israeli-army-on-highest-alert-deploys-tens-of-thousands-of-troops-ahead-of-elections/4099876",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "154",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Gaza, Israel (general), Israel",
+    "countries": [],
+    "lat": 31.4167,
+    "lon": 34.3333
+   },
+   "metrics": {
+    "cameo_code": "154",
+    "cameo_category": "Militärische Mobilisierung oder Verstärkung",
+    "actor1": "ISRAELI",
+    "actor2": "ISRAEL",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329701004",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "aa.com.tr",
+   "title": "Erhöhte militärische Bereitschaft: ISRAELI → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://aa.com.tr/en/middle-east/israeli-army-on-highest-alert-deploys-tens-of-thousands-of-troops-ahead-of-elections/4099876",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "152",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Hebron, Israel (general), Israel",
+    "countries": [],
+    "lat": 31.5333,
+    "lon": 35.1
+   },
+   "metrics": {
+    "cameo_code": "152",
+    "cameo_category": "Erhöhte militärische Bereitschaft",
+    "actor1": "ISRAELI",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329701005",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "aa.com.tr",
+   "title": "Militärische Mobilisierung oder Verstärkung: ISRAELI → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://aa.com.tr/en/middle-east/israeli-army-on-highest-alert-deploys-tens-of-thousands-of-troops-ahead-of-elections/4099876",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "154",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Gaza, Israel (general), Israel",
+    "countries": [],
+    "lat": 31.4167,
+    "lon": 34.3333
+   },
+   "metrics": {
+    "cameo_code": "154",
+    "cameo_category": "Militärische Mobilisierung oder Verstärkung",
+    "actor1": "ISRAELI",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 3,
+    "sources": 1,
+    "articles": 3,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329701110",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "thefrontierpost.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: MILITANT → PAKISTAN",
+   "lang": "de",
+   "url": "https://thefrontierpost.com/pakistan-seeks-afghan-action-on-militants-after-kabul-denies-facilitating-cross-border-attacks/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Islamabad, Islamabad, Pakistan",
+    "countries": [],
+    "lat": 33.7,
+    "lon": 73.1667
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "MILITANT",
+    "actor2": "PAKISTAN",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329701111",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "thefrontierpost.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: MILITANT → PAKISTAN",
+   "lang": "de",
+   "url": "https://thefrontierpost.com/pakistan-seeks-afghan-action-on-militants-after-kabul-denies-facilitating-cross-border-attacks/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Kabul, Kabol, Afghanistan",
+    "countries": [],
+    "lat": 34.5167,
+    "lon": 69.1833
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "MILITANT",
+    "actor2": "PAKISTAN",
+    "mentions": 3,
+    "sources": 1,
+    "articles": 3,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329701112",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "thefrontierpost.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: MILITIA → YEMEN",
+   "lang": "de",
+   "url": "https://thefrontierpost.com/houthi-militia-launches-multiple-missile-attacks-on-yemens-aden/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Yanbu, Al Madinah, Saudi Arabia",
+    "countries": [],
+    "lat": 24.0891,
+    "lon": 38.0637
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "MILITIA",
+    "actor2": "YEMEN",
+    "mentions": 8,
+    "sources": 1,
+    "articles": 8,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329701113",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "thefrontierpost.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: MILITIA → YEMEN",
+   "lang": "de",
+   "url": "https://thefrontierpost.com/houthi-militia-launches-multiple-missile-attacks-on-yemens-aden/",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Yanbu, Al Madinah, Saudi Arabia",
+    "countries": [],
+    "lat": 24.0891,
+    "lon": 38.0637
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "MILITIA",
+    "actor2": "YEMEN",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
+   }
+  },
+  {
+   "id": "gdelt:1329701147",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.cubaheadlines.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: ORLANDO → CUBA",
+   "lang": "de",
+   "url": "https://www.cubaheadlines.com/articles/343729",
+   "occurred_at": "2026-10-24T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Havana, Ciudad de La Habana, Cuba",
+    "countries": [],
+    "lat": 23.1319,
+    "lon": -82.3642
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "ORLANDO",
+    "actor2": "CUBA",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
    }
   },
   {
@@ -677676,7 +682113,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-10-24T21:52:00Z",
+   "observed_at": "2026-10-24T23:11:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -677708,8 +682145,8 @@
    },
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
-    "last_changed_at": "2026-10-24T21:52:45Z"
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
    }
   },
   {
@@ -677724,7 +682161,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-10-24T21:52:00Z",
+   "observed_at": "2026-10-24T23:11:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -677745,8 +682182,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
-    "last_changed_at": "2026-10-24T21:52:45Z"
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
    }
   },
   {
@@ -677761,7 +682198,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-10-24T21:52:00Z",
+   "observed_at": "2026-10-24T23:11:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -677782,8 +682219,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
-    "last_changed_at": "2026-10-24T21:52:45Z"
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
    }
   },
   {
@@ -842078,7 +846515,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T00:39:30Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T00:39:30Z"
    }
   },
@@ -842118,7 +846555,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T01:58:05Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T01:58:05Z"
    }
   },
@@ -842162,7 +846599,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T10:54:59Z"
    }
   },
@@ -842206,7 +846643,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T05:49:25Z"
    }
   },
@@ -842246,7 +846683,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T05:49:25Z"
    }
   },
@@ -842286,7 +846723,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T05:49:25Z"
    }
   },
@@ -842326,7 +846763,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T05:49:25Z"
    }
   },
@@ -842370,7 +846807,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T05:49:25Z"
    }
   },
@@ -842414,7 +846851,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T05:49:25Z"
    }
   },
@@ -842454,7 +846891,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T05:49:25Z"
    }
   },
@@ -842494,7 +846931,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T05:49:25Z"
    }
   },
@@ -842534,7 +846971,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T05:49:25Z"
    }
   },
@@ -842574,7 +847011,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T05:49:25Z"
    }
   },
@@ -842618,7 +847055,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T05:49:25Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T05:49:25Z"
    }
   },
@@ -842658,7 +847095,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T07:35:39Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T07:35:39Z"
    }
   },
@@ -842738,7 +847175,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T07:35:39Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T07:35:39Z"
    }
   },
@@ -842778,7 +847215,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T07:35:39Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T07:35:39Z"
    }
   },
@@ -842822,7 +847259,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T07:35:39Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T07:35:39Z"
    }
   },
@@ -842862,7 +847299,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T07:35:39Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T07:35:39Z"
    }
   },
@@ -842902,7 +847339,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T07:35:39Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T07:35:39Z"
    }
   },
@@ -842942,7 +847379,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T10:54:59Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T10:54:59Z"
    }
   },
@@ -842982,7 +847419,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T10:54:59Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T10:54:59Z"
    }
   },
@@ -843022,7 +847459,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T10:54:59Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T10:54:59Z"
    }
   },
@@ -843062,7 +847499,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T10:54:59Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T10:54:59Z"
    }
   },
@@ -843102,7 +847539,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T10:54:59Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T10:54:59Z"
    }
   },
@@ -843142,7 +847579,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T10:54:59Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T10:54:59Z"
    }
   },
@@ -843182,7 +847619,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T10:54:59Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T10:54:59Z"
    }
   },
@@ -843222,7 +847659,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T10:54:59Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T10:54:59Z"
    }
   },
@@ -843266,7 +847703,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T10:54:59Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T10:54:59Z"
    }
   },
@@ -843306,7 +847743,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T10:54:59Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T10:54:59Z"
    }
   },
@@ -843346,7 +847783,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T10:54:59Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T10:54:59Z"
    }
   },
@@ -843386,7 +847823,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T12:13:45Z"
    }
   },
@@ -843426,7 +847863,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T12:13:45Z"
    }
   },
@@ -843466,7 +847903,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T12:13:45Z"
    }
   },
@@ -843506,7 +847943,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T16:14:47Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T16:14:47Z"
    }
   },
@@ -843546,7 +847983,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T16:14:47Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T16:14:47Z"
    }
   },
@@ -843586,7 +848023,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T18:07:04Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T18:07:04Z"
    }
   },
@@ -843626,7 +848063,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T16:14:47Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T16:14:47Z"
    }
   },
@@ -843670,7 +848107,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T16:14:47Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T16:14:47Z"
    }
   },
@@ -843710,7 +848147,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T18:07:04Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T18:07:04Z"
    }
   },
@@ -843750,7 +848187,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T18:07:04Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T18:07:04Z"
    }
   },
@@ -843790,7 +848227,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -843830,7 +848267,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -843870,8 +848307,48 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-24T21:52:45Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
+   }
+  },
+  {
+   "id": "usgs:us6000u4q8",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 5.0 - 210 km NW of Port-Olry, Vanuatu",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4q8",
+   "occurred_at": "2026-10-24T22:47:08Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-24T23:10:59Z",
+   "ongoing": null,
+   "data_status": "reviewed",
+   "source_status_raw": "reviewed",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "210 km NW of Port-Olry, Vanuatu",
+    "countries": [],
+    "lat": -13.8678,
+    "lon": 165.534
+   },
+   "metrics": {
+    "magnitude": 5,
+    "magnitude_type": "mb",
+    "depth_km": 10,
+    "shaking_mmi": null,
+    "reported_cdi": null,
+    "felt_reports": null
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-24T23:11:14Z",
+    "last_seen_at": "2026-10-24T23:11:14Z",
+    "last_changed_at": "2026-10-24T23:11:14Z"
    }
   }
  ]
