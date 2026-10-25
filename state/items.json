@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-25T17:51:28Z",
+ "generated_at": "2026-10-25T19:02:50Z",
  "items": [
   {
    "id": "gdacs-drought:1015915",
@@ -44,7 +44,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T18:08:51Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -115,7 +115,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -163,7 +163,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -220,7 +220,7 @@
    },
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -271,7 +271,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -317,7 +317,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -365,7 +365,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -422,7 +422,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -477,7 +477,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -528,7 +528,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -576,7 +576,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -670,7 +670,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-20T10:01:40Z"
    }
   },
@@ -713,7 +713,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T14:06:23Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-09-21T14:06:23Z"
    }
   },
@@ -3772,7 +3772,7 @@
    },
    "ingest": {
     "first_seen_at": "2026-10-14T18:36:34Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -3871,7 +3871,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-21T17:39:25Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -3934,7 +3934,7 @@
    "occurred_at": "2026-10-25T06:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-25T17:35:25Z",
+   "source_updated_at": "2026-10-25T18:05:41Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3960,7 +3960,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T16:13:44Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -4003,7 +4003,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T16:13:44Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -8099,186 +8099,6 @@
    }
   },
   {
-   "id": "gdacs:WF:1032370",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Brazil",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032370&episodeid=3&eventtype=WF",
-   "occurred_at": "2026-09-11T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-09-25T15:21:59Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Brazil",
-    "countries": [
-     "BR"
-    ],
-    "lat": -3.3485,
-    "lon": -59.8331
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 3,
-    "severity": 5135.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-09-24T11:42:35Z",
-    "last_seen_at": "2026-09-25T18:52:57Z",
-    "last_changed_at": "2026-09-24T23:30:41Z"
-   }
-  },
-  {
-   "id": "gdacs:WF:1032371",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Australia",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032371&episodeid=2&eventtype=WF",
-   "occurred_at": "2026-09-22T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-09-25T15:01:56Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Australia",
-    "countries": [
-     "AU"
-    ],
-    "lat": -18.9445,
-    "lon": 138.3288
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 2,
-    "severity": 7594.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-09-24T11:42:35Z",
-    "last_seen_at": "2026-09-25T18:52:57Z",
-    "last_changed_at": "2026-09-24T23:30:41Z"
-   }
-  },
-  {
-   "id": "gdacs:WF:1032372",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Brazil",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032372&episodeid=1&eventtype=WF",
-   "occurred_at": "2026-09-18T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-09-25T15:06:48Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Brazil",
-    "countries": [
-     "BR"
-    ],
-    "lat": -10.5479,
-    "lon": -46.7272
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 5257.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-09-24T11:42:35Z",
-    "last_seen_at": "2026-09-25T18:52:57Z",
-    "last_changed_at": "2026-09-24T11:42:35Z"
-   }
-  },
-  {
-   "id": "gdacs:WF:1032373",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Brazil",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032373&episodeid=1&eventtype=WF",
-   "occurred_at": "2026-09-17T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-09-25T15:08:08Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Brazil",
-    "countries": [
-     "BR"
-    ],
-    "lat": -8.7781,
-    "lon": -44.2711
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 5034.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-09-24T11:42:35Z",
-    "last_seen_at": "2026-09-25T18:52:57Z",
-    "last_changed_at": "2026-09-24T11:42:35Z"
-   }
-  },
-  {
    "id": "gdacs:WF:1032374",
    "kind": "event",
    "domain": "disaster",
@@ -8366,51 +8186,6 @@
     "first_seen_at": "2026-09-24T11:42:35Z",
     "last_seen_at": "2026-09-29T23:11:34Z",
     "last_changed_at": "2026-09-29T14:21:06Z"
-   }
-  },
-  {
-   "id": "gdacs:WF:1032376",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Kenya",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032376&episodeid=1&eventtype=WF",
-   "occurred_at": "2026-09-23T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-09-25T15:00:36Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Kenya",
-    "countries": [
-     "KE"
-    ],
-    "lat": -3.9029,
-    "lon": 38.2813
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 5038.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-09-24T20:29:43Z",
-    "last_seen_at": "2026-09-25T18:52:57Z",
-    "last_changed_at": "2026-09-24T20:29:43Z"
    }
   },
   {
@@ -37178,7 +36953,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-22T00:13:17Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T05:17:55Z"
    }
   },
@@ -37223,7 +36998,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-22T00:13:17Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -37494,7 +37269,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-22T00:13:17Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T17:51:28Z"
    }
   },
@@ -38265,7 +38040,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-22T13:45:44Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -38310,7 +38085,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-22T13:45:44Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -38535,7 +38310,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-22T15:39:24Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -38852,7 +38627,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-22T19:29:39Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T17:51:28Z"
    }
   },
@@ -38943,7 +38718,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-22T19:29:39Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T17:51:28Z"
    }
   },
@@ -39123,7 +38898,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T07:28:56Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -39168,7 +38943,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T00:58:34Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -39801,7 +39576,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T07:28:56Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -39846,7 +39621,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T07:28:56Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -39939,7 +39714,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T07:28:56Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -40074,7 +39849,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T12:06:36Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T05:17:55Z"
    }
   },
@@ -40119,7 +39894,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T12:06:36Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -40209,7 +39984,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T12:06:36Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -40299,7 +40074,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T12:06:36Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -40344,7 +40119,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T12:06:36Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -40389,7 +40164,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T12:06:36Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -40434,7 +40209,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T12:06:36Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -40659,7 +40434,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T17:26:42Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T17:51:28Z"
    }
   },
@@ -40750,7 +40525,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -40796,7 +40571,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T10:08:23Z"
    }
   },
@@ -40886,7 +40661,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -40931,7 +40706,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T10:08:23Z"
    }
   },
@@ -41022,7 +40797,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -41157,7 +40932,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -41337,7 +41112,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T17:51:28Z"
    }
   },
@@ -41608,7 +41383,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T17:51:28Z"
    }
   },
@@ -41970,7 +41745,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T23:29:39Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -42105,7 +41880,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -42150,7 +41925,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -42195,7 +41970,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -42240,7 +42015,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -42330,7 +42105,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -42420,7 +42195,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -42465,7 +42240,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -42510,7 +42285,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -42555,7 +42330,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T12:13:45Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -42690,7 +42465,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T16:14:47Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -42735,7 +42510,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T16:14:47Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -42780,7 +42555,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T16:14:47Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -42825,7 +42600,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -42870,7 +42645,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -43005,7 +42780,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -43140,7 +42915,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T17:51:28Z"
    }
   },
@@ -43185,7 +42960,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T17:51:28Z"
    }
   },
@@ -43230,7 +43005,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -43275,7 +43050,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -43366,7 +43141,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T17:51:28Z"
    }
   },
@@ -43411,7 +43186,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T10:08:23Z"
    }
   },
@@ -43456,7 +43231,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T23:11:14Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -43501,7 +43276,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T23:11:14Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -43546,7 +43321,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T23:11:14Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -43591,7 +43366,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T23:11:14Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -43636,7 +43411,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T23:11:14Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -43681,7 +43456,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T23:11:14Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -43726,7 +43501,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T23:11:14Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -43771,7 +43546,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T23:11:14Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -43816,7 +43591,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T23:11:14Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -43861,7 +43636,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T00:31:26Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T10:08:23Z"
    }
   },
@@ -43906,7 +43681,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T10:08:23Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -43951,7 +43726,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T10:08:23Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -43996,7 +43771,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T10:08:23Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -44041,7 +43816,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T16:13:44Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -44086,7 +43861,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T16:13:44Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -44131,7 +43906,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T16:13:44Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -44176,7 +43951,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T16:13:44Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -44221,7 +43996,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T16:13:44Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -44266,7 +44041,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T16:13:44Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -44311,7 +44086,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T16:13:44Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -44356,7 +44131,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T16:13:44Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -44401,7 +44176,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T16:13:44Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -44446,7 +44221,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T16:13:44Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -44491,7 +44266,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T16:13:44Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -44536,7 +44311,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T16:13:44Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
    }
   },
@@ -44581,7 +44356,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T17:51:28Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T17:51:28Z"
    }
   },
@@ -669095,7 +668870,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-10-25T17:50:00Z",
+   "observed_at": "2026-10-25T19:03:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -669127,8 +668902,8 @@
    },
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
-    "last_changed_at": "2026-10-25T17:51:28Z"
+    "last_seen_at": "2026-10-25T19:02:50Z",
+    "last_changed_at": "2026-10-25T19:02:50Z"
    }
   },
   {
@@ -669143,7 +668918,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-10-25T17:50:00Z",
+   "observed_at": "2026-10-25T19:03:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -669164,8 +668939,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
-    "last_changed_at": "2026-10-25T17:51:28Z"
+    "last_seen_at": "2026-10-25T19:02:50Z",
+    "last_changed_at": "2026-10-25T19:02:50Z"
    }
   },
   {
@@ -669180,7 +668955,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-10-25T17:50:00Z",
+   "observed_at": "2026-10-25T19:03:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -669201,8 +668976,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
-    "last_changed_at": "2026-10-25T17:51:28Z"
+    "last_seen_at": "2026-10-25T19:02:50Z",
+    "last_changed_at": "2026-10-25T19:02:50Z"
    }
   },
   {
@@ -834969,7 +834744,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -835009,7 +834784,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-24T20:45:50Z"
    }
   },
@@ -835049,7 +834824,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T21:52:45Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-24T21:52:45Z"
    }
   },
@@ -835089,7 +834864,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T00:31:26Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T00:31:26Z"
    }
   },
@@ -835129,7 +834904,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T23:11:14Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-24T23:11:14Z"
    }
   },
@@ -835169,7 +834944,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T00:31:26Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T00:31:26Z"
    }
   },
@@ -835209,7 +834984,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T00:31:26Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T00:31:26Z"
    }
   },
@@ -835249,7 +835024,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T00:31:26Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T05:17:55Z"
    }
   },
@@ -835289,7 +835064,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T05:17:55Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T05:17:55Z"
    }
   },
@@ -835329,7 +835104,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T05:17:55Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T05:17:55Z"
    }
   },
@@ -835373,7 +835148,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T05:17:55Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T05:17:55Z"
    }
   },
@@ -835417,7 +835192,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T05:17:55Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T05:17:55Z"
    }
   },
@@ -835457,7 +835232,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T05:17:55Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T05:17:55Z"
    }
   },
@@ -835497,7 +835272,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T05:17:55Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T05:17:55Z"
    }
   },
@@ -835537,7 +835312,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T10:08:23Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T17:51:28Z"
    }
   },
@@ -835577,7 +835352,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T10:08:23Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T10:08:23Z"
    }
   },
@@ -835617,7 +835392,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T10:08:23Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T10:08:23Z"
    }
   },
@@ -835657,7 +835432,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T10:08:23Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T10:08:23Z"
    }
   },
@@ -835701,7 +835476,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T10:08:23Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T10:08:23Z"
    }
   },
@@ -835741,7 +835516,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T10:08:23Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T10:08:23Z"
    }
   },
@@ -835785,7 +835560,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T11:22:18Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T17:51:28Z"
    }
   },
@@ -835825,7 +835600,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T14:34:13Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T14:34:13Z"
    }
   },
@@ -835869,7 +835644,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T14:34:13Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T14:34:13Z"
    }
   },
@@ -835909,8 +835684,88 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T17:51:28Z",
-    "last_seen_at": "2026-10-25T17:51:28Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
     "last_changed_at": "2026-10-25T17:51:28Z"
+   }
+  },
+  {
+   "id": "usgs:us6000u4va",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 5.2 - 59 km SW of Ashkāsham, Afghanistan",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4va",
+   "occurred_at": "2026-10-25T17:44:23Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-25T18:27:54Z",
+   "ongoing": null,
+   "data_status": "reviewed",
+   "source_status_raw": "reviewed",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "59 km SW of Ashkāsham, Afghanistan",
+    "countries": [],
+    "lat": 36.274,
+    "lon": 71.1025
+   },
+   "metrics": {
+    "magnitude": 5.2,
+    "magnitude_type": "mww",
+    "depth_km": 110.025,
+    "shaking_mmi": null,
+    "reported_cdi": 2.7,
+    "felt_reports": 6
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-25T19:02:50Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
+    "last_changed_at": "2026-10-25T19:02:50Z"
+   }
+  },
+  {
+   "id": "usgs:us6000u4vb",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 4.6 - 153 km WNW of Adak, Alaska",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4vb",
+   "occurred_at": "2026-10-25T17:49:58Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-10-25T18:23:19Z",
+   "ongoing": null,
+   "data_status": "reviewed",
+   "source_status_raw": "reviewed",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "153 km WNW of Adak, Alaska",
+    "countries": [],
+    "lat": 52.1923,
+    "lon": -178.8056
+   },
+   "metrics": {
+    "magnitude": 4.6,
+    "magnitude_type": "mb",
+    "depth_km": 152.896,
+    "shaking_mmi": 2.122,
+    "reported_cdi": null,
+    "felt_reports": null
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-10-25T19:02:50Z",
+    "last_seen_at": "2026-10-25T19:02:50Z",
+    "last_changed_at": "2026-10-25T19:02:50Z"
    }
   }
  ]
