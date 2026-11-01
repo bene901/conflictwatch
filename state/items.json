@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-01T08:08:34Z",
+ "generated_at": "2026-11-01T09:13:21Z",
  "items": [
   {
    "id": "gdacs-drought:1015915",
@@ -713,7 +713,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T14:06:23Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-09-21T14:06:23Z"
    }
   },
@@ -2693,7 +2693,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-29T09:54:26Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T18:31:17Z"
    }
   },
@@ -2918,7 +2918,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T13:37:57Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T13:37:57Z"
    }
   },
@@ -3565,11 +3565,11 @@
    "original_publisher": null,
    "title": "Tropical Cyclone IN-FA-26",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1001343&episodeid=35&eventtype=TC",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1001343&episodeid=36&eventtype=TC",
    "occurred_at": "2026-10-25T06:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T02:22:14Z",
+   "source_updated_at": "2026-11-01T08:22:04Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3584,12 +3584,12 @@
     "countries": [
      "JP"
     ],
-    "lat": 22.8,
-    "lon": 144.3
+    "lat": 22.3,
+    "lon": 144.1
    },
    "metrics": {
     "hazard_type": "tropical_cyclone",
-    "episode_id": 35,
+    "episode_id": 36,
     "severity": 240.7392,
     "severity_unit": "km/h",
     "alert_score": 1
@@ -3597,8 +3597,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T16:13:44Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
-    "last_changed_at": "2026-11-01T08:08:34Z"
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   },
   {
@@ -3713,7 +3713,7 @@
    "occurred_at": "2026-11-01T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T07:51:20Z",
+   "source_updated_at": "2026-11-01T08:23:10Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3741,7 +3741,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -4016,51 +4016,6 @@
    }
   },
   {
-   "id": "gdacs:WF:1032377",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Tanzania",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032377&episodeid=12&eventtype=WF",
-   "occurred_at": "2026-09-21T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-10-02T07:09:36Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Tanzania",
-    "countries": [
-     "TZ"
-    ],
-    "lat": -7.9253,
-    "lon": 34.3241
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 12,
-    "severity": 8435.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-09-24T20:29:43Z",
-    "last_seen_at": "2026-10-02T08:31:30Z",
-    "last_changed_at": "2026-10-01T20:30:13Z"
-   }
-  },
-  {
    "id": "gdacs:WF:1032385",
    "kind": "event",
    "domain": "disaster",
@@ -4196,51 +4151,6 @@
    }
   },
   {
-   "id": "gdacs:WF:1032395",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Angola",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032395&episodeid=9&eventtype=WF",
-   "occurred_at": "2026-09-23T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-10-02T07:08:13Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Angola",
-    "countries": [
-     "AO"
-    ],
-    "lat": -12.9938,
-    "lon": 21.0642
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 9,
-    "severity": 6699.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-09-26T07:38:38Z",
-    "last_seen_at": "2026-10-02T08:31:30Z",
-    "last_changed_at": "2026-10-01T20:30:13Z"
-   }
-  },
-  {
    "id": "gdacs:WF:1032406",
    "kind": "event",
    "domain": "disaster",
@@ -4283,51 +4193,6 @@
     "first_seen_at": "2026-09-26T07:38:38Z",
     "last_seen_at": "2026-10-06T10:46:43Z",
     "last_changed_at": "2026-10-05T16:22:50Z"
-   }
-  },
-  {
-   "id": "gdacs:WF:1032422",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Australia",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032422&episodeid=14&eventtype=WF",
-   "occurred_at": "2026-09-24T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-10-02T07:06:35Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Australia",
-    "countries": [
-     "AU"
-    ],
-    "lat": -20.5221,
-    "lon": 129.7193
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 14,
-    "severity": 21952.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-09-27T01:25:13Z",
-    "last_seen_at": "2026-10-02T08:31:30Z",
-    "last_changed_at": "2026-10-01T23:11:03Z"
    }
   },
   {
@@ -4646,51 +4511,6 @@
    }
   },
   {
-   "id": "gdacs:WF:1032451",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Australia",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032451&episodeid=6&eventtype=WF",
-   "occurred_at": "2026-09-27T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-10-02T07:02:43Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Australia",
-    "countries": [
-     "AU"
-    ],
-    "lat": -17.4169,
-    "lon": 135.106
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 6,
-    "severity": 29759.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-09-28T14:28:04Z",
-    "last_seen_at": "2026-10-02T08:31:30Z",
-    "last_changed_at": "2026-10-01T13:09:15Z"
-   }
-  },
-  {
    "id": "gdacs:WF:1032453",
    "kind": "event",
    "domain": "disaster",
@@ -4868,51 +4688,6 @@
     "first_seen_at": "2026-09-28T14:28:04Z",
     "last_seen_at": "2026-10-08T09:27:33Z",
     "last_changed_at": "2026-10-07T14:28:56Z"
-   }
-  },
-  {
-   "id": "gdacs:WF:1032471",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Brazil",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032471&episodeid=5&eventtype=WF",
-   "occurred_at": "2026-09-28T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-10-02T07:01:13Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Brazil",
-    "countries": [
-     "BR"
-    ],
-    "lat": -10.9431,
-    "lon": -50.6861
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 5,
-    "severity": 5935.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-09-29T01:16:09Z",
-    "last_seen_at": "2026-10-02T08:31:30Z",
-    "last_changed_at": "2026-10-02T06:12:10Z"
    }
   },
   {
@@ -5907,51 +5682,6 @@
    }
   },
   {
-   "id": "gdacs:WF:1032512",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Brazil",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032512&episodeid=4&eventtype=WF",
-   "occurred_at": "2026-09-26T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-10-02T07:03:51Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Brazil",
-    "countries": [
-     "BR"
-    ],
-    "lat": -12.2664,
-    "lon": -50.2782
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 4,
-    "severity": 7613.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-09-30T23:46:56Z",
-    "last_seen_at": "2026-10-02T08:31:30Z",
-    "last_changed_at": "2026-10-01T23:11:03Z"
-   }
-  },
-  {
    "id": "gdacs:WF:1032513",
    "kind": "event",
    "domain": "disaster",
@@ -5997,51 +5727,6 @@
    }
   },
   {
-   "id": "gdacs:WF:1032514",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Brazil",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032514&episodeid=4&eventtype=WF",
-   "occurred_at": "2026-09-20T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-10-02T07:11:09Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Brazil",
-    "countries": [
-     "BR"
-    ],
-    "lat": -12.6949,
-    "lon": -46.9946
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 4,
-    "severity": 5375.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-09-30T23:46:56Z",
-    "last_seen_at": "2026-10-02T08:31:30Z",
-    "last_changed_at": "2026-10-02T06:12:10Z"
-   }
-  },
-  {
    "id": "gdacs:WF:1032515",
    "kind": "event",
    "domain": "disaster",
@@ -6084,51 +5769,6 @@
     "first_seen_at": "2026-10-01T07:47:45Z",
     "last_seen_at": "2026-10-05T22:54:57Z",
     "last_changed_at": "2026-10-04T23:07:34Z"
-   }
-  },
-  {
-   "id": "gdacs:WF:1032516",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Brazil",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032516&episodeid=5&eventtype=WF",
-   "occurred_at": "2026-09-20T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-10-02T07:11:35Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Brazil",
-    "countries": [
-     "BR"
-    ],
-    "lat": -12.7872,
-    "lon": -54.0382
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 5,
-    "severity": 7251.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-10-01T07:47:45Z",
-    "last_seen_at": "2026-10-02T08:31:30Z",
-    "last_changed_at": "2026-10-02T06:12:10Z"
    }
   },
   {
@@ -6219,51 +5859,6 @@
     "first_seen_at": "2026-10-01T13:09:15Z",
     "last_seen_at": "2026-10-13T03:32:20Z",
     "last_changed_at": "2026-10-12T15:18:40Z"
-   }
-  },
-  {
-   "id": "gdacs:WF:1032519",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Indonesia",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032519&episodeid=2&eventtype=WF",
-   "occurred_at": "2026-09-24T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-10-02T07:06:11Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Indonesia",
-    "countries": [
-     "ID"
-    ],
-    "lat": -6.3511,
-    "lon": 140.9133
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 2,
-    "severity": 5056.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-10-01T13:09:15Z",
-    "last_seen_at": "2026-10-02T08:31:30Z",
-    "last_changed_at": "2026-10-01T23:11:03Z"
    }
   },
   {
@@ -6849,51 +6444,6 @@
    "ingest": {
     "first_seen_at": "2026-10-02T06:12:10Z",
     "last_seen_at": "2026-10-02T13:10:28Z",
-    "last_changed_at": "2026-10-02T06:12:10Z"
-   }
-  },
-  {
-   "id": "gdacs:WF:1032533",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Brazil",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032533&episodeid=1&eventtype=WF",
-   "occurred_at": "2026-09-22T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-10-02T07:08:29Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Brazil",
-    "countries": [
-     "BR"
-    ],
-    "lat": -7.489,
-    "lon": -44.564
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 5015.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-10-02T06:12:10Z",
-    "last_seen_at": "2026-10-02T08:31:30Z",
     "last_changed_at": "2026-10-02T06:12:10Z"
    }
   },
@@ -21517,7 +21067,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-17T06:11:34Z",
-    "last_seen_at": "2026-11-01T01:27:55Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T18:31:17Z"
    }
   },
@@ -31691,7 +31241,7 @@
    "occurred_at": "2026-10-21T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T04:44:54Z",
+   "source_updated_at": "2026-11-01T08:24:25Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -31719,7 +31269,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T12:06:36Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -32549,7 +32099,7 @@
    "occurred_at": "2026-10-19T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-31T20:30:44Z",
+   "source_updated_at": "2026-11-01T08:29:02Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -32577,7 +32127,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-23T20:38:48Z",
-    "last_seen_at": "2026-10-31T21:52:46Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T21:52:46Z"
    }
   },
@@ -34442,7 +33992,7 @@
    "occurred_at": "2026-10-19T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-31T20:31:07Z",
+   "source_updated_at": "2026-11-01T08:29:41Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -34470,7 +34020,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-10-31T21:52:46Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T18:31:17Z"
    }
   },
@@ -34695,7 +34245,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-24T20:45:50Z",
-    "last_seen_at": "2026-11-01T01:27:55Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T21:52:46Z"
    }
   },
@@ -35928,7 +35478,7 @@
    "occurred_at": "2026-10-18T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T00:51:06Z",
+   "source_updated_at": "2026-11-01T08:36:21Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -35956,7 +35506,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T16:13:44Z",
-    "last_seen_at": "2026-11-01T01:27:55Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T18:31:17Z"
    }
   },
@@ -36470,7 +36020,7 @@
    "occurred_at": "2026-10-18T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T00:53:01Z",
+   "source_updated_at": "2026-11-01T08:36:34Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -36498,7 +36048,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T21:14:16Z",
-    "last_seen_at": "2026-11-01T01:27:55Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T21:52:46Z"
    }
   },
@@ -36515,7 +36065,7 @@
    "occurred_at": "2026-10-17T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T00:54:22Z",
+   "source_updated_at": "2026-11-01T08:38:35Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -36544,7 +36094,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-25T21:14:16Z",
-    "last_seen_at": "2026-11-01T01:27:55Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T18:31:17Z"
    }
   },
@@ -36962,11 +36512,11 @@
    "original_publisher": null,
    "title": "Forest fires in Guyana",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033209&episodeid=21&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033209&episodeid=23&eventtype=WF",
    "occurred_at": "2026-10-20T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-31T20:28:09Z",
+   "source_updated_at": "2026-11-01T08:28:01Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -36981,21 +36531,21 @@
     "countries": [
      "GY"
     ],
-    "lat": 6.4628,
+    "lat": 6.4626,
     "lon": -57.8775
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 21,
-    "severity": 6883.0,
+    "episode_id": 23,
+    "severity": 6935.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-26T01:42:45Z",
-    "last_seen_at": "2026-10-31T21:52:46Z",
-    "last_changed_at": "2026-10-31T18:31:17Z"
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   },
   {
@@ -37369,11 +36919,11 @@
    "original_publisher": null,
    "title": "Forest fires in Brazil",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033218&episodeid=24&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033218&episodeid=25&eventtype=WF",
    "occurred_at": "2026-10-23T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T04:30:02Z",
+   "source_updated_at": "2026-11-01T08:13:46Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -37388,21 +36938,21 @@
     "countries": [
      "BR"
     ],
-    "lat": 1.4155,
-    "lon": -55.956
+    "lat": 1.4114,
+    "lon": -55.954
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 24,
-    "severity": 26544.0,
+    "episode_id": 25,
+    "severity": 28941.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-26T12:56:54Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
-    "last_changed_at": "2026-11-01T01:27:55Z"
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   },
   {
@@ -38858,11 +38408,11 @@
    "original_publisher": null,
    "title": "Forest fires in Brazil",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033251&episodeid=7&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033251&episodeid=8&eventtype=WF",
    "occurred_at": "2026-10-20T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-31T20:27:54Z",
+   "source_updated_at": "2026-11-01T08:27:43Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -38877,21 +38427,21 @@
     "countries": [
      "BR"
     ],
-    "lat": -3.5555,
-    "lon": -50.2282
+    "lat": -3.5559,
+    "lon": -50.2289
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 7,
-    "severity": 5522.0,
+    "episode_id": 8,
+    "severity": 5597.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-27T14:28:41Z",
-    "last_seen_at": "2026-10-31T21:52:46Z",
-    "last_changed_at": "2026-10-31T13:37:57Z"
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   },
   {
@@ -38903,11 +38453,11 @@
    "original_publisher": null,
    "title": "Forest fires in Brazil",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033252&episodeid=13&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033252&episodeid=14&eventtype=WF",
    "occurred_at": "2026-10-20T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-31T20:25:06Z",
+   "source_updated_at": "2026-11-01T08:28:59Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -38922,21 +38472,21 @@
     "countries": [
      "BR"
     ],
-    "lat": -3.266,
-    "lon": -50.2046
+    "lat": -3.2594,
+    "lon": -50.2084
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 13,
-    "severity": 9261.0,
+    "episode_id": 14,
+    "severity": 11449.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-27T14:28:41Z",
-    "last_seen_at": "2026-10-31T21:52:46Z",
-    "last_changed_at": "2026-10-31T18:31:17Z"
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   },
   {
@@ -39631,7 +39181,7 @@
    "occurred_at": "2026-10-19T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-31T20:28:55Z",
+   "source_updated_at": "2026-11-01T08:33:41Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -39660,7 +39210,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-27T23:46:05Z",
-    "last_seen_at": "2026-10-31T21:52:46Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T21:52:46Z"
    }
   },
@@ -39795,7 +39345,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-28T23:12:51Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -39808,11 +39358,11 @@
    "original_publisher": null,
    "title": "Forest fires in Botswana",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033272&episodeid=11&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033272&episodeid=12&eventtype=WF",
    "occurred_at": "2026-10-27T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T04:12:24Z",
+   "source_updated_at": "2026-11-01T08:08:18Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -39827,21 +39377,21 @@
     "countries": [
      "BW"
     ],
-    "lat": -23.043,
-    "lon": 21.4118
+    "lat": -23.0426,
+    "lon": 21.4122
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 11,
-    "severity": 12136.0,
+    "episode_id": 12,
+    "severity": 12241.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-28T23:12:51Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
-    "last_changed_at": "2026-10-31T21:52:46Z"
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   },
   {
@@ -39898,11 +39448,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033274&episodeid=12&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033274&episodeid=13&eventtype=WF",
    "occurred_at": "2026-10-20T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-31T20:28:42Z",
+   "source_updated_at": "2026-11-01T08:25:42Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -39917,21 +39467,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -14.3445,
-    "lon": 135.3005
+    "lat": -14.3444,
+    "lon": 135.3003
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 12,
-    "severity": 11990.0,
+    "episode_id": 13,
+    "severity": 12043.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-28T23:12:51Z",
-    "last_seen_at": "2026-10-31T21:52:46Z",
-    "last_changed_at": "2026-10-31T18:31:17Z"
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   },
   {
@@ -39947,7 +39497,7 @@
    "occurred_at": "2026-10-17T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T00:54:15Z",
+   "source_updated_at": "2026-11-01T08:38:53Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -39975,7 +39525,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-29T02:25:55Z",
-    "last_seen_at": "2026-11-01T01:27:55Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T18:31:17Z"
    }
   },
@@ -39988,11 +39538,11 @@
    "original_publisher": null,
    "title": "Forest fires in Botswana",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033276&episodeid=12&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033276&episodeid=13&eventtype=WF",
    "occurred_at": "2026-10-27T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T04:13:11Z",
+   "source_updated_at": "2026-11-01T08:07:28Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -40007,21 +39557,21 @@
     "countries": [
      "BW"
     ],
-    "lat": -21.0817,
-    "lon": 24.0454
+    "lat": -21.0822,
+    "lon": 24.0458
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 12,
-    "severity": 22067.0,
+    "episode_id": 13,
+    "severity": 22168.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-29T02:25:55Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
-    "last_changed_at": "2026-10-31T21:52:46Z"
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   },
   {
@@ -40395,11 +39945,11 @@
    "original_publisher": null,
    "title": "Forest fires in Tanzania",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033285&episodeid=6&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033285&episodeid=7&eventtype=WF",
    "occurred_at": "2026-10-20T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-31T20:27:21Z",
+   "source_updated_at": "2026-11-01T08:24:57Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -40414,21 +39964,21 @@
     "countries": [
      "TZ"
     ],
-    "lat": -8.9724,
+    "lat": -8.9723,
     "lon": 35.6652
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 6,
-    "severity": 11454.0,
+    "episode_id": 7,
+    "severity": 11463.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-29T21:47:57Z",
-    "last_seen_at": "2026-10-31T21:52:46Z",
-    "last_changed_at": "2026-10-31T21:52:46Z"
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   },
   {
@@ -40472,7 +40022,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-29T09:54:26Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T21:52:46Z"
    }
   },
@@ -40485,11 +40035,11 @@
    "original_publisher": null,
    "title": "Forest fires in Botswana",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033287&episodeid=14&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033287&episodeid=15&eventtype=WF",
    "occurred_at": "2026-10-27T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T04:11:08Z",
+   "source_updated_at": "2026-11-01T08:07:24Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -40504,21 +40054,21 @@
     "countries": [
      "BW"
     ],
-    "lat": -21.4149,
-    "lon": 24.0075
+    "lat": -21.4153,
+    "lon": 24.0081
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 14,
-    "severity": 62354.0,
+    "episode_id": 15,
+    "severity": 63079.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-29T16:54:53Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
-    "last_changed_at": "2026-10-31T21:52:46Z"
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   },
   {
@@ -40530,11 +40080,11 @@
    "original_publisher": null,
    "title": "Forest fires in Botswana",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033288&episodeid=8&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033288&episodeid=9&eventtype=WF",
    "occurred_at": "2026-10-23T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T04:28:36Z",
+   "source_updated_at": "2026-11-01T08:12:45Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -40549,21 +40099,21 @@
     "countries": [
      "BW"
     ],
-    "lat": -23.4682,
-    "lon": 22.1958
+    "lat": -23.4683,
+    "lon": 22.1955
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 8,
-    "severity": 8166.0,
+    "episode_id": 9,
+    "severity": 8232.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-29T21:47:57Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
-    "last_changed_at": "2026-11-01T01:27:55Z"
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   },
   {
@@ -40575,11 +40125,11 @@
    "original_publisher": null,
    "title": "Forest fires in Brazil",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033289&episodeid=10&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033289&episodeid=11&eventtype=WF",
    "occurred_at": "2026-10-22T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T04:41:48Z",
+   "source_updated_at": "2026-11-01T08:19:54Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -40594,21 +40144,21 @@
     "countries": [
      "BR"
     ],
-    "lat": 3.3738,
-    "lon": -51.2636
+    "lat": 3.3769,
+    "lon": -51.262
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 10,
-    "severity": 6694.0,
+    "episode_id": 11,
+    "severity": 7199.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-29T09:54:26Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
-    "last_changed_at": "2026-10-31T13:37:57Z"
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   },
   {
@@ -40665,11 +40215,11 @@
    "original_publisher": null,
    "title": "Forest fires in Nigeria, Cameroon",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033291&episodeid=4&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033291&episodeid=5&eventtype=WF",
    "occurred_at": "2026-10-24T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T04:25:36Z",
+   "source_updated_at": "2026-11-01T08:12:17Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -40685,21 +40235,21 @@
      "NG",
      "CM"
     ],
-    "lat": 11.5163,
-    "lon": 13.9402
+    "lat": 11.5157,
+    "lon": 13.9397
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 4,
-    "severity": 9318.0,
+    "episode_id": 5,
+    "severity": 9478.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-29T09:54:26Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
-    "last_changed_at": "2026-10-31T21:52:46Z"
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   },
   {
@@ -40715,7 +40265,7 @@
    "occurred_at": "2026-10-18T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T00:52:29Z",
+   "source_updated_at": "2026-11-01T08:35:23Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -40743,7 +40293,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-29T09:54:26Z",
-    "last_seen_at": "2026-11-01T01:27:55Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T21:52:46Z"
    }
   },
@@ -40760,7 +40310,7 @@
    "occurred_at": "2026-10-17T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T04:57:29Z",
+   "source_updated_at": "2026-11-01T08:39:12Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -40788,7 +40338,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-29T09:54:26Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -40833,7 +40383,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-29T09:54:26Z",
-    "last_seen_at": "2026-11-01T01:27:55Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T18:31:17Z"
    }
   },
@@ -41149,7 +40699,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-29T21:47:57Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -41301,7 +40851,7 @@
    "occurred_at": "2026-10-27T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T04:13:17Z",
+   "source_updated_at": "2026-11-01T08:07:15Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -41330,7 +40880,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-29T21:47:57Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T13:37:57Z"
    }
   },
@@ -41660,11 +41210,11 @@
    "original_publisher": null,
    "title": "Forest fires in Chad",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033315&episodeid=6&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033315&episodeid=7&eventtype=WF",
    "occurred_at": "2026-10-23T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T04:35:22Z",
+   "source_updated_at": "2026-11-01T08:14:41Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -41684,7 +41234,7 @@
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 6,
+    "episode_id": 7,
     "severity": 15495.0,
     "severity_unit": "ha",
     "alert_score": 1
@@ -41692,8 +41242,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-29T21:47:57Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
-    "last_changed_at": "2026-11-01T01:27:55Z"
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   },
   {
@@ -41800,7 +41350,7 @@
    "occurred_at": "2026-10-20T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-31T20:27:56Z",
+   "source_updated_at": "2026-11-01T08:28:23Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -41829,7 +41379,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-29T21:47:57Z",
-    "last_seen_at": "2026-10-31T21:52:46Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T18:31:17Z"
    }
   },
@@ -41846,7 +41396,7 @@
    "occurred_at": "2026-10-19T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-31T20:32:27Z",
+   "source_updated_at": "2026-11-01T08:34:48Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -41875,7 +41425,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-29T21:47:57Z",
-    "last_seen_at": "2026-10-31T21:52:46Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T18:31:17Z"
    }
   },
@@ -41965,7 +41515,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-29T21:47:57Z",
-    "last_seen_at": "2026-11-01T01:27:55Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T18:31:17Z"
    }
   },
@@ -42113,11 +41663,11 @@
    "original_publisher": null,
    "title": "Forest fires in Botswana",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033325&episodeid=9&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033325&episodeid=10&eventtype=WF",
    "occurred_at": "2026-10-27T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T04:12:08Z",
+   "source_updated_at": "2026-11-01T08:07:37Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42132,21 +41682,21 @@
     "countries": [
      "BW"
     ],
-    "lat": -18.9249,
-    "lon": 24.1114
+    "lat": -18.925,
+    "lon": 24.1117
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 9,
-    "severity": 17314.0,
+    "episode_id": 10,
+    "severity": 17415.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-30T08:36:41Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
-    "last_changed_at": "2026-11-01T08:08:34Z"
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   },
   {
@@ -42252,7 +41802,7 @@
    "occurred_at": "2026-10-27T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T04:12:47Z",
+   "source_updated_at": "2026-11-01T08:07:10Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42280,7 +41830,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-30T15:55:13Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T18:31:17Z"
    }
   },
@@ -42338,11 +41888,11 @@
    "original_publisher": null,
    "title": "Forest fires in Botswana",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033330&episodeid=6&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033330&episodeid=7&eventtype=WF",
    "occurred_at": "2026-10-25T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T04:23:10Z",
+   "source_updated_at": "2026-11-01T08:09:25Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42357,21 +41907,21 @@
     "countries": [
      "BW"
     ],
-    "lat": -19.3156,
-    "lon": 22.4022
+    "lat": -19.3172,
+    "lon": 22.4019
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 6,
-    "severity": 7527.0,
+    "episode_id": 7,
+    "severity": 7643.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-30T15:55:13Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
-    "last_changed_at": "2026-10-31T21:52:46Z"
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   },
   {
@@ -42416,7 +41966,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T00:46:25Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T21:52:46Z"
    }
   },
@@ -42433,7 +41983,7 @@
    "occurred_at": "2026-10-27T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T04:12:28Z",
+   "source_updated_at": "2026-11-01T08:07:31Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42461,7 +42011,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-30T20:46:05Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T21:52:46Z"
    }
   },
@@ -42656,11 +42206,11 @@
    "original_publisher": null,
    "title": "Forest fires in South Sudan, Sudan",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033337&episodeid=3&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033337&episodeid=6&eventtype=WF",
    "occurred_at": "2026-10-21T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-31T16:40:27Z",
+   "source_updated_at": "2026-11-01T08:24:47Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42676,21 +42226,21 @@
      "SS",
      "SD"
     ],
-    "lat": 10.098,
-    "lon": 26.2126
+    "lat": 10.0999,
+    "lon": 26.2116
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 3,
-    "severity": 6677.0,
+    "episode_id": 6,
+    "severity": 6947.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-30T20:46:05Z",
-    "last_seen_at": "2026-10-31T18:31:17Z",
-    "last_changed_at": "2026-10-31T18:31:17Z"
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   },
   {
@@ -42796,7 +42346,7 @@
    "occurred_at": "2026-10-19T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-31T20:31:04Z",
+   "source_updated_at": "2026-11-01T08:29:05Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42825,7 +42375,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-30T20:46:05Z",
-    "last_seen_at": "2026-10-31T21:52:46Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T21:52:46Z"
    }
   },
@@ -42870,7 +42420,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-30T20:46:05Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T21:52:46Z"
    }
   },
@@ -42960,7 +42510,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T00:46:25Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T18:31:17Z"
    }
   },
@@ -43005,7 +42555,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T00:46:25Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T21:52:46Z"
    }
   },
@@ -43095,7 +42645,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T00:46:25Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T21:52:46Z"
    }
   },
@@ -43140,7 +42690,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T00:46:25Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T21:52:46Z"
    }
   },
@@ -43185,7 +42735,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T00:46:25Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -43230,7 +42780,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T00:46:25Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -43275,7 +42825,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T00:46:25Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T21:52:46Z"
    }
   },
@@ -43320,7 +42870,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T00:46:25Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T13:37:57Z"
    }
   },
@@ -43365,7 +42915,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-30T20:46:05Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T21:52:46Z"
    }
   },
@@ -43608,7 +43158,7 @@
    "occurred_at": "2026-10-20T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-31T20:26:58Z",
+   "source_updated_at": "2026-11-01T08:28:51Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43636,7 +43186,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-30T20:46:05Z",
-    "last_seen_at": "2026-10-31T21:52:46Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T13:37:57Z"
    }
   },
@@ -43653,7 +43203,7 @@
    "occurred_at": "2026-10-20T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-31T20:26:07Z",
+   "source_updated_at": "2026-11-01T08:25:20Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43681,7 +43231,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T06:58:36Z",
-    "last_seen_at": "2026-10-31T21:52:46Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T13:37:57Z"
    }
   },
@@ -43727,7 +43277,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T13:37:57Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -43772,7 +43322,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T13:37:57Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T18:31:17Z"
    }
   },
@@ -43789,7 +43339,7 @@
    "occurred_at": "2026-10-27T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T04:13:00Z",
+   "source_updated_at": "2026-11-01T08:08:02Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43817,7 +43367,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T13:37:57Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T18:31:17Z"
    }
   },
@@ -43953,7 +43503,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T18:31:17Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T21:52:46Z"
    }
   },
@@ -43999,7 +43549,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T18:31:17Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -44044,7 +43594,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T18:31:17Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T21:52:46Z"
    }
   },
@@ -44089,7 +43639,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T18:31:17Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T21:52:46Z"
    }
   },
@@ -44134,7 +43684,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T18:31:17Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T21:52:46Z"
    }
   },
@@ -44179,7 +43729,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T18:31:17Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -44224,7 +43774,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T18:31:17Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T18:31:17Z"
    }
   },
@@ -44241,7 +43791,7 @@
    "occurred_at": "2026-10-27T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T04:11:43Z",
+   "source_updated_at": "2026-11-01T08:07:18Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -44270,7 +43820,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T18:31:17Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T18:31:17Z"
    }
   },
@@ -44287,7 +43837,7 @@
    "occurred_at": "2026-10-27T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T04:13:55Z",
+   "source_updated_at": "2026-11-01T08:08:14Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -44315,7 +43865,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T18:31:17Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T18:31:17Z"
    }
   },
@@ -44513,7 +44063,7 @@
    "occurred_at": "2026-10-20T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-10-31T20:26:10Z",
+   "source_updated_at": "2026-11-01T08:25:35Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -44542,7 +44092,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T18:31:17Z",
-    "last_seen_at": "2026-10-31T21:52:46Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T21:52:46Z"
    }
   },
@@ -44587,7 +44137,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T21:52:46Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -44633,7 +44183,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T21:52:46Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -44678,7 +44228,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T21:52:46Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -44724,7 +44274,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T21:52:46Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -44769,7 +44319,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T21:52:46Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T21:52:46Z"
    }
   },
@@ -44786,7 +44336,7 @@
    "occurred_at": "2026-10-27T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T04:12:17Z",
+   "source_updated_at": "2026-11-01T08:07:40Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -44814,8 +44364,53 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T21:52:46Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T21:52:46Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033385",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Zimbabwe",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033385&episodeid=2&eventtype=WF",
+   "occurred_at": "2026-10-21T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:24:39Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Zimbabwe",
+    "countries": [
+     "ZW"
+    ],
+    "lat": -18.8002,
+    "lon": 27.403
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 2,
+    "severity": 5065.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   },
   {
@@ -44859,8 +44454,53 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T01:27:55Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033387",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Brazil",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033387&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-10-20T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:26:07Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Brazil",
+    "countries": [
+     "BR"
+    ],
+    "lat": -1.4111,
+    "lon": -54.197
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5084.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   },
   {
@@ -44904,7 +44544,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -44949,7 +44589,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -421437,7 +421077,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -421479,7 +421119,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -421521,7 +421161,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -421563,7 +421203,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -421605,7 +421245,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -421647,7 +421287,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -421689,7 +421329,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -421731,7 +421371,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -421773,7 +421413,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -421815,7 +421455,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -421857,7 +421497,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -421899,7 +421539,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -421941,7 +421581,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -421983,7 +421623,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -422025,7 +421665,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -422067,7 +421707,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -422109,7 +421749,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -422151,7 +421791,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -422193,7 +421833,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -422235,7 +421875,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -422277,7 +421917,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -422319,7 +421959,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -422361,7 +422001,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -422403,7 +422043,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -422445,7 +422085,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -422487,7 +422127,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -422529,7 +422169,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -422571,7 +422211,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -422613,7 +422253,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -422655,7 +422295,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -422697,7 +422337,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -422739,7 +422379,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -422781,7 +422421,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -422823,7 +422463,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -422865,7 +422505,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -422907,7 +422547,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -422949,7 +422589,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -422991,7 +422631,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -423033,7 +422673,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -423075,7 +422715,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -423117,7 +422757,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -423159,7 +422799,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -423201,7 +422841,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -423243,7 +422883,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -423285,7 +422925,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -423327,7 +422967,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -423369,7 +423009,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -423411,7 +423051,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -423453,7 +423093,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -423495,7 +423135,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -423537,7 +423177,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -423579,7 +423219,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -423621,7 +423261,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -423663,7 +423303,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -423705,7 +423345,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -423747,7 +423387,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -423789,7 +423429,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -423831,7 +423471,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -423873,7 +423513,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -423915,7 +423555,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -423957,7 +423597,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -423999,7 +423639,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -424041,8 +423681,2780 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
+   }
+  },
+  {
+   "id": "gdelt:1330906313",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.asiaone.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → FIREFIGHTER",
+   "lang": "de",
+   "url": "https://www.asiaone.com/singapore/boy-salute-firefighter-yishun-hdb-fire",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Yishun, Singapore (general), Singapore",
+    "countries": [],
+    "lat": 1.4333,
+    "lon": 103.831
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "FIREFIGHTER",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330906340",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "srilankamirror.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → HAMBANTOTA",
+   "lang": "de",
+   "url": "https://srilankamirror.com/news/lightning-strike-sparks-fire-at-hambantota-port-damaging-11-vehicles",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "HAMBANTOTA",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330906346",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.thenorthernecho.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → POLE",
+   "lang": "de",
+   "url": "https://www.thenorthernecho.co.uk/news/26682119.pelton-fell-drink-driver-crashed-pole-leaving-pub/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "POLE",
+    "mentions": 20,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330906359",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.bostonglobe.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → UNITED STATES",
+   "lang": "de",
+   "url": "https://www.bostonglobe.com/2026/10/31/metro/south-station-stabbing-arrest/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Boston, Massachusetts, United States",
+    "countries": [],
+    "lat": 42.3584,
+    "lon": -71.0598
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "UNITED STATES",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330906440",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.bostonglobe.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: POLICE → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.bostonglobe.com/2026/10/31/metro/south-station-stabbing-arrest/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Boston, Massachusetts, United States",
+    "countries": [],
+    "lat": 42.3584,
+    "lon": -71.0598
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "POLICE",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330906559",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.asiaone.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: FIREFIGHTER → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.asiaone.com/singapore/boy-salute-firefighter-yishun-hdb-fire",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Yishun, Singapore (general), Singapore",
+    "countries": [],
+    "lat": 1.4333,
+    "lon": 103.831
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "FIREFIGHTER",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330906610",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.radio.gov.pk",
+   "title": "Einsatz konventioneller militärischer Gewalt: HINDU → BIHAR",
+   "lang": "de",
+   "url": "https://www.radio.gov.pk/01-11-2026/violence-against-minorities-places-of-worship-on-rise-in-india",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Madhya Pradesh, Madhya Pradesh, India",
+    "countries": [],
+    "lat": 23.5,
+    "lon": 78.5
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "HINDU",
+    "actor2": "BIHAR",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330906612",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.radio.gov.pk",
+   "title": "Einsatz konventioneller militärischer Gewalt: HINDU → WORSHIPPER",
+   "lang": "de",
+   "url": "https://www.radio.gov.pk/01-11-2026/violence-against-minorities-places-of-worship-on-rise-in-india",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Madhya Pradesh, Madhya Pradesh, India",
+    "countries": [],
+    "lat": 23.5,
+    "lon": 78.5
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "HINDU",
+    "actor2": "WORSHIPPER",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330906621",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "en.antaranews.com",
+   "title": "Erhöhte militärische Bereitschaft: INDONESIAN → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://en.antaranews.com/news/439263/indonesian-govt-tightens-security-at-fire-hit-forest-sites",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "152",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Antara, Aceh, Indonesia",
+    "countries": [],
+    "lat": 3.5292,
+    "lon": 99.0184
+   },
+   "metrics": {
+    "cameo_code": "152",
+    "cameo_category": "Erhöhte militärische Bereitschaft",
+    "actor1": "INDONESIAN",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330906628",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "en.antaranews.com",
+   "title": "Erhöhte militärische Bereitschaft: JAKARTA → MINISTRY",
+   "lang": "de",
+   "url": "https://en.antaranews.com/news/439263/indonesian-govt-tightens-security-at-fire-hit-forest-sites",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "152",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Kalimantan, Indonesia (general), Indonesia",
+    "countries": [],
+    "lat": 1.6167,
+    "lon": 109.183
+   },
+   "metrics": {
+    "cameo_code": "152",
+    "cameo_category": "Erhöhte militärische Bereitschaft",
+    "actor1": "JAKARTA",
+    "actor2": "MINISTRY",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330906629",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "en.antaranews.com",
+   "title": "Erhöhte militärische Bereitschaft: JAKARTA → MINISTRY",
+   "lang": "de",
+   "url": "https://en.antaranews.com/news/439263/indonesian-govt-tightens-security-at-fire-hit-forest-sites",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "152",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Antara, Aceh, Indonesia",
+    "countries": [],
+    "lat": 3.5292,
+    "lon": 99.0184
+   },
+   "metrics": {
+    "cameo_code": "152",
+    "cameo_category": "Erhöhte militärische Bereitschaft",
+    "actor1": "JAKARTA",
+    "actor2": "MINISTRY",
+    "mentions": 3,
+    "sources": 1,
+    "articles": 3,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330906755",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "gulfnews.com",
+   "title": "Militärische Drohung: ISRAEL → MILITARY",
+   "lang": "de",
+   "url": "https://gulfnews.com/world/mena/us-iran-israel-tensions-rise-what-uae-residents-need-to-know-on-november-1-1.500731511",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "1384",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Israel",
+    "countries": [],
+    "lat": 31.5,
+    "lon": 34.75
+   },
+   "metrics": {
+    "cameo_code": "1384",
+    "cameo_category": "Militärische Drohung",
+    "actor1": "ISRAEL",
+    "actor2": "MILITARY",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330906767",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.wftv.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: JUDGE → PRISON",
+   "lang": "de",
+   "url": "https://www.wftv.com/news/local/revelers-hit-downtown-orlando-halloween-celebrations/MOEOSXPD3JHBTDJGTJLV2DUOF4/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "JUDGE",
+    "actor2": "PRISON",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330906907",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.radio.gov.pk",
+   "title": "Kampf mit Hand- oder leichten Waffen: WORSHIPER → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.radio.gov.pk/01-11-2026/violence-against-minorities-places-of-worship-on-rise-in-india",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Bihar, Bihar, India",
+    "countries": [],
+    "lat": 25.1833,
+    "lon": 85.5167
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "WORSHIPER",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330906908",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.radio.gov.pk",
+   "title": "Kampf mit Hand- oder leichten Waffen: WORSHIPER → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.radio.gov.pk/01-11-2026/violence-against-minorities-places-of-worship-on-rise-in-india",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Madhya Pradesh, Madhya Pradesh, India",
+    "countries": [],
+    "lat": 23.5,
+    "lon": 78.5
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "WORSHIPER",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330907052",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.azernews.az",
+   "title": "Einsatz konventioneller militärischer Gewalt: VENEZUELA → GUERRILLA",
+   "lang": "de",
+   "url": "https://www.azernews.az/region/266588.html",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:30:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Venezuela",
+    "countries": [],
+    "lat": 8.0,
+    "lon": -66.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "VENEZUELA",
+    "actor2": "GUERRILLA",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330907727",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.hindustantimes.com",
+   "title": "Militärische Drohung: FIJI → CAPTAIN",
+   "lang": "de",
+   "url": "https://www.hindustantimes.com/india-news/names-of-pilots-who-landed-flydubai-plane-after-attack-on-indian-smit-machchhar-revealed-henson-steven-rowan-tooth-101793514857170.html",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "138",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Tel Aviv, Tel Aviv, Israel",
+    "countries": [],
+    "lat": 32.0667,
+    "lon": 34.7667
+   },
+   "metrics": {
+    "cameo_code": "138",
+    "cameo_category": "Militärische Drohung",
+    "actor1": "FIJI",
+    "actor2": "CAPTAIN",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330907728",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.hindustantimes.com",
+   "title": "Militärische Drohung: FIJI → CAPTAIN",
+   "lang": "de",
+   "url": "https://www.hindustantimes.com/india-news/names-of-pilots-who-landed-flydubai-plane-after-attack-on-indian-smit-machchhar-revealed-henson-steven-rowan-tooth-101793514857170.html",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "138",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Jerusalem, Israel (general), Israel",
+    "countries": [],
+    "lat": 31.7667,
+    "lon": 35.2333
+   },
+   "metrics": {
+    "cameo_code": "138",
+    "cameo_category": "Militärische Drohung",
+    "actor1": "FIJI",
+    "actor2": "CAPTAIN",
+    "mentions": 8,
+    "sources": 1,
+    "articles": 8,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330907729",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.hindustantimes.com",
+   "title": "Einsatz von Luftwaffen: FIJI → CAPTAIN",
+   "lang": "de",
+   "url": "https://www.hindustantimes.com/india-news/names-of-pilots-who-landed-flydubai-plane-after-attack-on-indian-smit-machchhar-revealed-henson-steven-rowan-tooth-101793514857170.html",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "195",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "South Africa",
+    "countries": [],
+    "lat": -30.0,
+    "lon": 26.0
+   },
+   "metrics": {
+    "cameo_code": "195",
+    "cameo_category": "Einsatz von Luftwaffen",
+    "actor1": "FIJI",
+    "actor2": "CAPTAIN",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330907757",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "arynews.tv",
+   "title": "Erhöhte militärische Bereitschaft: AUTHORITIES → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://arynews.tv/indian-authorities-tighten-security-ahead-of-big-opposition-march-in-delhi",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "152",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Taipei, T'ai-pei, Taiwan",
+    "countries": [],
+    "lat": 25.0478,
+    "lon": 121.532
+   },
+   "metrics": {
+    "cameo_code": "152",
+    "cameo_category": "Erhöhte militärische Bereitschaft",
+    "actor1": "AUTHORITIES",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330907814",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "bentelevision.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: MEDIA → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://bentelevision.com/inec-seeks-stronger-regional-alliance-against-electoral-disinformation-ahead-of-2027-polls/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Nigeria",
+    "countries": [],
+    "lat": 10.0,
+    "lon": 8.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "MEDIA",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330907821",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.aol.com",
+   "title": "Militärische Drohung: MILITARY → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.aol.com/articles/north-dakota-named-best-state-040100000.html",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "1384",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Hawaii, United States",
+    "countries": [],
+    "lat": 21.1098,
+    "lon": -157.531
+   },
+   "metrics": {
+    "cameo_code": "1384",
+    "cameo_category": "Militärische Drohung",
+    "actor1": "MILITARY",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330907837",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "arynews.tv",
+   "title": "Kampf mit Hand- oder leichten Waffen: LAHORE → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://arynews.tv/one-killed-eight-injured-in-lahore-cylinder-blast",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T08:45:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Burhan, Punjab, Pakistan",
+    "countries": [],
+    "lat": 33.8128,
+    "lon": 72.5865
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "LAHORE",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908433",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.moneycontrol.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → ADMINISTRATION",
+   "lang": "de",
+   "url": "https://www.moneycontrol.com/world/trump-administration-steps-up-election-battles-in-final-weekend-before-us-midterms-article-14065374.html",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Alaska, United States",
+    "countries": [],
+    "lat": 61.385,
+    "lon": -152.268
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "ADMINISTRATION",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908449",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.dailystar.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → TURKEY",
+   "lang": "de",
+   "url": "https://www.dailystar.co.uk/news/latest-news/grandmother-given-cancer-clear-dies-37830922",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Icmeler, Mugla, Turkey",
+    "countries": [],
+    "lat": 36.7942,
+    "lon": 28.2289
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "TURKEY",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908452",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.moneycontrol.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → UNITED STATES",
+   "lang": "de",
+   "url": "https://www.moneycontrol.com/world/trump-administration-steps-up-election-battles-in-final-weekend-before-us-midterms-article-14065374.html",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "California, United States",
+    "countries": [],
+    "lat": 36.17,
+    "lon": -119.746
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "UNITED STATES",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908455",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.citizen.co.za",
+   "title": "Einsatz konventioneller militärischer Gewalt: AFRICA → POLICE",
+   "lang": "de",
+   "url": "https://www.citizen.co.za/news/senzo-mchunu-questions-legality-of-police-raid-at-his-home-report/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Madlanga, Eastern Cape, South Africa",
+    "countries": [],
+    "lat": -30.9821,
+    "lon": 29.2626
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "AFRICA",
+    "actor2": "POLICE",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908456",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.citizen.co.za",
+   "title": "Einsatz konventioneller militärischer Gewalt: AFRICA → POLICE",
+   "lang": "de",
+   "url": "https://www.citizen.co.za/news/senzo-mchunu-questions-legality-of-police-raid-at-his-home-report/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Gauteng, Gauteng, South Africa",
+    "countries": [],
+    "lat": -26.0833,
+    "lon": 28.25
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "AFRICA",
+    "actor2": "POLICE",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908460",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.jacarandafm.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: FARMER → POLICE",
+   "lang": "de",
+   "url": "https://www.jacarandafm.com/news/news/two-arrested-in-ventersdorp-farm-attack/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "FARMER",
+    "actor2": "POLICE",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908552",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.citizen.co.za",
+   "title": "Einsatz konventioneller militärischer Gewalt: POLICE → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.citizen.co.za/news/senzo-mchunu-questions-legality-of-police-raid-at-his-home-report/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Madlanga, Eastern Cape, South Africa",
+    "countries": [],
+    "lat": -30.9821,
+    "lon": 29.2626
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "POLICE",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908556",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.jacarandafm.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: POLICE → FARMER",
+   "lang": "de",
+   "url": "https://www.jacarandafm.com/news/news/two-arrested-in-ventersdorp-farm-attack/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "POLICE",
+    "actor2": "FARMER",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908568",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.orissapost.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: POLICE → MALE",
+   "lang": "de",
+   "url": "https://www.orissapost.com/cheetah-shot-dead-in-kuno-national-park-six-forest-employees-suspended/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Orissa, Orissa, India",
+    "countries": [],
+    "lat": 20.5,
+    "lon": 84.4167
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "POLICE",
+    "actor2": "MALE",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908585",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.heraldgoa.in",
+   "title": "Ultimatum: RESIDENTS → AUTHORITIES",
+   "lang": "de",
+   "url": "https://www.heraldgoa.in/goa/pondaites-threaten-court-action-over-defunct-fire-safety-systems/494069/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "139",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "139",
+    "cameo_category": "Ultimatum",
+    "actor1": "RESIDENTS",
+    "actor2": "AUTHORITIES",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908586",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.heraldgoa.in",
+   "title": "Einsatz konventioneller militärischer Gewalt: RESIDENTS → AUTHORITIES",
+   "lang": "de",
+   "url": "https://www.heraldgoa.in/goa/pondaites-threaten-court-action-over-defunct-fire-safety-systems/494069/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "RESIDENTS",
+    "actor2": "AUTHORITIES",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908622",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.dailystar.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: FRANCE → NETHERLANDS",
+   "lang": "de",
+   "url": "https://www.dailystar.co.uk/news/world-news/cannibal-killer-says-eating-humans-37825484",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "Netherlands",
+    "countries": [],
+    "lat": 52.5,
+    "lon": 5.75
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "FRANCE",
+    "actor2": "NETHERLANDS",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908637",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.dailymail.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: GHANA → MEDIA",
+   "lang": "de",
+   "url": "https://www.dailymail.com/tvshowbiz/article-16256239/khiana-smith-bali-meningitis-influencer-hospital-brain-infection.html",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Bali, Ghana (general), Ghana",
+    "countries": [],
+    "lat": 9.2423,
+    "lon": 0.5093
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "GHANA",
+    "actor2": "MEDIA",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 3,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908657",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.moneycontrol.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: ADMINISTRATION → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.moneycontrol.com/world/trump-administration-steps-up-election-battles-in-final-weekend-before-us-midterms-article-14065374.html",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Alaska, United States",
+    "countries": [],
+    "lat": 61.385,
+    "lon": -152.268
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "ADMINISTRATION",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908664",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.heraldgoa.in",
+   "title": "Einsatz konventioneller militärischer Gewalt: AUTHORITIES → RESIDENTS",
+   "lang": "de",
+   "url": "https://www.heraldgoa.in/goa/pondaites-threaten-court-action-over-defunct-fire-safety-systems/494069/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "AUTHORITIES",
+    "actor2": "RESIDENTS",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908667",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.heraldgoa.in",
+   "title": "Einsatz konventioneller militärischer Gewalt: AUTHORITIES → SOCIAL WORKER",
+   "lang": "de",
+   "url": "https://www.heraldgoa.in/goa/pondaites-threaten-court-action-over-defunct-fire-safety-systems/494069/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "AUTHORITIES",
+    "actor2": "SOCIAL WORKER",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908692",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.1011now.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: HOSPITAL → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.1011now.com/2026/10/31/one-taken-hospital-one-custody-after-shooting-omahas-old-market/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "HOSPITAL",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908693",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.heraldgoa.in",
+   "title": "Ultimatum: SOCIAL WORKER → AUTHORITIES",
+   "lang": "de",
+   "url": "https://www.heraldgoa.in/goa/pondaites-threaten-court-action-over-defunct-fire-safety-systems/494069/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "139",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "139",
+    "cameo_category": "Ultimatum",
+    "actor1": "SOCIAL WORKER",
+    "actor2": "AUTHORITIES",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908694",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.heraldgoa.in",
+   "title": "Einsatz konventioneller militärischer Gewalt: SOCIAL WORKER → AUTHORITIES",
+   "lang": "de",
+   "url": "https://www.heraldgoa.in/goa/pondaites-threaten-court-action-over-defunct-fire-safety-systems/494069/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "SOCIAL WORKER",
+    "actor2": "AUTHORITIES",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908779",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.dailymail.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: MEDIA → GHANA",
+   "lang": "de",
+   "url": "https://www.dailymail.com/tvshowbiz/article-16256239/khiana-smith-bali-meningitis-influencer-hospital-brain-infection.html",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Bali, Ghana (general), Ghana",
+    "countries": [],
+    "lat": 9.2423,
+    "lon": 0.5093
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "MEDIA",
+    "actor2": "GHANA",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 3,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908862",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.calcuttanews.net",
+   "title": "Militärische Mobilisierung oder Verstärkung: PAKISTAN → CHINA",
+   "lang": "de",
+   "url": "https://www.gdeltproject.org/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "154",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Bangalore, Karnataka, India",
+    "countries": [],
+    "lat": 12.9833,
+    "lon": 77.5833
+   },
+   "metrics": {
+    "cameo_code": "154",
+    "cameo_category": "Militärische Mobilisierung oder Verstärkung",
+    "actor1": "PAKISTAN",
+    "actor2": "CHINA",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908863",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.calcuttanews.net",
+   "title": "Militärische Mobilisierung oder Verstärkung: PAKISTAN → CHINESE",
+   "lang": "de",
+   "url": "https://www.gdeltproject.org/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "154",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "New Delhi, Delhi, India",
+    "countries": [],
+    "lat": 28.6,
+    "lon": 77.2
+   },
+   "metrics": {
+    "cameo_code": "154",
+    "cameo_category": "Militärische Mobilisierung oder Verstärkung",
+    "actor1": "PAKISTAN",
+    "actor2": "CHINESE",
+    "mentions": 6,
+    "sources": 1,
+    "articles": 6,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908922",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.dailystar.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: TURKEY → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.dailystar.co.uk/news/latest-news/grandmother-given-cancer-clear-dies-37830922",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Icmeler, Mugla, Turkey",
+    "countries": [],
+    "lat": 36.7942,
+    "lon": 28.2289
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "TURKEY",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908990",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.moneycontrol.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: UNITED STATES → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.moneycontrol.com/world/trump-administration-steps-up-election-battles-in-final-weekend-before-us-midterms-article-14065374.html",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Alaska, United States",
+    "countries": [],
+    "lat": 61.385,
+    "lon": -152.268
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "UNITED STATES",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330908991",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.moneycontrol.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: UNITED STATES → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.moneycontrol.com/world/trump-administration-steps-up-election-battles-in-final-weekend-before-us-midterms-article-14065374.html",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:00:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "California, United States",
+    "countries": [],
+    "lat": 36.17,
+    "lon": -119.746
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "UNITED STATES",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330909621",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.thesouthafrican.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → AFRICA",
+   "lang": "de",
+   "url": "https://www.thesouthafrican.com/news/malema-condemns-donovan-marx-attack-sings-kill-the-boer/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Soweto, Gauteng, South Africa",
+    "countries": [],
+    "lat": -26.2667,
+    "lon": 27.8667
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "AFRICA",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330909637",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.newburytoday.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: Akteur 1 nicht erkannt → HINDU",
+   "lang": "de",
+   "url": "https://www.newburytoday.co.uk/lifestyle/a-cracking-story-from-the-epic-mahabharata-9489367/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "Akteur 1 nicht erkannt",
+    "actor2": "HINDU",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330909703",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.thedailystar.net",
+   "title": "Einsatz konventioneller militärischer Gewalt: BANGLADESH → POLICE",
+   "lang": "de",
+   "url": "https://www.thedailystar.net/top-news-center/news/police-vehicle-set-fire-rmg-workers-police-clash-mirpur-4312541",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Mirpur, Bangladesh (general), Bangladesh",
+    "countries": [],
+    "lat": 24.6833,
+    "lon": 90.2
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "BANGLADESH",
+    "actor2": "POLICE",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330909706",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.thedailystar.net",
+   "title": "Einsatz konventioneller militärischer Gewalt: BANGLADESH → WORKER",
+   "lang": "de",
+   "url": "https://www.thedailystar.net/top-news-center/news/police-vehicle-set-fire-rmg-workers-police-clash-mirpur-4312541",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Mirpur, Bangladesh (general), Bangladesh",
+    "countries": [],
+    "lat": 24.6833,
+    "lon": 90.2
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "BANGLADESH",
+    "actor2": "WORKER",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330909753",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.thedailystar.net",
+   "title": "Einsatz konventioneller militärischer Gewalt: POLICE → BANGLADESH",
+   "lang": "de",
+   "url": "https://www.thedailystar.net/top-news-center/news/police-vehicle-set-fire-rmg-workers-police-clash-mirpur-4312541",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Mirpur, Bangladesh (general), Bangladesh",
+    "countries": [],
+    "lat": 24.6833,
+    "lon": 90.2
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "POLICE",
+    "actor2": "BANGLADESH",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330909758",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.thedailystar.net",
+   "title": "Einsatz konventioneller militärischer Gewalt: POLICE → WORKER",
+   "lang": "de",
+   "url": "https://www.thedailystar.net/top-news-center/news/police-vehicle-set-fire-rmg-workers-police-clash-mirpur-4312541",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Mirpur, Bangladesh (general), Bangladesh",
+    "countries": [],
+    "lat": 24.6833,
+    "lon": 90.2
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "POLICE",
+    "actor2": "WORKER",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330909832",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.express.co.uk",
+   "title": "Besetzung: UNITED KINGDOM → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.express.co.uk/news/royal/2261700/queen-elizabeth-stern-warning-meghan-markle",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "192",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "United Kingdom",
+    "countries": [],
+    "lat": 54.0,
+    "lon": -4.0
+   },
+   "metrics": {
+    "cameo_code": "192",
+    "cameo_category": "Besetzung",
+    "actor1": "UNITED KINGDOM",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330909903",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.newburytoday.co.uk",
+   "title": "Einsatz konventioneller militärischer Gewalt: HINDU → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.newburytoday.co.uk/lifestyle/a-cracking-story-from-the-epic-mahabharata-9489367/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "HINDU",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330909972",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.thesouthafrican.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: EMPLOYEE → AFRICA",
+   "lang": "de",
+   "url": "https://www.thesouthafrican.com/news/south-africas-violent-farm-attacks-can-be-predicted-and-avoided/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Syferfontein, Limpopo, South Africa",
+    "countries": [],
+    "lat": -23.9373,
+    "lon": 29.1932
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "EMPLOYEE",
+    "actor2": "AFRICA",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330909973",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.thedailystar.net",
+   "title": "Einsatz konventioneller militärischer Gewalt: WORKER → BANGLADESH",
+   "lang": "de",
+   "url": "https://www.thedailystar.net/top-news-center/news/police-vehicle-set-fire-rmg-workers-police-clash-mirpur-4312541",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Mirpur, Bangladesh (general), Bangladesh",
+    "countries": [],
+    "lat": 24.6833,
+    "lon": 90.2
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "WORKER",
+    "actor2": "BANGLADESH",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330909976",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.thedailystar.net",
+   "title": "Einsatz konventioneller militärischer Gewalt: WORKER → POLICE",
+   "lang": "de",
+   "url": "https://www.thedailystar.net/top-news-center/news/police-vehicle-set-fire-rmg-workers-police-clash-mirpur-4312541",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Mirpur, Bangladesh (general), Bangladesh",
+    "countries": [],
+    "lat": 24.6833,
+    "lon": 90.2
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "WORKER",
+    "actor2": "POLICE",
+    "mentions": 1,
+    "sources": 1,
+    "articles": 1,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330910091",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.thedailystar.net",
+   "title": "Blockade oder Bewegungsbeschränkung: PROTESTING WORKER → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.thedailystar.net/news/news/protesting-workers-walk-out-factories-block-road-ashulia-4312661",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "191",
+   "level": null,
+   "location": {
+    "precision": "unknown",
+    "name": null,
+    "countries": [],
+    "lat": null,
+    "lon": null
+   },
+   "metrics": {
+    "cameo_code": "191",
+    "cameo_category": "Blockade oder Bewegungsbeschränkung",
+    "actor1": "PROTESTING WORKER",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330910114",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.businesstimes.com.sg",
+   "title": "Einsatz konventioneller militärischer Gewalt: NORTH KOREA → REGIME",
+   "lang": "de",
+   "url": "https://www.businesstimes.com.sg/international/global/north-korean-hackers-stole-billions-fbi-says-its-not-their-first-heist",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "country",
+    "name": "North Korea",
+    "countries": [],
+    "lat": 40.0,
+    "lon": 127.0
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "NORTH KOREA",
+    "actor2": "REGIME",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330910175",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.thesouthafrican.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: UNITED STATES → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.thesouthafrican.com/news/donovan-marx-attack-us-slams-kill-the-boer-chant/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Potchefstroom, North-West, South Africa",
+    "countries": [],
+    "lat": -26.7167,
+    "lon": 27.1
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "UNITED STATES",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 2,
+    "sources": 1,
+    "articles": 2,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330910176",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.saltlakecitysun.com",
+   "title": "Besetzung: HOUSTON → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.gdeltproject.org/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "192",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Salt Lake, Texas, United States",
+    "countries": [],
+    "lat": 32.167,
+    "lon": -101.675
+   },
+   "metrics": {
+    "cameo_code": "192",
+    "cameo_category": "Besetzung",
+    "actor1": "HOUSTON",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 5,
+    "sources": 1,
+    "articles": 5,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330910177",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.saltlakecitysun.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: UNITED STATES → Akteur 2 nicht erkannt",
+   "lang": "de",
+   "url": "https://www.gdeltproject.org/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Salt Lake, Texas, United States",
+    "countries": [],
+    "lat": 32.167,
+    "lon": -101.675
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "UNITED STATES",
+    "actor2": "Akteur 2 nicht erkannt",
+    "mentions": 8,
+    "sources": 1,
+    "articles": 8,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330910209",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.tcm.com",
+   "title": "Kampf mit Hand- oder leichten Waffen: UNITED STATES → NATIVE AMERICAN",
+   "lang": "de",
+   "url": "https://www.tcm.com/articles/now-playing-newsletter/60346/thanksgiving",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "193",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Wyoming, United States",
+    "countries": [],
+    "lat": 42.7475,
+    "lon": -107.209
+   },
+   "metrics": {
+    "cameo_code": "193",
+    "cameo_category": "Kampf mit Hand- oder leichten Waffen",
+    "actor1": "UNITED STATES",
+    "actor2": "NATIVE AMERICAN",
+    "mentions": 4,
+    "sources": 1,
+    "articles": 4,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
+   }
+  },
+  {
+   "id": "gdelt:1330910217",
+   "kind": "event",
+   "domain": "conflict",
+   "source": "gdelt",
+   "provenance": "claim",
+   "original_publisher": "www.thesouthafrican.com",
+   "title": "Einsatz konventioneller militärischer Gewalt: KENNETH KAUNDA → NORTH WEST",
+   "lang": "de",
+   "url": "https://www.thesouthafrican.com/news/south-africas-violent-farm-attacks-can-be-predicted-and-avoided/",
+   "occurred_at": "2026-11-01T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:15:00Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "190",
+   "level": null,
+   "location": {
+    "precision": "region",
+    "name": "Mpumalanga, KwaZulu-Natal, South Africa",
+    "countries": [],
+    "lat": -27.8818,
+    "lon": 31.534
+   },
+   "metrics": {
+    "cameo_code": "190",
+    "cameo_category": "Einsatz konventioneller militärischer Gewalt",
+    "actor1": "KENNETH KAUNDA",
+    "actor2": "NORTH WEST",
+    "mentions": 10,
+    "sources": 1,
+    "articles": 10,
+    "automated_unverified": true
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   },
   {
@@ -424057,7 +426469,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-11-01T08:07:00Z",
+   "observed_at": "2026-11-01T09:11:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -424089,8 +426501,8 @@
    },
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
-    "last_changed_at": "2026-11-01T08:08:34Z"
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   },
   {
@@ -424105,7 +426517,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-11-01T08:07:00Z",
+   "observed_at": "2026-11-01T09:11:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -424126,8 +426538,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
-    "last_changed_at": "2026-11-01T08:08:34Z"
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   },
   {
@@ -424142,7 +426554,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-11-01T08:07:00Z",
+   "observed_at": "2026-11-01T09:11:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -424163,8 +426575,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
-    "last_changed_at": "2026-11-01T08:08:34Z"
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   },
   {
@@ -583257,92 +585669,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T01:27:55Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T01:27:55Z"
-   }
-  },
-  {
-   "id": "usgs:us6000u4tc",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "usgs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "M 5.4 - 205 km NW of Port-Olry, Vanuatu",
-   "lang": "en",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4tc",
-   "occurred_at": "2026-10-25T08:41:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-10-25T10:46:58Z",
-   "ongoing": null,
-   "data_status": "reviewed",
-   "source_status_raw": "reviewed",
-   "level": {
-    "scheme": "usgs-pager",
-    "value": "green",
-    "label": "PAGER Grün"
-   },
-   "location": {
-    "precision": "point",
-    "name": "205 km NW of Port-Olry, Vanuatu",
-    "countries": [],
-    "lat": -13.8848,
-    "lon": 165.5769
-   },
-   "metrics": {
-    "magnitude": 5.4,
-    "magnitude_type": "mww",
-    "depth_km": 10,
-    "shaking_mmi": 0,
-    "reported_cdi": null,
-    "felt_reports": null
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-10-25T10:08:23Z",
-    "last_seen_at": "2026-10-26T06:10:08Z",
-    "last_changed_at": "2026-10-25T10:08:23Z"
-   }
-  },
-  {
-   "id": "usgs:us6000u4tf",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "usgs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "M 4.6 - Volcano Islands, Japan region",
-   "lang": "en",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4tf",
-   "occurred_at": "2026-10-25T09:11:17Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-10-25T09:27:11Z",
-   "ongoing": null,
-   "data_status": "reviewed",
-   "source_status_raw": "reviewed",
-   "level": null,
-   "location": {
-    "precision": "point",
-    "name": "Volcano Islands, Japan region",
-    "countries": [],
-    "lat": 22.5515,
-    "lon": 142.9691
-   },
-   "metrics": {
-    "magnitude": 4.6,
-    "magnitude_type": "mb",
-    "depth_km": 133.076,
-    "shaking_mmi": null,
-    "reported_cdi": null,
-    "felt_reports": null
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-10-25T10:08:23Z",
-    "last_seen_at": "2026-10-26T06:10:08Z",
-    "last_changed_at": "2026-10-25T10:08:23Z"
    }
   },
   {
@@ -587985,7 +590313,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T13:37:57Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T13:37:57Z"
    }
   },
@@ -588025,7 +590353,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T13:37:57Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T13:37:57Z"
    }
   },
@@ -588065,7 +590393,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T13:37:57Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T13:37:57Z"
    }
   },
@@ -588105,7 +590433,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T18:31:17Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T21:52:46Z"
    }
   },
@@ -588145,7 +590473,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T21:52:46Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T01:27:55Z"
    }
   },
@@ -588185,7 +590513,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T21:52:46Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T21:52:46Z"
    }
   },
@@ -588202,7 +590530,7 @@
    "occurred_at": "2026-10-31T22:15:02Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T07:41:33Z",
+   "source_updated_at": "2026-11-01T09:09:35Z",
    "ongoing": null,
    "data_status": "reviewed",
    "source_status_raw": "reviewed",
@@ -588224,13 +590552,13 @@
     "depth_km": 352.449,
     "shaking_mmi": 2.993,
     "reported_cdi": 3.1,
-    "felt_reports": 22
+    "felt_reports": 25
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T01:27:55Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
-    "last_changed_at": "2026-11-01T08:08:34Z"
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   },
   {
@@ -588269,7 +590597,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T01:27:55Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T01:27:55Z"
    }
   },
@@ -588309,7 +590637,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T01:27:55Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T01:27:55Z"
    }
   },
@@ -588349,7 +590677,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -588389,7 +590717,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -588429,7 +590757,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -588446,7 +590774,7 @@
    "occurred_at": "2026-11-01T06:26:42Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-01T06:50:28Z",
+   "source_updated_at": "2026-11-01T08:32:10Z",
    "ongoing": null,
    "data_status": "reviewed",
    "source_status_raw": "reviewed",
@@ -588473,7 +590801,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -588513,7 +590841,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
    }
   },
@@ -588553,8 +590881,48 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-01T08:08:34Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-11-01T08:08:34Z"
+   }
+  },
+  {
+   "id": "usgs:us7000tunq",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 4.8 - 33 km SE of Jiufen, Taiwan",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tunq",
+   "occurred_at": "2026-11-01T08:20:07Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-01T09:07:47Z",
+   "ongoing": null,
+   "data_status": "reviewed",
+   "source_status_raw": "reviewed",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "33 km SE of Jiufen, Taiwan",
+    "countries": [],
+    "lat": 24.8805,
+    "lon": 122.0621
+   },
+   "metrics": {
+    "magnitude": 4.8,
+    "magnitude_type": "mb",
+    "depth_km": 118.799,
+    "shaking_mmi": null,
+    "reported_cdi": 3.8,
+    "felt_reports": 5
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-01T09:13:21Z",
+    "last_seen_at": "2026-11-01T09:13:21Z",
+    "last_changed_at": "2026-11-01T09:13:21Z"
    }
   }
  ]
