@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-09T17:48:26Z",
+ "generated_at": "2026-11-09T18:44:54Z",
  "items": [
   {
    "id": "gdacs-drought:1015915",
@@ -713,7 +713,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T14:06:23Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-09-21T14:06:23Z"
    }
   },
@@ -2333,7 +2333,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-06T15:00:03Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -2378,7 +2378,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -2423,7 +2423,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -2468,7 +2468,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -2513,7 +2513,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -2558,7 +2558,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -3276,7 +3276,7 @@
    "occurred_at": "2026-11-06T06:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-09T17:05:03Z",
+   "source_updated_at": "2026-11-09T18:05:03Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3304,7 +3304,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-06T15:00:03Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -3347,7 +3347,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-07T00:54:46Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -3887,51 +3887,6 @@
     "first_seen_at": "2026-10-03T16:43:43Z",
     "last_seen_at": "2026-10-12T05:53:04Z",
     "last_changed_at": "2026-10-11T15:38:16Z"
-   }
-  },
-  {
-   "id": "gdacs:WF:1032549",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Indonesia",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032549&episodeid=24&eventtype=WF",
-   "occurred_at": "2026-09-25T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-10-10T15:17:08Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Indonesia",
-    "countries": [
-     "ID"
-    ],
-    "lat": -3.2843,
-    "lon": 105.5498
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 24,
-    "severity": 18538.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-10-03T16:43:43Z",
-    "last_seen_at": "2026-10-10T18:33:32Z",
-    "last_changed_at": "2026-10-10T18:33:32Z"
    }
   },
   {
@@ -4923,186 +4878,6 @@
    }
   },
   {
-   "id": "gdacs:WF:1032626",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Papua New Guinea",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032626&episodeid=7&eventtype=WF",
-   "occurred_at": "2026-09-26T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-10-10T07:12:43Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Papua New Guinea",
-    "countries": [
-     "PG"
-    ],
-    "lat": -7.9621,
-    "lon": 142.1674
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 7,
-    "severity": 6393.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-10-08T00:58:36Z",
-    "last_seen_at": "2026-10-10T18:33:32Z",
-    "last_changed_at": "2026-10-10T13:39:09Z"
-   }
-  },
-  {
-   "id": "gdacs:WF:1032628",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Papua New Guinea",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032628&episodeid=9&eventtype=WF",
-   "occurred_at": "2026-09-25T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-10-10T15:16:57Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Papua New Guinea",
-    "countries": [
-     "PG"
-    ],
-    "lat": -7.6536,
-    "lon": 141.1426
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 9,
-    "severity": 5972.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-10-08T00:58:36Z",
-    "last_seen_at": "2026-10-10T18:33:32Z",
-    "last_changed_at": "2026-10-10T18:33:32Z"
-   }
-  },
-  {
-   "id": "gdacs:WF:1032629",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Papua New Guinea",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032629&episodeid=5&eventtype=WF",
-   "occurred_at": "2026-09-25T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-10-10T15:16:34Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Papua New Guinea",
-    "countries": [
-     "PG"
-    ],
-    "lat": -7.33,
-    "lon": 141.2979
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 5,
-    "severity": 5458.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-10-08T00:58:36Z",
-    "last_seen_at": "2026-10-10T18:33:32Z",
-    "last_changed_at": "2026-10-10T18:33:32Z"
-   }
-  },
-  {
-   "id": "gdacs:WF:1032630",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Papua New Guinea",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032630&episodeid=9&eventtype=WF",
-   "occurred_at": "2026-09-25T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-10-10T15:17:02Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Papua New Guinea",
-    "countries": [
-     "PG"
-    ],
-    "lat": -7.8765,
-    "lon": 141.1011
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 9,
-    "severity": 18055.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-10-08T00:58:36Z",
-    "last_seen_at": "2026-10-10T18:33:32Z",
-    "last_changed_at": "2026-10-10T18:33:32Z"
-   }
-  },
-  {
    "id": "gdacs:WF:1032632",
    "kind": "event",
    "domain": "disaster",
@@ -5233,51 +5008,6 @@
     "first_seen_at": "2026-10-08T15:34:16Z",
     "last_seen_at": "2026-10-12T15:18:40Z",
     "last_changed_at": "2026-10-12T15:18:40Z"
-   }
-  },
-  {
-   "id": "gdacs:WF:1032635",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Papua New Guinea",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032635&episodeid=6&eventtype=WF",
-   "occurred_at": "2026-09-25T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-10-10T15:17:52Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Papua New Guinea",
-    "countries": [
-     "PG"
-    ],
-    "lat": -7.3824,
-    "lon": 141.639
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 6,
-    "severity": 7902.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-10-08T15:34:16Z",
-    "last_seen_at": "2026-10-10T18:33:32Z",
-    "last_changed_at": "2026-10-10T13:39:09Z"
    }
   },
   {
@@ -36580,7 +36310,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T00:46:25Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -37529,7 +37259,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-31T18:31:17Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -38344,7 +38074,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -38389,7 +38119,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -38614,7 +38344,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T15:27:36Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -39248,7 +38978,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T23:53:50Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -39609,7 +39339,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-02T17:26:06Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -39836,7 +39566,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-02T17:26:06Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -41233,7 +40963,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-03T15:28:16Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -41368,7 +41098,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-03T15:28:16Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -41413,7 +41143,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-03T15:28:16Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -42001,7 +41731,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-03T21:16:20Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -42183,7 +41913,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-03T23:19:17Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -43039,7 +42769,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-04T21:18:14Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -44303,7 +44033,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-05T23:50:36Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -45795,7 +45525,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-06T20:52:21Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -45840,7 +45570,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-06T20:52:21Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -46020,7 +45750,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-07T00:54:46Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -46065,7 +45795,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-07T00:54:46Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -46110,7 +45840,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-07T00:54:46Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -46155,7 +45885,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-07T13:58:39Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -46290,7 +46020,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-07T13:58:39Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T07:10:50Z"
    }
   },
@@ -46380,7 +46110,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-07T13:58:39Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -46470,7 +46200,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-07T13:58:39Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -46560,7 +46290,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-07T13:58:39Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -46605,7 +46335,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-07T13:58:39Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -46920,7 +46650,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-07T18:45:15Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -46965,7 +46695,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -47100,7 +46830,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -47235,7 +46965,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -47325,7 +47055,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -47415,7 +47145,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-07T22:43:06Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -47505,7 +47235,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T02:26:23Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -47640,7 +47370,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-07T22:43:06Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -47685,7 +47415,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T16:19:22Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -47730,7 +47460,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T00:04:04Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -47865,7 +47595,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T16:19:22Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -47910,7 +47640,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T16:19:22Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -47956,7 +47686,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -48046,7 +47776,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -48091,7 +47821,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -48136,7 +47866,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -48181,7 +47911,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -48226,7 +47956,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -48271,7 +48001,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -48316,7 +48046,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -48361,7 +48091,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -48541,7 +48271,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T16:19:22Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -48586,7 +48316,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T16:19:22Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T07:10:50Z"
    }
   },
@@ -48721,7 +48451,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T16:19:22Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -48766,7 +48496,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T16:19:22Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -48811,7 +48541,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T16:19:22Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -48856,7 +48586,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T16:19:22Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -49126,7 +48856,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T20:45:36Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -49217,7 +48947,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T20:45:36Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -49262,7 +48992,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T20:45:36Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -49489,7 +49219,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T20:45:36Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -49534,7 +49264,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T00:04:04Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -49579,7 +49309,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T00:04:04Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -49714,7 +49444,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T07:10:50Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -49849,7 +49579,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T07:10:50Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -49894,7 +49624,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T07:10:50Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -49939,7 +49669,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -49984,7 +49714,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -50029,7 +49759,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -50074,7 +49804,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -50119,7 +49849,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -50164,7 +49894,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -50209,7 +49939,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -50254,7 +49984,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -50299,7 +50029,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -50344,7 +50074,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -50389,7 +50119,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -50434,7 +50164,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -50479,7 +50209,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -50524,7 +50254,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -50569,7 +50299,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -50615,7 +50345,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -50660,7 +50390,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -408894,7 +408624,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-11-09T17:47:00Z",
+   "observed_at": "2026-11-09T18:43:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -408926,8 +408656,8 @@
    },
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
-    "last_changed_at": "2026-11-09T17:48:26Z"
+    "last_seen_at": "2026-11-09T18:44:54Z",
+    "last_changed_at": "2026-11-09T18:44:54Z"
    }
   },
   {
@@ -408942,7 +408672,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-11-09T17:47:00Z",
+   "observed_at": "2026-11-09T18:43:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -408974,8 +408704,8 @@
    },
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
-    "last_changed_at": "2026-11-09T17:48:26Z"
+    "last_seen_at": "2026-11-09T18:44:54Z",
+    "last_changed_at": "2026-11-09T18:44:54Z"
    }
   },
   {
@@ -408990,7 +408720,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-11-09T17:47:00Z",
+   "observed_at": "2026-11-09T18:43:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -409011,8 +408741,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
-    "last_changed_at": "2026-11-09T17:48:26Z"
+    "last_seen_at": "2026-11-09T18:44:54Z",
+    "last_changed_at": "2026-11-09T18:44:54Z"
    }
   },
   {
@@ -570385,7 +570115,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T20:45:36Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-08T20:45:36Z"
    }
   },
@@ -570425,7 +570155,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T07:10:50Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T07:10:50Z"
    }
   },
@@ -570465,7 +570195,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T07:10:50Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T07:10:50Z"
    }
   },
@@ -570505,7 +570235,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T07:10:50Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T07:10:50Z"
    }
   },
@@ -570549,7 +570279,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T07:10:50Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T07:10:50Z"
    }
   },
@@ -570566,7 +570296,7 @@
    "occurred_at": "2026-11-09T04:52:51Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-09T11:47:18Z",
+   "source_updated_at": "2026-11-09T18:17:19Z",
    "ongoing": null,
    "data_status": "reviewed",
    "source_status_raw": "reviewed",
@@ -570588,13 +570318,13 @@
     "depth_km": 24.173,
     "shaking_mmi": 3.784,
     "reported_cdi": 3.8,
-    "felt_reports": 15
+    "felt_reports": 17
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T07:10:50Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
-    "last_changed_at": "2026-11-09T17:48:26Z"
+    "last_seen_at": "2026-11-09T18:44:54Z",
+    "last_changed_at": "2026-11-09T18:44:54Z"
    }
   },
   {
@@ -570633,7 +570363,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T07:10:50Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T07:10:50Z"
    }
   },
@@ -570673,7 +570403,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T07:10:50Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T07:10:50Z"
    }
   },
@@ -570713,7 +570443,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -570757,7 +570487,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -570797,7 +570527,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -570837,7 +570567,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -570877,7 +570607,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -570917,7 +570647,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -570957,7 +570687,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-09T17:48:26Z",
+    "last_seen_at": "2026-11-09T18:44:54Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   }
