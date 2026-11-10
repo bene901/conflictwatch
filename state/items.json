@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-10T08:50:22Z",
+ "generated_at": "2026-11-10T09:45:21Z",
  "items": [
   {
    "id": "gdacs-drought:1015915",
@@ -2243,7 +2243,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-06T15:00:03Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -2288,7 +2288,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -2333,7 +2333,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -2378,7 +2378,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -2423,7 +2423,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -2468,7 +2468,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -3182,11 +3182,11 @@
    "original_publisher": null,
    "title": "Tropical Cyclone CEMPAKA-26",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1001347&episodeid=16&eventtype=TC",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1001347&episodeid=17&eventtype=TC",
    "occurred_at": "2026-11-06T06:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-10T05:50:02Z",
+   "source_updated_at": "2026-11-10T09:20:05Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3201,12 +3201,12 @@
     "countries": [
      "JP"
     ],
-    "lat": 25.0,
-    "lon": 138.0
+    "lat": 25.4,
+    "lon": 139.9
    },
    "metrics": {
     "hazard_type": "tropical_cyclone",
-    "episode_id": 16,
+    "episode_id": 17,
     "severity": 175.9248,
     "severity_unit": "km/h",
     "alert_score": 1
@@ -3214,8 +3214,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-06T15:00:03Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
-    "last_changed_at": "2026-11-10T01:45:33Z"
+    "last_seen_at": "2026-11-10T09:45:21Z",
+    "last_changed_at": "2026-11-10T09:45:21Z"
    }
   },
   {
@@ -3227,11 +3227,11 @@
    "original_publisher": null,
    "title": "Tropical Cyclone PENA-26",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1001348&episodeid=14&eventtype=TC",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1001348&episodeid=15&eventtype=TC",
    "occurred_at": "2026-11-06T21:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-10T02:51:04Z",
+   "source_updated_at": "2026-11-10T08:53:30Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -3245,11 +3245,11 @@
     "name": "Tropical Cyclone PENA-26",
     "countries": [],
     "lat": 11.7,
-    "lon": -162.7
+    "lon": -163.9
    },
    "metrics": {
     "hazard_type": "tropical_cyclone",
-    "episode_id": 14,
+    "episode_id": 15,
     "severity": 92.592,
     "severity_unit": "km/h",
     "alert_score": 1
@@ -3257,8 +3257,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-07T00:54:46Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
-    "last_changed_at": "2026-11-10T08:50:22Z"
+    "last_seen_at": "2026-11-10T09:45:21Z",
+    "last_changed_at": "2026-11-10T09:45:21Z"
    }
   },
   {
@@ -37231,11 +37231,11 @@
    "original_publisher": null,
    "title": "Forest fires in Brazil",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033389&episodeid=11&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033389&episodeid=12&eventtype=WF",
    "occurred_at": "2026-10-30T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-09T16:31:53Z",
+   "source_updated_at": "2026-11-10T08:53:54Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -37250,21 +37250,21 @@
     "countries": [
      "BR"
     ],
-    "lat": -2.6078,
-    "lon": -53.3815
+    "lat": -2.6077,
+    "lon": -53.3818
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 11,
-    "severity": 6432.0,
+    "episode_id": 12,
+    "severity": 6590.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T08:08:34Z",
-    "last_seen_at": "2026-11-09T18:44:54Z",
-    "last_changed_at": "2026-11-09T17:48:26Z"
+    "last_seen_at": "2026-11-10T09:45:21Z",
+    "last_changed_at": "2026-11-10T09:45:21Z"
    }
   },
   {
@@ -37456,11 +37456,11 @@
    "original_publisher": null,
    "title": "Forest fires in Brazil",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033394&episodeid=30&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033394&episodeid=32&eventtype=WF",
    "occurred_at": "2026-10-29T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-10T00:52:19Z",
+   "source_updated_at": "2026-11-10T08:56:38Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -37475,21 +37475,21 @@
     "countries": [
      "BR"
     ],
-    "lat": 1.8046,
-    "lon": -50.5091
+    "lat": 1.8034,
+    "lon": -50.5087
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 30,
-    "severity": 11802.0,
+    "episode_id": 32,
+    "severity": 12492.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-01T15:27:36Z",
-    "last_seen_at": "2026-11-10T01:45:33Z",
-    "last_changed_at": "2026-11-09T17:48:26Z"
+    "last_seen_at": "2026-11-10T09:45:21Z",
+    "last_changed_at": "2026-11-10T09:45:21Z"
    }
   },
   {
@@ -43177,7 +43177,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-05T23:50:36Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T08:50:22Z"
    }
   },
@@ -44127,7 +44127,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-06T20:52:21Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T08:50:22Z"
    }
   },
@@ -44894,7 +44894,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-07T00:54:46Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -44939,7 +44939,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-07T00:54:46Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -45029,7 +45029,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-07T13:58:39Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -45164,7 +45164,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-07T13:58:39Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T07:10:50Z"
    }
   },
@@ -45254,7 +45254,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-07T13:58:39Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -45344,7 +45344,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-07T13:58:39Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T01:45:33Z"
    }
   },
@@ -45434,7 +45434,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-07T13:58:39Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -45479,7 +45479,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-07T13:58:39Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -45839,7 +45839,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T08:50:22Z"
    }
   },
@@ -45974,7 +45974,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T01:45:33Z"
    }
   },
@@ -46109,7 +46109,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T01:45:33Z"
    }
   },
@@ -46199,7 +46199,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T08:50:22Z"
    }
   },
@@ -46289,7 +46289,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-07T22:43:06Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -46559,7 +46559,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T16:19:22Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -46604,7 +46604,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T00:04:04Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -46739,7 +46739,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T16:19:22Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -46784,7 +46784,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T16:19:22Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -46830,7 +46830,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T08:50:22Z"
    }
   },
@@ -46920,7 +46920,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T01:45:33Z"
    }
   },
@@ -46965,7 +46965,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T01:45:33Z"
    }
   },
@@ -47010,7 +47010,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -47055,7 +47055,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -47100,7 +47100,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T01:45:33Z"
    }
   },
@@ -47145,7 +47145,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T01:45:33Z"
    }
   },
@@ -47415,7 +47415,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T16:19:22Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -47460,7 +47460,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T16:19:22Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T07:10:50Z"
    }
   },
@@ -47595,7 +47595,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T16:19:22Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -47640,7 +47640,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T16:19:22Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T01:45:33Z"
    }
   },
@@ -47685,7 +47685,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T16:19:22Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T08:50:22Z"
    }
   },
@@ -48000,7 +48000,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T20:45:36Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T08:50:22Z"
    }
   },
@@ -48091,7 +48091,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T20:45:36Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T01:45:33Z"
    }
   },
@@ -48136,7 +48136,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T20:45:36Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T01:45:33Z"
    }
   },
@@ -48408,7 +48408,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T00:04:04Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -48453,7 +48453,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T00:04:04Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -48588,7 +48588,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T07:10:50Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -48723,7 +48723,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T07:10:50Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T08:50:22Z"
    }
   },
@@ -48768,7 +48768,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T07:10:50Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -48813,7 +48813,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -48858,7 +48858,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -48903,7 +48903,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T01:45:33Z"
    }
   },
@@ -48948,7 +48948,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T08:50:22Z"
    }
   },
@@ -48993,7 +48993,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T08:50:22Z"
    }
   },
@@ -49038,7 +49038,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -49083,7 +49083,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -49128,7 +49128,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -49173,7 +49173,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -49218,7 +49218,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -49263,7 +49263,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -49308,7 +49308,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -49353,7 +49353,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T01:45:33Z"
    }
   },
@@ -49398,7 +49398,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -49579,7 +49579,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-10T01:45:33Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T01:45:33Z"
    }
   },
@@ -49624,7 +49624,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-10T01:45:33Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T08:50:22Z"
    }
   },
@@ -49669,7 +49669,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-10T01:45:33Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T01:45:33Z"
    }
   },
@@ -49714,7 +49714,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-10T01:45:33Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T08:50:22Z"
    }
   },
@@ -49759,7 +49759,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-10T01:45:33Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T08:50:22Z"
    }
   },
@@ -49804,7 +49804,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-10T01:45:33Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T01:45:33Z"
    }
   },
@@ -49849,7 +49849,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-10T01:45:33Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T08:50:22Z"
    }
   },
@@ -49894,7 +49894,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-10T01:45:33Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T01:45:33Z"
    }
   },
@@ -49939,7 +49939,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-10T01:45:33Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T01:45:33Z"
    }
   },
@@ -50075,7 +50075,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-10T08:50:22Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T08:50:22Z"
    }
   },
@@ -381471,7 +381471,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-11-10T08:50:00Z",
+   "observed_at": "2026-11-10T09:44:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -381503,8 +381503,8 @@
    },
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
-    "last_changed_at": "2026-11-10T08:50:22Z"
+    "last_seen_at": "2026-11-10T09:45:21Z",
+    "last_changed_at": "2026-11-10T09:45:21Z"
    }
   },
   {
@@ -381519,7 +381519,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-11-10T08:50:00Z",
+   "observed_at": "2026-11-10T09:44:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -381551,8 +381551,8 @@
    },
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
-    "last_changed_at": "2026-11-10T08:50:22Z"
+    "last_seen_at": "2026-11-10T09:45:21Z",
+    "last_changed_at": "2026-11-10T09:45:21Z"
    }
   },
   {
@@ -381567,7 +381567,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-11-10T08:50:00Z",
+   "observed_at": "2026-11-10T09:44:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -381588,8 +381588,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
-    "last_changed_at": "2026-11-10T08:50:22Z"
+    "last_seen_at": "2026-11-10T09:45:21Z",
+    "last_changed_at": "2026-11-10T09:45:21Z"
    }
   },
   {
@@ -540651,50 +540651,6 @@
    }
   },
   {
-   "id": "usgs:us7000tv4i",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "usgs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "M 5.4 - 24 km NNW of Rioblanco, Colombia",
-   "lang": "en",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv4i",
-   "occurred_at": "2026-11-03T09:13:14Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-11-04T03:49:03Z",
-   "ongoing": null,
-   "data_status": "reviewed",
-   "source_status_raw": "reviewed",
-   "level": {
-    "scheme": "usgs-pager",
-    "value": "green",
-    "label": "PAGER Grün"
-   },
-   "location": {
-    "precision": "point",
-    "name": "24 km NNW of Rioblanco, Colombia",
-    "countries": [],
-    "lat": 3.7386,
-    "lon": -75.7198
-   },
-   "metrics": {
-    "magnitude": 5.4,
-    "magnitude_type": "mww",
-    "depth_km": 10,
-    "shaking_mmi": 6.334,
-    "reported_cdi": 4.8,
-    "felt_reports": 130
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-11-03T15:28:16Z",
-    "last_seen_at": "2026-11-04T08:00:06Z",
-    "last_changed_at": "2026-11-04T01:39:38Z"
-   }
-  },
-  {
    "id": "usgs:us7000tv51",
    "kind": "event",
    "domain": "disaster",
@@ -543134,7 +543090,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -543174,7 +543130,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -543214,7 +543170,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -543254,7 +543210,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -543294,7 +543250,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -543334,7 +543290,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-09T17:48:26Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-09T17:48:26Z"
    }
   },
@@ -543374,7 +543330,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-10T01:45:33Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T01:45:33Z"
    }
   },
@@ -543414,7 +543370,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-10T01:45:33Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T01:45:33Z"
    }
   },
@@ -543454,7 +543410,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-10T01:45:33Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T01:45:33Z"
    }
   },
@@ -543494,7 +543450,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-10T01:45:33Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T01:45:33Z"
    }
   },
@@ -543534,7 +543490,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-10T01:45:33Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T01:45:33Z"
    }
   },
@@ -543578,7 +543534,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-10T08:50:22Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T08:50:22Z"
    }
   },
@@ -543618,7 +543574,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-10T08:50:22Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T08:50:22Z"
    }
   },
@@ -543658,7 +543614,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-10T08:50:22Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T08:50:22Z"
    }
   },
@@ -543698,7 +543654,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-10T08:50:22Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T08:50:22Z"
    }
   },
@@ -543738,7 +543694,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-10T08:50:22Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T08:50:22Z"
    }
   },
@@ -543755,7 +543711,7 @@
    "occurred_at": "2026-11-10T06:36:48Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-10T07:36:21Z",
+   "source_updated_at": "2026-11-10T08:56:14Z",
    "ongoing": null,
    "data_status": "reviewed",
    "source_status_raw": "reviewed",
@@ -543772,14 +543728,14 @@
     "magnitude_type": "mb",
     "depth_km": 10,
     "shaking_mmi": null,
-    "reported_cdi": null,
-    "felt_reports": null
+    "reported_cdi": 1,
+    "felt_reports": 0
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-10T08:50:22Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
-    "last_changed_at": "2026-11-10T08:50:22Z"
+    "last_seen_at": "2026-11-10T09:45:21Z",
+    "last_changed_at": "2026-11-10T09:45:21Z"
    }
   },
   {
@@ -543818,8 +543774,48 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-10T08:50:22Z",
-    "last_seen_at": "2026-11-10T08:50:22Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
     "last_changed_at": "2026-11-10T08:50:22Z"
+   }
+  },
+  {
+   "id": "usgs:us7000tx9z",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 5.0 - 58 km NE of Fef, Indonesia",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx9z",
+   "occurred_at": "2026-11-10T08:34:07Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-10T08:53:21Z",
+   "ongoing": null,
+   "data_status": "reviewed",
+   "source_status_raw": "reviewed",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "58 km NE of Fef, Indonesia",
+    "countries": [],
+    "lat": -0.4928,
+    "lon": 132.859
+   },
+   "metrics": {
+    "magnitude": 5,
+    "magnitude_type": "mb",
+    "depth_km": 35,
+    "shaking_mmi": null,
+    "reported_cdi": null,
+    "felt_reports": null
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-10T09:45:21Z",
+    "last_seen_at": "2026-11-10T09:45:21Z",
+    "last_changed_at": "2026-11-10T09:45:21Z"
    }
   }
  ]
