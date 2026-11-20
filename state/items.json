@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-20T11:31:44Z",
+ "generated_at": "2026-11-20T18:49:40Z",
  "items": [
   {
    "id": "gdacs-drought:1015915",
@@ -44,7 +44,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T18:08:51Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-17T13:20:00Z"
    }
   },
@@ -115,7 +115,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-17T13:20:00Z"
    }
   },
@@ -166,7 +166,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-17T13:20:00Z"
    }
   },
@@ -223,7 +223,7 @@
    },
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-17T13:20:00Z"
    }
   },
@@ -277,7 +277,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-17T13:20:00Z"
    }
   },
@@ -323,7 +323,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-17T13:20:00Z"
    }
   },
@@ -388,7 +388,7 @@
    },
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-17T13:20:00Z"
    }
   },
@@ -443,7 +443,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-17T13:20:00Z"
    }
   },
@@ -501,7 +501,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-17T13:20:00Z"
    }
   },
@@ -554,7 +554,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-17T13:20:00Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-17T13:20:00Z"
    }
   },
@@ -653,7 +653,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-17T13:20:00Z"
    }
   },
@@ -699,7 +699,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-21T10:57:59Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-17T13:20:00Z"
    }
   },
@@ -745,7 +745,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-17T13:20:00Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-17T13:20:00Z"
    }
   },
@@ -895,7 +895,7 @@
    "occurred_at": "2026-10-01T01:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T09:23:49Z",
+   "source_updated_at": "2026-11-20T15:28:31Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -923,7 +923,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-13T11:44:48Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-18T13:05:32Z"
    }
   },
@@ -1255,7 +1255,7 @@
    "occurred_at": "2026-10-24T01:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T09:16:48Z",
+   "source_updated_at": "2026-11-20T15:16:16Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -1283,7 +1283,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-10-29T09:54:26Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-17T13:20:00Z"
    }
   },
@@ -2363,7 +2363,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-20T10:29:40Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-20T10:29:40Z"
    }
   },
@@ -2856,11 +2856,11 @@
    "original_publisher": null,
    "title": "Tropical Cyclone XAVIER-26",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1001350&episodeid=12&eventtype=TC",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1001350&episodeid=13&eventtype=TC",
    "occurred_at": "2026-11-15T06:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T10:05:13Z",
+   "source_updated_at": "2026-11-20T16:05:14Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2876,12 +2876,12 @@
      "AS",
      "WS"
     ],
-    "lat": -11.0,
-    "lon": -162.8
+    "lat": -11.4,
+    "lon": -163.5
    },
    "metrics": {
     "hazard_type": "tropical_cyclone",
-    "episode_id": 12,
+    "episode_id": 13,
     "severity": 240.7392,
     "severity_unit": "km/h",
     "alert_score": 1
@@ -2889,8 +2889,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-15T09:20:04Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T10:29:40Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -2906,7 +2906,7 @@
    "occurred_at": "2026-11-16T18:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T11:06:20Z",
+   "source_updated_at": "2026-11-20T17:35:12Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -2945,7 +2945,7 @@
    },
    "ingest": {
     "first_seen_at": "2026-11-16T20:26:15Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-19T20:58:27Z"
    }
   },
@@ -3938,51 +3938,6 @@
     "first_seen_at": "2026-10-17T06:11:34Z",
     "last_seen_at": "2026-11-01T09:13:21Z",
     "last_changed_at": "2026-10-31T18:31:17Z"
-   }
-  },
-  {
-   "id": "gdacs:WF:1032863",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Australia",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032863&episodeid=13&eventtype=WF",
-   "occurred_at": "2026-10-14T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-10-21T11:07:58Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Australia",
-    "countries": [
-     "AU"
-    ],
-    "lat": -18.1923,
-    "lon": 131.8297
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 13,
-    "severity": 8955.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-10-17T06:11:34Z",
-    "last_seen_at": "2026-10-21T13:45:19Z",
-    "last_changed_at": "2026-10-21T12:24:52Z"
    }
   },
   {
@@ -6194,51 +6149,6 @@
     "first_seen_at": "2026-10-20T15:03:18Z",
     "last_seen_at": "2026-10-25T16:13:44Z",
     "last_changed_at": "2026-10-25T16:13:44Z"
-   }
-  },
-  {
-   "id": "gdacs:WF:1032967",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "gdacs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "Forest fires in Australia",
-   "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1032967&episodeid=3&eventtype=WF",
-   "occurred_at": "2026-10-14T00:00:00Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-10-21T11:08:09Z",
-   "ongoing": null,
-   "data_status": "unknown",
-   "source_status_raw": "true",
-   "level": {
-    "scheme": "gdacs-alert",
-    "value": "Green",
-    "label": "GDACS Grün"
-   },
-   "location": {
-    "precision": "region",
-    "name": "Forest fires in Australia",
-    "countries": [
-     "AU"
-    ],
-    "lat": -19.769,
-    "lon": 139.8642
-   },
-   "metrics": {
-    "hazard_type": "wildfire",
-    "episode_id": 3,
-    "severity": 7474.0,
-    "severity_unit": "ha",
-    "alert_score": 1
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-10-20T15:03:18Z",
-    "last_seen_at": "2026-10-21T13:45:19Z",
-    "last_changed_at": "2026-10-21T12:24:52Z"
    }
   },
   {
@@ -33026,11 +32936,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033574&episodeid=29&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033574&episodeid=31&eventtype=WF",
    "occurred_at": "2026-11-05T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-19T12:48:31Z",
+   "source_updated_at": "2026-11-20T16:56:43Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -33045,21 +32955,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -16.4822,
-    "lon": 124.5935
+    "lat": -16.481,
+    "lon": 124.5927
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 29,
-    "severity": 20512.0,
+    "episode_id": 31,
+    "severity": 21186.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-07T13:58:39Z",
-    "last_seen_at": "2026-11-19T12:59:18Z",
-    "last_changed_at": "2026-11-19T12:59:18Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -34467,11 +34377,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033610&episodeid=36&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033610&episodeid=37&eventtype=WF",
    "occurred_at": "2026-11-06T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T09:03:11Z",
+   "source_updated_at": "2026-11-20T16:54:51Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -34486,21 +34396,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -11.2093,
-    "lon": 142.2716
+    "lat": -11.2103,
+    "lon": 142.2723
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 36,
-    "severity": 25935.0,
+    "episode_id": 37,
+    "severity": 26436.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-08T09:28:00Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T10:29:40Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -39834,11 +39744,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033730&episodeid=25&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033730&episodeid=29&eventtype=WF",
    "occurred_at": "2026-11-08T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-19T12:29:09Z",
+   "source_updated_at": "2026-11-20T16:34:02Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -39853,21 +39763,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -16.307,
-    "lon": 123.7097
+    "lat": -16.3157,
+    "lon": 123.7236
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 25,
-    "severity": 20824.0,
+    "episode_id": 29,
+    "severity": 24594.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-11T18:02:27Z",
-    "last_seen_at": "2026-11-19T12:59:18Z",
-    "last_changed_at": "2026-11-19T12:59:18Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -39879,11 +39789,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033731&episodeid=25&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033731&episodeid=26&eventtype=WF",
    "occurred_at": "2026-11-08T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:37:11Z",
+   "source_updated_at": "2026-11-20T16:34:22Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -39898,21 +39808,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -14.9007,
-    "lon": 144.4839
+    "lat": -14.9011,
+    "lon": 144.4847
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 25,
-    "severity": 16549.0,
+    "episode_id": 26,
+    "severity": 16693.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-11T18:02:27Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T10:29:40Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -42314,11 +42224,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033786&episodeid=11&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033786&episodeid=13&eventtype=WF",
    "occurred_at": "2026-11-11T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-19T20:17:24Z",
+   "source_updated_at": "2026-11-20T16:21:52Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -42333,21 +42243,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -15.1061,
-    "lon": 128.5292
+    "lat": -15.105,
+    "lon": 128.5284
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 11,
-    "severity": 7552.0,
+    "episode_id": 13,
+    "severity": 7696.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-13T15:22:13Z",
-    "last_seen_at": "2026-11-19T20:58:27Z",
-    "last_changed_at": "2026-11-19T12:59:18Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -43576,11 +43486,11 @@
    "original_publisher": null,
    "title": "Forest fires in South Sudan",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033814&episodeid=7&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033814&episodeid=8&eventtype=WF",
    "occurred_at": "2026-11-07T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-19T00:28:40Z",
+   "source_updated_at": "2026-11-20T16:47:20Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -43595,21 +43505,21 @@
     "countries": [
      "SS"
     ],
-    "lat": 8.7536,
-    "lon": 32.8095
+    "lat": 8.7532,
+    "lon": 32.8098
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 7,
-    "severity": 6526.0,
+    "episode_id": 8,
+    "severity": 6597.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-13T18:45:23Z",
-    "last_seen_at": "2026-11-19T02:48:25Z",
-    "last_changed_at": "2026-11-18T21:25:02Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -44072,11 +43982,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033825&episodeid=14&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033825&episodeid=15&eventtype=WF",
    "occurred_at": "2026-11-13T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T00:14:26Z",
+   "source_updated_at": "2026-11-20T16:12:43Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -44091,21 +44001,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -17.2341,
-    "lon": 124.1876
+    "lat": -17.2339,
+    "lon": 124.1869
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 14,
-    "severity": 11693.0,
+    "episode_id": 15,
+    "severity": 11841.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-14T02:25:43Z",
-    "last_seen_at": "2026-11-20T02:35:51Z",
-    "last_changed_at": "2026-11-19T20:58:27Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -44252,11 +44162,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033829&episodeid=9&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033829&episodeid=10&eventtype=WF",
    "occurred_at": "2026-11-09T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T00:36:28Z",
+   "source_updated_at": "2026-11-20T16:27:49Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -44271,21 +44181,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -15.4203,
-    "lon": 133.5408
+    "lat": -15.4206,
+    "lon": 133.5398
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 9,
-    "severity": 10036.0,
+    "episode_id": 10,
+    "severity": 10345.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-14T02:25:43Z",
-    "last_seen_at": "2026-11-20T02:35:51Z",
-    "last_changed_at": "2026-11-19T20:58:27Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -44747,11 +44657,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033840&episodeid=23&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033840&episodeid=25&eventtype=WF",
    "occurred_at": "2026-11-07T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:46:59Z",
+   "source_updated_at": "2026-11-20T16:46:22Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -44766,21 +44676,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -11.5345,
-    "lon": 142.3666
+    "lat": -11.5387,
+    "lon": 142.3634
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 23,
-    "severity": 47548.0,
+    "episode_id": 25,
+    "severity": 51231.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-14T14:30:29Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T10:29:40Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -45475,7 +45385,7 @@
    "occurred_at": "2026-11-11T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:22:12Z",
+   "source_updated_at": "2026-11-20T16:21:34Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -45503,7 +45413,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-15T09:20:04Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-20T10:29:40Z"
    }
   },
@@ -45516,11 +45426,11 @@
    "original_publisher": null,
    "title": "Forest fires in Brazil",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033857&episodeid=19&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033857&episodeid=20&eventtype=WF",
    "occurred_at": "2026-11-07T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:52:36Z",
+   "source_updated_at": "2026-11-20T16:46:48Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -45535,21 +45445,21 @@
     "countries": [
      "BR"
     ],
-    "lat": -1.1635,
-    "lon": -53.5593
+    "lat": -1.1636,
+    "lon": -53.5592
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 19,
-    "severity": 6736.0,
+    "episode_id": 20,
+    "severity": 6895.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-15T09:20:04Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T10:29:40Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -45561,11 +45471,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033858&episodeid=8&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033858&episodeid=10&eventtype=WF",
    "occurred_at": "2026-11-14T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:09:17Z",
+   "source_updated_at": "2026-11-20T16:11:43Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -45580,21 +45490,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -23.9994,
-    "lon": 138.5522
+    "lat": -24.0056,
+    "lon": 138.5616
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 8,
-    "severity": 11921.0,
+    "episode_id": 10,
+    "severity": 13431.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-15T17:05:47Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T10:29:40Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -45606,11 +45516,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033859&episodeid=14&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033859&episodeid=15&eventtype=WF",
    "occurred_at": "2026-11-14T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T00:07:27Z",
+   "source_updated_at": "2026-11-20T16:09:40Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -45625,21 +45535,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -19.1001,
-    "lon": 122.2536
+    "lat": -19.1025,
+    "lon": 122.254
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 14,
-    "severity": 21495.0,
+    "episode_id": 15,
+    "severity": 23415.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-15T17:05:47Z",
-    "last_seen_at": "2026-11-20T02:35:51Z",
-    "last_changed_at": "2026-11-20T02:35:51Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -45741,11 +45651,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033862&episodeid=13&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033862&episodeid=14&eventtype=WF",
    "occurred_at": "2026-11-09T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T00:37:29Z",
+   "source_updated_at": "2026-11-20T16:29:03Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -45760,21 +45670,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -16.2036,
-    "lon": 123.7356
+    "lat": -16.2034,
+    "lon": 123.7346
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 13,
-    "severity": 10485.0,
+    "episode_id": 14,
+    "severity": 10703.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-15T17:05:47Z",
-    "last_seen_at": "2026-11-20T02:35:51Z",
-    "last_changed_at": "2026-11-20T02:35:51Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -46149,11 +46059,11 @@
    "original_publisher": null,
    "title": "Forest fires in Botswana",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033872&episodeid=6&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033872&episodeid=7&eventtype=WF",
    "occurred_at": "2026-11-12T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:13:34Z",
+   "source_updated_at": "2026-11-20T16:17:31Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -46168,21 +46078,21 @@
     "countries": [
      "BW"
     ],
-    "lat": -20.5518,
-    "lon": 26.6977
+    "lat": -20.5513,
+    "lon": 26.6986
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 6,
-    "severity": 6583.0,
+    "episode_id": 7,
+    "severity": 6716.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-15T21:45:53Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T02:35:51Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -46559,11 +46469,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033881&episodeid=10&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033881&episodeid=11&eventtype=WF",
    "occurred_at": "2026-11-12T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-19T08:13:24Z",
+   "source_updated_at": "2026-11-20T16:16:45Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -46578,21 +46488,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -17.3142,
-    "lon": 125.081
+    "lat": -17.3152,
+    "lon": 125.0823
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 10,
-    "severity": 11401.0,
+    "episode_id": 11,
+    "severity": 11681.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-16T09:36:52Z",
-    "last_seen_at": "2026-11-19T12:08:27Z",
-    "last_changed_at": "2026-11-19T02:48:25Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -46653,7 +46563,7 @@
    "occurred_at": "2026-11-12T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:13:11Z",
+   "source_updated_at": "2026-11-20T16:19:06Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -46681,7 +46591,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-16T09:36:52Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-20T10:29:40Z"
    }
   },
@@ -46788,7 +46698,7 @@
    "occurred_at": "2026-11-12T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:14:39Z",
+   "source_updated_at": "2026-11-20T16:18:35Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -46816,7 +46726,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-16T20:26:15Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-20T10:29:40Z"
    }
   },
@@ -46829,11 +46739,11 @@
    "original_publisher": null,
    "title": "Forest fires in Ethiopia, Sudan",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033887&episodeid=6&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033887&episodeid=7&eventtype=WF",
    "occurred_at": "2026-11-10T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:27:45Z",
+   "source_updated_at": "2026-11-20T16:25:42Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -46849,21 +46759,21 @@
      "ET",
      "SD"
     ],
-    "lat": 12.2312,
-    "lon": 35.318
+    "lat": 12.2314,
+    "lon": 35.3174
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 6,
-    "severity": 7454.0,
+    "episode_id": 7,
+    "severity": 7581.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-16T20:26:15Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-19T20:58:27Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -47101,11 +47011,11 @@
    "original_publisher": null,
    "title": "Forest fires in South Sudan",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033893&episodeid=4&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033893&episodeid=5&eventtype=WF",
    "occurred_at": "2026-11-06T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T09:03:53Z",
+   "source_updated_at": "2026-11-20T16:54:20Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -47120,21 +47030,21 @@
     "countries": [
      "SS"
     ],
-    "lat": 9.6397,
-    "lon": 32.9371
+    "lat": 9.6398,
+    "lon": 32.937
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 4,
-    "severity": 6660.0,
+    "episode_id": 5,
+    "severity": 6678.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-16T20:26:15Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-19T20:58:27Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -47284,11 +47194,11 @@
    "original_publisher": null,
    "title": "Forest fires in Botswana",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033897&episodeid=7&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033897&episodeid=8&eventtype=WF",
    "occurred_at": "2026-11-11T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:22:29Z",
+   "source_updated_at": "2026-11-20T16:19:42Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -47303,21 +47213,21 @@
     "countries": [
      "BW"
     ],
-    "lat": -19.7009,
-    "lon": 23.8365
+    "lat": -19.701,
+    "lon": 23.8374
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 7,
-    "severity": 9112.0,
+    "episode_id": 8,
+    "severity": 9313.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-16T20:26:15Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-19T20:58:27Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -47374,11 +47284,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033899&episodeid=8&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033899&episodeid=9&eventtype=WF",
    "occurred_at": "2026-11-15T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:06:29Z",
+   "source_updated_at": "2026-11-20T16:07:26Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -47393,21 +47303,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -17.5523,
-    "lon": 124.752
+    "lat": -17.5521,
+    "lon": 124.7516
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 8,
-    "severity": 15824.0,
+    "episode_id": 9,
+    "severity": 15881.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-17T03:49:42Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T02:35:51Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -47419,11 +47329,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033900&episodeid=9&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033900&episodeid=10&eventtype=WF",
    "occurred_at": "2026-11-14T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:07:31Z",
+   "source_updated_at": "2026-11-20T16:11:30Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -47438,21 +47348,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -16.8399,
-    "lon": 125.4184
+    "lat": -16.8401,
+    "lon": 125.4179
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 9,
-    "severity": 6728.0,
+    "episode_id": 10,
+    "severity": 6824.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-17T03:49:42Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T02:35:51Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -47689,11 +47599,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033906&episodeid=9&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033906&episodeid=10&eventtype=WF",
    "occurred_at": "2026-11-16T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:04:51Z",
+   "source_updated_at": "2026-11-20T16:05:36Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -47708,21 +47618,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -18.8017,
-    "lon": 123.6812
+    "lat": -18.8024,
+    "lon": 123.6802
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 9,
-    "severity": 7977.0,
+    "episode_id": 10,
+    "severity": 8217.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-17T13:20:00Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T02:35:51Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -47869,11 +47779,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033910&episodeid=9&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033910&episodeid=10&eventtype=WF",
    "occurred_at": "2026-11-13T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:11:05Z",
+   "source_updated_at": "2026-11-20T16:14:08Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -47888,21 +47798,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -17.4672,
-    "lon": 123.7623
+    "lat": -17.4671,
+    "lon": 123.7625
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 9,
-    "severity": 7274.0,
+    "episode_id": 10,
+    "severity": 7321.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-17T13:20:00Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T02:35:51Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -47914,11 +47824,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033911&episodeid=9&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033911&episodeid=11&eventtype=WF",
    "occurred_at": "2026-11-12T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:18:22Z",
+   "source_updated_at": "2026-11-20T16:18:47Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -47933,21 +47843,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -16.4576,
-    "lon": 124.0846
+    "lat": -16.4531,
+    "lon": 124.083
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 9,
-    "severity": 7476.0,
+    "episode_id": 11,
+    "severity": 8662.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-17T13:20:00Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T02:35:51Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -47959,11 +47869,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033912&episodeid=10&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033912&episodeid=11&eventtype=WF",
    "occurred_at": "2026-11-12T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:14:31Z",
+   "source_updated_at": "2026-11-20T16:17:24Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -47978,21 +47888,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -17.8846,
-    "lon": 125.7514
+    "lat": -17.884,
+    "lon": 125.7506
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 10,
-    "severity": 7493.0,
+    "episode_id": 11,
+    "severity": 7655.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-17T13:20:00Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T02:35:51Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -48230,11 +48140,11 @@
    "original_publisher": null,
    "title": "Forest fires in South Sudan",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033918&episodeid=4&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033918&episodeid=5&eventtype=WF",
    "occurred_at": "2026-11-15T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:06:52Z",
+   "source_updated_at": "2026-11-20T16:08:12Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -48249,21 +48159,21 @@
     "countries": [
      "SS"
     ],
-    "lat": 7.6889,
-    "lon": 29.8066
+    "lat": 7.6893,
+    "lon": 29.8061
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 4,
-    "severity": 6781.0,
+    "episode_id": 5,
+    "severity": 6901.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-17T22:19:07Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-19T20:58:27Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -48642,7 +48552,7 @@
    "occurred_at": "2026-11-13T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:12:31Z",
+   "source_updated_at": "2026-11-20T16:14:46Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -48672,7 +48582,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-17T22:19:07Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-20T10:29:40Z"
    }
   },
@@ -48730,11 +48640,11 @@
    "original_publisher": null,
    "title": "Forest fires in South Sudan",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033929&episodeid=4&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033929&episodeid=5&eventtype=WF",
    "occurred_at": "2026-11-13T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:11:11Z",
+   "source_updated_at": "2026-11-20T16:13:16Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -48749,21 +48659,21 @@
     "countries": [
      "SS"
     ],
-    "lat": 8.7363,
-    "lon": 31.6151
+    "lat": 8.7365,
+    "lon": 31.616
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 4,
-    "severity": 8366.0,
+    "episode_id": 5,
+    "severity": 8479.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-17T22:19:07Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-19T20:58:27Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -49092,11 +49002,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033937&episodeid=7&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033937&episodeid=8&eventtype=WF",
    "occurred_at": "2026-11-15T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:05:45Z",
+   "source_updated_at": "2026-11-20T16:06:53Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -49111,21 +49021,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -17.172,
-    "lon": 124.5049
+    "lat": -17.1734,
+    "lon": 124.5027
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 7,
-    "severity": 18142.0,
+    "episode_id": 8,
+    "severity": 19103.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-18T03:51:33Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T02:35:51Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -49137,11 +49047,11 @@
    "original_publisher": null,
    "title": "Forest fires in Brazil",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033938&episodeid=7&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033938&episodeid=8&eventtype=WF",
    "occurred_at": "2026-11-05T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T09:09:59Z",
+   "source_updated_at": "2026-11-20T16:57:46Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -49157,20 +49067,20 @@
      "BR"
     ],
     "lat": -0.54,
-    "lon": -51.6887
+    "lon": -51.6886
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 7,
-    "severity": 5336.0,
+    "episode_id": 8,
+    "severity": 5363.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-18T03:51:33Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T10:29:40Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -49231,7 +49141,7 @@
    "occurred_at": "2026-11-14T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:07:36Z",
+   "source_updated_at": "2026-11-20T16:10:01Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -49260,7 +49170,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-18T13:05:32Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-20T10:29:40Z"
    }
   },
@@ -49277,7 +49187,7 @@
    "occurred_at": "2026-11-07T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:49:29Z",
+   "source_updated_at": "2026-11-20T16:48:01Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -49305,7 +49215,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-18T13:05:32Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-20T10:29:40Z"
    }
   },
@@ -49318,11 +49228,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033942&episodeid=6&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033942&episodeid=7&eventtype=WF",
    "occurred_at": "2026-11-17T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:03:36Z",
+   "source_updated_at": "2026-11-20T16:04:56Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -49337,21 +49247,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -21.4715,
-    "lon": 126.0891
+    "lat": -21.47,
+    "lon": 126.0892
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 6,
-    "severity": 9726.0,
+    "episode_id": 7,
+    "severity": 10287.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-18T13:05:32Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T02:35:51Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -49363,11 +49273,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033943&episodeid=7&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033943&episodeid=8&eventtype=WF",
    "occurred_at": "2026-11-16T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:04:43Z",
+   "source_updated_at": "2026-11-20T16:05:10Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -49382,21 +49292,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -22.5235,
-    "lon": 125.542
+    "lat": -22.5263,
+    "lon": 125.5442
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 7,
-    "severity": 19024.0,
+    "episode_id": 8,
+    "severity": 19825.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-18T13:05:32Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T02:35:51Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -49453,11 +49363,11 @@
    "original_publisher": null,
    "title": "Forest fires in Central African Republic",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033945&episodeid=5&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033945&episodeid=6&eventtype=WF",
    "occurred_at": "2026-11-12T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:14:01Z",
+   "source_updated_at": "2026-11-20T16:18:03Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -49472,21 +49382,21 @@
     "countries": [
      "CF"
     ],
-    "lat": 9.2709,
-    "lon": 21.6298
+    "lat": 9.2707,
+    "lon": 21.6299
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 5,
-    "severity": 19410.0,
+    "episode_id": 6,
+    "severity": 19460.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-18T21:25:02Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T10:29:40Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -49588,11 +49498,11 @@
    "original_publisher": null,
    "title": "Forest fires in Sudan",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033948&episodeid=1&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033948&episodeid=2&eventtype=WF",
    "occurred_at": "2026-11-15T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-19T12:03:40Z",
+   "source_updated_at": "2026-11-20T16:09:10Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -49607,21 +49517,21 @@
     "countries": [
      "SD"
     ],
-    "lat": 12.3986,
-    "lon": 30.1412
+    "lat": 12.3996,
+    "lon": 30.1506
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 5631.0,
+    "episode_id": 2,
+    "severity": 6594.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-18T21:25:02Z",
-    "last_seen_at": "2026-11-19T12:59:18Z",
-    "last_changed_at": "2026-11-18T21:25:02Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -49682,7 +49592,7 @@
    "occurred_at": "2026-11-12T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:17:50Z",
+   "source_updated_at": "2026-11-20T16:16:07Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -49711,7 +49621,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-18T21:25:02Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-19T20:58:27Z"
    }
   },
@@ -49724,11 +49634,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033951&episodeid=5&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033951&episodeid=7&eventtype=WF",
    "occurred_at": "2026-11-15T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:06:35Z",
+   "source_updated_at": "2026-11-20T16:07:15Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -49743,21 +49653,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -14.5636,
-    "lon": 127.8988
+    "lat": -14.5653,
+    "lon": 127.8896
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 5,
-    "severity": 12399.0,
+    "episode_id": 7,
+    "severity": 15325.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-19T02:48:25Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T02:35:51Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -49769,11 +49679,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033952&episodeid=6&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033952&episodeid=7&eventtype=WF",
    "occurred_at": "2026-11-12T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:18:13Z",
+   "source_updated_at": "2026-11-20T16:17:15Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -49788,21 +49698,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -17.5243,
-    "lon": 123.0991
+    "lat": -17.5316,
+    "lon": 123.1123
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 6,
-    "severity": 15027.0,
+    "episode_id": 7,
+    "severity": 18789.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-19T02:48:25Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T02:35:51Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -49814,11 +49724,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033953&episodeid=5&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033953&episodeid=6&eventtype=WF",
    "occurred_at": "2026-11-18T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:02:44Z",
+   "source_updated_at": "2026-11-20T16:03:18Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -49833,21 +49743,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -15.5205,
-    "lon": 142.8123
+    "lat": -15.5215,
+    "lon": 142.8129
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 5,
-    "severity": 13570.0,
+    "episode_id": 6,
+    "severity": 14000.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-19T12:08:27Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T10:29:40Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -49863,7 +49773,7 @@
    "occurred_at": "2026-11-12T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:17:59Z",
+   "source_updated_at": "2026-11-20T12:21:06Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -49891,7 +49801,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-19T12:59:18Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-19T20:58:27Z"
    }
   },
@@ -49936,7 +49846,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-19T12:59:18Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-19T12:59:18Z"
    }
   },
@@ -49949,11 +49859,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033956&episodeid=2&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033956&episodeid=3&eventtype=WF",
    "occurred_at": "2026-11-18T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:01:26Z",
+   "source_updated_at": "2026-11-20T16:02:17Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -49968,21 +49878,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -22.7466,
-    "lon": 125.8793
+    "lat": -22.7835,
+    "lon": 125.894
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 2,
-    "severity": 8395.0,
+    "episode_id": 3,
+    "severity": 17216.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-19T20:58:27Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T02:35:51Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -49994,11 +49904,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033957&episodeid=2&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033957&episodeid=3&eventtype=WF",
    "occurred_at": "2026-11-17T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:04:19Z",
+   "source_updated_at": "2026-11-20T16:04:08Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -50013,21 +49923,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -22.6768,
-    "lon": 126.0381
+    "lat": -22.6737,
+    "lon": 126.0403
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 2,
-    "severity": 5761.0,
+    "episode_id": 3,
+    "severity": 6380.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-19T20:58:27Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T02:35:51Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -50043,7 +49953,7 @@
    "occurred_at": "2026-11-14T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:08:31Z",
+   "source_updated_at": "2026-11-20T16:11:35Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -50071,7 +49981,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-19T20:58:27Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-19T20:58:27Z"
    }
   },
@@ -50084,11 +49994,11 @@
    "original_publisher": null,
    "title": "Forest fires in India",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033959&episodeid=1&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033959&episodeid=3&eventtype=WF",
    "occurred_at": "2026-11-13T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:12:19Z",
+   "source_updated_at": "2026-11-20T16:12:59Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -50103,21 +50013,21 @@
     "countries": [
      "IN"
     ],
-    "lat": 25.7051,
-    "lon": 78.8924
+    "lat": 25.7251,
+    "lon": 78.8888
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 10588.0,
+    "episode_id": 3,
+    "severity": 15509.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-19T20:58:27Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-19T20:58:27Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -50129,11 +50039,11 @@
    "original_publisher": null,
    "title": "Forest fires in India",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033960&episodeid=1&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033960&episodeid=3&eventtype=WF",
    "occurred_at": "2026-11-10T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:23:31Z",
+   "source_updated_at": "2026-11-20T16:24:13Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -50148,21 +50058,21 @@
     "countries": [
      "IN"
     ],
-    "lat": 23.3223,
-    "lon": 79.9181
+    "lat": 23.3214,
+    "lon": 79.9189
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 1,
-    "severity": 5261.0,
+    "episode_id": 3,
+    "severity": 5622.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-19T20:58:27Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-19T20:58:27Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -50178,7 +50088,7 @@
    "occurred_at": "2026-11-09T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:33:21Z",
+   "source_updated_at": "2026-11-20T12:37:00Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -50207,7 +50117,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-19T20:58:27Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-19T20:58:27Z"
    }
   },
@@ -50220,11 +50130,11 @@
    "original_publisher": null,
    "title": "Forest fires in Burkina Faso",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033962&episodeid=2&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033962&episodeid=3&eventtype=WF",
    "occurred_at": "2026-11-18T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:02:10Z",
+   "source_updated_at": "2026-11-20T16:01:52Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -50244,16 +50154,16 @@
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 2,
-    "severity": 7511.0,
+    "episode_id": 3,
+    "severity": 7510.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-19T20:58:27Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T10:29:40Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -50269,7 +50179,7 @@
    "occurred_at": "2026-11-18T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:03:14Z",
+   "source_updated_at": "2026-11-20T16:03:00Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -50297,7 +50207,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-19T20:58:27Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-19T20:58:27Z"
    }
   },
@@ -50314,7 +50224,7 @@
    "occurred_at": "2026-11-17T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:03:42Z",
+   "source_updated_at": "2026-11-20T16:03:31Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -50342,7 +50252,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-19T20:58:27Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-20T10:29:40Z"
    }
   },
@@ -50359,7 +50269,7 @@
    "occurred_at": "2026-11-17T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:04:24Z",
+   "source_updated_at": "2026-11-20T16:04:13Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -50388,7 +50298,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-19T20:58:27Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-19T20:58:27Z"
    }
   },
@@ -50405,7 +50315,7 @@
    "occurred_at": "2026-11-15T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:06:08Z",
+   "source_updated_at": "2026-11-20T16:07:35Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -50433,7 +50343,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-19T20:58:27Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-19T20:58:27Z"
    }
   },
@@ -50450,7 +50360,7 @@
    "occurred_at": "2026-11-13T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:12:03Z",
+   "source_updated_at": "2026-11-20T16:14:14Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -50478,7 +50388,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-19T20:58:27Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-19T20:58:27Z"
    }
   },
@@ -50495,7 +50405,7 @@
    "occurred_at": "2026-11-13T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:09:57Z",
+   "source_updated_at": "2026-11-20T16:14:50Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -50523,7 +50433,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-19T20:58:27Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-20T10:29:40Z"
    }
   },
@@ -50540,7 +50450,7 @@
    "occurred_at": "2026-11-13T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:12:48Z",
+   "source_updated_at": "2026-11-20T16:13:45Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -50568,7 +50478,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-19T20:58:27Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-19T20:58:27Z"
    }
   },
@@ -50581,11 +50491,11 @@
    "original_publisher": null,
    "title": "Forest fires in Australia",
    "lang": "en",
-   "url": "https://www.gdacs.org/report.aspx?eventid=1033970&episodeid=3&eventtype=WF",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033970&episodeid=5&eventtype=WF",
    "occurred_at": "2026-11-10T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:24:19Z",
+   "source_updated_at": "2026-11-20T16:23:43Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -50600,21 +50510,21 @@
     "countries": [
      "AU"
     ],
-    "lat": -13.0542,
-    "lon": 143.2917
+    "lat": -13.0556,
+    "lon": 143.2905
    },
    "metrics": {
     "hazard_type": "wildfire",
-    "episode_id": 3,
-    "severity": 5347.0,
+    "episode_id": 5,
+    "severity": 5575.0,
     "severity_unit": "ha",
     "alert_score": 1
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-19T20:58:27Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T10:29:40Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -50630,7 +50540,7 @@
    "occurred_at": "2026-11-06T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:57:03Z",
+   "source_updated_at": "2026-11-20T12:52:24Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -50658,7 +50568,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-19T20:58:27Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-19T20:58:27Z"
    }
   },
@@ -50675,7 +50585,7 @@
    "occurred_at": "2026-11-17T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:04:28Z",
+   "source_updated_at": "2026-11-20T16:04:48Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -50703,7 +50613,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-20T02:35:51Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-20T02:35:51Z"
    }
   },
@@ -50720,7 +50630,7 @@
    "occurred_at": "2026-11-18T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:03:05Z",
+   "source_updated_at": "2026-11-20T16:02:48Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -50749,7 +50659,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-20T10:29:40Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-20T10:29:40Z"
    }
   },
@@ -50766,7 +50676,7 @@
    "occurred_at": "2026-11-17T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:04:05Z",
+   "source_updated_at": "2026-11-20T16:03:50Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -50794,7 +50704,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-20T10:29:40Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-20T10:29:40Z"
    }
   },
@@ -50811,7 +50721,7 @@
    "occurred_at": "2026-11-12T00:00:00Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T08:13:39Z",
+   "source_updated_at": "2026-11-20T16:16:50Z",
    "ongoing": null,
    "data_status": "unknown",
    "source_status_raw": "true",
@@ -50839,8 +50749,323 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-20T10:29:40Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-20T10:29:40Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033976",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033976&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-11-20T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-20T16:01:24Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -22.787,
+    "lon": 125.7471
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5119.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-20T18:49:40Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033977",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Bolivia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033977&episodeid=2&eventtype=WF",
+   "occurred_at": "2026-11-18T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-20T16:03:09Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Bolivia",
+    "countries": [
+     "BO"
+    ],
+    "lat": -13.8244,
+    "lon": -64.2742
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 2,
+    "severity": 6735.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-20T18:49:40Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033978",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033978&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-11-18T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-20T16:02:02Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -19.2681,
+    "lon": 122.4512
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 9478.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-20T18:49:40Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033979",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033979&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-11-17T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-20T16:04:27Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -21.4583,
+    "lon": 125.4532
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 7888.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-20T18:49:40Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033980",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Australia",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033980&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-11-14T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-20T16:11:10Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Australia",
+    "countries": [
+     "AU"
+    ],
+    "lat": -16.5461,
+    "lon": 124.2132
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5862.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-20T18:49:40Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033981",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in Madagascar",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033981&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-11-16T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-20T16:05:45Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in Madagascar",
+    "countries": [
+     "MG"
+    ],
+    "lat": -15.2667,
+    "lon": 48.2839
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5439.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-20T18:49:40Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
+   }
+  },
+  {
+   "id": "gdacs:WF:1033982",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "gdacs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "Forest fires in South Sudan",
+   "lang": "en",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1033982&episodeid=1&eventtype=WF",
+   "occurred_at": "2026-11-15T00:00:00Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-20T16:08:41Z",
+   "ongoing": null,
+   "data_status": "unknown",
+   "source_status_raw": "true",
+   "level": {
+    "scheme": "gdacs-alert",
+    "value": "Green",
+    "label": "GDACS Grün"
+   },
+   "location": {
+    "precision": "region",
+    "name": "Forest fires in South Sudan",
+    "countries": [
+     "SS"
+    ],
+    "lat": 7.4651,
+    "lon": 29.1308
+   },
+   "metrics": {
+    "hazard_type": "wildfire",
+    "episode_id": 1,
+    "severity": 5703.0,
+    "severity_unit": "ha",
+    "alert_score": 1
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-20T18:49:40Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -316001,7 +316226,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-11-20T11:31:00Z",
+   "observed_at": "2026-11-20T18:48:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -316033,8 +316258,8 @@
    },
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T11:31:44Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -316049,7 +316274,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-11-20T11:31:00Z",
+   "observed_at": "2026-11-20T18:48:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -316081,8 +316306,8 @@
    },
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T11:31:44Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -316097,7 +316322,7 @@
    "url": "https://www.swpc.noaa.gov/node/1085",
    "occurred_at": null,
    "published_at": null,
-   "observed_at": "2026-11-20T11:31:00Z",
+   "observed_at": "2026-11-20T18:48:00Z",
    "source_updated_at": null,
    "ongoing": null,
    "data_status": "unknown",
@@ -316118,8 +316343,8 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-09-20T13:37:53Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T11:31:44Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -475105,7 +475330,7 @@
    "occurred_at": "2026-11-20T06:49:16Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-20T11:25:23Z",
+   "source_updated_at": "2026-11-20T18:37:59Z",
    "ongoing": null,
    "data_status": "reviewed",
    "source_status_raw": "reviewed",
@@ -475122,18 +475347,18 @@
     "lon": -121.2207
    },
    "metrics": {
-    "magnitude": 5,
+    "magnitude": 4.98,
     "magnitude_type": "mw",
     "depth_km": 6.69999980926514,
-    "shaking_mmi": 6.373,
+    "shaking_mmi": 6.371,
     "reported_cdi": 6.2,
-    "felt_reports": 2882
+    "felt_reports": 3638
    },
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-20T10:29:40Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
-    "last_changed_at": "2026-11-20T11:31:44Z"
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -475652,7 +475877,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-19T20:58:27Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-19T20:58:27Z"
    }
   },
@@ -475692,7 +475917,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-19T20:58:27Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-19T20:58:27Z"
    }
   },
@@ -475732,7 +475957,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-20T02:35:51Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-20T02:35:51Z"
    }
   },
@@ -475776,7 +476001,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-20T02:35:51Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-20T02:35:51Z"
    }
   },
@@ -475816,7 +476041,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-20T10:29:40Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-20T10:29:40Z"
    }
   },
@@ -475856,7 +476081,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-20T10:29:40Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-20T10:29:40Z"
    }
   },
@@ -475896,7 +476121,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-20T10:29:40Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-20T10:29:40Z"
    }
   },
@@ -475940,8 +476165,48 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-20T10:29:40Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-20T10:29:40Z"
+   }
+  },
+  {
+   "id": "usgs:us6000uc8d",
+   "kind": "event",
+   "domain": "disaster",
+   "source": "usgs",
+   "provenance": "original",
+   "original_publisher": null,
+   "title": "M 4.6 - 40 km SSE of Koróni, Greece",
+   "lang": "en",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc8d",
+   "occurred_at": "2026-11-20T10:16:14Z",
+   "published_at": null,
+   "observed_at": null,
+   "source_updated_at": "2026-11-20T11:58:03Z",
+   "ongoing": null,
+   "data_status": "reviewed",
+   "source_status_raw": "reviewed",
+   "level": null,
+   "location": {
+    "precision": "point",
+    "name": "40 km SSE of Koróni, Greece",
+    "countries": [],
+    "lat": 36.4406,
+    "lon": 22.082
+   },
+   "metrics": {
+    "magnitude": 4.6,
+    "magnitude_type": "mb",
+    "depth_km": 41.976,
+    "shaking_mmi": null,
+    "reported_cdi": null,
+    "felt_reports": null
+   },
+   "level_change": null,
+   "ingest": {
+    "first_seen_at": "2026-11-20T18:49:40Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
@@ -475980,7 +476245,7 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-20T11:31:44Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-20T11:31:44Z"
    }
   },
@@ -476020,77 +476285,77 @@
    "level_change": null,
    "ingest": {
     "first_seen_at": "2026-11-20T11:31:44Z",
-    "last_seen_at": "2026-11-20T11:31:44Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
     "last_changed_at": "2026-11-20T11:31:44Z"
    }
   },
   {
-   "id": "usgs:us7000ty0s",
+   "id": "usgs:us6000uc96",
    "kind": "event",
    "domain": "disaster",
    "source": "usgs",
    "provenance": "original",
    "original_publisher": null,
-   "title": "M 5.2 - West Chile Rise",
+   "title": "M 5.1 - 15 km SSW of Balangonan, Philippines",
    "lang": "en",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty0s",
-   "occurred_at": "2026-11-13T14:12:47Z",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc96",
+   "occurred_at": "2026-11-20T13:09:04Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-13T14:32:35Z",
+   "source_updated_at": "2026-11-20T13:22:14Z",
    "ongoing": null,
    "data_status": "reviewed",
    "source_status_raw": "reviewed",
    "level": null,
    "location": {
     "precision": "point",
-    "name": "West Chile Rise",
+    "name": "15 km SSW of Balangonan, Philippines",
     "countries": [],
-    "lat": -36.4434,
-    "lon": -97.9785
+    "lat": 5.4441,
+    "lon": 125.2986
    },
    "metrics": {
-    "magnitude": 5.2,
-    "magnitude_type": "mww",
-    "depth_km": 10,
+    "magnitude": 5.1,
+    "magnitude_type": "mb",
+    "depth_km": 73.392,
     "shaking_mmi": null,
     "reported_cdi": null,
     "felt_reports": null
    },
    "level_change": null,
    "ingest": {
-    "first_seen_at": "2026-11-13T15:22:13Z",
-    "last_seen_at": "2026-11-14T10:20:35Z",
-    "last_changed_at": "2026-11-13T15:22:13Z"
+    "first_seen_at": "2026-11-20T18:49:40Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
-   "id": "usgs:us7000ty14",
+   "id": "usgs:us6000uc9c",
    "kind": "event",
    "domain": "disaster",
    "source": "usgs",
    "provenance": "original",
    "original_publisher": null,
-   "title": "M 5.2 - 79 km NE of Kuqa, China",
+   "title": "M 4.7 - 94 km W of Illapel, Chile",
    "lang": "en",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty14",
-   "occurred_at": "2026-11-13T16:17:51Z",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc9c",
+   "occurred_at": "2026-11-20T14:16:15Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-13T16:35:01Z",
+   "source_updated_at": "2026-11-20T14:54:07Z",
    "ongoing": null,
    "data_status": "reviewed",
    "source_status_raw": "reviewed",
    "level": null,
    "location": {
     "precision": "point",
-    "name": "79 km NE of Kuqa, China",
+    "name": "94 km W of Illapel, Chile",
     "countries": [],
-    "lat": 42.1734,
-    "lon": 83.6657
+    "lat": -31.7842,
+    "lon": -72.1485
    },
    "metrics": {
-    "magnitude": 5.2,
+    "magnitude": 4.7,
     "magnitude_type": "mb",
     "depth_km": 10,
     "shaking_mmi": null,
@@ -476099,93 +476364,49 @@
    },
    "level_change": null,
    "ingest": {
-    "first_seen_at": "2026-11-13T18:45:23Z",
-    "last_seen_at": "2026-11-14T14:30:29Z",
-    "last_changed_at": "2026-11-13T18:45:23Z"
+    "first_seen_at": "2026-11-20T18:49:40Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
-   "id": "usgs:us7000ty16",
+   "id": "usgs:us6000ucd6",
    "kind": "event",
    "domain": "disaster",
    "source": "usgs",
    "provenance": "original",
    "original_publisher": null,
-   "title": "M 4.8 - 10 km SW of Guaymate, Dominican Republic",
+   "title": "M 5.1 - 32 km NE of Port-Olry, Vanuatu",
    "lang": "en",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty16",
-   "occurred_at": "2026-11-13T16:35:58Z",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucd6",
+   "occurred_at": "2026-11-20T17:53:15Z",
    "published_at": null,
    "observed_at": null,
-   "source_updated_at": "2026-11-14T04:34:00Z",
+   "source_updated_at": "2026-11-20T18:11:13Z",
    "ongoing": null,
    "data_status": "reviewed",
    "source_status_raw": "reviewed",
    "level": null,
    "location": {
     "precision": "point",
-    "name": "10 km SW of Guaymate, Dominican Republic",
+    "name": "32 km NE of Port-Olry, Vanuatu",
     "countries": [],
-    "lat": 18.5286,
-    "lon": -69.0533
+    "lat": -14.835,
+    "lon": 167.29
    },
    "metrics": {
-    "magnitude": 4.8,
+    "magnitude": 5.1,
     "magnitude_type": "mb",
-    "depth_km": 136.742,
+    "depth_km": 94.53,
     "shaking_mmi": null,
-    "reported_cdi": 3.1,
-    "felt_reports": 28
+    "reported_cdi": null,
+    "felt_reports": null
    },
    "level_change": null,
    "ingest": {
-    "first_seen_at": "2026-11-13T18:45:23Z",
-    "last_seen_at": "2026-11-14T14:30:29Z",
-    "last_changed_at": "2026-11-14T07:00:35Z"
-   }
-  },
-  {
-   "id": "usgs:us7000ty1a",
-   "kind": "event",
-   "domain": "disaster",
-   "source": "usgs",
-   "provenance": "original",
-   "original_publisher": null,
-   "title": "M 5.8 - 79 km WSW of Changuillo, Peru",
-   "lang": "en",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty1a",
-   "occurred_at": "2026-11-13T16:43:02Z",
-   "published_at": null,
-   "observed_at": null,
-   "source_updated_at": "2026-11-14T06:47:15Z",
-   "ongoing": null,
-   "data_status": "reviewed",
-   "source_status_raw": "reviewed",
-   "level": {
-    "scheme": "usgs-pager",
-    "value": "green",
-    "label": "PAGER Grün"
-   },
-   "location": {
-    "precision": "point",
-    "name": "79 km WSW of Changuillo, Peru",
-    "countries": [],
-    "lat": -14.9934,
-    "lon": -75.8807
-   },
-   "metrics": {
-    "magnitude": 5.8,
-    "magnitude_type": "mww",
-    "depth_km": 10,
-    "shaking_mmi": 4.493,
-    "reported_cdi": 5,
-    "felt_reports": 7
-   },
-   "level_change": null,
-   "ingest": {
-    "first_seen_at": "2026-11-13T18:45:23Z",
-    "last_seen_at": "2026-11-14T14:30:29Z",
-    "last_changed_at": "2026-11-13T21:58:18Z"
+    "first_seen_at": "2026-11-20T18:49:40Z",
+    "last_seen_at": "2026-11-20T18:49:40Z",
+    "last_changed_at": "2026-11-20T18:49:40Z"
    }
   },
   {
